@@ -14,6 +14,6 @@ staff:
     src: deb_team
     quote: "Myriam Wetter … Media Managerin"
     email: "media@example.org"
-    phone: "+00 00 000 00 00 – 33"
+    phone: "+00 00 000 00 00"
     note: "auf der DEB-Kontaktseite «Managerin Digitale Medien»"
     contact_src: deb_kontakt
