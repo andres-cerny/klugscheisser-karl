@@ -411,5 +411,5 @@ def test_roster_event_and_web_show_media_contacts(seeded):
         text = render_markdown(ev)
         assert "**Medienkontakte der Teams**" in text and "media@example.org" in text
         html = rs.contacts_html([(None, c) for c in staff.contacts(s, _team(s, "ger-women"), TODAY)])
-        assert "href='mailto:media@example.org'" in html and "href='tel:+00 00 000 00 00'" in html
+        assert "href='mailto:media@example.org'" in html and "href='tel:+0000000000'" in html
         assert "Medienkontakt" in html and rs.contacts_html([]) == ""
