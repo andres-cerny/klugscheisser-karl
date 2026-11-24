@@ -1,0 +1,44 @@
+{
+ "head": {"vars": ["p", "prop", "st", "val", "valLabel", "valEn", "when", "ranking", "eventLabel"]},
+ "results": {
+  "bindings": [
+   {
+    "p": {"type": "uri", "value": "http://www.wikidata.org/entity/Q90000001"},
+    "prop": {"type": "literal", "value": "P166"},
+    "st": {"type": "uri", "value": "http://www.wikidata.org/entity/statement/Q90000001-medal-1"},
+    "val": {"type": "uri", "value": "http://www.wikidata.org/entity/Q90000005"},
+    "valLabel": {"xml:lang": "de", "type": "literal", "value": "Olympische Bronzemedaille"},
+    "valEn": {"xml:lang": "en", "type": "literal", "value": "Olympic bronze medal"},
+    "when": {"datatype": "http://www.w3.org/2001/XMLSchema#dateTime", "type": "literal", "value": "2014-02-20T00:00:00Z"},
+    "eventLabel": {"xml:lang": "de", "type": "literal", "value": "Olympische Winterspiele 2014/Eishockey – Frauen"}
+   },
+   {
+    "p": {"type": "uri", "value": "http://www.wikidata.org/entity/Q90000001"},
+    "prop": {"type": "literal", "value": "P1344"},
+    "st": {"type": "uri", "value": "http://www.wikidata.org/entity/statement/Q90000001-part-1"},
+    "val": {"type": "uri", "value": "http://www.wikidata.org/entity/Q90000002"},
+    "valLabel": {"xml:lang": "de", "type": "literal", "value": "Olympische Winterspiele 2014/Eishockey – Frauen"},
+    "valEn": {"xml:lang": "en", "type": "literal", "value": "ice hockey at the 2014 Winter Olympics – women's tournament"},
+    "ranking": {"datatype": "http://www.w3.org/2001/XMLSchema#decimal", "type": "literal", "value": "3"}
+   },
+   {
+    "p": {"type": "uri", "value": "http://www.wikidata.org/entity/Q90000001"},
+    "prop": {"type": "literal", "value": "P1344"},
+    "st": {"type": "uri", "value": "http://www.wikidata.org/entity/statement/Q90000001-part-2"},
+    "val": {"type": "uri", "value": "http://www.wikidata.org/entity/Q90000003"},
+    "valLabel": {"xml:lang": "de", "type": "literal", "value": "Eishockey-Weltmeisterschaft der Frauen 2019"},
+    "valEn": {"xml:lang": "en", "type": "literal", "value": "2019 IIHF Women's World Championship"},
+    "ranking": {"datatype": "http://www.w3.org/2001/XMLSchema#decimal", "type": "literal", "value": "6"}
+   },
+   {
+    "p": {"type": "uri", "value": "http://www.wikidata.org/entity/Q90000001"},
+    "prop": {"type": "literal", "value": "P166"},
+    "st": {"type": "uri", "value": "http://www.wikidata.org/entity/statement/Q90000001-award-1"},
+    "val": {"type": "uri", "value": "http://www.wikidata.org/entity/Q90000004"},
+    "valLabel": {"xml:lang": "de", "type": "literal", "value": "Guldhjälmen"},
+    "valEn": {"xml:lang": "en", "type": "literal", "value": "Guldhjälmen"},
+    "when": {"datatype": "http://www.w3.org/2001/XMLSchema#dateTime", "type": "literal", "value": "2020-01-01T00:00:00Z"}
+   }
+  ]
+ }
+}

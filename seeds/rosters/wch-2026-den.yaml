@@ -1,0 +1,50 @@
+# Denmark: official squad for the 2026 IIHF Women's World Championship (24 players: 3 G, 7 D, 14 F), Danmarks Ishockey
+# Union news 29.10.2026 ("De danske ishockeykvinder er klar til VM på hjemmebane: Her er de 24 spillere i truppen"),
+# head coach Björn Edlund, GM Morten Green. Names, positions and staff exactly as in the article (checked 03.11.2026);
+# no clubs, birth dates or jersey numbers in the source. Replaces the Wörthersee Cup squad (06.02.2026).
+event: wch-2026
+team: den-women
+list_type: confirmed
+season: "2026-27"
+source: "Danmarks Ishockey Union, offizieller WM-Kader (29.10.2026)"
+source_url: "https://ishockey.dk/de-danske-ishockeykvinder-er-klar-til-vm-paa-hjemmebane-her-er-de-24-spillere-i-truppen/"
+source_date: "2026-10-29"
+players:
+  - {name: "Aya Juhl Petersen", pos: G}
+  - {name: "Caroline Bjergstad", pos: G}
+  - {name: "Emma-Sofie Nordström", pos: G}
+  - {name: "Josephine Asperup", pos: D}
+  - {name: "Sofie Skott Dahl", pos: D}
+  - {name: "Silja Franksdottir Engel Rasmussen", pos: D}
+  - {name: "Klara Holm", pos: D}
+  - {name: "Freya Ekberg", pos: D}
+  - {name: "Lærke Søndergaard", pos: D}
+  - {name: "Sille Flygenring", pos: D}
+  - {name: "Nicoline Søndergaard Jensen", pos: F}
+  - {name: "Silke Lave Glud", pos: F}
+  - {name: "Maria Holm Peters", pos: F}
+  - {name: "Julie Oksbjerg", pos: F}
+  - {name: "Julie Røder Henriksen", pos: F}
+  - {name: "Mille Kunnerup Sørensen", pos: F}
+  - {name: "Olivia Ranum", pos: F}
+  - {name: "Sarah Stauning", pos: F}
+  - {name: "Frida Mia Kielstrup", pos: F}
+  - {name: "Nikita Bergmann", pos: F}
+  - {name: "Teresa O. Christensen", pos: F}
+  - {name: "Alma Madsen-Mygdal", pos: F}
+  - {name: "Frederikke Foss", pos: F}
+  - {name: "Michele Brix", pos: F}
+# staff: roles as printed ("Staben omkring holdet"), with the English role where the label alone is unclear
+staff:
+  - {name: "Morten Green", role: "GM"}
+  - {name: "Björn Edlund", role: "Landstræner (Head Coach)"}
+  - {name: "Mikkel Ry", role: "Assistenttræner"}
+  - {name: "Victor Bergelin", role: "Målmandstræner (Goalie Coach)"}
+  - {name: "Anton Söderqvist", role: "Videotræner"}
+  - {name: "Frank Engel Rasmussen", role: "Holdleder (Team Manager)"}
+  - {name: "Natalie Lassen Frid", role: "Læge"}
+  - {name: "Michelle Kjeldsmark Nissen", role: "Fysioterapeut"}
+  - {name: "Alberte Hallgren", role: "Fysioterapeut"}
+  - {name: "Håkan Karlsson", role: "Materialefolk"}
+  - {name: "Joakim Sävenholt Gunnarsson", role: "Materialefolk"}
+absent: []

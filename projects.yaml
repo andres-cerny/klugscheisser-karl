@@ -1,0 +1,60 @@
+# v7: one database per project. Projects are configuration, not code (docs/build-plan-v7.md).
+# database: name on the DATABASE_URL server (or a full URL); empty = DATABASE_URL itself.
+# status: active | archived (archived: no background jobs, data stays, reactivate next season).
+# scheduled_jobs: news poller + nightly refresh. false = on demand only (Perplexity / app adds).
+# settings: overrides of .env values for this project (cost caps etc.); the app's settings page can change
+# some of them too (stored in the project's own database).
+default: eishockey
+projects:
+  eishockey:
+    name: Frauen-Eishockey
+    emoji: "🏒"
+    status: active
+    database:          # today's database (DATABASE_URL), unchanged
+    scheduled_jobs: true
+    seeds: true
+    sport: icehockey_women
+  allgemein:
+    name: Allgemein
+    emoji: "🗂️"
+    status: active
+    database: klugscheisser_allgemein
+    scheduled_jobs: false
+    seeds: false
+    sport:             # any sport, detected per person
+    wording:
+      topic: Sport (alle Sportarten)
+      person: Sportlerin oder Sportler
+      persons: Sportlerinnen und Sportler
+      topic_en: athletes of any sport (one-day topics, added on demand)
+      example_question: Was macht sie neben dem Sport?
+  unihockey:
+    # 2026-11-24 (Ondrej's go): men's floorball World Championship 2026 (Tampere, 5.–13.12.2026, 16 teams).
+    # One-off ingestion: `klugscheisser -p unihockey seed floorball --yes`. Nightly update + news poller until the
+    # day after the final; from 2026-12-15 (Swiss time) nothing runs by itself (Ondrej, 2026-11-24).
+    name: Unihockey
+    emoji: "🏑"
+    status: active
+    database: klugscheisser_unihockey
+    scheduled_jobs: true
+    scheduled_until: 2026-12-14
+    seeds: false       # `project create` makes an empty database; the seeds come with `seed floorball --yes`
+    seeds_dir: seeds/floorball
+    main_event: wfc-2026
+    sport: floorball_men
+    wording:
+      topic: Schweizer Männer-Unihockey (Unihockey-WM 2026)
+      person: Unihockeyspieler
+      persons: Unihockeyspieler
+      topic_en: men's floorball (2026 Men's World Floorball Championships, Tampere)
+      example_question: Was macht er neben dem Unihockey?
+      sport_de: Unihockey
+      sport_en: floorball
+      player: Spieler
+      players: Spieler
+      teammates: Mitspieler
+      gender_en: men's
+      team_de: Unihockey-Nationalteam der Männer
+      league_de: Unihockey Prime League
+      worlds_de: Unihockey-WM
+      pronoun_de: er

@@ -1,0 +1,758 @@
+{
+ "GamesUpdate": [
+  {
+   "Id": 2713360,
+   "SubSerieID": 4740,
+   "SubSerieName": "EHT: 4 Nations Tournament 30.9-3.10.2026 Lahti, FIN",
+   "LevelName": "National Team Women",
+   "LevelID": 133,
+   "StartDate": "03.10.2026",
+   "StartTime": "14:00:00",
+   "GameTime": 3900,
+   "Arena": "Webasto Areena",
+   "RinkLatitude": "60.9818683",
+   "RinkLongitude": "25.6399052",
+   "LiveURL": "",
+   "LiveFeedSource": 0,
+   "OnlyStreamStorage": 0,
+   "StreamSources": [
+    {
+     "Id": 2,
+     "SourceName": "HBO MAX",
+     "StreamUrl": "https://www.hbomax.com/fi/fi",
+     "LogoUrl": "https://d30yuo8vvcrfpu.cloudfront.net/stream-source-logos/sxWW8bYTBac.png",
+     "IsDefault": false
+    },
+    {
+     "Id": 3,
+     "SourceName": "TV5",
+     "StreamUrl": null,
+     "LogoUrl": null,
+     "IsDefault": false
+    }
+   ],
+   "Spectators": 91,
+   "HomeTeam": {
+    "Name": "SUI",
+    "Goals": 3,
+    "Image": "10207110.png",
+    "Id": 527142084,
+    "AssId": 10207110
+   },
+   "AwayTeam": {
+    "Name": "CZE",
+    "Goals": 2,
+    "Image": "10207000.png",
+    "Id": 716283900,
+    "AssId": 10207000
+   },
+   "GameStatus": 2,
+   "FinishedType": 3,
+   "GameRules": "60;0;3;20;0;0;0;5;0;1;5;0;1;0;0;1;1;1;3;1;1;1;0;2;0;5;0;1;0;0",
+   "Lang": [
+    {
+     "Langname": "FI",
+     "Flag": "fi",
+     "FlagPath": "fi.png"
+    },
+    {
+     "Langname": "EN",
+     "Flag": "en",
+     "FlagPath": "en.png"
+    }
+   ],
+   "RosterType": 1
+  }
+ ],
+ "GameLogsUpdate": [
+  {
+   "Type": "GK_start",
+   "TeamId": 527142084,
+   "Period": 1,
+   "PlayerLinkID": "7346664410002332937377372",
+   "GoalkeeperJersey": 20,
+   "GoalkeeperName": "BRÄNDLI Andrea",
+   "PreviousPlayerLinkID": "897951010000000042327514",
+   "PreviousGoalkeeperJersey": 0,
+   "PreviousGoalkeeperName": " ",
+   "GameTime": 0
+  },
+  {
+   "Type": "GK_start",
+   "TeamId": 716283900,
+   "Period": 1,
+   "PlayerLinkID": "5144031310001554787487690",
+   "GoalkeeperJersey": 29,
+   "GoalkeeperName": "PESLAROVA Klara",
+   "PreviousPlayerLinkID": "953240790000000077583636",
+   "PreviousGoalkeeperJersey": 0,
+   "PreviousGoalkeeperName": " ",
+   "GameTime": 0
+  },
+  {
+   "Type": "Penalty",
+   "TeamId": 527142084,
+   "Period": 1,
+   "PlayerLinkID": "7231766110001863939175116",
+   "PreviousPlayerLinkID": null,
+   "PreviousGoalkeeperJersey": null,
+   "GameTime": 414,
+   "SufferLinkID": "1047896210001863998146533",
+   "Jersey": 7,
+   "Name": "STALDER Lara",
+   "PenaltyMinutes": "02:00 min",
+   "PenaltyMinutesNumber": 2,
+   "SuffererJersey": 7,
+   "SuffererNames": "STALDER Lara",
+   "PenaltyReasonsFI": "Koukkaaminen",
+   "PenaltyReasonsEN": "Hooking",
+   "PenaltyFaultCodes": 16,
+   "PenaltyLField": "",
+   "PenaltyReasonsAbbreviation": "KOU",
+   "Key": "Penalty_26"
+  },
+  {
+   "Type": "Penalty",
+   "TeamId": 716283900,
+   "Period": 1,
+   "PlayerLinkID": "575245186066221423875055",
+   "PreviousPlayerLinkID": null,
+   "PreviousGoalkeeperJersey": null,
+   "GameTime": 523,
+   "SufferLinkID": "442043526066221440613171",
+   "Jersey": 18,
+   "Name": "PEJZLOVA Michaela",
+   "PenaltyMinutes": "02:00 min",
+   "PenaltyMinutesNumber": 2,
+   "SuffererJersey": 18,
+   "SuffererNames": "PEJZLOVA Michaela",
+   "PenaltyReasonsFI": "Estäminen",
+   "PenaltyReasonsEN": "Interference on Skater",
+   "PenaltyFaultCodes": 17,
+   "PenaltyLField": "",
+   "PenaltyReasonsAbbreviation": "EST",
+   "Key": "Penalty_38"
+  },
+  {
+   "Type": "Penalty",
+   "TeamId": 716283900,
+   "Period": 2,
+   "PlayerLinkID": "2990805810002400526303254",
+   "PreviousPlayerLinkID": null,
+   "PreviousGoalkeeperJersey": null,
+   "GameTime": 1315,
+   "SufferLinkID": "9531091910002400531079217",
+   "Jersey": 19,
+   "Name": "MLYNKOVA Natalie",
+   "PenaltyMinutes": "02:00 min",
+   "PenaltyMinutesNumber": 2,
+   "SuffererJersey": 19,
+   "SuffererNames": "MLYNKOVA Natalie",
+   "PenaltyReasonsFI": "Sääntöjen vastainen taklaus",
+   "PenaltyReasonsEN": "Illegal Hit",
+   "PenaltyFaultCodes": 36,
+   "PenaltyLField": "",
+   "PenaltyReasonsAbbreviation": "TAK",
+   "Key": "Penalty_68"
+  },
+  {
+   "Type": "Penalty",
+   "TeamId": 716283900,
+   "Period": 2,
+   "PlayerLinkID": "8446701410001841322967467",
+   "PreviousPlayerLinkID": null,
+   "PreviousGoalkeeperJersey": null,
+   "GameTime": 2141,
+   "SufferLinkID": "3153331310001841341107845",
+   "Jersey": 26,
+   "Name": "PRIBYLOVA Vendula",
+   "PenaltyMinutes": "02:00 min",
+   "PenaltyMinutesNumber": 2,
+   "SuffererJersey": 26,
+   "SuffererNames": "PRIBYLOVA Vendula",
+   "PenaltyReasonsFI": "Koukkaaminen",
+   "PenaltyReasonsEN": "Hooking",
+   "PenaltyFaultCodes": 16,
+   "PenaltyLField": "",
+   "PenaltyReasonsAbbreviation": "KOU",
+   "Key": "Penalty_88"
+  },
+  {
+   "Type": "Penalty",
+   "TeamId": 527142084,
+   "Period": 3,
+   "PlayerLinkID": "2164839510003309581949792",
+   "PreviousPlayerLinkID": null,
+   "PreviousGoalkeeperJersey": null,
+   "GameTime": 2509,
+   "SufferLinkID": "6925345810003309515142190",
+   "Jersey": 6,
+   "Name": "FREY Mara",
+   "PenaltyMinutes": "02:00 min",
+   "PenaltyMinutesNumber": 2,
+   "SuffererJersey": 6,
+   "SuffererNames": "FREY Mara",
+   "PenaltyReasonsFI": "Kampitus",
+   "PenaltyReasonsEN": "Tripping",
+   "PenaltyFaultCodes": 21,
+   "PenaltyLField": "",
+   "PenaltyReasonsAbbreviation": "KAM",
+   "Key": "Penalty_114"
+  },
+  {
+   "Type": "Goal",
+   "TeamId": 716283900,
+   "Period": 3,
+   "PreviousPlayerLinkID": null,
+   "PreviousGoalkeeperJersey": null,
+   "GameTime": 3087,
+   "Key": "Goal_146",
+   "ScorerLinkID": "8660043999999617926992232",
+   "Ass1LinkID": "4078007010002472125290562",
+   "Ass2LinkID": "",
+   "ScorerJersey": 42,
+   "ScorerName": "JARABKOVA Ellen",
+   "FirstAssistJersey": 98,
+   "FirstAssistName": "KALTOUNKOVA Kristyna",
+   "SecondAssistJersey": 0,
+   "SecondAssistName": " ",
+   "GoalType": "",
+   "GoalSpecialTypeFI": "",
+   "GoalSpecialTypeEN": "",
+   "HomeTeamGoals": 0,
+   "AwayTeamGoals": 1,
+   "Plus": "12 14 18 42 98",
+   "Minus": "7 15 16 21 26"
+  },
+  {
+   "Type": "Goal",
+   "TeamId": 716283900,
+   "Period": 3,
+   "PreviousPlayerLinkID": null,
+   "PreviousGoalkeeperJersey": null,
+   "GameTime": 3161,
+   "Key": "Goal_154",
+   "ScorerLinkID": "4423291210001291623383647",
+   "Ass1LinkID": "381366486065267735928064",
+   "Ass2LinkID": "",
+   "ScorerJersey": 21,
+   "ScorerName": "VANISOVA Tereza",
+   "FirstAssistJersey": 20,
+   "FirstAssistName": "JURICKOVA Barbora",
+   "SecondAssistJersey": 0,
+   "SecondAssistName": " ",
+   "GoalType": "",
+   "GoalSpecialTypeFI": "",
+   "GoalSpecialTypeEN": "",
+   "HomeTeamGoals": 0,
+   "AwayTeamGoals": 2,
+   "Plus": "4 20 21 24 26",
+   "Minus": "5 6 16 62 73"
+  },
+  {
+   "Type": "Timeout",
+   "TeamId": 527142084,
+   "Period": 3,
+   "PreviousPlayerLinkID": null,
+   "PreviousGoalkeeperJersey": null,
+   "GameTime": 3356
+  },
+  {
+   "Type": "GK_out",
+   "TeamId": 527142084,
+   "Period": 3,
+   "PlayerLinkID": "964954220000000043988975",
+   "GoalkeeperJersey": 0,
+   "GoalkeeperName": " ",
+   "PreviousPlayerLinkID": "6618809310002332919008012",
+   "PreviousGoalkeeperJersey": 20,
+   "PreviousGoalkeeperName": "BRÄNDLI Andrea",
+   "GameTime": 3383
+  },
+  {
+   "Type": "Goal",
+   "TeamId": 527142084,
+   "Period": 3,
+   "PreviousPlayerLinkID": null,
+   "PreviousGoalkeeperJersey": null,
+   "GameTime": 3416,
+   "Key": "Goal_184",
+   "ScorerLinkID": "5707295310002388693795985",
+   "Ass1LinkID": "3980644710001863942207956",
+   "Ass2LinkID": "7901930210002389886700680",
+   "ScorerJersey": 21,
+   "ScorerName": "ENZLER Rahel",
+   "FirstAssistJersey": 7,
+   "FirstAssistName": "STALDER Lara",
+   "SecondAssistJersey": 16,
+   "SecondAssistName": "VALLARIO Nicole",
+   "GoalType": "IM",
+   "GoalSpecialTypeFI": "",
+   "GoalSpecialTypeEN": "",
+   "HomeTeamGoals": 1,
+   "AwayTeamGoals": 2,
+   "Plus": "7 16 21 22 26 68",
+   "Minus": "2 20 21 26 28"
+  },
+  {
+   "Type": "GK_in",
+   "TeamId": 527142084,
+   "Period": 3,
+   "PlayerLinkID": "2005704610002332968004085",
+   "GoalkeeperJersey": 20,
+   "GoalkeeperName": "BRÄNDLI Andrea",
+   "PreviousPlayerLinkID": "332583360000000095183998",
+   "PreviousGoalkeeperJersey": 0,
+   "PreviousGoalkeeperName": " ",
+   "GameTime": 3416
+  },
+  {
+   "Type": "GK_out",
+   "TeamId": 527142084,
+   "Period": 3,
+   "PlayerLinkID": "524353710000000015786677",
+   "GoalkeeperJersey": 0,
+   "GoalkeeperName": " ",
+   "PreviousPlayerLinkID": "4337630410002332957775453",
+   "PreviousGoalkeeperJersey": 20,
+   "PreviousGoalkeeperName": "BRÄNDLI Andrea",
+   "GameTime": 3435
+  },
+  {
+   "Type": "Goal",
+   "TeamId": 527142084,
+   "Period": 3,
+   "PreviousPlayerLinkID": null,
+   "PreviousGoalkeeperJersey": null,
+   "GameTime": 3533,
+   "Key": "Goal_198",
+   "ScorerLinkID": "6970361810003194127856722",
+   "Ass1LinkID": "2154586910002388615968805",
+   "Ass2LinkID": "",
+   "ScorerJersey": 22,
+   "ScorerName": "LEEMANN Sinja",
+   "FirstAssistJersey": 21,
+   "FirstAssistName": "ENZLER Rahel",
+   "SecondAssistJersey": 0,
+   "SecondAssistName": " ",
+   "GoalType": "IM",
+   "GoalSpecialTypeFI": "",
+   "GoalSpecialTypeEN": "",
+   "HomeTeamGoals": 2,
+   "AwayTeamGoals": 2,
+   "Plus": "7 16 21 22 26 68",
+   "Minus": "4 9 16 19 24"
+  },
+  {
+   "Type": "GK_in",
+   "TeamId": 527142084,
+   "Period": 3,
+   "PlayerLinkID": "7930975410002332935611305",
+   "GoalkeeperJersey": 20,
+   "GoalkeeperName": "BRÄNDLI Andrea",
+   "PreviousPlayerLinkID": "933626020000000091907970",
+   "PreviousGoalkeeperJersey": 0,
+   "PreviousGoalkeeperName": " ",
+   "GameTime": 3533
+  },
+  {
+   "Type": "Goal",
+   "TeamId": 527142084,
+   "Period": 5,
+   "PreviousPlayerLinkID": null,
+   "PreviousGoalkeeperJersey": null,
+   "GameTime": 3900,
+   "Key": "Goal_227",
+   "ScorerLinkID": "1544079299999324656525460",
+   "Ass1LinkID": "",
+   "Ass2LinkID": "",
+   "ScorerJersey": 68,
+   "ScorerName": "BALZER Leoni",
+   "FirstAssistJersey": 0,
+   "FirstAssistName": " ",
+   "SecondAssistJersey": 0,
+   "SecondAssistName": " ",
+   "GoalType": "VL",
+   "GoalSpecialTypeFI": "",
+   "GoalSpecialTypeEN": "",
+   "HomeTeamGoals": 3,
+   "AwayTeamGoals": 2,
+   "Plus": "",
+   "Minus": ""
+  }
+ ],
+ "WinningShots": [
+  {
+   "ShotNumber": 1,
+   "GoalScored": 2,
+   "IsHomeTeam": 0,
+   "WinningGoal": 0,
+   "ShooterTeamName": "CZE",
+   "ShooterTeamID": 716283900,
+   "ShooterLinkID": "9962407610002472125764543",
+   "ShooterJersey": 98,
+   "ShooterLastName": "KALTOUNKOVA",
+   "ShooterFirstName": "Kristyna",
+   "GoalieLinkID": 0,
+   "GoalkeeperJersey": 20,
+   "GoalkeeperLastName": "BRÄNDLI",
+   "GoalkeeperFirstName": "Andrea"
+  },
+  {
+   "ShotNumber": 2,
+   "GoalScored": 2,
+   "IsHomeTeam": 1,
+   "WinningGoal": 0,
+   "ShooterTeamName": "SUI",
+   "ShooterTeamID": 527142084,
+   "ShooterLinkID": "5821065710002388689268737",
+   "ShooterJersey": 21,
+   "ShooterLastName": "ENZLER",
+   "ShooterFirstName": "Rahel",
+   "GoalieLinkID": 0,
+   "GoalkeeperJersey": 29,
+   "GoalkeeperLastName": "PESLAROVA",
+   "GoalkeeperFirstName": "Klara"
+  },
+  {
+   "ShotNumber": 3,
+   "GoalScored": 2,
+   "IsHomeTeam": 0,
+   "WinningGoal": 0,
+   "ShooterTeamName": "CZE",
+   "ShooterTeamID": 716283900,
+   "ShooterLinkID": "7852894110001767852402048",
+   "ShooterJersey": 14,
+   "ShooterLastName": "LASKOVA",
+   "ShooterFirstName": "Dominika",
+   "GoalieLinkID": 0,
+   "GoalkeeperJersey": 20,
+   "GoalkeeperLastName": "BRÄNDLI",
+   "GoalkeeperFirstName": "Andrea"
+  },
+  {
+   "ShotNumber": 4,
+   "GoalScored": 0,
+   "IsHomeTeam": 1,
+   "WinningGoal": 0,
+   "ShooterTeamName": "SUI",
+   "ShooterTeamID": 527142084,
+   "ShooterLinkID": "4206668510003194116601030",
+   "ShooterJersey": 22,
+   "ShooterLastName": "LEEMANN",
+   "ShooterFirstName": "Sinja",
+   "GoalieLinkID": 0,
+   "GoalkeeperJersey": 29,
+   "GoalkeeperLastName": "PESLAROVA",
+   "GoalkeeperFirstName": "Klara"
+  },
+  {
+   "ShotNumber": 5,
+   "GoalScored": 2,
+   "IsHomeTeam": 0,
+   "WinningGoal": 0,
+   "ShooterTeamName": "CZE",
+   "ShooterTeamID": 716283900,
+   "ShooterLinkID": "571410796065267715186959",
+   "ShooterJersey": 20,
+   "ShooterLastName": "JURICKOVA",
+   "ShooterFirstName": "Barbora",
+   "GoalieLinkID": 0,
+   "GoalkeeperJersey": 20,
+   "GoalkeeperLastName": "BRÄNDLI",
+   "GoalkeeperFirstName": "Andrea"
+  },
+  {
+   "ShotNumber": 6,
+   "GoalScored": 2,
+   "IsHomeTeam": 1,
+   "WinningGoal": 0,
+   "ShooterTeamName": "SUI",
+   "ShooterTeamID": 527142084,
+   "ShooterLinkID": "9638832010001863955326151",
+   "ShooterJersey": 7,
+   "ShooterLastName": "STALDER",
+   "ShooterFirstName": "Lara",
+   "GoalieLinkID": 0,
+   "GoalkeeperJersey": 29,
+   "GoalkeeperLastName": "PESLAROVA",
+   "GoalkeeperFirstName": "Klara"
+  },
+  {
+   "ShotNumber": 7,
+   "GoalScored": 0,
+   "IsHomeTeam": 0,
+   "WinningGoal": 0,
+   "ShooterTeamName": "CZE",
+   "ShooterTeamID": 716283900,
+   "ShooterLinkID": "6683748510001291638087791",
+   "ShooterJersey": 21,
+   "ShooterLastName": "VANISOVA",
+   "ShooterFirstName": "Tereza",
+   "GoalieLinkID": 0,
+   "GoalkeeperJersey": 20,
+   "GoalkeeperLastName": "BRÄNDLI",
+   "GoalkeeperFirstName": "Andrea"
+  },
+  {
+   "ShotNumber": 8,
+   "GoalScored": 2,
+   "IsHomeTeam": 1,
+   "WinningGoal": 0,
+   "ShooterTeamName": "SUI",
+   "ShooterTeamID": 527142084,
+   "ShooterLinkID": "9827781799999387216394610",
+   "ShooterJersey": 26,
+   "ShooterLastName": "HERZIG",
+   "ShooterFirstName": "Naemi",
+   "GoalieLinkID": 0,
+   "GoalkeeperJersey": 29,
+   "GoalkeeperLastName": "PESLAROVA",
+   "GoalkeeperFirstName": "Klara"
+  },
+  {
+   "ShotNumber": 9,
+   "GoalScored": 2,
+   "IsHomeTeam": 0,
+   "WinningGoal": 0,
+   "ShooterTeamName": "CZE",
+   "ShooterTeamID": 716283900,
+   "ShooterLinkID": "1956170310001613422489550",
+   "ShooterJersey": 16,
+   "ShooterLastName": "MRAZOVA",
+   "ShooterFirstName": "Katerina",
+   "GoalieLinkID": 0,
+   "GoalkeeperJersey": 20,
+   "GoalkeeperLastName": "BRÄNDLI",
+   "GoalkeeperFirstName": "Andrea"
+  },
+  {
+   "ShotNumber": 10,
+   "GoalScored": 1,
+   "IsHomeTeam": 1,
+   "WinningGoal": 1,
+   "ShooterTeamName": "SUI",
+   "ShooterTeamID": 527142084,
+   "ShooterLinkID": "9340174399999324698150107",
+   "ShooterJersey": 68,
+   "ShooterLastName": "BALZER",
+   "ShooterFirstName": "Leoni",
+   "GoalieLinkID": 0,
+   "GoalkeeperJersey": 29,
+   "GoalkeeperLastName": "PESLAROVA",
+   "GoalkeeperFirstName": "Klara"
+  }
+ ],
+ "Referees": [
+  {
+   "RefereeRole": "Päätuomari",
+   "RefereeName": "NURMI Anniina"
+  },
+  {
+   "RefereeRole": "Päätuomari",
+   "RefereeName": "RAITALA Salla-Maaria"
+  },
+  {
+   "RefereeRole": "Linjatuomari",
+   "RefereeName": "RANKI Aino"
+  },
+  {
+   "RefereeRole": "Linjatuomari",
+   "RefereeName": "RANTALA Henni"
+  }
+ ],
+ "PeriodSummary": {
+  "PlayedPeriods": 4,
+  "PeriodGoals": [
+   {
+    "Goals": "0-0"
+   },
+   {
+    "Goals": "0-0"
+   },
+   {
+    "Goals": "2-2"
+   },
+   {
+    "Goals": "0-0"
+   },
+   {
+    "Goals": "3-2"
+   }
+  ],
+  "PeriodSaves": [
+   {
+    "Saves": "13-1"
+   },
+   {
+    "Saves": "9-3"
+   },
+   {
+    "Saves": "15-4"
+   },
+   {
+    "Saves": "4-0"
+   },
+   {
+    "Saves": "41-8"
+   }
+  ],
+  "PeriodPenMins": [
+   {
+    "PenMins": "2-2"
+   },
+   {
+    "PenMins": "0-4"
+   },
+   {
+    "PenMins": "2-0"
+   },
+   {
+    "PenMins": "4-6"
+   }
+  ],
+  "PeriodPPMins": [
+   {
+    "PPMins": "01:49-01:49"
+   },
+   {
+    "PPMins": "04:00-00:00"
+   },
+   {
+    "PPMins": "00:00-02:00"
+   },
+   {
+    "PPMins": "00:00-00:00"
+   },
+   {
+    "PPMins": "05:49-03:49"
+   }
+  ],
+  "PeriodPPGoals": [
+   {
+    "PPGoals": "0-0"
+   },
+   {
+    "PPGoals": "0-0"
+   },
+   {
+    "PPGoals": "0-0"
+   },
+   {
+    "PPGoals": "0-0"
+   },
+   {
+    "PPGoals": "0-0"
+   }
+  ],
+  "PeriodSHGoals": [
+   {
+    "SHGoals": "0-0"
+   },
+   {
+    "SHGoals": "0-0"
+   },
+   {
+    "SHGoals": "0-0"
+   },
+   {
+    "SHGoals": "0-0"
+   },
+   {
+    "SHGoals": "0-0"
+   }
+  ]
+ },
+ "GoalkeeperSummary": [
+  {
+   "TeamName": "SUI",
+   "TeamGoalkeepers": [
+    {
+     "GkName": "BRÄNDLI Andrea",
+     "GkJersey": 20,
+     "PlayerLinkID": "5719186110002332939859478",
+     "GkSaves": [
+      {
+       "Period": 1,
+       "Saves": 13
+      },
+      {
+       "Period": 2,
+       "Saves": 9
+      },
+      {
+       "Period": 3,
+       "Saves": 15
+      },
+      {
+       "Period": 4,
+       "Saves": 4
+      },
+      {
+       "Period": 0,
+       "Saves": 41
+      }
+     ],
+     "GkChanges": [],
+     "GkOut": [
+      {
+       "Time": "56:23-56:56"
+      },
+      {
+       "Time": "57:15-58:53"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "TeamName": "CZE",
+   "TeamGoalkeepers": [
+    {
+     "GkName": "PESLAROVA Klara",
+     "GkJersey": 29,
+     "PlayerLinkID": "2213761510001554783983932",
+     "GkSaves": [
+      {
+       "Period": 1,
+       "Saves": 1
+      },
+      {
+       "Period": 2,
+       "Saves": 3
+      },
+      {
+       "Period": 3,
+       "Saves": 4
+      },
+      {
+       "Period": 4,
+       "Saves": 0
+      },
+      {
+       "Period": 0,
+       "Saves": 8
+      }
+     ],
+     "GkChanges": [],
+     "GkOut": []
+    }
+   ]
+  }
+ ],
+ "UsersInfo": [
+  {
+   "id": 1,
+   "gameID": 2713360,
+   "userName": "Scorekeeper Example",
+   "email": "scorer@example.invalid",
+   "phone": "000"
+  }
+ ],
+ "GameSettings": {
+  "playerDetails": true,
+  "playerStatistics": true,
+  "goalieStatistics": true,
+  "teamStatistics": true
+ }
+}

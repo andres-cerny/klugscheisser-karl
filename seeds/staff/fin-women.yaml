@@ -1,0 +1,19 @@
+# Media contact for Finland's women's national team (Naisleijonat), for Fabi. The Finnish Ice Hockey Association
+# names no media officer of the women's team (team page, WCh roster release 31.10.2026, staff directory); this is
+# the federation's communications director, the only person in the directory's "Viestintä" section. Phone
+# published as "010 227 0213" (Finnish number, +358 added). Never guessed.
+# Loaded by klugscheisser/staff.py (load_seeds). Checked 01.11.2026.
+team: fin-women
+checked: "2026-11-01"
+
+sources:
+  fh_viestinta: {name: "Finhockey, Henkilökunta: Viestintä", url: "https://www.finhockey.fi/info/henkilokunta/kategoria/viestinta", kind: official, date: "2026-11-01"}
+
+staff:
+  - name: "Henna Malmberg"
+    role: "Viestintäjohtaja"
+    src: fh_viestinta
+    quote: "Henna Malmberg Viestintäjohtaja media@example.org 010 227 0213"
+    email: "media@example.org"
+    phone: "+00 00 000 00 00"
+    note: "Kommunikationsdirektorin des Verbands, nicht nur Frauen-Nationalteam"

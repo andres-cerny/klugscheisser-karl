@@ -1,0 +1,86 @@
+# v12 question set (docs/build-plan-v12-chat-answers.md, Part H): the shape every answer must have.
+# Loaded and checked by klugscheisser.replay (load_question_set, check_result, run_question_set): with fake
+# Gemini/Jev in tests (shape only), and in a manual live run on the server (`live=True` also checks `enthaelt`).
+#
+# Fields: id, frage, kanal (web | mcp), stil (prosa | liste), kontext ({person|team|event: …}),
+# folgefrage_von (id asked before in the same chat), sprache (answers are always German), tabelle (true/false),
+# rueckfrage (nein | erlaubt | erwartet), quellen_pflicht (every sentence / row cites a source),
+# berechnet (computed source document expected), nur_eigene_quellen (sensitive topic), nichts_gefunden,
+# enthaelt (words of the expected answer, live run only), max_saetze, notiz.
+fragen:
+  - id: "1"
+    frage: Who from the swiss olympic team was the oldest
+    stil: prosa
+    sprache: de
+    tabelle: false
+    berechnet: true
+    enthaelt: [Jessica Lutz, "1989"]
+    max_saetze: 4
+    notiz: >-
+      Fresh chat. Fact rule "oldest" sorts the Olympic roster (players only, no coaches) by birth date; the
+      writer quotes the computed document. Answer in German although the question is English.
+
+  - id: 1b-vorher
+    frage: Who has the most ig followers in the team
+    kontext: {team: Schweiz}
+    stil: prosa
+    rueckfrage: erlaubt
+    berechnet: true
+    notiz: The earlier turn for 1-folge (as in the real chat of 2026-10-04).
+
+  - id: 1-folge
+    frage: And who is the oldest in the olympic team
+    folgefrage_von: 1b-vorher
+    stil: prosa
+    sprache: de
+    tabelle: false
+    berechnet: true
+    enthaelt: [Jessica Lutz, "1989"]
+    max_saetze: 4
+    notiz: Same as 1 but as a follow-up (the fact blocks run with chat history, Part B).
+
+  - id: 1b
+    frage: List the Swiss Olympic roster with age and club
+    stil: prosa
+    sprache: de
+    tabelle: true
+    berechnet: true
+    enthaelt: [Jessica Lutz]
+    notiz: A table, every row with a source; coaches left out.
+
+  - id: "2"
+    frage: In the recent Switzerland Finland game in Euro Hockey Tour who was a teammate with whom
+    stil: prosa
+    rueckfrage: erlaubt
+    notiz: >-
+      Either a question back (which game? / unclear subject) or, with the game recognised, connections between
+      players in that game (block_relations) with sources. Never 65 persons × top-3 documents.
+
+  - id: "3"
+    frage: Wer hat gegen Finnland das 1:1 geschossen?
+    stil: prosa
+    tabelle: false
+    max_saetze: 2
+    enthaelt: ["1:1"]
+    notiz: One sentence with the match report quote (SRF).
+
+  - id: "4"
+    frage: Hat Lara Stalder einen Freund?
+    kontext: {person: Lara Stalder}
+    stil: prosa
+    nur_eigene_quellen: true
+    notiz: Sensitive topic (relationship) only from her own posts / interviews, else "nicht belegt".
+
+  - id: "5"
+    frage: Welche Schuhgrösse hat Alina Müller?
+    kontext: {person: Alina Müller}
+    stil: prosa
+    nichts_gefunden: true
+    quellen_pflicht: false
+    notiz: No data → "Dazu habe ich nichts gefunden." plus the closest sources.
+
+  - id: "6"
+    frage: Who from the swiss olympic team was the oldest
+    kanal: mcp
+    stil: liste
+    notiz: Same question through MCP → unchanged line format (statements, no prosa blocks).

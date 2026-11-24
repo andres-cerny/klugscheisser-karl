@@ -1,0 +1,60 @@
+team: Latvia
+code: LAT
+group: A
+status: official_wfc_squad
+announced:
+  date: 2026-11-17
+  source_url: https://www.floorball.lv/lv/2026/jaunumi/id/8906/lukonens-pazinojis-izlases-sastavu-pasaules-cempionatam-somija
+  source_title: "Lūkonens paziņojis izlases sastāvu pasaules čempionātam Somijā (Latvijas Florbola savienība, LFS)"
+  also: "LETA via sportazinas.com 2026-11-18: https://www.sportazinas.com/puse-no-vietejas-ligas-puse-legionaru-pazinots-latvijas-florbola-izlases-sastavs-pc/"
+retrieved: 2026-11-24
+squad_facts:
+  - "20 players: 2 goalkeepers + 18 field players (LFS 2026-11-17)."
+  - "Half the squad (10) plays abroad, half in the Latvian ELVI florbola līga (LFS)."
+  - "Five play in Switzerland (Haralds Ābele, Daniels Jānis Anis, Gustavs Griezītis, Pēteris Trekše, Markuss Dumpis); Pontus Zarins and Morics Krūmiņš in Sweden; Kārlis Stukāns in Finland; Rūdolfs Vilmanis in Czechia; Markuss Januševskis in Germany (LFS)."
+  - "Only one change from the squad at the Four Nations tournament in Slovakia (mid-Nov 2026): Toms Akmeņlauks (Talsi) replaced Emīls Jančevskis (Ulbroka) (LFS)."
+  - "Qualified in Liepāja, Feb 2026: 15-1 v Ukraine, 16-1 v Hungary, 8-2 v Slovenia, then beat Switzerland 4-3 after penalty shots in the final (LETA/sportazinas 2026-11-18)."
+  - "WFC 2024: Latvia reached the semi-finals for the first time in history and finished 4th behind Finland, Sweden and Czechia (LETA/sportazinas 2026-11-18)."
+  - "Group A schedule (LFS): 5 Dec 17:00 v Norway, 6 Dec 15:00 v Switzerland, 8 Dec 19:00 v Finland (hosts). Times as given by LFS (presumably Latvian/Finnish local time, EET = CET+1). unverified: timezone"
+  - "Youngest: Haralds Ābele (born 2009); oldest: Artis Raitums (born 1987) - birth years per LFS list."
+coaches:
+  source: https://www.floorball.lv/lv/2026/jaunumi/id/8906/lukonens-pazinojis-izlases-sastavu-pasaules-cempionatam-somija
+  head_coach: {name: "Heiki Luukkonen (Latvian spelling: Heiki Lūkonens)", nationality: "Finland? unverified", note: "Finnish spelling of the name inferred from the Latvian transliteration - unverified"}
+  assistants: ["Bengt Lodenius (Latvian: Bengts Lodeniuss) - Finnish spelling unverified", "Henri Luoma (Latvian: Henrī Luoma) - spelling unverified", Aigars Belasovs]
+  athletic_coach: Mikus Embrekts
+  physio: Jolanta Tauriņa-Ieveniece
+  equipment: Arsēnijs Potapovs
+  team_manager: Klinta Āboliņa
+captain: {name: null, note: "not named in the announcement"}
+position_key: "LFS list: V = vārtsargs (goalkeeper), A = aizsargs (defender), U = uzbrucējs (forward). number = number in the LFS WFC list. birth_date: LFS gives only birth year (Dz.g.)."
+players:
+  - {name: Morics Krūmiņš, number: 4, position: defender, birth_date: null, birth_year: 1992, club: null, country_of_club: Sweden, source: LFS, notes: "club in Sweden not named by LFS"}
+  - {name: Jānis Ragovskis, number: 7, position: defender, birth_date: null, birth_year: 2000, club: "FK Talsi/TNSS/Krauzers", country_of_club: Latvia, source: LFS}
+  - {name: Markuss Dumpis, number: 13, position: defender, birth_date: 2005-07-05, birth_year: 2005, club: null, country_of_club: Switzerland, source: LFS, notes: "Swiss club not named by LFS - unverified. birth date from floorball.lv player page https://www.floorball.lv/lv/dalibnieks/5534-markuss-dumpis (height 172 cm, left-handed, from Rubene/Kocēni youth). Played WFC 2024 (7 GP, 3+2), World Games 2025 (4 GP, 3+4) and U19 WFC 2023 (per that page). A fliiga.com profile exists (https://fliiga.com/en/players/men/markuss-dumpis/), so he has played in Finland's F-Liiga at some point."}
+  - {name: Krišjānis Tiltiņš, number: 15, position: forward, birth_date: null, birth_year: 2002, club: "Masters Ulbroka/LU", country_of_club: Latvia, source: LFS}
+  - {name: Jorens Malkavs, number: 17, position: forward, birth_date: null, birth_year: 2002, club: "Lekrings (Cēsis)", country_of_club: Latvia, source: LFS}
+  - {name: Markuss Januševskis, number: 18, position: forward, birth_date: null, birth_year: 2001, club: null, country_of_club: Germany, source: LFS, notes: "German club not named"}
+  - {name: Toms Akmeņlauks, number: 19, position: forward, birth_date: null, birth_year: 1994, club: "FK Talsi/TNSS/Krauzers", country_of_club: Latvia, source: LFS, notes: "'experienced'; only change vs Four Nations squad"}
+  - {name: Gustavs Griezītis, number: 20, position: defender, birth_date: null, birth_year: 2004, club: null, country_of_club: Switzerland, source: LFS, notes: "Swiss club not named by LFS"}
+  - {name: Artis Raitums, number: 21, position: forward, birth_date: null, birth_year: 1987, club: "FK Talsi/TNSS/Krauzers", country_of_club: Latvia, source: LFS, notes: "oldest in squad"}
+  - {name: Pēteris Trekše, number: 22, position: defender, birth_date: null, birth_year: 1999, club: SV Wiler-Ersigen, league: "L-UPL (SUI)", country_of_club: Switzerland, source: "LFS (Switzerland) + statsunihockey.jonasleuenberger.com/ligen/95 (L-UPL 2026/27 top scorers: SV Wiler-Ersigen, 6 GP 8+4=12, retrieved 2026-11-24)"}
+  - {name: Kārlis Stukāns, number: 23, position: forward, birth_date: null, birth_year: 2005, club: null, country_of_club: Finland, source: LFS, notes: "Finnish club not named"}
+  - {name: Daniels Jānis Anis, number: 33, position: forward, birth_date: null, birth_year: 2002, club: UHC Uster, league: "L-UPL (SUI)", country_of_club: Switzerland, source: "LFS (Switzerland) + statsunihockey.jonasleuenberger.com/ligen/95 (UHC Uster, 7 GP 11+1=12, retrieved 2026-11-24; listed there as 'Daniels Janis Anis')", notes: "11 goals in 7 L-UPL games 2026/27 as of retrieval"}
+  - {name: Rūdolfs Niedrājs, number: 34, position: forward, birth_date: null, birth_year: 2008, club: "FK Talsi/TNSS/Krauzers", country_of_club: Latvia, source: LFS}
+  - {name: Sandijs Gabriels Siliņš, number: 41, position: goalkeeper, birth_date: null, birth_year: 2004, club: "FK Talsi/TNSS/Krauzers", country_of_club: Latvia, source: LFS}
+  - {name: Haralds Ābele, number: 45, position: defender, birth_date: null, birth_year: 2009, club: null, country_of_club: Switzerland, source: LFS, notes: "youngest in squad (born 2009, so 16 or 17 at the WFC); Swiss club not named by LFS"}
+  - {name: Jēkabs Keišs, number: 58, position: forward, birth_date: null, birth_year: 2003, club: "Rubene (Kocēni)", country_of_club: Latvia, source: LFS}
+  - {name: Kārlis Bitmanis, number: 65, position: forward, birth_date: null, birth_year: 2005, club: "Rubene (Kocēni)", country_of_club: Latvia, source: LFS}
+  - {name: Bruno Beķeris, number: 79, position: defender, birth_date: null, birth_year: 2004, club: "Lekrings (Cēsis)", country_of_club: Latvia, source: LFS}
+  - {name: Pontus Zarins, number: 95, position: goalkeeper, birth_date: null, birth_year: 1998, club: null, country_of_club: Sweden, source: LFS, notes: "spelled 'Pontus Zarins' in the list, 'Pontus Zariņš' in the text; Swedish club not named"}
+  - {name: Rūdolfs Vilmanis, number: 99, position: forward, birth_date: null, birth_year: 2002, club: null, country_of_club: Czechia, source: LFS, notes: "Czech club not named"}
+notable:
+  - "Swiss-club players (very relevant for SRF): Pēteris Trekše (SV Wiler-Ersigen), Daniels Jānis Anis (UHC Uster) verified; Haralds Ābele, Gustavs Griezītis, Markuss Dumpis play in Switzerland but their clubs were not verified."
+  - "Latvia beat Switzerland 4-3 (penalty shots) in the WFC qualification final, Liepāja, Feb 2026 - and meet them again on 6 Dec in group A."
+notes:
+  - "Group A: Finland, Switzerland, Latvia, Norway (LFS opponents list)."
+gaps:
+  - "Exact birth dates (only birth years from LFS; floorball.lv player pages /lv/dalibnieks/<id> show full dates, only Dumpis fetched)."
+  - "Swiss clubs of Ābele, Griezītis, Dumpis; Swedish clubs of Krūmiņš and Zarins; Finnish club of Stukāns; Czech club of Vilmanis; German club of Januševskis."
+  - "Native spelling of coaches' names (Finnish staff transliterated into Latvian)."
+  - "Captain."

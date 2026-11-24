@@ -1,0 +1,81 @@
+# Hockey Canada: official roster for the 2026 IIHF Women's World Championship (25 players: 3 G, 8 D, 14 F), news
+# release NR.068.26 of 19.10.2026. Names checked against the release (Olympians / 2024 champions / debutants named
+# there); jersey numbers, positions and clubs from Hockey Canada's tournament roster page (stats/team-rosters/179,
+# read 28.10.2026). The 48-player camp list (28.09.2026) it replaces is kept below as also_called_up.
+event: wch-2026
+team: can-women
+list_type: confirmed
+season: "2026-27"
+source: "Hockey Canada, offizieller WM-Kader (19.10.2026)"
+source_url: "https://www.hockeycanada.ca/en-ca/news/womens-worlds-roster-set-2026-27-nwt"
+source_date: "2026-10-19"
+# club_text: club as written in the source (shown in answers, not linked to a club team)
+players:
+  - {name: "Ann-Renée Desbiens", pos: G, number: 35, club_text: "Montréal (PWHL)"}
+  - {name: "Ève Gascon", pos: G, number: 37, club_text: "University of Minnesota Duluth (WCHA)"}
+  - {name: "Kayle Osborne", pos: G, number: 82, club_text: "Hamilton (PWHL)"}
+  - {name: "Erin Ambrose", pos: D, number: 23, club_text: "Las Vegas (PWHL)"}
+  - {name: "Kendall Cooper", pos: D, number: 5, club_text: "Las Vegas (PWHL)"}
+  - {name: "Renata Fast", pos: D, number: 14, club_text: "Toronto (PWHL)"}
+  - {name: "Nicole Gosling", pos: D, number: 61, club_text: "Hamilton (PWHL)"}
+  - {name: "Sophie Jaques", pos: D, number: 2, club_text: "Vancouver (PWHL)"}
+  - {name: "Chloe Primerano", pos: D, number: 8, club_text: "University of Minnesota (WCHA)"}
+  - {name: "Ella Shelton", pos: D, number: 17, club_text: "Toronto (PWHL)"}
+  - {name: "Kati Tabin", pos: D, number: 4, club_text: "Montréal (PWHL)"}
+  - {name: "Emily Clark", pos: F, number: 26, club_text: "Hamilton (PWHL)"}
+  - {name: "Jessie Eldridge", pos: F, number: 9, club_text: "Montréal (PWHL)"}
+  - {name: "Sarah Fillier", pos: F, number: 10, club_text: "New York (PWHL)"}
+  - {name: "Caitlin Kraemer", pos: F, number: 11, club_text: "University of Minnesota Duluth (WCHA)"}
+  - {name: "Rebecca Leslie", pos: F, number: 91, club_text: "Ottawa (PWHL)"}
+  - {name: "Emma Maltais", pos: F, number: 27, club_text: "Montréal (PWHL)"}
+  - {name: "Sara Manness", pos: F, number: 13, club_text: "Clarkson University (ECAC)"}
+  - {name: "Hayley McDonald", pos: F, number: 22, club_text: "Ohio State University (WCHA)"}
+  - {name: "Kristin O'Neill", pos: F, number: 43, club_text: "San Jose (PWHL)"}
+  - {name: "Danielle Serdachny", pos: F, number: 92, club_text: "Seattle (PWHL)"}
+  - {name: "Laura Stacey", pos: F, number: 7, club_text: "Montréal (PWHL)"}
+  - {name: "Rosalie Tremblay", pos: F, number: 16, club_text: "University of Wisconsin (WCHA)"}
+  - {name: "Daryl Watts", pos: F, number: 95, club_text: "Detroit (PWHL)"}
+  - {name: "Sarah Wozniewicz", pos: F, number: 63, club_text: "Ottawa (PWHL)"}
+staff:
+  - {name: "Danièle Sauvageau", role: "General Manager"}
+  - {name: "Kori Cheverie", role: "Head Coach"}
+  - {name: "Caroline Ouellette", role: "Assistant Coach"}
+  - {name: "Kris Sparre", role: "Assistant Coach"}
+  # 19.10.2026: "Alison Domenico (Ottawa, ON/University of Ottawa, OUA) will join the coaching staff as an assistant coach for Women's Worlds"
+  - {name: "Alison Domenico", role: "Assistant Coach"}
+  - {name: "Stefanie Thomson", role: "Video Coach"}
+# at the training camp in Quebec City (8.-14.10.2026, camp list 28.09.2026) but not on the official roster
+also_called_up:
+  - {name: "Raygan Kirk", pos: G}
+  - {name: "Hannah Murphy", pos: G}
+  - {name: "Corinne Schroeder", pos: G}
+  - {name: "Ashton Bell", pos: D}
+  - {name: "Jaime Bourbonnais", pos: D}
+  - {name: "Brooke Disher", pos: D}
+  - {name: "Jocelyne Larocque", pos: D}
+  - {name: "Ava Murphy", pos: D}
+  - {name: "Sara Swiderski", pos: D}
+  - {name: "Emma Venusio", pos: D}
+  - {name: "Micah Zandee-Hart", pos: D}
+  - {name: "Jocelyn Amos", pos: F}
+  - {name: "Alexia Aubin", pos: F}
+  - {name: "Éloïse Caron", pos: F}
+  - {name: "Jenn Gardiner", pos: F}
+  - {name: "Julia Gosling", pos: F}
+  - {name: "Brianne Jenner", pos: F}
+  - {name: "Hannah Miller", pos: F}
+  - {name: "Claire Murdoch", pos: F}
+  - {name: "Abby Newhook", pos: F}
+  - {name: "Grace Outwater", pos: F}
+  - {name: "Emma Pais", pos: F}
+  - {name: "Abby Stonehouse", pos: F}
+# invited to the camp but did not attend (camp list 28.09.2026) and not on the official roster either; no reason given
+absent:
+  - {name: "Anne Cherkowski", reason: "nicht im Camp und nicht im WM-Kader (Grund nicht angegeben)", quote: "Invited, but unable to attend", source_url: "https://www.hockeycanada.ca/en-ca/team-canada/women/national/2026-27/selection-camp/camp-roster"}
+  - {name: "Emerance Maschmeyer", reason: "nicht im Camp und nicht im WM-Kader (Grund nicht angegeben)", quote: "Invited, but unable to attend", source_url: "https://www.hockeycanada.ca/en-ca/team-canada/women/national/2026-27/selection-camp/camp-roster"}
+  - {name: "Sarah Nurse", reason: "nicht im Camp und nicht im WM-Kader (Grund nicht angegeben)", quote: "Invited, but unable to attend", source_url: "https://www.hockeycanada.ca/en-ca/team-canada/women/national/2026-27/selection-camp/camp-roster"}
+  - {name: "Sarah Paul", reason: "nicht im Camp und nicht im WM-Kader (Grund nicht angegeben)", quote: "Invited, but unable to attend", source_url: "https://www.hockeycanada.ca/en-ca/team-canada/women/national/2026-27/selection-camp/camp-roster"}
+  - {name: "Marie-Philip Poulin", reason: "nicht im Camp und nicht im WM-Kader (Grund nicht angegeben)", quote: "Invited, but unable to attend", source_url: "https://www.hockeycanada.ca/en-ca/team-canada/women/national/2026-27/selection-camp/camp-roster"}
+  - {name: "Natalie Spooner", reason: "nicht im Camp und nicht im WM-Kader (Grund nicht angegeben)", quote: "Invited, but unable to attend", source_url: "https://www.hockeycanada.ca/en-ca/team-canada/women/national/2026-27/selection-camp/camp-roster"}
+  - {name: "Claire Thompson", reason: "nicht im Camp und nicht im WM-Kader (Grund nicht angegeben)", quote: "Invited, but unable to attend", source_url: "https://www.hockeycanada.ca/en-ca/team-canada/women/national/2026-27/selection-camp/camp-roster"}
+  - {name: "Blayre Turnbull", reason: "nicht im Camp und nicht im WM-Kader (Grund nicht angegeben)", quote: "Invited, but unable to attend", source_url: "https://www.hockeycanada.ca/en-ca/team-canada/women/national/2026-27/selection-camp/camp-roster"}

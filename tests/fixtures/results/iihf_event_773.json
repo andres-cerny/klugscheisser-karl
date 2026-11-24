@@ -1,0 +1,562 @@
+[
+ {
+  "HomeTeam": {
+   "Points": "0",
+   "TeamCode": "AUT"
+  },
+  "GuestTeam": {
+   "Points": "0",
+   "TeamCode": "CZE"
+  },
+  "Date": null,
+  "GameDateTime": "2026-11-06T15:00:00",
+  "GameDateTimeUTC": "2026-11-06T14:00:00Z",
+  "EventStatus": "2",
+  "Venue": "Hockey Arena Esbjerg",
+  "VenueCode": "HAE",
+  "PhaseId": "PreliminaryRound",
+  "Group": "A",
+  "Time": null,
+  "Status": "UPCOMING",
+  "GameNumber": "1",
+  "GameId": "13545",
+  "TimeOffset": "GMT+1",
+  "TimeOffsetNum": 1,
+  "OverrideShortStatus": "",
+  "IsGameOverriden": false,
+  "GameIsTBD": false,
+  "HasActions": false
+ },
+ {
+  "HomeTeam": {
+   "Points": "0",
+   "TeamCode": "SWE"
+  },
+  "GuestTeam": {
+   "Points": "0",
+   "TeamCode": "CAN"
+  },
+  "Date": null,
+  "GameDateTime": "2026-11-06T15:00:00",
+  "GameDateTimeUTC": "2026-11-06T14:00:00Z",
+  "EventStatus": "2",
+  "Venue": "Hockey Arena Herning",
+  "VenueCode": "HAH",
+  "PhaseId": "PreliminaryRound",
+  "Group": "B",
+  "Time": null,
+  "Status": "UPCOMING",
+  "GameNumber": "2",
+  "GameId": "13546",
+  "TimeOffset": "GMT+1",
+  "TimeOffsetNum": 1,
+  "OverrideShortStatus": "",
+  "IsGameOverriden": false,
+  "GameIsTBD": false,
+  "HasActions": false
+ },
+ {
+  "HomeTeam": {
+   "Points": "0",
+   "TeamCode": "SUI"
+  },
+  "GuestTeam": {
+   "Points": "0",
+   "TeamCode": "USA"
+  },
+  "Date": null,
+  "GameDateTime": "2026-11-06T19:00:00",
+  "GameDateTimeUTC": "2026-11-06T18:00:00Z",
+  "EventStatus": "2",
+  "Venue": "Hockey Arena Esbjerg",
+  "VenueCode": "HAE",
+  "PhaseId": "PreliminaryRound",
+  "Group": "A",
+  "Time": null,
+  "Status": "UPCOMING",
+  "GameNumber": "3",
+  "GameId": "13547",
+  "TimeOffset": "GMT+1",
+  "TimeOffsetNum": 1,
+  "OverrideShortStatus": "",
+  "IsGameOverriden": false,
+  "GameIsTBD": false,
+  "HasActions": false
+ },
+ {
+  "HomeTeam": {
+   "Points": "0",
+   "TeamCode": "DEN"
+  },
+  "GuestTeam": {
+   "Points": "0",
+   "TeamCode": "FIN"
+  },
+  "Date": null,
+  "GameDateTime": "2026-11-06T19:00:00",
+  "GameDateTimeUTC": "2026-11-06T18:00:00Z",
+  "EventStatus": "2",
+  "Venue": "Hockey Arena Herning",
+  "VenueCode": "HAH",
+  "PhaseId": "PreliminaryRound",
+  "Group": "B",
+  "Time": null,
+  "Status": "UPCOMING",
+  "GameNumber": "4",
+  "GameId": "13548",
+  "TimeOffset": "GMT+1",
+  "TimeOffsetNum": 1,
+  "OverrideShortStatus": "",
+  "IsGameOverriden": false,
+  "GameIsTBD": false,
+  "HasActions": false
+ },
+ {
+  "HomeTeam": {
+   "Points": "0",
+   "TeamCode": "GER"
+  },
+  "GuestTeam": {
+   "Points": "0",
+   "TeamCode": "AUT"
+  },
+  "Date": null,
+  "GameDateTime": "2026-11-07T19:00:00",
+  "GameDateTimeUTC": "2026-11-07T18:00:00Z",
+  "EventStatus": "2",
+  "Venue": "Hockey Arena Esbjerg",
+  "VenueCode": "HAE",
+  "PhaseId": "PreliminaryRound",
+  "Group": "A",
+  "Time": null,
+  "Status": "UPCOMING",
+  "GameNumber": "5",
+  "GameId": "13549",
+  "TimeOffset": "GMT+1",
+  "TimeOffsetNum": 1,
+  "OverrideShortStatus": "",
+  "IsGameOverriden": false,
+  "GameIsTBD": false,
+  "HasActions": false
+ },
+ {
+  "HomeTeam": {
+   "Points": "0",
+   "TeamCode": "JPN"
+  },
+  "GuestTeam": {
+   "Points": "0",
+   "TeamCode": "DEN"
+  },
+  "Date": null,
+  "GameDateTime": "2026-11-07T19:00:00",
+  "GameDateTimeUTC": "2026-11-07T18:00:00Z",
+  "EventStatus": "2",
+  "Venue": "Hockey Arena Herning",
+  "VenueCode": "HAH",
+  "PhaseId": "PreliminaryRound",
+  "Group": "B",
+  "Time": null,
+  "Status": "UPCOMING",
+  "GameNumber": "6",
+  "GameId": "13550",
+  "TimeOffset": "GMT+1",
+  "TimeOffsetNum": 1,
+  "OverrideShortStatus": "",
+  "IsGameOverriden": false,
+  "GameIsTBD": false,
+  "HasActions": false
+ },
+ {
+  "HomeTeam": {
+   "Points": "0",
+   "TeamCode": "USA"
+  },
+  "GuestTeam": {
+   "Points": "0",
+   "TeamCode": "GER"
+  },
+  "Date": null,
+  "GameDateTime": "2026-11-08T15:00:00",
+  "GameDateTimeUTC": "2026-11-08T14:00:00Z",
+  "EventStatus": "2",
+  "Venue": "Hockey Arena Esbjerg",
+  "VenueCode": "HAE",
+  "PhaseId": "PreliminaryRound",
+  "Group": "A",
+  "Time": null,
+  "Status": "UPCOMING",
+  "GameNumber": "7",
+  "GameId": "13551",
+  "TimeOffset": "GMT+1",
+  "TimeOffsetNum": 1,
+  "OverrideShortStatus": "",
+  "IsGameOverriden": false,
+  "GameIsTBD": false,
+  "HasActions": false
+ },
+ {
+  "HomeTeam": {
+   "Points": "0",
+   "TeamCode": "FIN"
+  },
+  "GuestTeam": {
+   "Points": "0",
+   "TeamCode": "SWE"
+  },
+  "Date": null,
+  "GameDateTime": "2026-11-08T15:00:00",
+  "GameDateTimeUTC": "2026-11-08T14:00:00Z",
+  "EventStatus": "2",
+  "Venue": "Hockey Arena Herning",
+  "VenueCode": "HAH",
+  "PhaseId": "PreliminaryRound",
+  "Group": "B",
+  "Time": null,
+  "Status": "UPCOMING",
+  "GameNumber": "8",
+  "GameId": "13552",
+  "TimeOffset": "GMT+1",
+  "TimeOffsetNum": 1,
+  "OverrideShortStatus": "",
+  "IsGameOverriden": false,
+  "GameIsTBD": false,
+  "HasActions": false
+ },
+ {
+  "HomeTeam": {
+   "Points": "0",
+   "TeamCode": "CZE"
+  },
+  "GuestTeam": {
+   "Points": "0",
+   "TeamCode": "SUI"
+  },
+  "Date": null,
+  "GameDateTime": "2026-11-08T19:00:00",
+  "GameDateTimeUTC": "2026-11-08T18:00:00Z",
+  "EventStatus": "2",
+  "Venue": "Hockey Arena Esbjerg",
+  "VenueCode": "HAE",
+  "PhaseId": "PreliminaryRound",
+  "Group": "A",
+  "Time": null,
+  "Status": "UPCOMING",
+  "GameNumber": "9",
+  "GameId": "13553",
+  "TimeOffset": "GMT+1",
+  "TimeOffsetNum": 1,
+  "OverrideShortStatus": "",
+  "IsGameOverriden": false,
+  "GameIsTBD": false,
+  "HasActions": false
+ },
+ {
+  "HomeTeam": {
+   "Points": "0",
+   "TeamCode": "CAN"
+  },
+  "GuestTeam": {
+   "Points": "0",
+   "TeamCode": "JPN"
+  },
+  "Date": null,
+  "GameDateTime": "2026-11-08T19:00:00",
+  "GameDateTimeUTC": "2026-11-08T18:00:00Z",
+  "EventStatus": "2",
+  "Venue": "Hockey Arena Herning",
+  "VenueCode": "HAH",
+  "PhaseId": "PreliminaryRound",
+  "Group": "B",
+  "Time": null,
+  "Status": "UPCOMING",
+  "GameNumber": "10",
+  "GameId": "13554",
+  "TimeOffset": "GMT+1",
+  "TimeOffsetNum": 1,
+  "OverrideShortStatus": "",
+  "IsGameOverriden": false,
+  "GameIsTBD": false,
+  "HasActions": false
+ },
+ {
+  "HomeTeam": {
+   "Points": "0",
+   "TeamCode": "AUT"
+  },
+  "GuestTeam": {
+   "Points": "0",
+   "TeamCode": "USA"
+  },
+  "Date": null,
+  "GameDateTime": "2026-11-09T19:00:00",
+  "GameDateTimeUTC": "2026-11-09T18:00:00Z",
+  "EventStatus": "2",
+  "Venue": "Hockey Arena Esbjerg",
+  "VenueCode": "HAE",
+  "PhaseId": "PreliminaryRound",
+  "Group": "A",
+  "Time": null,
+  "Status": "UPCOMING",
+  "GameNumber": "11",
+  "GameId": "13555",
+  "TimeOffset": "GMT+1",
+  "TimeOffsetNum": 1,
+  "OverrideShortStatus": "",
+  "IsGameOverriden": false,
+  "GameIsTBD": false,
+  "HasActions": false
+ },
+ {
+  "HomeTeam": {
+   "Points": "0",
+   "TeamCode": "DEN"
+  },
+  "GuestTeam": {
+   "Points": "0",
+   "TeamCode": "CAN"
+  },
+  "Date": null,
+  "GameDateTime": "2026-11-09T19:00:00",
+  "GameDateTimeUTC": "2026-11-09T18:00:00Z",
+  "EventStatus": "2",
+  "Venue": "Hockey Arena Herning",
+  "VenueCode": "HAH",
+  "PhaseId": "PreliminaryRound",
+  "Group": "B",
+  "Time": null,
+  "Status": "UPCOMING",
+  "GameNumber": "12",
+  "GameId": "13556",
+  "TimeOffset": "GMT+1",
+  "TimeOffsetNum": 1,
+  "OverrideShortStatus": "",
+  "IsGameOverriden": false,
+  "GameIsTBD": false,
+  "HasActions": false
+ },
+ {
+  "HomeTeam": {
+   "Points": "0",
+   "TeamCode": "CZE"
+  },
+  "GuestTeam": {
+   "Points": "0",
+   "TeamCode": "GER"
+  },
+  "Date": null,
+  "GameDateTime": "2026-11-10T15:00:00",
+  "GameDateTimeUTC": "2026-11-10T14:00:00Z",
+  "EventStatus": "2",
+  "Venue": "Hockey Arena Esbjerg",
+  "VenueCode": "HAE",
+  "PhaseId": "PreliminaryRound",
+  "Group": "A",
+  "Time": null,
+  "Status": "UPCOMING",
+  "GameNumber": "13",
+  "GameId": "13557",
+  "TimeOffset": "GMT+1",
+  "TimeOffsetNum": 1,
+  "OverrideShortStatus": "",
+  "IsGameOverriden": false,
+  "GameIsTBD": false,
+  "HasActions": false
+ },
+ {
+  "HomeTeam": {
+   "Points": "0",
+   "TeamCode": "FIN"
+  },
+  "GuestTeam": {
+   "Points": "0",
+   "TeamCode": "JPN"
+  },
+  "Date": null,
+  "GameDateTime": "2026-11-10T15:00:00",
+  "GameDateTimeUTC": "2026-11-10T14:00:00Z",
+  "EventStatus": "2",
+  "Venue": "Hockey Arena Herning",
+  "VenueCode": "HAH",
+  "PhaseId": "PreliminaryRound",
+  "Group": "B",
+  "Time": null,
+  "Status": "UPCOMING",
+  "GameNumber": "14",
+  "GameId": "13558",
+  "TimeOffset": "GMT+1",
+  "TimeOffsetNum": 1,
+  "OverrideShortStatus": "",
+  "IsGameOverriden": false,
+  "GameIsTBD": false,
+  "HasActions": false
+ },
+ {
+  "HomeTeam": {
+   "Points": "0",
+   "TeamCode": "SUI"
+  },
+  "GuestTeam": {
+   "Points": "0",
+   "TeamCode": "AUT"
+  },
+  "Date": null,
+  "GameDateTime": "2026-11-10T19:00:00",
+  "GameDateTimeUTC": "2026-11-10T18:00:00Z",
+  "EventStatus": "2",
+  "Venue": "Hockey Arena Esbjerg",
+  "VenueCode": "HAE",
+  "PhaseId": "PreliminaryRound",
+  "Group": "A",
+  "Time": null,
+  "Status": "UPCOMING",
+  "GameNumber": "15",
+  "GameId": "13559",
+  "TimeOffset": "GMT+1",
+  "TimeOffsetNum": 1,
+  "OverrideShortStatus": "",
+  "IsGameOverriden": false,
+  "GameIsTBD": false,
+  "HasActions": false
+ },
+ {
+  "HomeTeam": {
+   "Points": "0",
+   "TeamCode": "SWE"
+  },
+  "GuestTeam": {
+   "Points": "0",
+   "TeamCode": "DEN"
+  },
+  "Date": null,
+  "GameDateTime": "2026-11-10T19:00:00",
+  "GameDateTimeUTC": "2026-11-10T18:00:00Z",
+  "EventStatus": "2",
+  "Venue": "Hockey Arena Herning",
+  "VenueCode": "HAH",
+  "PhaseId": "PreliminaryRound",
+  "Group": "B",
+  "Time": null,
+  "Status": "UPCOMING",
+  "GameNumber": "16",
+  "GameId": "13560",
+  "TimeOffset": "GMT+1",
+  "TimeOffsetNum": 1,
+  "OverrideShortStatus": "",
+  "IsGameOverriden": false,
+  "GameIsTBD": false,
+  "HasActions": false
+ },
+ {
+  "HomeTeam": {
+   "Points": "0",
+   "TeamCode": "GER"
+  },
+  "GuestTeam": {
+   "Points": "0",
+   "TeamCode": "SUI"
+  },
+  "Date": null,
+  "GameDateTime": "2026-11-11T15:00:00",
+  "GameDateTimeUTC": "2026-11-11T14:00:00Z",
+  "EventStatus": "2",
+  "Venue": "Hockey Arena Esbjerg",
+  "VenueCode": "HAE",
+  "PhaseId": "PreliminaryRound",
+  "Group": "A",
+  "Time": null,
+  "Status": "UPCOMING",
+  "GameNumber": "17",
+  "GameId": "13561",
+  "TimeOffset": "GMT+1",
+  "TimeOffsetNum": 1,
+  "OverrideShortStatus": "",
+  "IsGameOverriden": false,
+  "GameIsTBD": false,
+  "HasActions": false
+ },
+ {
+  "HomeTeam": {
+   "Points": "0",
+   "TeamCode": "CAN"
+  },
+  "GuestTeam": {
+   "Points": "0",
+   "TeamCode": "FIN"
+  },
+  "Date": null,
+  "GameDateTime": "2026-11-11T15:00:00",
+  "GameDateTimeUTC": "2026-11-11T14:00:00Z",
+  "EventStatus": "2",
+  "Venue": "Hockey Arena Herning",
+  "VenueCode": "HAH",
+  "PhaseId": "PreliminaryRound",
+  "Group": "B",
+  "Time": null,
+  "Status": "UPCOMING",
+  "GameNumber": "18",
+  "GameId": "13562",
+  "TimeOffset": "GMT+1",
+  "TimeOffsetNum": 1,
+  "OverrideShortStatus": "",
+  "IsGameOverriden": false,
+  "GameIsTBD": false,
+  "HasActions": false
+ },
+ {
+  "HomeTeam": {
+   "Points": "0",
+   "TeamCode": "USA"
+  },
+  "GuestTeam": {
+   "Points": "0",
+   "TeamCode": "CZE"
+  },
+  "Date": null,
+  "GameDateTime": "2026-11-11T19:00:00",
+  "GameDateTimeUTC": "2026-11-11T18:00:00Z",
+  "EventStatus": "2",
+  "Venue": "Hockey Arena Esbjerg",
+  "VenueCode": "HAE",
+  "PhaseId": "PreliminaryRound",
+  "Group": "A",
+  "Time": null,
+  "Status": "UPCOMING",
+  "GameNumber": "19",
+  "GameId": "13563",
+  "TimeOffset": "GMT+1",
+  "TimeOffsetNum": 1,
+  "OverrideShortStatus": "",
+  "IsGameOverriden": false,
+  "GameIsTBD": false,
+  "HasActions": false
+ },
+ {
+  "HomeTeam": {
+   "Points": "0",
+   "TeamCode": "JPN"
+  },
+  "GuestTeam": {
+   "Points": "0",
+   "TeamCode": "SWE"
+  },
+  "Date": null,
+  "GameDateTime": "2026-11-11T19:00:00",
+  "GameDateTimeUTC": "2026-11-11T18:00:00Z",
+  "EventStatus": "2",
+  "Venue": "Hockey Arena Herning",
+  "VenueCode": "HAH",
+  "PhaseId": "PreliminaryRound",
+  "Group": "B",
+  "Time": null,
+  "Status": "UPCOMING",
+  "GameNumber": "20",
+  "GameId": "13564",
+  "TimeOffset": "GMT+1",
+  "TimeOffsetNum": 1,
+  "OverrideShortStatus": "",
+  "IsGameOverriden": false,
+  "GameIsTBD": false,
+  "HasActions": false
+ }
+]

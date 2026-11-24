@@ -1,0 +1,64 @@
+team: Germany
+code: GER
+group: B
+status: official_wfc_squad
+announced:
+  date: 2026-11-03
+  source_url: https://www.instagram.com/p/DfRn25pkWUw/
+  source_title: "UNSER TEAM FÜR DIE WM (Instagram post by @floorballdeutschland with @unihocgermany, 2026-11-03, 19 slides)"
+  note: "No squad article on floorball.de (checked post sitemaps for Oct/Nov 2026 on 2026-11-24). The federation caption lists 18 field players only; goalkeepers are not in the caption. Jan Saurbier (GK) confirmed by his club DJK Holzbüttgen on Instagram (https://www.instagram.com/p/DfRnfkLkSrC/ and Facebook post 'JAN SAURBIER FÄHRT ZUR WM!'). The 2nd goalkeeper is NOT verified."
+  also: "IFF: all team lists published in IFF App 2026-11-17 (login needed) https://floorball.sport/all-mens-world-floorball-championships-2026-team-lists-published/"
+retrieved: 2026-11-24
+squad_facts:
+  - "19 of 20 players verified (18 field players from the federation post + GK Jan Saurbier from his club). 2nd goalkeeper unknown; candidates in the 2025-26 extended squad: Jan Lemke (Kloten-Dietlikon Jets), Jannis Michaelis (MFBC Leipzig), Pascal Reichert (WaSa St. Gallen), Henrik von Wangenheim (UHC Grünenmatt) - unverified which one."
+  - "Germany finished 8th at WFC 2024 (Sweden); best ever 4th at WFC 2012 in Switzerland; first WFC 1996 (8th); IFF ranking 7th (floorball.de/team/herren, retrieved 2026-11-24). German jersey voted most beautiful of WFC 2024 by a fan magazine (same page)."
+  - "Four verified squad players play in Switzerland: Andrin Caviezel (Kloten-Dietlikon Jets), Tino von Pritzbuer (WaSa St. Gallen), Adam Lundgren (UHC Uster), Michel Wöcke (HC Rychenberg Winterthur) - clubs per floorball.de extended squad 2025-26, may be outdated. One in Sweden (Jakob Heins, Pixbo IBK), two in Finland (Rasmus Pursio, Philipp Wilbrand, both EräViikingit), one in Czechia (Iven Tessmann, Floorball Ústí)."
+  - "Brothers? Jonathan Heins (D, b. 2002) and Jakob Heins (F, b. 2004) share the surname - relation NOT verified."
+  - "Youngest: Anton Weyrauch (b. 2006-12-22, 19 at the WFC); oldest: Adam Lundgren (b. 1993-11-17, 33)."
+  - "Nils Hofferbert: 4th men's WFC (2021, 2022, 2024, 2026), German champion 2022 with DJK Holzbüttgen, club captain (DJK Holzbüttgen Instagram 2026-11-03 https://www.instagram.com/p/DfRrYsKAPbe/)."
+  - "Flemming Kühl is captain of ETV Piranhhas Hamburg (club Instagram 2026-11-19 https://www.instagram.com/p/Df7oSyLDVoq/)."
+coaches:
+  source: https://floorball.de/team/herren/   # 'Staff', retrieved 2026-11-24
+  head_coach: {name: Santeri Raatarila, title: Bundestrainer}
+  assistants: [Mikael de Anna, Ilkka Kittilä]
+  goalkeeper_coach: Paolo Keinänen
+  team_manager: Kati Marggraf
+  physios: [Michael Rothgeber, Annika Kolodziej]
+  sport_psychologist: Oliver Stoll
+  federation_sport_director: {name: Julian Rüger, note: "new Sportdirektor per floorball.de 2026-10 https://floorball.de/2026/10/julian-rueger-wird-neuer-sportdirektor-bei-floorball-deutschland/ (headline only, not read)", unverified: true}
+captain: {name: null, note: "National-team captain for WFC 2026 not found. Hofferbert and Kühl are CLUB captains. Former national captain Tim Böttcher (floorball.de 2026-11 article on teacher training)."}
+field_sources:
+  roster_table: "floorball.de/team/herren 'Erweiterter Kader der Herren-Nationalmannschaft für die Kampagne 2025-26' - HTML table: Name | Nr. | Geburtstag | Ausleger | Position | Aktueller Verein. Number = national-team number in that list (some blank). Clubs may predate summer 2026 transfers."
+players:
+  - {name: Jan Saurbier, birth_date: 1997-01-29, position: goalkeeper, club: DJK Holzbüttgen, league: "1. Floorball-Bundesliga (GER)", number: 63, caps: null, goals: null, notes: "nominated per club post; '29 years old, for years one of the best goalkeepers' (club)", source: "https://www.instagram.com/p/DfRnfkLkSrC/"}
+  - {name: Jan Berbig, birth_date: 2000-03-08, position: defender, hand: left, club: UHC Sparkasse Weißenfels, league: "1. Floorball-Bundesliga (GER)", number: 10, caps: null, goals: null}
+  - {name: Andrin Caviezel, birth_date: 2004-02-12, position: defender, hand: left, club: Kloten-Dietlikon Jets, league: "L-UPL (SUI)", number: 54, caps: null, goals: null, notes: "plays in Switzerland"}
+  - {name: Jonathan Heins, birth_date: 2002-06-05, position: defender, hand: right, club: ETV Piranhhas Hamburg, league: "1. Floorball-Bundesliga (GER)", number: 3, caps: null, goals: null}
+  - {name: Svenson Hoppe, birth_date: 1999-06-09, position: defender, hand: left, club: MFBC Leipzig, league: "1. Floorball-Bundesliga (GER)", number: 20, caps: null, goals: null, notes: "club MFBC confirms 'official squad' (Instagram https://www.instagram.com/p/DfSE08uGx5L/)"}
+  - {name: Tino von Pritzbuer, birth_date: 1996-09-08, position: defender, hand: right, club: WaSa St. Gallen, league: "L-UPL (SUI)", number: 32, caps: null, goals: null, notes: "plays in Switzerland", unverified: league}
+  - {name: Philipp Weigelt, birth_date: 1995-11-06, position: defender, hand: left, club: UHC Sparkasse Weißenfels, league: "1. Floorball-Bundesliga (GER)", number: 71, caps: null, goals: null, notes: "spelled 'Phillip' on floorball.de, 'PHILIPP' in federation post"}
+  - {name: Leo Häfner, birth_date: 2002-04-23, position: forward, hand: left, club: DJK Holzbüttgen, league: "1. Floorball-Bundesliga (GER)", number: 36, caps: null, goals: null}
+  - {name: Jakob Heins, birth_date: 2004-07-10, position: forward, hand: right, club: Pixbo IBK, league: "SSL (SWE)", number: 29, caps: null, goals: null, notes: "plays in Sweden"}
+  - {name: Nils Hofferbert, birth_date: 2000-07-14, position: forward, hand: right, club: DJK Holzbüttgen, league: "1. Floorball-Bundesliga (GER)", number: 8, caps: null, goals: null, wfc_previous: [2021, 2022, 2024], notes: "4th WFC; club captain; German champion 2022; almost whole career at DJK (club post 2026-11-03)", source: "https://www.instagram.com/p/DfRrYsKAPbe/"}
+  - {name: Vincent Jordan, birth_date: 2001-12-22, position: forward, hand: right, club: Berlin Rockets, league: "1. Floorball-Bundesliga (GER)", number: 14, caps: null, goals: null, notes: "club confirms nomination (Instagram https://www.instagram.com/p/DfUgCzaO0b7/); Rockets' Leon Schweiger plays for Estonia at the same WFC"}
+  - {name: Flemming Kühl, birth_date: 1998-03-19, position: forward, hand: left, club: ETV Piranhhas Hamburg, league: "1. Floorball-Bundesliga (GER)", number: 17, caps: null, goals: null, notes: "ETV club captain (club post 2026-11-19)"}
+  - {name: Adam Lundgren, birth_date: 1993-11-17, position: forward, hand: left, club: UHC Uster, league: "L-UPL (SUI)", number: 9, caps: null, goals: null, notes: "oldest verified squad player (33); plays in Switzerland", unverified: league}
+  - {name: Rasmus Pursio, birth_date: 2004-02-14, position: forward, hand: left, club: EräViikingit, league: "F-liiga (FIN)", number: 46, caps: null, goals: null, notes: "plays in Finland (WFC host country)"}
+  - {name: Iven Tessmann, birth_date: 2002-12-06, position: forward, hand: left, club: Floorball Ústí, league: "Czech league (level unverified)", number: 79, caps: null, goals: null, notes: "plays in Czechia - Germany meets Czechia in Group B", unverified: league}
+  - {name: Florian Weißkirchen, birth_date: 1998-09-22, position: forward, hand: left, club: SSF Dragons Bonn, league: "1. Floorball-Bundesliga (GER)", number: 7, caps: null, goals: null, notes: "nickname 'Floppo' (club Instagram https://www.instagram.com/p/DfSdaNcMDje/, 2026-11-03)"}
+  - {name: Anton Weyrauch, birth_date: 2006-12-22, position: forward, hand: left, club: Berlin Rockets, league: "1. Floorball-Bundesliga (GER)", number: 70, caps: null, goals: null, notes: "youngest verified squad player (19)"}
+  - {name: Philipp Wilbrand, birth_date: 2003-04-11, position: forward, hand: left, club: EräViikingit, league: "F-liiga (FIN)", number: 11, caps: null, goals: null, notes: "plays in Finland"}
+  - {name: Michel Wöcke, birth_date: 1995-12-04, position: forward, hand: left, club: HC Rychenberg Winterthur, league: "L-UPL (SUI)", number: 22, caps: null, goals: null, notes: "plays in Switzerland"}
+  - {name: null, position: goalkeeper, unverified: true, notes: "2nd goalkeeper not found in public sources (2026-11-24)"}
+extended_squad_not_in_wfc_list:   # floorball.de 2025-26 extended squad, not named in the federation WFC post (2nd GK may be among the goalkeepers)
+  goalkeepers: ["Jan Lemke (77, 1999-07-02, Kloten-Dietlikon Jets SUI)", "Jannis Michaelis (1999-01-04, MFBC Leipzig)", "Pascal Reichert (1999-10-06, WaSa St. Gallen SUI)", "Henrik von Wangenheim (95, 2002-09-22, UHC Grünenmatt SUI)"]
+  field: ["Joël Bachmann (D, WaSa St. Gallen)", "Niklas Blanke (D, Weißenfels)", "Florian Böttcher (D, Weißenfels)", "Friedo Bohls (D, ETV Hamburg)", "Lovis Sturm (D, MFBC Leipzig)", "Mark-Oliver Bothe (F, MFBC Leipzig)", "Max Gäbler (F, Weißenfels)", "Justus Karnath (F, Schenefeld)", "Ferdinand Ondruschka (F, SC DHfK Leipzig)", "Yanis Ryser (F, Floorball Köniz Bern SUI)", "Marius Schwartz (F, Schenefeld)", "Adrian Stein (F, SSF Dragons Bonn)", "Luca Winter (F, PSV Black Wolves Dessau)"]
+notes:
+  - "Group B with SWE, CZE, SVK."
+  - "Caps/goals: no public source found. floorball.de teammember pages (https://floorball.de/teammember/<slug>/) are empty shells; saisonmanager.de (league stats) needs an API key since summer 2026."
+gaps:
+  - "2nd goalkeeper."
+  - "National-team captain."
+  - "Caps and international goals for all players."
+  - "WFC debutants (only Hofferbert's previous WFCs verified)."
+  - "Clubs from the 2025-26 extended-squad page; summer 2026 transfers may not be reflected (confirmed current for Saurbier, Hofferbert, Hoppe, Jordan, Weyrauch, Kühl by club posts in Nov 2026)."

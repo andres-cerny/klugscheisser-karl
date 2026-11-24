@@ -1,0 +1,60 @@
+team: Slovakia
+code: SVK
+group: B
+status: provisional
+status_note: "No final WFC squad article found on szfb.sk as of 2026-11-24 (newest men's articles: Four Nations in Žilina, 13-15 Nov 2026). Player list below = SZFB nomination for the camp in Biglen (SUI), 15-18 Oct 2026, called 'predposledný zraz' (second-to-last gathering) where 'the WFC line-up should gradually be finalised'. NOT the final WFC list. The IFF App has the official list (login)."
+announced:
+  date: 2026-10-14
+  source_url: https://www.szfb.sk/sk/article/slovakov-caka-konfrontacia-so-svetovou-spickou
+  source_title: "Slovákov čaká konfrontácia so svetovou špičkou (SZFB, Miroslav Hýlek, 2026-10-14) - Biglen camp nomination"
+retrieved: 2026-11-24
+squad_facts:
+  - "HISTORIC: Slovakia beat Switzerland for the first time ever, 4-3 (SZFB: Švajčiarsko - SLOVENSKO 3:4 (0:0, 1:1, 2:3)) in Biglen on 2026-10-15/16 (article dated 2026-10-16; match on Friday 19:00). Goals SVK: Jakub Haša, Michal Dudovič, Tomáš Kvasnica 2. SUI: Jamie Britt, Levin Conrad, Pascal Schmuki. Best SVK player: Michal Pažák; coach Mrázek: 'in defence by far the best performance in history'; goalkeeper Maroš Giba praised. https://www.szfb.sk/sk/article/svajciari-%E2%80%9Epadli%E2%80%9C-v-suboji-so-slovakmi"
+  - "Four Nations Floorball Challenge in Žilina, 13-15 Nov 2026: big win v Slovenia ('Slovinci schytali tucet' = Slovenia conceded a dozen), loss v Norway, 3-10 v Latvia -> Slovakia 3rd (SZFB 2026-11-15 https://www.szfb.sk/sk/article/po-noroch-prisla-kruta-prehra-aj-s-lotysmi). In that game Latvian Pēteris Trekše (Ronald Gašparík's teammate at SV Wiler-Ersigen) scored 3, Gustavs Griezītis 4."
+  - "Gašparík about club-mate Trekše: 'He is unstoppable at our club too. Great shot and precise passes.' (SZFB 2026-11-15)"
+  - "Qualified for the WFC at the qualification in Trenčín (home), 5-8 Feb 2026."
+  - "Injuries/absences before Biglen: Batkovič (injured), Gajdoš (virus; still listed); Michal Dudovič and Samuel Virga back after long injuries; Vladimír Bačinský and Oliver Chochol named as replacements (SZFB 2026-10-14)."
+  - "Coach Ševčík: 'We have a narrow pool of players able to play international floorball.'"
+  - "Note: the SZFB article of 2026-10-14 says the WFC runs '3 to 14 December' - other sources (IFF/LOC) say 5-13 Dec."
+coaches:
+  source: https://www.szfb.sk/sk/article/slovakov-caka-konfrontacia-so-svetovou-spickou
+  head_coach: {name: Radomír Mrázek, nationality: "Czech? unverified"}
+  coach: {name: Karel Ševčík, nationality: "Czech? unverified"}
+  team_manager: Daniel Dobrovodský
+  athletic_coach: Ján Blahuta
+  equipment: Maroš Migo
+  physio: Maroš Kolesár
+  doctor: Rajmund Szikora
+captain: {name: null}
+players:
+  # Biglen camp nomination 15-18 Oct 2026 (SZFB). position: goalkeepers marked; field players not split (SZFB: 'Hráči').
+  - {name: Adam Kohút, position: goalkeeper, club: 1. SC Vítkovice, country_of_club: Czechia, number: null, birth_date: null, source: SZFB-2026-10-14}
+  - {name: Maroš Giba, position: goalkeeper, club: HDT.cz Florbal Vary Bohemians, country_of_club: Czechia, number: null, birth_date: null, source: SZFB-2026-10-14, notes: "praised after the 4-3 win v Switzerland"}
+  - {name: Michal Pažák, position: field, club: 1. SC Vítkovice, country_of_club: Czechia, number: null, birth_date: null, source: SZFB-2026-10-14, notes: "best SVK player v SUI 2026-10-16"}
+  - {name: Šimon Hatala, position: field, club: 1. FBC Trenčín, country_of_club: Slovakia, number: null, birth_date: null, source: SZFB-2026-10-14}
+  - {name: Samuel Kelemen, position: field, club: Panthers Otrokovice, country_of_club: Czechia, number: null, birth_date: null, source: SZFB-2026-10-14}
+  - {name: Ladislav Mirt, position: field, club: FBC Grasshoppers AC UNIZA Žilina, country_of_club: Slovakia, number: null, birth_date: null, source: SZFB-2026-10-14}
+  - {name: Michal Miške, position: field, club: FBC Grasshoppers AC UNIZA Žilina, country_of_club: Slovakia, number: null, birth_date: null, source: SZFB-2026-10-14}
+  - {name: Pavol Jonek, position: field, club: 1. SC Vítkovice, country_of_club: Czechia, number: null, birth_date: null, source: SZFB-2026-10-14}
+  - {name: Michal Šifra, position: field, club: Oxdog Snipers Bratislava, country_of_club: Slovakia, number: null, birth_date: null, source: SZFB-2026-10-14}
+  - {name: Jakub Košarišťan, position: field, club: 1. SC Vítkovice, country_of_club: Czechia, number: null, birth_date: null, source: SZFB-2026-10-14}
+  - {name: Samuel Virga, position: field, club: 1. FBC Trenčín, country_of_club: Slovakia, number: null, birth_date: null, source: SZFB-2026-10-14, notes: "back after long injury"}
+  - {name: Peter Nehila, position: field, club: ŠK LIDO Prírodovedec Ružinov, country_of_club: Slovakia, number: null, birth_date: null, source: SZFB-2026-10-14}
+  - {name: Jakub Haša, position: field, club: WASA St. Gallen, league: "L-UPL (SUI)", country_of_club: Switzerland, number: null, birth_date: null, source: SZFB-2026-10-14, notes: "SWISS CLUB. Scored 1-1 v Switzerland in the historic 4-3 win"}
+  - {name: Ronald Gašparík, position: field, club: SV Wiler-Ersigen, league: "L-UPL (SUI)", country_of_club: Switzerland, number: null, birth_date: null, source: SZFB-2026-10-14, notes: "SWISS CLUB, club-mate of Latvian Pēteris Trekše. Scored v Latvia at Four Nations 2026-11-15"}
+  - {name: Michal Dudovič, position: field, club: FBC Kalmarsund, country_of_club: Sweden, number: null, birth_date: null, source: SZFB-2026-10-14, notes: "back after long injury; scored v SUI; SZFB interview 2026-11-12"}
+  - {name: Matúš Gajdoš, position: field, club: HDT.cz Florbal Vary Bohemians, country_of_club: Czechia, number: null, birth_date: null, source: SZFB-2026-10-14, notes: "virus before Biglen; played Four Nations v Latvia (missed a penalty shot)"}
+  - {name: Samuel Jančo, position: field, club: FBC Grasshoppers AC UNIZA Žilina, country_of_club: Slovakia, number: null, birth_date: null, source: SZFB-2026-10-14}
+  - {name: Tomáš Kvasnica, position: field, club: 1. FBC Trenčín, country_of_club: Slovakia, number: null, birth_date: null, source: SZFB-2026-10-14, notes: "2 goals v Switzerland incl. 4-2 power-play goal; called 'bombardér'"}
+  - {name: Richard Dluhoš, position: field, club: ŠK LIDO Prírodovedec Ružinov, country_of_club: Slovakia, number: null, birth_date: null, source: SZFB-2026-10-14}
+  - {name: Samuel Kopejtko, position: field, club: HDT.cz Florbal Vary Bohemians, country_of_club: Czechia, number: null, birth_date: null, source: SZFB-2026-10-14}
+other_candidates:
+  - {name: Vladimír Bačinský, note: "replacement for missing players at Biglen camp (SZFB 2026-10-14); club not given"}
+  - {name: Oliver Chochol, note: "replacement for missing players at Biglen camp (SZFB 2026-10-14); club not given"}
+  - {name: Batkovič, note: "first name not given; injured in Oct 2026"}
+notable:
+  - "Swiss-club players: Jakub Haša (WASA St. Gallen) and Ronald Gašparík (SV Wiler-Ersigen) - both involved in the 1-1 goal of the historic first win over Switzerland (Haša goal, Gašparík assist)."
+  - "Seven players at Czech clubs (Vítkovice x4, Vary Bohemians x3/4, Otrokovice) - Czech coaching duo Mrázek/Ševčík."
+gaps:
+  - "Final WFC 20 (only in IFF App so far, or not yet published by SZFB)."
+  - "Numbers, positions (defender/forward), birth dates."

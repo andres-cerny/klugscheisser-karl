@@ -1,0 +1,517 @@
+[
+ {
+  "LevelName": "National Team Women",
+  "LevelID": 133,
+  "WebOrder": 159,
+  "GameDates": [
+   "2026-09-30",
+   "2026-10-02",
+   "2026-10-03"
+  ],
+  "PlayOffPhases": [],
+  "PlayOffTeams": [],
+  "Games": [
+   {
+    "GameID": 2713356,
+    "GameDate": "30.09.2026",
+    "GameTime": "12:30:00",
+    "HomeTeam": 237515497,
+    "AwayTeam": 527142084,
+    "HomeGoals": 5,
+    "AwayGoals": 0,
+    "GameStatus": 2,
+    "FinishedType": 1,
+    "HomeTeamTempName": "",
+    "AwayTeamTempName": "",
+    "SmallAreaGame": 0,
+    "GameEffTime": 3600,
+    "Spectator": 147,
+    "LiveURL": "",
+    "LiveFeedSource": 0,
+    "OnlyStreamStorage": 0,
+    "SubSerieID": 4740,
+    "StreamSources": [
+     {
+      "Id": 2,
+      "SourceName": "HBO MAX",
+      "StreamUrl": "https://www.hbomax.com/fi/fi",
+      "LogoUrl": "https://d30yuo8vvcrfpu.cloudfront.net/stream-source-logos/sxWW8bYTBac.png",
+      "IsDefault": false
+     },
+     {
+      "Id": 3,
+      "SourceName": "TV5",
+      "StreamUrl": null,
+      "LogoUrl": null,
+      "IsDefault": false
+     }
+    ],
+    "AreaID": 45,
+    "GameRules": "60;0;3;20;0;0;0;5;0;1;5;0;1;0;0;1;1;1;3;1;1;1;0;2;0;5;0;1;0;0",
+    "HomeTeamAbbrv": "SWE",
+    "AwayTeamAbbrv": "SUI",
+    "RinkName": "Lahti",
+    "Latitude": "60.9818683",
+    "Longitude": "25.6399052",
+    "RinkAreaID": 2,
+    "TimeZone": "Europe/Helsinki",
+    "SubSerieName": "EHT: 4 Nations Tournament 30.9-3.10.2026 Lahti, FIN",
+    "HomeAssociation": "SWE",
+    "AwayAssociation": "SUI",
+    "HomeAssociationID": 10207136,
+    "AwayAssociationID": 10207110,
+    "LevelID": 133,
+    "LevelName": "National Team Women",
+    "WebOrder": 159,
+    "GameTitleID": 0,
+    "GameTitle": "",
+    "GameTitleOrder": 0,
+    "HomeImg": "10207136.png",
+    "AwayImg": "10207110.png",
+    "DowFI": "Ke",
+    "DowEN": "Wed",
+    "DowSE": "Ons",
+    "GameDateDB": "2026-09-30",
+    "GameDateShort": "30.09.26",
+    "PeriodSummary": {
+     "PlayedPeriods": 3,
+     "PeriodGoals": {
+      "Home": [
+       0,
+       3,
+       2
+      ],
+      "Away": [
+       0,
+       0,
+       0
+      ]
+     }
+    },
+    "DeniedStats": 0,
+    "DeniedResults": 0,
+    "RosterType": 0,
+    "Season": 2027
+   },
+   {
+    "GameID": 2713357,
+    "GameDate": "30.09.2026",
+    "GameTime": "18:00:00",
+    "HomeTeam": 683426361,
+    "AwayTeam": 716283900,
+    "HomeGoals": 2,
+    "AwayGoals": 0,
+    "GameStatus": 2,
+    "FinishedType": 1,
+    "HomeTeamTempName": "",
+    "AwayTeamTempName": "",
+    "SmallAreaGame": 0,
+    "GameEffTime": 3600,
+    "Spectator": 323,
+    "LiveURL": "",
+    "LiveFeedSource": 4,
+    "OnlyStreamStorage": 1,
+    "SubSerieID": 4740,
+    "StreamSources": [
+     {
+      "Id": 1,
+      "SourceName": "Leijonat TV",
+      "StreamUrl": null,
+      "LogoUrl": "https://d30yuo8vvcrfpu.cloudfront.net/stream-source-logos/Ru5Z0w_uidI.png",
+      "IsDefault": true
+     },
+     {
+      "Id": 2,
+      "SourceName": "HBO MAX",
+      "StreamUrl": "https://www.hbomax.com/fi/fi",
+      "LogoUrl": "https://d30yuo8vvcrfpu.cloudfront.net/stream-source-logos/sxWW8bYTBac.png",
+      "IsDefault": false
+     },
+     {
+      "Id": 3,
+      "SourceName": "TV5",
+      "StreamUrl": null,
+      "LogoUrl": null,
+      "IsDefault": false
+     }
+    ],
+    "AreaID": 45,
+    "GameRules": "60;0;3;20;0;0;0;5;0;1;5;0;1;0;0;1;1;1;3;1;1;1;0;2;0;5;0;1;0;0",
+    "HomeTeamAbbrv": "FIN",
+    "AwayTeamAbbrv": "CZE",
+    "RinkName": "Lahti",
+    "Latitude": "60.9818683",
+    "Longitude": "25.6399052",
+    "RinkAreaID": 2,
+    "TimeZone": "Europe/Helsinki",
+    "SubSerieName": "EHT: 4 Nations Tournament 30.9-3.10.2026 Lahti, FIN",
+    "HomeAssociation": "Jääkiekkoliitto (SJL)",
+    "AwayAssociation": "CZE",
+    "HomeAssociationID": 2,
+    "AwayAssociationID": 10207000,
+    "LevelID": 133,
+    "LevelName": "National Team Women",
+    "WebOrder": 159,
+    "GameTitleID": 0,
+    "GameTitle": "",
+    "GameTitleOrder": 0,
+    "HomeImg": "2.png",
+    "AwayImg": "10207000.png",
+    "DowFI": "Ke",
+    "DowEN": "Wed",
+    "DowSE": "Ons",
+    "GameDateDB": "2026-09-30",
+    "GameDateShort": "30.09.26",
+    "PeriodSummary": {
+     "PlayedPeriods": 3,
+     "PeriodGoals": {
+      "Home": [
+       0,
+       1,
+       1
+      ],
+      "Away": [
+       0,
+       0,
+       0
+      ]
+     }
+    },
+    "DeniedStats": 0,
+    "DeniedResults": 0,
+    "RosterType": 0,
+    "Season": 2027
+   },
+   {
+    "GameID": 2713358,
+    "GameDate": "02.10.2026",
+    "GameTime": "14:00:00",
+    "HomeTeam": 716283900,
+    "AwayTeam": 237515497,
+    "HomeGoals": 0,
+    "AwayGoals": 5,
+    "GameStatus": 2,
+    "FinishedType": 1,
+    "HomeTeamTempName": "",
+    "AwayTeamTempName": "",
+    "SmallAreaGame": 0,
+    "GameEffTime": 3600,
+    "Spectator": 67,
+    "LiveURL": "",
+    "LiveFeedSource": 0,
+    "OnlyStreamStorage": 0,
+    "SubSerieID": 4740,
+    "StreamSources": [
+     {
+      "Id": 2,
+      "SourceName": "HBO MAX",
+      "StreamUrl": "https://www.hbomax.com/fi/fi",
+      "LogoUrl": "https://d30yuo8vvcrfpu.cloudfront.net/stream-source-logos/sxWW8bYTBac.png",
+      "IsDefault": false
+     },
+     {
+      "Id": 3,
+      "SourceName": "TV5",
+      "StreamUrl": null,
+      "LogoUrl": null,
+      "IsDefault": false
+     }
+    ],
+    "AreaID": 45,
+    "GameRules": "60;0;3;20;0;0;0;5;0;1;5;0;1;0;0;1;1;1;3;1;1;1;0;2;0;5;0;1;0;0",
+    "HomeTeamAbbrv": "CZE",
+    "AwayTeamAbbrv": "SWE",
+    "RinkName": "Lahti",
+    "Latitude": "60.9818683",
+    "Longitude": "25.6399052",
+    "RinkAreaID": 2,
+    "TimeZone": "Europe/Helsinki",
+    "SubSerieName": "EHT: 4 Nations Tournament 30.9-3.10.2026 Lahti, FIN",
+    "HomeAssociation": "CZE",
+    "AwayAssociation": "SWE",
+    "HomeAssociationID": 10207000,
+    "AwayAssociationID": 10207136,
+    "LevelID": 133,
+    "LevelName": "National Team Women",
+    "WebOrder": 159,
+    "GameTitleID": 0,
+    "GameTitle": "",
+    "GameTitleOrder": 0,
+    "HomeImg": "10207000.png",
+    "AwayImg": "10207136.png",
+    "DowFI": "Pe",
+    "DowEN": "Fri",
+    "DowSE": "Fre",
+    "GameDateDB": "2026-10-02",
+    "GameDateShort": "02.10.26",
+    "PeriodSummary": {
+     "PlayedPeriods": 3,
+     "PeriodGoals": {
+      "Home": [
+       0,
+       0,
+       0
+      ],
+      "Away": [
+       2,
+       1,
+       2
+      ]
+     }
+    },
+    "DeniedStats": 0,
+    "DeniedResults": 0,
+    "RosterType": 0,
+    "Season": 2027
+   },
+   {
+    "GameID": 2713359,
+    "GameDate": "02.10.2026",
+    "GameTime": "18:00:00",
+    "HomeTeam": 683426361,
+    "AwayTeam": 527142084,
+    "HomeGoals": 4,
+    "AwayGoals": 1,
+    "GameStatus": 2,
+    "FinishedType": 1,
+    "HomeTeamTempName": "",
+    "AwayTeamTempName": "",
+    "SmallAreaGame": 0,
+    "GameEffTime": 3600,
+    "Spectator": 352,
+    "LiveURL": "",
+    "LiveFeedSource": 0,
+    "OnlyStreamStorage": 0,
+    "SubSerieID": 4740,
+    "StreamSources": [
+     {
+      "Id": 2,
+      "SourceName": "HBO MAX",
+      "StreamUrl": "https://www.hbomax.com/fi/fi",
+      "LogoUrl": "https://d30yuo8vvcrfpu.cloudfront.net/stream-source-logos/sxWW8bYTBac.png",
+      "IsDefault": false
+     },
+     {
+      "Id": 3,
+      "SourceName": "TV5",
+      "StreamUrl": null,
+      "LogoUrl": null,
+      "IsDefault": false
+     }
+    ],
+    "AreaID": 45,
+    "GameRules": "60;0;3;20;0;0;0;5;0;1;5;0;1;0;0;1;1;1;3;1;1;1;0;2;0;5;0;1;0;0",
+    "HomeTeamAbbrv": "FIN",
+    "AwayTeamAbbrv": "SUI",
+    "RinkName": "Lahti",
+    "Latitude": "60.9818683",
+    "Longitude": "25.6399052",
+    "RinkAreaID": 2,
+    "TimeZone": "Europe/Helsinki",
+    "SubSerieName": "EHT: 4 Nations Tournament 30.9-3.10.2026 Lahti, FIN",
+    "HomeAssociation": "Jääkiekkoliitto (SJL)",
+    "AwayAssociation": "SUI",
+    "HomeAssociationID": 2,
+    "AwayAssociationID": 10207110,
+    "LevelID": 133,
+    "LevelName": "National Team Women",
+    "WebOrder": 159,
+    "GameTitleID": 0,
+    "GameTitle": "",
+    "GameTitleOrder": 0,
+    "HomeImg": "2.png",
+    "AwayImg": "10207110.png",
+    "DowFI": "Pe",
+    "DowEN": "Fri",
+    "DowSE": "Fre",
+    "GameDateDB": "2026-10-02",
+    "GameDateShort": "02.10.26",
+    "PeriodSummary": {
+     "PlayedPeriods": 3,
+     "PeriodGoals": {
+      "Home": [
+       1,
+       3,
+       0
+      ],
+      "Away": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "DeniedStats": 0,
+    "DeniedResults": 0,
+    "RosterType": 0,
+    "Season": 2027
+   },
+   {
+    "GameID": 2713360,
+    "GameDate": "03.10.2026",
+    "GameTime": "14:00:00",
+    "HomeTeam": 527142084,
+    "AwayTeam": 716283900,
+    "HomeGoals": 3,
+    "AwayGoals": 2,
+    "GameStatus": 2,
+    "FinishedType": 3,
+    "HomeTeamTempName": "",
+    "AwayTeamTempName": "",
+    "SmallAreaGame": 0,
+    "GameEffTime": 3900,
+    "Spectator": 91,
+    "LiveURL": "",
+    "LiveFeedSource": 0,
+    "OnlyStreamStorage": 0,
+    "SubSerieID": 4740,
+    "StreamSources": [
+     {
+      "Id": 2,
+      "SourceName": "HBO MAX",
+      "StreamUrl": "https://www.hbomax.com/fi/fi",
+      "LogoUrl": "https://d30yuo8vvcrfpu.cloudfront.net/stream-source-logos/sxWW8bYTBac.png",
+      "IsDefault": false
+     },
+     {
+      "Id": 3,
+      "SourceName": "TV5",
+      "StreamUrl": null,
+      "LogoUrl": null,
+      "IsDefault": false
+     }
+    ],
+    "AreaID": 45,
+    "GameRules": "60;0;3;20;0;0;0;5;0;1;5;0;1;0;0;1;1;1;3;1;1;1;0;2;0;5;0;1;0;0",
+    "HomeTeamAbbrv": "SUI",
+    "AwayTeamAbbrv": "CZE",
+    "RinkName": "Lahti",
+    "Latitude": "60.9818683",
+    "Longitude": "25.6399052",
+    "RinkAreaID": 2,
+    "TimeZone": "Europe/Helsinki",
+    "SubSerieName": "EHT: 4 Nations Tournament 30.9-3.10.2026 Lahti, FIN",
+    "HomeAssociation": "SUI",
+    "AwayAssociation": "CZE",
+    "HomeAssociationID": 10207110,
+    "AwayAssociationID": 10207000,
+    "LevelID": 133,
+    "LevelName": "National Team Women",
+    "WebOrder": 159,
+    "GameTitleID": 0,
+    "GameTitle": "",
+    "GameTitleOrder": 0,
+    "HomeImg": "10207110.png",
+    "AwayImg": "10207000.png",
+    "DowFI": "La",
+    "DowEN": "Sat",
+    "DowSE": "Lör",
+    "GameDateDB": "2026-10-03",
+    "GameDateShort": "03.10.26",
+    "PeriodSummary": {
+     "PlayedPeriods": 4,
+     "PeriodGoals": {
+      "Home": [
+       0,
+       0,
+       2,
+       0
+      ],
+      "Away": [
+       0,
+       0,
+       2,
+       0
+      ]
+     }
+    },
+    "DeniedStats": 0,
+    "DeniedResults": 0,
+    "RosterType": 0,
+    "Season": 2027
+   },
+   {
+    "GameID": 2713361,
+    "GameDate": "03.10.2026",
+    "GameTime": "18:00:00",
+    "HomeTeam": 683426361,
+    "AwayTeam": 237515497,
+    "HomeGoals": 6,
+    "AwayGoals": 1,
+    "GameStatus": 2,
+    "FinishedType": 1,
+    "HomeTeamTempName": "",
+    "AwayTeamTempName": "",
+    "SmallAreaGame": 0,
+    "GameEffTime": 3600,
+    "Spectator": 511,
+    "LiveURL": "",
+    "LiveFeedSource": 0,
+    "OnlyStreamStorage": 0,
+    "SubSerieID": 4740,
+    "StreamSources": [
+     {
+      "Id": 2,
+      "SourceName": "HBO MAX",
+      "StreamUrl": "https://www.hbomax.com/fi/fi",
+      "LogoUrl": "https://d30yuo8vvcrfpu.cloudfront.net/stream-source-logos/sxWW8bYTBac.png",
+      "IsDefault": false
+     },
+     {
+      "Id": 3,
+      "SourceName": "TV5",
+      "StreamUrl": null,
+      "LogoUrl": null,
+      "IsDefault": false
+     }
+    ],
+    "AreaID": 45,
+    "GameRules": "60;0;3;20;0;0;0;5;0;1;5;0;1;0;0;1;1;1;3;1;1;1;0;2;0;5;0;1;0;0",
+    "HomeTeamAbbrv": "FIN",
+    "AwayTeamAbbrv": "SWE",
+    "RinkName": "Lahti",
+    "Latitude": "60.9818683",
+    "Longitude": "25.6399052",
+    "RinkAreaID": 2,
+    "TimeZone": "Europe/Helsinki",
+    "SubSerieName": "EHT: 4 Nations Tournament 30.9-3.10.2026 Lahti, FIN",
+    "HomeAssociation": "Jääkiekkoliitto (SJL)",
+    "AwayAssociation": "SWE",
+    "HomeAssociationID": 2,
+    "AwayAssociationID": 10207136,
+    "LevelID": 133,
+    "LevelName": "National Team Women",
+    "WebOrder": 159,
+    "GameTitleID": 0,
+    "GameTitle": "",
+    "GameTitleOrder": 0,
+    "HomeImg": "2.png",
+    "AwayImg": "10207136.png",
+    "DowFI": "La",
+    "DowEN": "Sat",
+    "DowSE": "Lör",
+    "GameDateDB": "2026-10-03",
+    "GameDateShort": "03.10.26",
+    "PeriodSummary": {
+     "PlayedPeriods": 3,
+     "PeriodGoals": {
+      "Home": [
+       2,
+       3,
+       1
+      ],
+      "Away": [
+       0,
+       1,
+       0
+      ]
+     }
+    },
+    "DeniedStats": 0,
+    "DeniedResults": 0,
+    "RosterType": 0,
+    "Season": 2027
+   }
+  ]
+ }
+]

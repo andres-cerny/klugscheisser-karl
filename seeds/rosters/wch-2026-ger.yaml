@@ -1,0 +1,56 @@
+# Germany women's roster for the IIHF Women's World Championship 2026 (25 players), DEB / deb-online.de, announced 07.10.2026
+event: wch-2026
+team: ger-women
+list_type: confirmed
+season: "2026-27"
+source: "DEB, offizieller WM-Kader (07.10.2026; Teamseite Stand 28.10.2026)"
+source_url: "https://www.deb-online.de/frauen-nationalmannschaft/"
+source_date: "2026-10-28"
+# Announcement article (names only in Instagram images; text gives 3 G / 8 D / 14 F and the schedule):
+#   https://www.deb-online.de/2026/10/07/kader-fr-die-frauen-weltmeisterschaft-in-dnemark-steht-fest/
+# Names/numbers/positions from the team page block "Kader für die IIHF Women's World Championship 2026" (checked 17.10.2026). No clubs given.
+# 28.10.2026: the team page now lists defender Emilija Birka (#10) instead of Hanna Hoppe (#44; on the list of
+# 07.10.2026, also named by The Hockey News 09.10.2026). No DEB release about the change was found (reason unknown).
+# club_text: club as written in the source (shown in answers, not linked to a club team)
+players:
+  - {name: "Sandra Abstreiter", pos: G, number: 35}
+  - {name: "Lisa Hemmerle", pos: G, number: 70}
+  - {name: "Chiara Schultes", pos: G, number: 75}
+  - {name: "Tabea Botthof", pos: D, number: 21}
+  - {name: "Daria Gleißner", pos: D, number: 20}
+  - {name: "Ronja Hark", pos: D, number: 8}
+  - {name: "Katarina Jobst-Smith", pos: D, number: 28}
+  - {name: "Tara Schmitz", pos: D, number: 26}
+  - {name: "Carina Strobel", pos: D, number: 14}
+  - {name: "Emilija Birka", pos: D, number: 10}
+  - {name: "Hanna Weichenhain", pos: D, number: 46}
+  - {name: "Marie-Kristin Schmid", pos: F, number: 42}
+  - {name: "Alexandra Boico", pos: F, number: 40}
+  - {name: "Aileena Dopheide", pos: F, number: 39}
+  - {name: "Nina Christof", pos: F, number: 29}
+  - {name: "Franziska Feldmeier", pos: F, number: 7}
+  - {name: "Nicola Hadraschek-Eisenschmid", pos: F, number: 11}
+  - {name: "Celina Haider", pos: F, number: 34}
+  - {name: "Laura Kluge", pos: F, number: 25}
+  - {name: "Emily Nix", pos: F, number: 17}
+  - {name: "Mathilda Heine", pos: F, number: 41}
+  - {name: "Jule Schiefer", pos: F, number: 16}
+  - {name: "Svenja Voigt", pos: F, number: 9}
+  - {name: "Lilli Welcke", pos: F, number: 23}
+  - {name: "Luisa Welcke", pos: F, number: 13}
+staff:
+  - {name: "Ronja Jenike", role: "GM Womens Hockey"}
+  - {name: "Jeff MacLeod", role: "Head coach"}
+  - {name: "Cody Lampl", role: "Assistant coach"}
+  - {name: "Markus Gleich", role: "Assistant coach"}
+  - {name: "Sascha Rogoza", role: "Goalkeeping coach"}
+  - {name: "Jennifer Harss", role: "Athletic coach"}
+  - {name: "Manuel Berger", role: "Team doctor"}
+  - {name: "Anna Lerchenmüller", role: "Physiotherapist"}
+  - {name: "Felicitas Kreutzer", role: "Physiotherapist"}
+  - {name: "Sigi Hempel", role: "Equipment manager"}
+  - {name: "Josef Kotz", role: "Equipment manager"}
+  - {name: "Julia Graunke", role: "Team manager"}
+  - {name: "Myriam Wetter", role: "Media manager"}
+absent:
+  - {name: "Hanna Hoppe", pos: D, reason: "nicht mehr im WM-Kader (auf der Liste vom 07.10.2026, laut DEB-Teamseite am 28.10.2026 durch Emilija Birka ersetzt; Grund nicht angegeben)"}

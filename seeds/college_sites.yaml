@@ -1,0 +1,23 @@
+# US college athletics sites (Sidearm platform) of Swiss NCAA players. Key = team name as in our rosters/affiliations.
+# Checked 2026-10-03: robots.txt allows /sports/ for all agents (disallows /services/, /images/ …), Crawl-delay 30.
+# The collector fetches robots.txt, the roster page and the player's bio page, 30 s apart.
+- team: "College of the Holy Cross"
+  aliases: ["Holy Cross", "Holy Cross Crusaders", "Holy Cross University"]
+  source_name: "Holy Cross Athletics"
+  roster_url: "https://goholycross.com/sports/womens-ice-hockey/roster"
+- team: "St. Cloud State University"
+  aliases: ["St. Cloud State", "St. Cloud State Huskies", "SCSU"]
+  source_name: "St. Cloud State Athletics"
+  roster_url: "https://scsuhuskies.com/sports/womens-ice-hockey/roster"
+- team: "Northeastern University"
+  aliases: ["Northeastern", "Northeastern Huskies"]
+  source_name: "Northeastern Athletics"
+  roster_url: "https://nuhuskies.com/sports/womens-ice-hockey/roster"
+- team: "Union College"
+  aliases: ["Union", "Union Garnet Chargers"]
+  source_name: "Union College Athletics"
+  roster_url: "https://unionathletics.com/sports/womens-ice-hockey/roster"
+- team: "Minnesota State University"
+  aliases: ["Minnesota State", "Minnesota State Mavericks", "Minnesota State Univ.", "Minnesota State University, Mankato"]
+  source_name: "Minnesota State Athletics"
+  roster_url: "https://msumavericks.com/sports/womens-ice-hockey/roster"

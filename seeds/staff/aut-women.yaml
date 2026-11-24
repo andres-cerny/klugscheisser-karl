@@ -1,0 +1,18 @@
+# Media contact for the Austrian women's national team (for Fabi). The ÖEHV publishes no media manager of the
+# women's team (team page, WM roster article 09.10.2026 and camp article 30.10.2026 name none); this is the
+# federation's media & communications officer, as published on its organisation page. Never guessed.
+# Loaded by klugscheisser/staff.py (load_seeds). Checked 01.11.2026.
+team: aut-women
+checked: "2026-11-01"
+
+sources:
+  oehv_org: {name: "ÖEHV, Organisation", url: "https://www.eishockey.at/der-oehv/organisation", kind: official, date: "2026-11-01"}
+
+staff:
+  - name: "Johannes Pressler"
+    role: "Medien & Kommunikation"
+    src: oehv_org
+    quote: "Johannes Pressler, Bakk. phil. Medien & Kommunikation media@example.org +00 00 000 00 00"
+    email: "media@example.org"
+    phone: "+00 00 000 00 00"
+    note: "Medienstelle des ÖEHV, nicht nur Frauen-Nationalteam"

@@ -1,0 +1,278 @@
+{
+ "search": {
+  "de|Colin Muller": [
+   {
+    "id": "Q16540791",
+    "title": "Q16540791",
+    "pageid": 18162117,
+    "concepturi": "http://www.wikidata.org/entity/Q16540791",
+    "repository": "wikidata",
+    "url": "//www.wikidata.org/wiki/Q16540791",
+    "display": {
+     "label": {
+      "value": "Colin Muller",
+      "language": "de"
+     },
+     "description": {
+      "value": "kanadisch-schweizerischer Eishockeytrainer",
+      "language": "de"
+     }
+    },
+    "label": "Colin Muller",
+    "description": "kanadisch-schweizerischer Eishockeytrainer",
+    "match": {
+     "type": "label",
+     "language": "de",
+     "text": "Colin Muller"
+    }
+   }
+  ],
+  "en|Colin Muller": [
+   {
+    "id": "Q16540791",
+    "title": "Q16540791",
+    "pageid": 18162117,
+    "concepturi": "http://www.wikidata.org/entity/Q16540791",
+    "repository": "wikidata",
+    "url": "//www.wikidata.org/wiki/Q16540791",
+    "display": {
+     "label": {
+      "value": "Colin Muller",
+      "language": "en"
+     },
+     "description": {
+      "value": "Swiss ice hockey player",
+      "language": "en"
+     }
+    },
+    "label": "Colin Muller",
+    "description": "Swiss ice hockey player",
+    "match": {
+     "type": "label",
+     "language": "en",
+     "text": "Colin Muller"
+    }
+   }
+  ]
+ },
+ "persons": [
+  {
+   "p": {
+    "type": "uri",
+    "value": "http://www.wikidata.org/entity/Q16540791"
+   },
+   "labelDe": {
+    "xml:lang": "de",
+    "type": "literal",
+    "value": "Colin Muller"
+   },
+   "labelEn": {
+    "xml:lang": "en",
+    "type": "literal",
+    "value": "Colin Muller"
+   },
+   "descDe": {
+    "xml:lang": "de",
+    "type": "literal",
+    "value": "kanadisch-schweizerischer Eishockeytrainer"
+   },
+   "descEn": {
+    "xml:lang": "en",
+    "type": "literal",
+    "value": "Swiss ice hockey player"
+   },
+   "gender": {
+    "type": "uri",
+    "value": "http://www.wikidata.org/entity/Q6581097"
+   },
+   "birth": {
+    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+    "type": "literal",
+    "value": "1963-12-01T00:00:00Z"
+   },
+   "birthPrec": {
+    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+    "type": "literal",
+    "value": "11"
+   },
+   "ep": {
+    "type": "literal",
+    "value": "29003"
+   },
+   "dewiki": {
+    "type": "uri",
+    "value": "https://de.wikipedia.org/wiki/Colin_Muller"
+   },
+   "enwiki": {
+    "type": "uri",
+    "value": "https://en.wikipedia.org/wiki/Colin_Muller"
+   },
+   "instances": {
+    "type": "literal",
+    "value": "http://www.wikidata.org/entity/Q5"
+   },
+   "occupations": {
+    "type": "literal",
+    "value": "ice hockey player"
+   },
+   "sports": {
+    "type": "literal",
+    "value": "ice hockey"
+   },
+   "nations": {
+    "type": "literal",
+    "value": "SUI:CHE"
+   },
+   "positions": {
+    "type": "literal",
+    "value": "forward"
+   },
+   "positionsDe": {
+    "type": "literal",
+    "value": "Angriffsspieler"
+   },
+   "instagram": {
+    "type": "literal",
+    "value": ""
+   },
+   "teams": {
+    "type": "literal",
+    "value": "Q652053::EHC Basel::|Q662592::EV Zug::|Q33699::Fribourg-Gottéron::"
+   }
+  }
+ ],
+ "coached": [
+  {
+   "team": {
+    "type": "uri",
+    "value": "http://www.wikidata.org/entity/Q676135"
+   },
+   "ioc": {
+    "type": "literal",
+    "value": "SUI"
+   },
+   "natInst": {
+    "xml:lang": "en",
+    "type": "literal",
+    "value": "women's national ice hockey team"
+   },
+   "cls": {
+    "xml:lang": "en",
+    "type": "literal",
+    "value": "women's ice hockey"
+   },
+   "teamDe": {
+    "xml:lang": "de",
+    "type": "literal",
+    "value": "Schweizer Eishockeynationalmannschaft der Frauen"
+   },
+   "teamEn": {
+    "xml:lang": "en",
+    "type": "literal",
+    "value": "Switzerland women's national ice hockey team"
+   },
+   "when": {
+    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+    "type": "literal",
+    "value": "2023-04-05T00:00:00Z"
+   },
+   "p": {
+    "type": "uri",
+    "value": "http://www.wikidata.org/entity/Q16540791"
+   },
+   "role": {
+    "xml:lang": "en",
+    "type": "literal",
+    "value": "head coach"
+   }
+  },
+  {
+   "team": {
+    "type": "uri",
+    "value": "http://www.wikidata.org/entity/Q676135"
+   },
+   "ioc": {
+    "type": "literal",
+    "value": "SUI"
+   },
+   "natInst": {
+    "xml:lang": "en",
+    "type": "literal",
+    "value": "women's national ice hockey team"
+   },
+   "cls": {
+    "xml:lang": "en",
+    "type": "literal",
+    "value": "women's ice hockey"
+   },
+   "teamDe": {
+    "xml:lang": "de",
+    "type": "literal",
+    "value": "Schweizer Eishockeynationalmannschaft der Frauen"
+   },
+   "teamEn": {
+    "xml:lang": "en",
+    "type": "literal",
+    "value": "Switzerland women's national ice hockey team"
+   },
+   "when": {
+    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+    "type": "literal",
+    "value": "2024-01-01T00:00:00Z"
+   },
+   "p": {
+    "type": "uri",
+    "value": "http://www.wikidata.org/entity/Q16540791"
+   },
+   "role": {
+    "xml:lang": "en",
+    "type": "literal",
+    "value": "head coach"
+   }
+  },
+  {
+   "team": {
+    "type": "uri",
+    "value": "http://www.wikidata.org/entity/Q676135"
+   },
+   "ioc": {
+    "type": "literal",
+    "value": "SUI"
+   },
+   "natInst": {
+    "xml:lang": "en",
+    "type": "literal",
+    "value": "women's national ice hockey team"
+   },
+   "cls": {
+    "xml:lang": "en",
+    "type": "literal",
+    "value": "women's ice hockey"
+   },
+   "teamDe": {
+    "xml:lang": "de",
+    "type": "literal",
+    "value": "Schweizer Eishockeynationalmannschaft der Frauen"
+   },
+   "teamEn": {
+    "xml:lang": "en",
+    "type": "literal",
+    "value": "Switzerland women's national ice hockey team"
+   },
+   "when": {
+    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+    "type": "literal",
+    "value": "2023-01-01T00:00:00Z"
+   },
+   "p": {
+    "type": "uri",
+    "value": "http://www.wikidata.org/entity/Q16540791"
+   },
+   "role": {
+    "xml:lang": "en",
+    "type": "literal",
+    "value": "head coach"
+   }
+  }
+ ]
+}

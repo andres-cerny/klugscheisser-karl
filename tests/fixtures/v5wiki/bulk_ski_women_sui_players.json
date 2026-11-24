@@ -1,0 +1,268 @@
+{
+ "head": {
+  "vars": [
+   "p",
+   "label",
+   "labelEn",
+   "given",
+   "family",
+   "birth",
+   "ig",
+   "x",
+   "ep",
+   "posLabel",
+   "workEnd",
+   "alts"
+  ]
+ },
+ "results": {
+  "bindings": [
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q30293"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Lara Gut-Behrami"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Lara Gut-Behrami"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Lara"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Gut-Behrami"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1991-04-27T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "laragutofficial"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Lara Gut|Lara Gut|Lara Gut"
+    },
+    "x": {
+     "type": "literal",
+     "value": "Laragut"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q114555938"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Ginia Caluori"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Ginia Caluori"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Ginia"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Caluori"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2002-08-23T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "ginia.caluori"
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "cross-country cycling"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Ginia-Lara Caluori|Ginia Caluori"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q114555938"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Ginia Caluori"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Ginia Caluori"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Lara"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Caluori"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2002-08-23T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "ginia.caluori"
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "cross-country cycling"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Ginia-Lara Caluori|Ginia Caluori"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q22666415"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Beatrice Scalvedi"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Beatrice Scalvedi"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Beatrice"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1995-06-27T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "bea_scalvedi"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Bea Scalvedi"
+    },
+    "x": {
+     "type": "literal",
+     "value": "BeaScalvedi"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q22666415"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Beatrice Scalvedi"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Beatrice Scalvedi"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Beatrice"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1995-06-27T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "be.a__s"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Bea Scalvedi"
+    },
+    "x": {
+     "type": "literal",
+     "value": "BeaScalvedi"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q65953102"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Katja Grossmann"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Katja Grossmann"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Katja"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Grossmann"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1997-04-30T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "katja.grossmann"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Katja Großmann"
+    }
+   }
+  ]
+ }
+}

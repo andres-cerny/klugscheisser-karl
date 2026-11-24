@@ -1,0 +1,83 @@
+# Curated base data. Facts only from public sources; source noted per block.
+sport: icehockey_women
+
+competitions:
+  - {key: wch-2026, name: "IIHF Frauen-WM 2026", kind: tournament, season: "2026",
+     source_url: "https://en.wikipedia.org/wiki/2026_Women%27s_Ice_Hockey_World_Championships"}
+  - {key: oly-2026, name: "Olympische Winterspiele 2026 Frauen-Eishockey", kind: tournament, season: "2026"}
+  - {key: pfwl-2026-27, name: "PostFinance Women's League 2026/27", kind: league, season: "2026-27", country: SUI,
+     source_url: "https://en.wikipedia.org/wiki/Women%27s_League_(Switzerland)"}
+
+teams:
+  # national teams, WCH 2026 top division
+  # instagram_handle: official account read nightly (INSTAGRAM_TEAM_ACCOUNTS); linked from sihf.ch
+  - {key: sui-women, name: "Schweiz", short_name: SUI, kind: national, country: SUI,
+     instagram_handle: swissicehockeywomen}
+  - {key: usa-women, name: "USA", short_name: USA, kind: national, country: USA}
+  - {key: cze-women, name: "Tschechien", short_name: CZE, kind: national, country: CZE}
+  - {key: ger-women, name: "Deutschland", short_name: GER, kind: national, country: GER}
+  - {key: aut-women, name: "Österreich", short_name: AUT, kind: national, country: AUT}
+  - {key: can-women, name: "Kanada", short_name: CAN, kind: national, country: CAN}
+  - {key: fin-women, name: "Finnland", short_name: FIN, kind: national, country: FIN}
+  - {key: swe-women, name: "Schweden", short_name: SWE, kind: national, country: SWE}
+  - {key: jpn-women, name: "Japan", short_name: JPN, kind: national, country: JPN}
+  - {key: den-women, name: "Dänemark", short_name: DEN, kind: national, country: DEN}
+  # Olympia 2026 only
+  - {key: fra-women, name: "Frankreich", short_name: FRA, kind: national, country: FRA}
+  - {key: ita-women, name: "Italien", short_name: ITA, kind: national, country: ITA}
+  # PostFinance Women's League 2026/27 (7 teams; Ambri-Piotta withdrew)
+  # instagram_handle: club's women's team account, read nightly (INSTAGRAM_TEAM_ACCOUNTS, 2026-10-30); the league
+  # account @postfinance_womensleague and @swissicehockeyfederation have no team of their own (posts are linked
+  # to the teams and players they name or tag)
+  - {key: evz-women, name: "EVZ Women's Team", short_name: EVZ, country: SUI, league: PFWL}
+  - {key: zsc-frauen, name: "ZSC Lions Frauen", short_name: ZSC, country: SUI, league: PFWL,
+     instagram_handle: lionsfrauen}
+  - {key: scb-frauen, name: "SC Bern Frauen", short_name: SCB, country: SUI, league: PFWL,
+     instagram_handle: scb_frauen_official}
+  - {key: hcd-ladies, name: "HC Davos Ladies", short_name: HCD, country: SUI, league: PFWL}
+  - {key: fribourg-ladies, name: "HC Fribourg-Gottéron Ladies", short_name: FRI, country: SUI, league: PFWL,
+     instagram_handle: fr_gotteron_ladies}
+  - {key: lausanne-feminin, name: "Lausanne HC Féminin", short_name: LHC, country: SUI, league: PFWL}
+  - {key: neuchatel-academy, name: "Neuchâtel Hockey Academy", short_name: NHA, country: SUI, league: PFWL}
+
+events:
+  - key: wch-2026
+    name: "IIHF Frauen-WM 2026, Herning/Esbjerg"
+    kind: tournament
+    competition: wch-2026
+    starts_at: "2026-11-06"
+    ends_at: "2026-11-16"
+    city: "Herning / Esbjerg (DEN)"
+    source_url: "https://www.iihf.com/en/events/2026/ww"
+    teams:
+      A: [usa-women, cze-women, sui-women, ger-women, aut-women]
+      B: [can-women, fin-women, swe-women, jpn-women, den-women]
+  - key: oly-2026
+    name: "Olympische Spiele 2026 Milano Cortina, Frauenturnier"
+    kind: tournament
+    competition: oly-2026
+    starts_at: "2026-02-05"
+    ends_at: "2026-02-19"
+    status: final
+    city: "Mailand (ITA)"
+    source_url: "https://en.wikipedia.org/wiki/Ice_hockey_at_the_2026_Winter_Olympics_%E2%80%93_Women%27s_tournament"
+    teams:
+      A: [can-women, cze-women, fin-women, sui-women, usa-women]
+      B: [fra-women, ger-women, ita-women, jpn-women, swe-women]
+  - key: eht-2026-lahti
+    name: "Women's Euro Hockey Tour, Lahti (Sept./Okt. 2026)"
+    kind: tournament
+    starts_at: "2026-09-28"  # start of the team camp (SIHF, 28.9.2026); tournament dates not checked
+    city: "Lahti (FIN)"
+    source_url: "https://www.sihf.ch/de/news/a-frauen/202627/frauen-nationalteam-reist-fuer-zweites-turnier-der-women-s-euro-hockey-tour-nach-lahti/"
+    teams:
+      A: [sui-women, fin-women, swe-women, cze-women]
+  - key: eht-2026-sodertalje
+    name: "Women's Euro Hockey Tour, Södertälje (28.–31.10.2026)"
+    kind: tournament
+    starts_at: "2026-10-28"
+    ends_at: "2026-10-31"
+    city: "Södertälje (SWE)"
+    source_url: "https://www.sihf.ch/de/news/a-frauen/202627/women-s-euro-hockey-tour-in-schweden-als-hauptprobe-fuer-die-wm-in-daenemark/"
+    teams:
+      A: [sui-women, fin-women, swe-women, cze-women]

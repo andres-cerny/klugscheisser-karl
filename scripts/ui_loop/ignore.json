@@ -1,0 +1,3 @@
+[
+  {"type": "failed_request", "match": "fonts\\.(googleapis|gstatic)\\.com.*ERR_ABORTED", "why": "Font-Request abgebrochen beim Seitenwechsel"}
+]

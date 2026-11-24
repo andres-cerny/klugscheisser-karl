@@ -1,0 +1,48 @@
+team: Estonia
+code: EST
+group: C
+status: provisional
+status_note: "No WFC squad announcement found on saalihoki.ee (Eesti Saalihoki Liit) as of 2026-11-24 (news IDs up to u=2397 scanned). Players below = the 20-man squad of the WFC QUALIFICATION in Liepāja (3-7 Feb 2026), where Estonia qualified. The WFC squad may differ. Official list only in IFF App."
+announced:
+  date: 2026-02-02
+  date_note: "article date not shown in fetched text; published shortly before the 3-7 Feb 2026 qualification - unverified"
+  source_url: https://www.saalihoki.ee/uudised/Uudis.aspx?u=2312
+  source_title: "Eesti saalihoki meeste koondis alustab Liepājas MM-valikturniiri (Eesti Saalihoki Liit)"
+retrieved: 2026-11-24
+squad_facts:
+  - "Qualified in Liepāja: decisive 9-3 (4-1, 3-1, 2-1) win over Spain (ERR https://sport.err.ee/1609935008/eesti-saalihokikoondis-paases-mm-finaalturniirile). Group opponents: Belgium, Italy, Czechia, Germany, Spain; top 3 qualified."
+  - "Coach Risto Lall before the qualification: no test matches at all in 2025 and preparation not ideal; several former key players absent or retired -> chance for young players (saalihoki.ee u=2312)."
+  - "Money: the federation runs a crowdfunding campaign on Minusportlane.ee, 'Eesti saalihokikoondis MMile!', target EUR 20,000, open until 13 Dec 2026, because existing support does not cover travel, accommodation and participation costs (saalihoki.ee u=2383, u=2388)."
+  - "Three Savi players in the qualification squad (Robin, Sander, Oliver); Robin Savi and Stenver Savi also played the 3v3 WFC 2026 (saalihoki.ee u=2360). Family relationship not verified."
+  - "Club blocks: Jõgeva SK Tähe (10) and Sparta Team Automaailm (8)."
+coaches:
+  source: https://www.saalihoki.ee/Uudised/Uudis.aspx?u=2296&all=1
+  head_coach: {name: Risto Lall, since: 2017, note: "head coach of the men's national team since 2017; continues in 2025/26 (saalihoki.ee u=2296)"}
+captain: {name: null}
+players:
+  # WFC qualification squad, Feb 2026 (order as published; positions not given except likely GKs unknown)
+  - {name: Robin Savi, club: Pirkkalan Pirkat, country_of_club: Finland, position: null, number: null, birth_date: null, source: saalihoki.ee-2312}
+  - {name: Sander Savi, club: Sparta Team Automaailm, position: null, number: null, birth_date: null, source: saalihoki.ee-2312}
+  - {name: Margus Rosin, club: Jõgeva SK Tähe, position: null, number: null, birth_date: null, source: saalihoki.ee-2312}
+  - {name: Lauri-Robert Indus, club: Jõgeva SK Tähe, position: null, number: null, birth_date: null, source: saalihoki.ee-2312}
+  - {name: Rasmus Randoja, club: Jõgeva SK Tähe, position: null, number: null, birth_date: null, source: saalihoki.ee-2312}
+  - {name: Markus-Lion Räitsak, club: Jõgeva SK Tähe, position: null, number: null, birth_date: null, source: saalihoki.ee-2312}
+  - {name: Oliver Savi, club: Sparta Team Automaailm, position: null, number: null, birth_date: null, source: saalihoki.ee-2312}
+  - {name: Alex Kark, club: Jõgeva SK Tähe, position: null, number: null, birth_date: null, source: saalihoki.ee-2312}
+  - {name: Rasmus Bolander, club: Huddinge IBS, country_of_club: Sweden, position: null, number: null, birth_date: null, source: saalihoki.ee-2312, notes: "1+3 in a qualification game (Facebook Saalihoki.ee, post after qualifying) - unverified"}
+  - {name: Morten Talviste, club: Sparta Team Automaailm, position: null, number: null, birth_date: null, source: saalihoki.ee-2312}
+  - {name: Karl-Erik Kruusmaa, club: Jõgeva SK Tähe, position: null, number: null, birth_date: null, source: saalihoki.ee-2312}
+  - {name: Karl-Eerik Kukk, club: Jõgeva SK Tähe, position: null, number: null, birth_date: null, source: saalihoki.ee-2312}
+  - {name: Rome-Andro Moora, club: Jõgeva SK Tähe, position: null, number: null, birth_date: null, source: saalihoki.ee-2312}
+  - {name: Leon Schweiger, club: Berlin Rockets, country_of_club: Germany, position: null, number: null, birth_date: null, source: saalihoki.ee-2312}
+  - {name: Artur Okružko, club: Jõgeva SK Tähe, position: null, number: null, birth_date: null, source: saalihoki.ee-2312}
+  - {name: Tanel Kasenurm, club: Sparta Team Automaailm, position: null, number: null, birth_date: null, source: saalihoki.ee-2312}
+  - {name: Gerdo Unga, club: Sparta Team Automaailm, position: null, number: null, birth_date: null, source: saalihoki.ee-2312}
+  - {name: Karl Oskar Vikk, club: Sparta Team Automaailm, position: null, number: null, birth_date: null, source: saalihoki.ee-2312}
+  - {name: Mathias Einamann, club: Jõgeva SK Tähe, position: null, number: null, birth_date: null, source: saalihoki.ee-2312}
+  - {name: Kristen Kurval, club: Sparta Team Automaailm, position: "goalkeeper? (goalkeeper at 3v3 WFC 2026 per saalihoki.ee u=2360) - unverified for 11v11", number: null, birth_date: null, source: saalihoki.ee-2312}
+notable:
+  - "No Estonian player at a Swiss club (qualification squad)."
+gaps:
+  - "Actual WFC squad (not announced on saalihoki.ee by 2026-11-24)."
+  - "Positions, numbers, birth dates, goalkeepers."

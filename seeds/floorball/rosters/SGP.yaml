@@ -1,0 +1,30 @@
+team: Singapore
+code: SGP
+group: C
+status: provisional
+status_note: "Singapore Floorball Association (SFA) announced the WFC squad on Instagram/Facebook on 2026-11-08 ('The squad is set'), but most names are only in the team photos. Only the 6 players 'not in picture' are named in the caption (with positions). Full list not retrieved; IFF App has the official list (login). unverified: full_list"
+announced:
+  date: 2026-11-08
+  source_url: https://www.instagram.com/p/DfdfnjMD24V/
+  source_title: "TEAM SINGAPORE | ROAD TO TAMPERE 2026 - The squad is set (Singapore Floorball Association, Instagram @singaporefloorball, with @sgmensfloorball, 2026-11-08)"
+  also: "Facebook: https://www.facebook.com/SingaporeFloorballAssociation/posts/-team-singapore-road-to-tampere-2026-the-squad-is-set-the-world-stage-awaitssing/1139558345388706/"
+retrieved: 2026-11-24
+squad_facts:
+  - "Group C: Estonia, Slovenia, Thailand, Singapore (SFA)."
+  - "SFA called the qualification 'History made' (Instagram reel https://www.instagram.com/reel/DTm2APjjCs7/) - whether it is Singapore men's FIRST ever WFC was not verified. unverified: first_wfc"
+  - "Official WFC Facebook video: 'The forecast says cold, but Team Singapore says bring it on - coming from the heat...' (https://www.facebook.com/worldfloorballchampionships/videos/the-forecast-says-cold-but-team-singapore-says-bring-it-on-coming-from-the-heat-/1823559441928720/)."
+  - "Singapore has hosted a Women's WFC (SZFB article 'V sobotu štartujú MS žien v Singapure'; year not verified here); Singapore hosts the SEA Games 2029 (Straits Times headline on the U19 men qualifying)."
+coaches: {head_coach: null}
+captain: {name: null}
+players:
+  # only the 6 'not in picture' players named in the caption; positions as abbreviated by SFA
+  - {name: Azhari Saputra, position: "centre (CNTR)", club: null, number: null, birth_date: null, source: SFA-instagram-2026-11-08}
+  - {name: Hanif Hamzah, position: "defender (DFD)", club: null, number: null, birth_date: null, source: SFA-instagram-2026-11-08}
+  - {name: Ethan Wong, position: "defender (DFD)", club: null, number: null, birth_date: null, source: SFA-instagram-2026-11-08}
+  - {name: Nicholas Chua, position: "forward (FWD)", club: null, number: null, birth_date: null, source: SFA-instagram-2026-11-08}
+  - {name: Haris Abdul, position: "defender (DFD)", club: null, number: null, birth_date: null, source: SFA-instagram-2026-11-08}
+  - {name: Joshua Loh, position: "goalkeeper (GK)", club: null, number: null, birth_date: null, source: SFA-instagram-2026-11-08}
+notable:
+  - "Swiss-club players: none known."
+gaps:
+  - "The other ~14 names (in photos only), coaches, captain, clubs, numbers, birth dates."

@@ -1,0 +1,70 @@
+team: Austria
+code: AUT
+group: null
+status: not_qualified
+announced: {date: null, source_url: null, source_title: null}
+retrieved: 2026-11-24
+qualification:
+  event: "Men's WFC 2026 European Qualification EUR3, Trenčín (Slovakia), 5-8 Feb 2026, Group E: Slovakia, Poland, France, Austria"
+  sources:
+    - {url: "https://www.floorball.at/wmqualiintrenci/", date: 2025-08-21, title: "Group E draw; format: group runner-up plays decider vs runner-up of Group D (Sweden, Denmark, Iceland, Liechtenstein)"}
+    - {url: "https://floorball.sport/these-10-european-teams-qualified-for-wfc-2026/", title: "IFF: These 10 European teams qualified for WFC 2026! (Slovakia won Group E; Denmark beat Poland 11-3 in the decider for the last spot)"}
+    - {url: "https://unihockey.ch/nationalteams/mnner-a/news/15-von-16-wm-pltzen-vergeben-28124/", title: "unihockey.ch: 15 von 16 WM-Plätzen vergeben"}
+  results:
+    - {opponent: Poland, score: "3-6", result: loss, date: null, note: "Austria led 1-0, 2-2 in 39th min (double power play), 3-4 ten minutes from time, then 3-6. Article published 2026-02-04T22:18Z.", source: "https://www.floorball.at/herren-nationalteam-unterliegt-polen-nach-packendem-duell-mit-36/"}
+    - {opponent: Slovakia, score: "3-9", result: loss, date: 2026-02-06, note: "level until the 47th minute per ÖFBV; WFC dream over; ÖFBV criticised the referees ('Fehlbesetzung', Gerold Rachlinger)", source: "https://www.floorball.at/herren-nationalteam-unterliegt-gastgeber-slowakei-mit-39-stolze-leistung-trotz-geplatztem-wm-traum/"}
+    - {opponent: France, score: "5-4", result: win, date: 2026-02-07, note: "game for 3rd place in the group; first win of the event", source: "https://www.floorball.at/befreiungsschlag-in-trencin-oesterreich-feiert-54-sieg-gegen-frankreich/"}
+    - {opponent: Liechtenstein, score: null, result: null, date: 2026-02-08, note: "game for 5th place of EUR3; ÖFBV says the end of the qualification 'did not go as wished' -> probably a loss, NOT verified", unverified: true, source: "https://www.floorball.at/abschluss-der-wm-qualifikation-in-trencin-blick-nach-vorne-richten/"}
+  group_placing: 3
+  final_placing_eur3: null   # 5th or 6th, depends on the unverified Liechtenstein result
+ranking_note: "IFF ranking 26th (per caller's brief; not re-checked). ÖFBV said before the last two games that both had to be won 'to get back into the top 20 of the world ranking' (2026-02-07)."
+coaches:
+  head_coach: {name: Lukas Pokorny, as_of: 2025-08-21, source: "https://www.floorball.at/wmqualiintrenci/", note: "current status unknown; floorball.at/nationalteam-herren shows placeholder 'XXXXX' for Head Coach (2026-11-24); after the qualification the ÖFBV announced an evaluation and a new plan with the board and Sportchef Sami Aalto (2026-02-08)"}
+  sport_director: {name: Sami Aalto, title: "Sportchef / Sportdirektor"}
+  general_secretary: Gerold Rachlinger
+captain: {name: Phillip Horn, club: WFV, as_of: 2026-02-06, source: "https://www.floorball.at/showdown-in-trencin-oesterreichs-herren-fordern-gastgeber-slowakei/"}
+latest_squad:
+  source: https://www.floorball.at/nationalteam-herren/
+  retrieved: 2026-11-24
+  note: "Current 'Kader' table on the ÖFBV page (first name, surname, club only; injured players in rehab are not listed). Not tied to a specific event. 'Kaplan Pascal' appears with first/last name swapped on the page."
+  players:
+    - {name: Mitja Beuthe, club: KAC Floorball}
+    - {name: Jonas Bürge, club: Zug United, note: "Swiss club"}
+    - {name: Elias Bürge, club: Zug United, note: "Swiss club"}
+    - {name: David Cicilla, club: UHC Linz}
+    - {name: Jonas Dopona, club: WFV}
+    - {name: Niklas Felsberger, club: KAC Floorball}
+    - {name: Sebastian Flaschberger, club: KAC Floorball}
+    - {name: Manuel Flaschberger, club: WFV}
+    - {name: Nino Forelli, club: VSV Unihockey}
+    - {name: Alain Gaffner, club: Jona-Uznach Flames, note: "Swiss club"}
+    - {name: Kilian Gassner, club: Kloten-Dietlikon Jets, note: "Swiss club"}
+    - {name: David Gredler, club: VSV Unihockey}
+    - {name: Philipp Horn, club: WFV, note: "captain in Feb 2026 (spelled 'Phillip' in the article)"}
+    - {name: Martin Krametter, club: DJK Holzbüttgen, note: "German club (same club as GER players Hofferbert, Saurbier, Häfner)"}
+    - {name: Maximilian Kuscher, club: WFV}
+    - {name: Christopher Langer, club: WFV}
+    - {name: Gabriel Lekas, club: KAC Floorball}
+    - {name: Niklas Nussbaumer, club: Kloten-Dietlikon Jets, note: "Swiss club"}
+    - {name: Maximilian Obereder, club: KAC Floorball, note: "spelled 'Maximilan' on the page"}
+    - {name: Daniel Oberhammer, club: Hot Shots Innsbruck}
+    - {name: Pascal Kaplan, club: IBK Luleå, note: "Swedish club"}
+    - {name: Jakob Rainer, club: VSV Unihockey}
+    - {name: Noah Ratzer, club: FBC Dragons}
+    - {name: Peter Scheidl, club: WFV}
+    - {name: William Schlugi, club: IBF Västerås, note: "Swedish club"}
+    - {name: Tobias Stadherr, club: Kloten-Dietlikon Jets, note: "Swiss club"}
+    - {name: Christoph Steiner, club: VSV Unihockey}
+    - {name: Thomas Unterweger, club: VSV Unihockey}
+    - {name: Noah Vallant, club: WFV}
+    - {name: Gustaf Winges, club: KAIS Mora, note: "Swedish club"}
+    - {name: Laurin Zehetner, club: WFV}
+    - {name: Timmi Taurer, club: VSV Unihockey}
+notes:
+  - "Six players at Swiss clubs: Jonas and Elias Bürge (Zug United; family relation not verified), Gaffner, Gassner, Nussbaumer, Stadherr. Three at Swedish clubs (Kaplan, Schlugi, Winges) and one at a German club (Krametter)."
+  - "Results, tables and schedules of Austrian leagues are on floorballflash.at, not floorball.at (floorball.at/llms.txt)."
+gaps:
+  - "Austria v Liechtenstein score (8 Feb 2026) and final EUR3 placing."
+  - "Exact date of the Poland game."
+  - "Current head coach (page placeholder)."
+  - "Birth dates, positions, numbers of the latest squad (not on the ÖFBV page)."

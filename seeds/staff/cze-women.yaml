@@ -1,0 +1,17 @@
+# Media manager of the Czech women's national team, with the work contact Český hokej publishes (for Fabi).
+# Loaded by klugscheisser/staff.py (load_seeds). Only contacts the federation publishes itself; never guessed.
+# The email domain is czehockey.cz as published (website: ceskyhokej.cz). Checked 01.11.2026.
+team: cze-women
+checked: "2026-11-01"
+
+sources:
+  ch_zeny: {name: "Český hokej, Sportovní oddělení – reprezentace žen", url: "https://ceskyhokej.cz/sportovni-oddeleni-reprezentace-zeny", kind: official, date: "2026-11-01"}
+
+staff:
+  - name: "Natálie Skálová"
+    role: "média manažerka ČR A-týmu žen"
+    src: ch_zeny
+    quote: "Natálie Skálová média manažerka ČR A-týmu žen, koordinace projektu Future Olympians Mobil +00 00 000 00 00"
+    email: "media@example.org"
+    phone: "+00 00 000 00 00"
+    note: "auch Koordination Projekt Future Olympians"

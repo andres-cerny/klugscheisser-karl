@@ -1,0 +1,316 @@
+# PROPOSED news feeds for v5 phase 7 — NOT loaded by the code (rss.py reads seeds/feeds.yaml only).
+# Ondřej reviews this list first. Details, robots.txt and terms per source: docs/news-sources-v5.md.
+# Every feed below returned HTTP 200 with valid RSS/Atom (items with links and dates) on 2026-10-03,
+# fetched with the project User-Agent. Extra fields vs feeds.yaml: language (ISO 639-1), country (IOC/IIHF code, as in the rest
+# of the project: SUI, GER, DEN, NED, ...).
+# source_kind: srf | public | media | boulevard | official. fetch_article: true only where robots.txt AND the
+# terms allow automated reading of article pages; otherwise teaser only.
+
+# --- Switzerland: SRG ---------------------------------------------------------------------------------
+# RTS terms: private use only. Article links carry ?rts_source=rss_t, which robots.txt disallows
+# (Disallow: /*?*rts_source=) -> strip it if article fetching is ever enabled.
+- name: RTS Sport
+  url: https://www.rts.ch/sport/hockey/?format=rss/news
+  source_kind: public
+  source_type: other_media
+  section_filter: /sport/hockey/
+  fetch_article: false
+  language: fr
+  country: SUI
+# RSI: article links are short ids (https://www.rsi.ch/s/4131468), no section in the URL; the feed is the section.
+- name: RSI Sport
+  url: https://www.rsi.ch/sport/hockey/?f=rss
+  source_kind: public
+  source_type: other_media
+  section_filter: null
+  fetch_article: false
+  language: it
+  country: SUI
+
+# --- Switzerland: regional / national newspapers ----------------------------------------------------
+# CH Media: no ice hockey sub-feed (/sport/eishockey.rss is empty) -> general sport feed.
+- name: Luzerner Zeitung
+  url: https://www.luzernerzeitung.ch/sport.rss
+  source_kind: media
+  source_type: other_media
+  section_filter: /sport/
+  fetch_article: false
+  language: de
+  country: SUI
+# Same CH Media sport desk as Luzerner Zeitung: identical items (same ld.<id>), only the host differs. Dedupe by id.
+- name: Zuger Zeitung
+  url: https://www.zugerzeitung.ch/sport.rss
+  source_kind: media
+  source_type: other_media
+  section_filter: /sport/
+  fetch_article: false
+  language: de
+  country: SUI
+# Tagblatt's sport feed also carries regional sport under /ostschweiz/..., so no section filter.
+- name: St. Galler Tagblatt
+  url: https://www.tagblatt.ch/sport.rss
+  source_kind: media
+  source_type: other_media
+  section_filter: null
+  fetch_article: false
+  language: de
+  country: SUI
+# Tamedia: /rss/bernerzeitung/sport is stale (newest item 2026-07-22), /sport/eishockey is empty -> general feed.
+- name: Berner Zeitung
+  url: https://partner-feeds.publishing.tamedia.ch/rss/bernerzeitung
+  source_kind: media
+  source_type: other_media
+  section_filter: null
+  fetch_article: false
+  language: de
+  country: SUI
+# Somedia (Südostschweiz / Bündner Tagblatt): topic feed "Eishockey". AGB forbid storage and use in AI tools.
+- name: Südostschweiz
+  url: https://www.suedostschweiz.ch/feed/thema/eishockey
+  source_kind: media
+  source_type: other_media
+  section_filter: null
+  fetch_article: false
+  language: de
+  country: SUI
+# Tamedia hockey feeds: article URLs carry no section; the host filter drops partner/ad links (e.g. carteb.ch).
+- name: 24 heures
+  url: https://partner-feeds.publishing.tamedia.ch/rss/24heures/sports/hockey
+  source_kind: media
+  source_type: other_media
+  section_filter: www.24heures.ch/
+  fetch_article: false
+  language: fr
+  country: SUI
+- name: Tribune de Genève
+  url: https://partner-feeds.publishing.tamedia.ch/rss/tdg/sports/hockey
+  source_kind: media
+  source_type: other_media
+  section_filter: www.tdg.ch/
+  fetch_article: false
+  language: fr
+  country: SUI
+- name: Le Matin
+  url: https://partner-feeds.lematin.ch/rss/lematin/sports/hockey
+  source_kind: boulevard
+  source_type: other_media
+  section_filter: /story/
+  fetch_article: false
+  language: fr
+  country: SUI
+# Le Temps: no hockey sub-feed; the sport feed has article URLs /articles/<slug> without section.
+- name: Le Temps
+  url: https://www.letemps.ch/sport.rss
+  source_kind: media
+  source_type: other_media
+  section_filter: null
+  fetch_article: false
+  language: fr
+  country: SUI
+
+# --- Ice hockey WM nations: public broadcasters -----------------------------------------------------
+# CBC (English) is missing: cbc.ca drops the connection for our User-Agent (see doc).
+- name: Radio-Canada Sports
+  url: https://ici.radio-canada.ca/info/rss/sous-theme/hockey
+  source_kind: public
+  source_type: other_media
+  section_filter: null
+  fetch_article: false
+  language: fr
+  country: CAN
+# SVT: robots.txt explicitly allows "real-time retrieval" (not AI training); no web terms forbid it.
+- name: SVT Sport
+  url: https://www.svt.se/sport/ishockey/rss.xml
+  source_kind: public
+  source_type: other_media
+  section_filter: /sport/ishockey/
+  fetch_article: true
+  language: sv
+  country: SWE
+# Yle: no ice hockey sub-feed found; article URLs are ids (yle.fi/a/74-...). RSS terms: headlines + link only.
+- name: Yle Urheilu
+  url: https://yle.fi/rss/urheilu
+  source_kind: public
+  source_type: other_media
+  section_filter: null
+  fetch_article: false
+  language: fi
+  country: FIN
+# ČT sport: all-sport feed; hockey articles live under /clanek/hokej/. Terms silent -> teaser only.
+- name: ČT sport
+  url: https://sport.ceskatelevize.cz/rss
+  source_kind: public
+  source_type: other_media
+  section_filter: /clanek/hokej/
+  fetch_article: false
+  language: cs
+  country: CZE
+# Sportschau: robots.txt legal notice allows automated access for RAG/grounding with attribution.
+# Many hockey items link to /regional/<station>/..., so no section filter.
+- name: ARD Sportschau Eishockey
+  url: https://www.sportschau.de/eishockey/index~rss2.xml
+  source_kind: public
+  source_type: other_media
+  section_filter: null
+  fetch_article: true
+  language: de
+  country: GER
+- name: ARD Sportschau Wintersport
+  url: https://www.sportschau.de/wintersport/index~rss2.xml
+  source_kind: public
+  source_type: other_media
+  section_filter: null
+  fetch_article: true
+  language: de
+  country: GER
+# ZDF: general sport feed, mostly video items on zdfheute.de; no hockey sub-feed found.
+- name: ZDF Sport
+  url: https://www.zdf.de/rss/zdf/sport
+  source_kind: public
+  source_type: other_media
+  section_filter: null
+  fetch_article: false
+  language: de
+  country: GER
+# ORF: general sport feed (sport.orf.at/stories/<id>/), free for non-commercial use; robots blocks AI bots.
+- name: ORF Sport
+  url: https://rss.orf.at/sport.xml
+  source_kind: public
+  source_type: other_media
+  section_filter: null
+  fetch_article: false
+  language: de
+  country: AUT
+- name: DR Sporten
+  url: https://www.dr.dk/nyheder/service/feeds/sporten
+  source_kind: public
+  source_type: other_media
+  section_filter: null
+  fetch_article: false
+  language: da
+  country: DEN
+# USA Hockey: federation news (label as federation, not independent). The tag 752796 = "News & Features".
+- name: USA Hockey (federation)
+  url: https://www.usahockey.com/news_rss_feed?tags=752796
+  source_kind: official
+  source_type: other_media
+  section_filter: usahockey.com/news_article/
+  fetch_article: false
+  language: en
+  country: USA
+
+# --- Downhill nations -------------------------------------------------------------------------------
+- name: RAI Sport
+  url: https://www.rainews.it/rss/sport
+  source_kind: public
+  source_type: other_media
+  section_filter: null
+  fetch_article: false
+  language: it
+  country: ITA
+- name: France Télévisions hockey
+  url: https://www.franceinfo.fr/sports/hockey-sur-glace.rss
+  source_kind: public
+  source_type: other_media
+  section_filter: null
+  fetch_article: false
+  language: fr
+  country: FRA
+- name: France Télévisions ski alpin
+  url: https://www.franceinfo.fr/sports/sports-d-hiver/ski-alpin.rss
+  source_kind: public
+  source_type: other_media
+  section_filter: null
+  fetch_article: false
+  language: fr
+  country: FRA
+# NRK: no alpine sub-feed (/sport/alpint/*.rss falls back to the general sport feed).
+- name: NRK Sport
+  url: https://www.nrk.no/sport/toppsaker.rss
+  source_kind: public
+  source_type: other_media
+  section_filter: /sport/
+  fetch_article: false
+  language: "no"
+  country: NOR
+- name: RTV Slovenija Šport
+  url: https://www.rtvslo.si/feeds/03.xml
+  source_kind: public
+  source_type: other_media
+  section_filter: /sport/
+  fetch_article: false
+  language: sl
+  country: SLO
+
+# --- Other European nations -------------------------------------------------------------------------
+# HRT "ostali sportovi" (other sports: hockey, skiing, ...). Alternative: https://feed.hrt.hr/sport/page.xml (all).
+- name: HRT Sport
+  url: https://feed.hrt.hr/sport/ostali-sportovi.xml
+  source_kind: public
+  source_type: other_media
+  section_filter: /vise-sportova/
+  fetch_article: false
+  language: hr
+  country: CRO
+# STVR: no sport feed; general news feed, sport items only recognisable by <category>Šport</category>
+# (URLs are /YYYY/MM/slug/). Needs a category filter in rss.py, or rely on the women's-hockey text filter.
+- name: STVR Šport
+  url: https://spravy.stvr.sk/feed/
+  source_kind: public
+  source_type: other_media
+  section_filter: null
+  fetch_article: false
+  language: sk
+  country: SVK
+- name: TVP Sport
+  url: https://sport.tvp.pl/rss
+  source_kind: public
+  source_type: other_media
+  section_filter: null
+  fetch_article: false
+  language: pl
+  country: POL
+- name: RTBF Sport
+  url: https://rss.rtbf.be/article/rss/highlight_rtbf_sport.xml
+  source_kind: public
+  source_type: other_media
+  section_filter: null
+  fetch_article: false
+  language: fr
+  country: BEL
+# VRT terms forbid automated "raadplegen" (consulting) of VRT online services — may cover feed polling too.
+- name: Sporza
+  url: https://sporza.be/nl.rss.xml
+  source_kind: public
+  source_type: other_media
+  section_filter: null
+  fetch_article: false
+  language: nl
+  country: BEL
+# NOS: all-sport feed; links are short redirects (nos.nl/l/<id>), no section.
+- name: NOS Sport
+  url: https://feeds.nos.nl/nossportalgemeen
+  source_kind: public
+  source_type: other_media
+  section_filter: null
+  fetch_article: false
+  language: nl
+  country: NED
+# BBC: terms say "You're not allowed to pluck metadata from our content or RSS feeds" and business use of RSS
+# needs permission. Do not enable without BBC permission, even teaser only.
+- name: BBC Sport ice hockey
+  url: https://feeds.bbci.co.uk/sport/ice-hockey/rss.xml
+  source_kind: public
+  source_type: other_media
+  section_filter: null
+  fetch_article: false
+  language: en
+  country: GBR
+- name: BBC Sport winter sports
+  url: https://feeds.bbci.co.uk/sport/winter-sports/rss.xml
+  source_kind: public
+  source_type: other_media
+  section_filter: null
+  fetch_article: false
+  language: en
+  country: GBR

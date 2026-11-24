@@ -1,0 +1,16 @@
+# Vorsicht calibration (2026-10-03): Jev jev-latest sensitivity on real stored posts, hand-labelled.
+# sensitive=true: must be flagged. Threshold chosen: 0.45 (keeps every true case, drops all false ones).
+# Re-run `klugscheisser reclassify` and update this file when the Jev model changes.
+- {p: 0.89, sensitive: true,  note: "Ryhner: injured, 7 hard months physically and mentally"}
+- {p: 0.83, sensitive: true,  note: "Lutz: closes the biggest chapter of her life (career end)"}
+- {p: 0.82, sensitive: true,  note: "Ryhner: still heartbreaking, lots of tears"}
+- {p: 0.67, sensitive: true,  note: "Quennec: interview about her retirement"}
+- {p: 0.65, sensitive: true,  note: "Quennec: farewell post"}
+- {p: 0.59, sensitive: true,  note: "National team farewell to six players"}
+- {p: 0.49, sensitive: true,  note: "Herzig: 'good luck everybody, I turn now' (unclear, flag to be safe)"}
+- {p: 0.40, sensitive: false, note: "Lutz: 'in touch but out of reach' (borderline)"}
+- {p: 0.39, sensitive: false, note: "Herzig: Swiss German exclamation"}
+- {p: 0.33, sensitive: false, note: "Zimmermann: 'Still Dreaming 🥉'"}
+- {p: 0.33, sensitive: false, note: "Zimmermann: '🤍'"}
+- {p: 0.24, sensitive: false, note: "Zimmermann: holiday post"}
+- {p: 0.22, sensitive: false, note: "Sponsor post mentioning concussions"}

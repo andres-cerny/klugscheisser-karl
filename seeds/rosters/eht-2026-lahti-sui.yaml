@@ -1,0 +1,54 @@
+# Swiss squad for the Women's Euro Hockey Tour in Lahti (SIHF, 11.9.2026), with the changes of 28.9.2026:
+# Mara Frey, Elisa Dalessi and Jael Manetsch replace Annic Büchi, Luisa Waser and Jade Surdez; Alina Marti
+# is not replaced. Staff from the SIHF roster PDF. No jersey numbers in the source.
+event: eht-2026-lahti
+team: sui-women
+list_type: confirmed
+season: "2026-27"
+source: "SIHF"
+source_url: "https://www.sihf.ch/de/news/a-frauen/202627/frauen-nationalteam-reist-fuer-zweites-turnier-der-women-s-euro-hockey-tour-nach-lahti/"
+source_date: "2026-09-11"
+players:
+  - {name: "Andrea Brändli", pos: G, club: "PWHL Detroit", country: USA}
+  - {name: "Saskia Maurer", pos: G, club: "SC Bern"}
+  - {name: "Chiara Pfosi", pos: G, club: "EV Zug"}
+  - {name: "Elena Gaberell", pos: D, club: "HC Davos Ladies"}
+  - {name: "Nina Harju", pos: D, club: "EV Zug"}
+  - {name: "Laure Mériguet", pos: D, club: "Genève-Servette"}
+  - {name: "Alena Lynn Rossel", pos: D, club: "HC Davos Ladies"}
+  - {name: "Lucie Tenenbaum", pos: D, club: "Minnesota State University", country: USA}
+  - {name: "Nicole Vallario", pos: D, club: "PWHL New York", country: USA}
+  - {name: "Stefanie Wetli", pos: D, club: "ZSC Lions"}
+  - {name: "Leoni Balzer", pos: F, club: "HC Davos Ladies"}
+  - {name: "Rahel Enzler", pos: F, club: "EV Zug"}
+  - {name: "Nora Harju", pos: F, club: "ZSC Lions"}
+  - {name: "Naemi Herzig", pos: F, club: "Holy Cross University", country: USA}
+  - {name: "Sinja Leemann", pos: F, club: "SC Bern"}
+  - {name: "Ilana Leibundgut", pos: F, club: "HC Davos Ladies"}
+  - {name: "Alina Müller", pos: F, club: "PWHL Hamilton", country: CAN}
+  - {name: "Norina Müller", pos: F, club: "HC Fribourg-Gottéron Ladies"}
+  - {name: "Lara Stalder", pos: F, club: "EV Zug"}
+  - {name: "Livia Tschannen", pos: F, club: "HC Fribourg-Gottéron Ladies"}
+  - {name: "Mara Frey"}
+  - {name: "Elisa Dalessi"}
+  - {name: "Jael Manetsch"}
+# staff: SIHF roster PDF "Women's National Team 4-Nationenturnier in Lahti / FIN, 28.09 - 04.10.2026" (checked 19.10.2026)
+staff:
+  - {name: "Shannon Miller", role: "Head Coach", source_url: "https://www.sihf.ch/media/rgzhjcky/wnt-aufgebot-weht-september-2026.pdf"}
+  - {name: "Saara Kivenmäki", role: "Assistant Coach", source_url: "https://www.sihf.ch/media/rgzhjcky/wnt-aufgebot-weht-september-2026.pdf"}
+  - {name: "Justin Krueger", role: "Assistant Coach", source_url: "https://www.sihf.ch/media/rgzhjcky/wnt-aufgebot-weht-september-2026.pdf"}
+  - {name: "Simon Theiler", role: "Goalie Coach", source_url: "https://www.sihf.ch/media/rgzhjcky/wnt-aufgebot-weht-september-2026.pdf"}
+  - {name: "Remo Egger", role: "Video Coach", source_url: "https://www.sihf.ch/media/rgzhjcky/wnt-aufgebot-weht-september-2026.pdf"}
+  - {name: "Corsin Camichel", role: "Performance Coach", source_url: "https://www.sihf.ch/media/rgzhjcky/wnt-aufgebot-weht-september-2026.pdf"}
+  - {name: "Gloria Gaiser", role: "Doctor", source_url: "https://www.sihf.ch/media/rgzhjcky/wnt-aufgebot-weht-september-2026.pdf"}
+  - {name: "Lisa Peter", role: "Physiotherapist", source_url: "https://www.sihf.ch/media/rgzhjcky/wnt-aufgebot-weht-september-2026.pdf"}
+  - {name: "Irina Amhof", role: "Physiotherapist", source_url: "https://www.sihf.ch/media/rgzhjcky/wnt-aufgebot-weht-september-2026.pdf"}
+  - {name: "Lothar Joch", role: "Equipment Manager", source_url: "https://www.sihf.ch/media/rgzhjcky/wnt-aufgebot-weht-september-2026.pdf"}
+  - {name: "Flavia Tschumi", role: "Media Manager", source_url: "https://www.sihf.ch/media/rgzhjcky/wnt-aufgebot-weht-september-2026.pdf"}
+  - {name: "Sidney Piaget", role: "Team Manager", source_url: "https://www.sihf.ch/media/rgzhjcky/wnt-aufgebot-weht-september-2026.pdf"}
+  - {name: "Melanie Häfliger", role: "Head of Women's Hockey", source_url: "https://www.sihf.ch/media/rgzhjcky/wnt-aufgebot-weht-september-2026.pdf"}
+also_called_up:
+  - {name: "Annic Büchi", pos: D}
+  - {name: "Luisa Waser", pos: F}
+  - {name: "Jade Surdez", pos: F}
+  - {name: "Alina Marti", pos: F}

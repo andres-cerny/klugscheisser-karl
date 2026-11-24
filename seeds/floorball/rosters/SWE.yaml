@@ -1,0 +1,519 @@
+team: Sweden
+code: SWE
+group: B
+status: official_squad
+announced:
+  date: '2026-11-10'
+  source_url: https://via.tt.se/pressmeddelande/4635557/har-ar-sveriges-vm-trupp-ung-hungrig-och-framatlutad?publisherId=3236077
+  source_title: 'Här är Sveriges VM-trupp: "Ung, hungrig och framåtlutad" (Svensk Innebandy press release, via.tt.se, 10.11.2026 13:41 CET)'
+  mirror_url: https://www.innebandy.se/nyheter/har-ar-sveriges-vm-trupp-ung-hungrig-och-framatlutad
+retrieved: '2026-11-24'
+coaches:
+- name: Thomas Brottman
+  role: head coach (förbundskapten)
+  source: https://www.innebandy.se/landslag/herrlandslaget/landslagsledning-herrlandslaget
+- name: Emil Lindström
+  role: assistant coach (assisterande förbundskapten)
+  source: https://www.innebandy.se/landslag/herrlandslaget/landslagsledning-herrlandslaget
+- name: Klas Skoglund
+  role: goalkeeper coach
+  source: https://www.innebandy.se/landslag/herrlandslaget/landslagsledning-herrlandslaget
+- name: Oskar Lund
+  role: stand coach / analyst (läktarcoach)
+  source: https://www.innebandy.se/landslag/herrlandslaget/landslagsledning-herrlandslaget
+- name: Sandra Ohlson
+  role: team manager
+  source: https://www.innebandy.se/landslag/herrlandslaget/landslagsledning-herrlandslaget
+- name: Rikard Johansson
+  role: physiotherapist
+  source: https://www.innebandy.se/landslag/herrlandslaget/landslagsledning-herrlandslaget
+- name: Andrea Hjelmåker
+  role: sports psychology adviser
+  source: https://www.innebandy.se/landslag/herrlandslaget/landslagsledning-herrlandslaget
+- name: Jörgen Karlsson
+  role: equipment manager
+  source: https://www.innebandy.se/landslag/herrlandslaget/landslagsledning-herrlandslaget
+captain: null
+players:
+- name: Jon Hedlund
+  birth_date: '1991-05-12'
+  position: goalkeeper
+  club: Pixbo IBK
+  club_country: SWE
+  league: SSL (Svenska Superligan)
+  league_unverified: true
+  number: null
+  caps: 68
+  goals: 0
+  assists: 3
+  points: 3
+  caps_as_of: '2026-10-01'
+  caps_source: https://www.innebandy.se/media/3wfovmb3/poa-ngliga-herr-20261001.pdf
+  wfc_debutant: false
+  profiles:
+    federation: null
+    league: null
+  notes:
+  - birth_date (and position for outfield players) from English Wikipedia 'Current roster' table dated 2023-02-02 - not a federation source, unverified
+  source: https://via.tt.se/pressmeddelande/4635557/har-ar-sveriges-vm-trupp-ung-hungrig-och-framatlutad?publisherId=3236077
+  birth_date_source: https://en.wikipedia.org/wiki/Sweden_men%27s_national_floorball_team
+  birth_date_unverified: true
+- name: Måns Parsjö
+  birth_date: null
+  position: goalkeeper
+  club: Storvreta IBK
+  club_country: SWE
+  league: SSL (Svenska Superligan)
+  league_unverified: true
+  number: null
+  caps: 64
+  goals: 0
+  assists: 0
+  points: 0
+  caps_as_of: '2026-10-01'
+  caps_source: https://www.innebandy.se/media/3wfovmb3/poa-ngliga-herr-20261001.pdf
+  wfc_debutant: false
+  profiles:
+    federation: null
+    league: null
+  notes: []
+  source: https://via.tt.se/pressmeddelande/4635557/har-ar-sveriges-vm-trupp-ung-hungrig-och-framatlutad?publisherId=3236077
+- name: Casper Backby
+  birth_date: '1997-03-27'
+  position: forward
+  club: IBK Dalen
+  club_country: SWE
+  league: SSL (Svenska Superligan)
+  league_unverified: true
+  number: null
+  caps: 58
+  goals: 12
+  assists: 20
+  points: 32
+  caps_as_of: '2026-10-01'
+  caps_source: https://www.innebandy.se/media/3wfovmb3/poa-ngliga-herr-20261001.pdf
+  wfc_debutant: false
+  profiles:
+    federation: null
+    league: null
+  notes:
+  - birth_date (and position for outfield players) from English Wikipedia 'Current roster' table dated 2023-02-02 - not a federation source, unverified
+  source: https://via.tt.se/pressmeddelande/4635557/har-ar-sveriges-vm-trupp-ung-hungrig-och-framatlutad?publisherId=3236077
+  birth_date_source: https://en.wikipedia.org/wiki/Sweden_men%27s_national_floorball_team
+  birth_date_unverified: true
+  position_source: https://en.wikipedia.org/wiki/Sweden_men%27s_national_floorball_team
+  position_unverified: true
+- name: Hugo Bertilsson
+  birth_date: null
+  position: null
+  club: Växjö IBK
+  club_country: SWE
+  league: SSL (Svenska Superligan)
+  league_unverified: true
+  number: null
+  caps: 12
+  goals: 2
+  assists: 4
+  points: 6
+  caps_as_of: '2026-10-01'
+  caps_source: https://www.innebandy.se/media/3wfovmb3/poa-ngliga-herr-20261001.pdf
+  wfc_debutant: true
+  profiles:
+    federation: null
+    league: null
+  notes:
+  - World Championship debutant (named by Svensk Innebandy as one of 8 WFC debutants vs. the 2024 squad)
+  - Announcement lists club as 'Växjö IBK'; the Finnish federation lists FIN players at 'Växjö Vipers' - check the club's current official name
+  source: https://via.tt.se/pressmeddelande/4635557/har-ar-sveriges-vm-trupp-ung-hungrig-och-framatlutad?publisherId=3236077
+- name: Filip Eriksson
+  birth_date: null
+  position: null
+  club: Storvreta IBK
+  club_country: SWE
+  league: SSL (Svenska Superligan)
+  league_unverified: true
+  number: null
+  caps: 19
+  goals: 19
+  assists: 13
+  points: 32
+  caps_as_of: '2026-10-01'
+  caps_source: https://www.innebandy.se/media/3wfovmb3/poa-ngliga-herr-20261001.pdf
+  wfc_debutant: true
+  profiles:
+    federation: null
+    league: null
+  notes:
+  - World Championship debutant (named by Svensk Innebandy as one of 8 WFC debutants vs. the 2024 squad)
+  source: https://via.tt.se/pressmeddelande/4635557/har-ar-sveriges-vm-trupp-ung-hungrig-och-framatlutad?publisherId=3236077
+- name: Emil Hallqvist Johansson
+  birth_date: null
+  position: null
+  club: IBF Falun
+  club_country: SWE
+  league: SSL (Svenska Superligan)
+  league_unverified: true
+  number: null
+  caps: 109
+  goals: 43
+  assists: 76
+  points: 119
+  caps_as_of: '2026-10-01'
+  caps_source: https://www.innebandy.se/media/3wfovmb3/poa-ngliga-herr-20261001.pdf
+  wfc_debutant: false
+  profiles:
+    federation: null
+    league: null
+  notes: []
+  source: https://via.tt.se/pressmeddelande/4635557/har-ar-sveriges-vm-trupp-ung-hungrig-och-framatlutad?publisherId=3236077
+- name: Linus Holmgren
+  birth_date: '1998-01-09'
+  position: forward
+  club: IBK Dalen
+  club_country: SWE
+  league: SSL (Svenska Superligan)
+  league_unverified: true
+  number: null
+  caps: 52
+  goals: 16
+  assists: 22
+  points: 38
+  caps_as_of: '2026-10-01'
+  caps_source: https://www.innebandy.se/media/3wfovmb3/poa-ngliga-herr-20261001.pdf
+  wfc_debutant: false
+  profiles:
+    federation: null
+    league: null
+  notes:
+  - birth_date (and position for outfield players) from English Wikipedia 'Current roster' table dated 2023-02-02 - not a federation source, unverified
+  source: https://via.tt.se/pressmeddelande/4635557/har-ar-sveriges-vm-trupp-ung-hungrig-och-framatlutad?publisherId=3236077
+  birth_date_source: https://en.wikipedia.org/wiki/Sweden_men%27s_national_floorball_team
+  birth_date_unverified: true
+  position_source: https://en.wikipedia.org/wiki/Sweden_men%27s_national_floorball_team
+  position_unverified: true
+- name: Oskar Hovlund
+  birth_date: null
+  position: null
+  club: Linköping IBK
+  club_country: SWE
+  league: SSL (Svenska Superligan)
+  league_unverified: true
+  number: null
+  caps: 27
+  goals: 11
+  assists: 6
+  points: 17
+  caps_as_of: '2026-10-01'
+  caps_source: https://www.innebandy.se/media/3wfovmb3/poa-ngliga-herr-20261001.pdf
+  wfc_debutant: true
+  profiles:
+    federation: null
+    league: null
+  notes:
+  - World Championship debutant (named by Svensk Innebandy as one of 8 WFC debutants vs. the 2024 squad)
+  source: https://via.tt.se/pressmeddelande/4635557/har-ar-sveriges-vm-trupp-ung-hungrig-och-framatlutad?publisherId=3236077
+- name: Emil Kalentun
+  birth_date: null
+  position: null
+  club: Pixbo IBK
+  club_country: SWE
+  league: SSL (Svenska Superligan)
+  league_unverified: true
+  number: null
+  caps: 20
+  goals: 1
+  assists: 3
+  points: 4
+  caps_as_of: '2026-10-01'
+  caps_source: https://www.innebandy.se/media/3wfovmb3/poa-ngliga-herr-20261001.pdf
+  wfc_debutant: true
+  profiles:
+    federation: null
+    league: null
+  notes:
+  - World Championship debutant (named by Svensk Innebandy as one of 8 WFC debutants vs. the 2024 squad)
+  source: https://via.tt.se/pressmeddelande/4635557/har-ar-sveriges-vm-trupp-ung-hungrig-och-framatlutad?publisherId=3236077
+- name: Daniel Kalentun
+  birth_date: null
+  position: null
+  club: Pixbo IBK
+  club_country: SWE
+  league: SSL (Svenska Superligan)
+  league_unverified: true
+  number: null
+  caps: 9
+  goals: 7
+  assists: 8
+  points: 15
+  caps_as_of: '2026-10-01'
+  caps_source: https://www.innebandy.se/media/3wfovmb3/poa-ngliga-herr-20261001.pdf
+  wfc_debutant: true
+  profiles:
+    federation: null
+    league: null
+  notes:
+  - World Championship debutant (named by Svensk Innebandy as one of 8 WFC debutants vs. the 2024 squad)
+  source: https://via.tt.se/pressmeddelande/4635557/har-ar-sveriges-vm-trupp-ung-hungrig-och-framatlutad?publisherId=3236077
+- name: Gabriel Kohonen
+  birth_date: null
+  position: null
+  club: Storvreta IBK
+  club_country: SWE
+  league: SSL (Svenska Superligan)
+  league_unverified: true
+  number: null
+  caps: 29
+  goals: 18
+  assists: 38
+  points: 56
+  caps_as_of: '2026-10-01'
+  caps_source: https://www.innebandy.se/media/3wfovmb3/poa-ngliga-herr-20261001.pdf
+  wfc_debutant: false
+  profiles:
+    federation: null
+    league: null
+  notes: []
+  source: https://via.tt.se/pressmeddelande/4635557/har-ar-sveriges-vm-trupp-ung-hungrig-och-framatlutad?publisherId=3236077
+- name: Oscar Magnusson
+  birth_date: null
+  position: null
+  club: Storvreta IBK
+  club_country: SWE
+  league: SSL (Svenska Superligan)
+  league_unverified: true
+  number: null
+  caps: null
+  goals: null
+  assists: null
+  points: null
+  caps_as_of: null
+  caps_source: null
+  wfc_debutant: true
+  profiles:
+    federation: null
+    league: null
+  notes:
+  - World Championship debutant (named by Svensk Innebandy as one of 8 WFC debutants vs. the 2024 squad)
+  - Not in Svensk Innebandy points list of 2026-10-01 (possibly uncapped before Oct 2026, or missing) - caps unknown
+  source: https://via.tt.se/pressmeddelande/4635557/har-ar-sveriges-vm-trupp-ung-hungrig-och-framatlutad?publisherId=3236077
+- name: Linus Malmström
+  birth_date: '1999-11-28'
+  position: forward
+  club: FBC Kalmarsund
+  club_country: SWE
+  league: SSL (Svenska Superligan)
+  league_unverified: true
+  number: null
+  caps: 34
+  goals: 26
+  assists: 18
+  points: 44
+  caps_as_of: '2026-10-01'
+  caps_source: https://www.innebandy.se/media/3wfovmb3/poa-ngliga-herr-20261001.pdf
+  wfc_debutant: false
+  profiles:
+    federation: null
+    league: null
+  notes:
+  - birth_date (and position for outfield players) from English Wikipedia 'Current roster' table dated 2023-02-02 - not a federation source, unverified
+  source: https://via.tt.se/pressmeddelande/4635557/har-ar-sveriges-vm-trupp-ung-hungrig-och-framatlutad?publisherId=3236077
+  birth_date_source: https://en.wikipedia.org/wiki/Sweden_men%27s_national_floorball_team
+  birth_date_unverified: true
+  position_source: https://en.wikipedia.org/wiki/Sweden_men%27s_national_floorball_team
+  position_unverified: true
+- name: Malte Lundmark
+  birth_date: '2001-03-28'
+  position: forward
+  club: IBF Falun
+  club_country: SWE
+  league: SSL (Svenska Superligan)
+  league_unverified: true
+  number: null
+  caps: 47
+  goals: 35
+  assists: 33
+  points: 68
+  caps_as_of: '2026-10-01'
+  caps_source: https://www.innebandy.se/media/3wfovmb3/poa-ngliga-herr-20261001.pdf
+  wfc_debutant: false
+  profiles:
+    federation: null
+    league: null
+  notes:
+  - birth_date (and position for outfield players) from English Wikipedia 'Current roster' table dated 2023-02-02 - not a federation source, unverified
+  source: https://via.tt.se/pressmeddelande/4635557/har-ar-sveriges-vm-trupp-ung-hungrig-och-framatlutad?publisherId=3236077
+  birth_date_source: https://en.wikipedia.org/wiki/Sweden_men%27s_national_floorball_team
+  birth_date_unverified: true
+  position_source: https://en.wikipedia.org/wiki/Sweden_men%27s_national_floorball_team
+  position_unverified: true
+- name: Hampus Nydenfeldt
+  birth_date: null
+  position: null
+  club: Storvreta IBK
+  club_country: SWE
+  league: SSL (Svenska Superligan)
+  league_unverified: true
+  number: null
+  caps: null
+  goals: null
+  assists: null
+  points: null
+  caps_as_of: null
+  caps_source: null
+  wfc_debutant: true
+  profiles:
+    federation: null
+    league: null
+  notes:
+  - World Championship debutant (named by Svensk Innebandy as one of 8 WFC debutants vs. the 2024 squad)
+  - Not in Svensk Innebandy points list of 2026-10-01 (possibly uncapped before Oct 2026, or missing) - caps unknown
+  source: https://via.tt.se/pressmeddelande/4635557/har-ar-sveriges-vm-trupp-ung-hungrig-och-framatlutad?publisherId=3236077
+- name: Niklas Ramirez
+  birth_date: '1995-04-09'
+  position: forward
+  club: Zug United
+  club_country: SUI
+  league: Unihockey Prime League (L-UPL)
+  league_unverified: true
+  number: null
+  caps: 49
+  goals: 7
+  assists: 8
+  points: 15
+  caps_as_of: '2026-10-01'
+  caps_source: https://www.innebandy.se/media/3wfovmb3/poa-ngliga-herr-20261001.pdf
+  wfc_debutant: false
+  profiles:
+    federation: null
+    league: null
+  notes:
+  - 'Swiss connection: plays for a Swiss club'
+  - birth_date (and position for outfield players) from English Wikipedia 'Current roster' table dated 2023-02-02 - not a federation source, unverified
+  source: https://via.tt.se/pressmeddelande/4635557/har-ar-sveriges-vm-trupp-ung-hungrig-och-framatlutad?publisherId=3236077
+  birth_date_source: https://en.wikipedia.org/wiki/Sweden_men%27s_national_floorball_team
+  birth_date_unverified: true
+  position_source: https://en.wikipedia.org/wiki/Sweden_men%27s_national_floorball_team
+  position_unverified: true
+- name: Albin Sjögren
+  birth_date: '1994-11-18'
+  position: forward
+  club: Zug United
+  club_country: SUI
+  league: Unihockey Prime League (L-UPL)
+  league_unverified: true
+  number: null
+  caps: 105
+  goals: 95
+  assists: 73
+  points: 168
+  caps_as_of: '2026-10-01'
+  caps_source: https://www.innebandy.se/media/3wfovmb3/poa-ngliga-herr-20261001.pdf
+  wfc_debutant: false
+  profiles:
+    federation: null
+    league: null
+  notes:
+  - 'Swiss connection: plays for a Swiss club'
+  - birth_date (and position for outfield players) from English Wikipedia 'Current roster' table dated 2023-02-02 - not a federation source, unverified
+  source: https://via.tt.se/pressmeddelande/4635557/har-ar-sveriges-vm-trupp-ung-hungrig-och-framatlutad?publisherId=3236077
+  birth_date_source: https://en.wikipedia.org/wiki/Sweden_men%27s_national_floorball_team
+  birth_date_unverified: true
+  position_source: https://en.wikipedia.org/wiki/Sweden_men%27s_national_floorball_team
+  position_unverified: true
+- name: Sakarias Ulriksson
+  birth_date: null
+  position: null
+  club: Storvreta IBK
+  club_country: SWE
+  league: SSL (Svenska Superligan)
+  league_unverified: true
+  number: null
+  caps: 32
+  goals: 45
+  assists: 8
+  points: 53
+  caps_as_of: '2026-10-01'
+  caps_source: https://www.innebandy.se/media/3wfovmb3/poa-ngliga-herr-20261001.pdf
+  wfc_debutant: false
+  profiles:
+    federation: null
+    league: null
+  notes: []
+  source: https://via.tt.se/pressmeddelande/4635557/har-ar-sveriges-vm-trupp-ung-hungrig-och-framatlutad?publisherId=3236077
+- name: Oskar Weissbach
+  birth_date: null
+  position: null
+  club: HC Rychenberg Winterthur
+  club_country: SUI
+  league: Unihockey Prime League (L-UPL)
+  league_unverified: true
+  number: null
+  caps: 33
+  goals: 24
+  assists: 19
+  points: 43
+  caps_as_of: '2026-10-01'
+  caps_source: https://www.innebandy.se/media/3wfovmb3/poa-ngliga-herr-20261001.pdf
+  wfc_debutant: false
+  profiles:
+    federation: null
+    league: null
+  notes:
+  - 'Swiss connection: plays for a Swiss club'
+  - Club listed in announcement as 'HC Rychenberg (Schweiz)'; 'Winterthur' added for clarity
+  source: https://via.tt.se/pressmeddelande/4635557/har-ar-sveriges-vm-trupp-ung-hungrig-och-framatlutad?publisherId=3236077
+- name: Filip Wramdemark
+  birth_date: null
+  position: null
+  club: Pixbo IBK
+  club_country: SWE
+  league: SSL (Svenska Superligan)
+  league_unverified: true
+  number: null
+  caps: 20
+  goals: 7
+  assists: 7
+  points: 14
+  caps_as_of: '2026-10-01'
+  caps_source: https://www.innebandy.se/media/3wfovmb3/poa-ngliga-herr-20261001.pdf
+  wfc_debutant: true
+  profiles:
+    federation: null
+    league: null
+  notes:
+  - World Championship debutant (named by Svensk Innebandy as one of 8 WFC debutants vs. the 2024 squad)
+  source: https://via.tt.se/pressmeddelande/4635557/har-ar-sveriges-vm-trupp-ung-hungrig-och-framatlutad?publisherId=3236077
+schedule_group_stage:
+- date: '2026-12-05'
+  match: Slovakia - Sweden
+  time_local_source: '14:00'
+- date: '2026-12-07'
+  match: Sweden - Czechia
+  time_local_source: '19:00'
+- date: '2026-12-08'
+  match: Sweden - Germany
+  time_local_source: '17:00'
+schedule_source: https://www.innebandy.se/evenemang/vm-2026-i-tammerfors
+notes:
+- 20 players (18 outfield + 2 goalkeepers), named by head coach Thomas Brottman on 2026-11-10 (press conference announced for 2026-11-06 page 'Se VM-truppen presenteras').
+- '8 WFC debutants: Filip Wramdemark, Hampus Nydenfeldt, Oskar Hovlund, Oscar Magnusson, Emil Kalentun, Hugo Bertilsson, Filip Eriksson, Daniel Kalentun (source: announcement).'
+- Storvreta IBK is the most represented club (6 players); Pixbo IBK 4; 3 players at Swiss clubs (announcement).
+- 'Swiss connections: Niklas Ramirez and Albin Sjögren (Zug United), Oskar Weissbach (HC Rychenberg Winterthur).'
+- 'Brottman''s quote: ''Det är en ung, hungrig och framåtlutad trupp, men ändå en trupp med rutin.'' Aim: win back gold after losing the 2024 home final in Malmö (to Finland).'
+- Squad is identical to the Euro Floorball Tour squad of 2026-08-24 minus Emil Ruud (IBF Falun) and Benjamin Schill (Pixbo IBK) (https://via.tt.se/pressmeddelande/4510222/har-ar-herrlandslagets-trupp-till-euro-floorball-tour-ska-bli-lite-krispigare?publisherId=3236077).
+- Caps/goals/assists/points from Svensk Innebandy all-time men's points list PDF dated 2026-10-01 (does not include October/November 2026 internationals).
+- No late changes / injury replacements found as of 2026-11-24 (one web search only).
+- innebandy.se event page says the WFC is shared between Tampere and Turku (group games in Hakametsä and Kauppi Sports Center, medal games in Nokia Arena); schedule times as printed there (likely Swedish
+  time, unverified).
+- 'Albin Sjögren tops this squad in national-team scoring: 105 caps, 95 goals, 73 assists, 168 points (Svensk Innebandy points list as of 2026-10-01); Emil Hallqvist Johansson has the most caps in the squad
+  (109).'
+- 'Per the Finnish federation, Sweden beat Finland 8-2 at the Euro Floorball Tour in September 2026, then lost 2-8 to Finland in Kokkola on 2026-10-18 (Niklas Ramirez scored Sweden''s opener after 37 seconds,
+  assist Oscar Magnusson; Sweden goalkeeper Rasmus Ekström, not in the WFC squad). Source: https://www.sttinfo.fi/tiedote/72420389/salibandymiehet-komeaan-voittoon-ruotsista-kokkolan-mm-kenraalissa?lang=fi'
+gaps:
+- position for 11 outfield players (7 more only from 2023 Wikipedia table, unverified); statistik.innebandy.se timed out twice (2026-11-24)
+- birth_date for 13 players (7 from 2023 Wikipedia table, unverified)
+- shirt numbers
+- captain (not stated in announcement)
+- caps for Oscar Magnusson and Hampus Nydenfeldt (not in 2026-10-01 points list)
+- 'league field is from general knowledge, not checked against 2026/27 league tables (league_unverified: true)'
+- federation/league profile URLs

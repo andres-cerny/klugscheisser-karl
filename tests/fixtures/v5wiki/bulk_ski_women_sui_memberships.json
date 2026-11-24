@@ -1,0 +1,15 @@
+{
+ "head": {
+  "vars": [
+   "p",
+   "team",
+   "teamLabel",
+   "start",
+   "end",
+   "country"
+  ]
+ },
+ "results": {
+  "bindings": []
+ }
+}

@@ -1,0 +1,61 @@
+# Tre Kronor dam (Damkronorna): official squad for the 2026 IIHF Women's World Championship (24 players: 3 G, 7 D,
+# 14 F), Svenska Ishockeyförbundet, swehockey.se 20.10.2026 ("Här är Tre Kronor dams lag till Lidl Hockey Games och
+# VM": "Vi har landat i att det är de här 24 spelarna som ska göra det för oss, med start i Södertälje och sedan hela
+# vägen genom VM i Danmark"). Numbers and clubs as printed there. Two typos of the source corrected (same players as
+# on the earlier lists): "Josefine Holngren" = Josefine Holmgren, "Lisa Ljungblom" = Lina Ljungblom.
+event: wch-2026
+team: swe-women
+list_type: confirmed
+season: "2026-27"
+source: "Svenska Ishockeyförbundet, offizieller WM-Kader (20.10.2026)"
+source_url: "https://www.swehockey.se/toppnyheter/haer-aer-tre-kronor-dams-lag-till-lidl-hockey-games-och-vm/"
+source_date: "2026-10-20"
+# club_text: club as written in the source (shown in answers, not linked to a club team)
+players:
+  - {name: "Ebba Svensson Träff", pos: G, club_text: "Linköping HC", number: 1}
+  - {name: "Emma Söderberg", pos: G, club_text: "SDE HF", number: 30}
+  - {name: "Ida Boman", pos: G, club_text: "Färjestad BK", number: 31}
+  - {name: "Mira Jungåker", pos: D, club_text: "Ohio State University", number: 7}
+  - {name: "Maja Nylén-Persson", pos: D, club_text: "New York Sirens", number: 12}
+  - {name: "Ida Karlsson", pos: D, club_text: "University of Minnesota-Duluth", number: 14}
+  - {name: "Lova Blom", pos: D, club_text: "Brynäs IF", number: 21}
+  - {name: "Josefine Holmgren", pos: D, club_text: "SDE HF", number: 37}
+  - {name: "Jenna Raunio", pos: D, club_text: "Ohio State University", number: 55}
+  - {name: "Anna Kjellbin", pos: D, club_text: "PWHL Hamilton", number: 71}
+  - {name: "Hilda Svensson", pos: F, club_text: "Ohio State University", number: 8}
+  - {name: "Josefin Bouveng", pos: F, club_text: "PWHL Las Vegas", number: 11}
+  - {name: "Wilma Sundin", pos: F, club_text: "Brynäs IF", number: 13}
+  - {name: "Lisa Johansson", pos: F, club_text: "Frölunda HC", number: 15}
+  - {name: "Tilde Grillfors", pos: F, club_text: "Brynäs IF", number: 16}
+  - {name: "Sofie Lundin", pos: F, club_text: "Frölunda HC", number: 17}
+  - {name: "Sara Hjalmarsson", pos: F, club_text: "Toronto Sceptres", number: 19}
+  - {name: "Hanna Thuvik", pos: F, club_text: "Brynäs IF", number: 22}
+  - {name: "Thea Johansson", pos: F, club_text: "HV71", number: 23}
+  - {name: "Ebba Hedqvist", pos: F, club_text: "Luleå HF", number: 24}
+  - {name: "Lina Ljungblom", pos: F, club_text: "Montréal Victorie", number: 25}
+  - {name: "Mira Hallin", pos: F, club_text: "MoDo Hockey", number: 34}
+  - {name: "Michelle Löwenhielm", pos: F, club_text: "Linköping HC", number: 67}
+  - {name: "Nicole Hall", pos: F, club_text: "Penn State University", number: 89}
+# staff: "Team Management" of the roster PDF attached to the press release (sweden-women_roster_september_no1.pdf, 17.09.26)
+staff:
+  - {name: "Maria Swärdsudd", role: "Team Manager", source_url: "https://via.tt.se/files/2133149/4556045/428969/sv"}
+  - {name: "Erika Holst", role: "Head Coach", source_url: "https://via.tt.se/files/2133149/4556045/428969/sv"}
+  - {name: "Johan Andersson", role: "Assistant Coach", source_url: "https://via.tt.se/files/2133149/4556045/428969/sv"}
+  - {name: "Pernilla Winberg", role: "Assistant Coach", source_url: "https://via.tt.se/files/2133149/4556045/428969/sv"}
+  - {name: "Magnus Helin", role: "Goalie Coach", source_url: "https://via.tt.se/files/2133149/4556045/428969/sv"}
+  - {name: "Malte Jakobsson", role: "Video Coach", source_url: "https://via.tt.se/files/2133149/4556045/428969/sv"}
+  - {name: "Susanne Pettersson", role: "Senior Advisor", source_url: "https://via.tt.se/files/2133149/4556045/428969/sv"}
+  - {name: "Wille Ahnberg", role: "Doctor", source_url: "https://via.tt.se/files/2133149/4556045/428969/sv"}
+  - {name: "Sandra Mangsbo", role: "Physiotherapist", source_url: "https://via.tt.se/files/2133149/4556045/428969/sv"}
+  - {name: "Carolina Koskinen", role: "Physiotherapist", source_url: "https://via.tt.se/files/2133149/4556045/428969/sv"}
+  - {name: "Johan Gustafsson", role: "Equipment Manager", source_url: "https://via.tt.se/files/2133149/4556045/428969/sv"}
+  - {name: "Fredrik Abrahamsson", role: "Equipment Manager", source_url: "https://via.tt.se/files/2133149/4556045/428969/sv"}
+# on the WEHT Lahti list (21.09.2026) but not on the WCh squad
+also_called_up:
+  - {name: "Lisa Jönsson", pos: G}
+  - {name: "Linnéa Andersson", pos: D}
+  - {name: "Jessica Adolfsson", pos: D}
+  - {name: "Ella Sköldebäck", pos: D}
+  - {name: "Ella Hellman", pos: F}
+  - {name: "Jenny Antonsson", pos: F}
+absent: []

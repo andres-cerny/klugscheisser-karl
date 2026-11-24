@@ -1,0 +1,54 @@
+# Staff of the Swiss women's national team, with the coaching change Colin Muller → Shannon Miller.
+# Loaded by klugscheisser/staff.py (load_seeds, also part of `klugscheisser seed`). Every line names its source
+# ("src") and, where the source has a sentence about it, a verbatim quote. since/until: ISO date of the precision
+# the source gives ("2019", "2026-08", "2026-04-25"). Checked 19.10.2026.
+# Event rosters (who travels to a tournament) are in seeds/rosters/*.yaml (staff: blocks from the SIHF roster PDFs).
+team: sui-women
+checked: "2026-10-19"
+
+sources:
+  sihf_team: {name: "SIHF, Women's National Team (Teamseite)", url: "https://www.sihf.ch/de/nationalteams/womens-national-team/", kind: official, date: "2026-10-19"}
+  sda_miller: {name: "Keystone-SDA (Südostschweiz), 10.07.2026", url: "https://www.suedostschweiz.ch/schweiz-und-welt/shannon-miller-wird-trainerin-der-schweizer-eishockeyanerinnen-2-2085262", kind: media, date: "2026-07-10"}
+  sihf_tschumi: {name: "SIHF, Geschäftsstelle: Flavia Tschumi", url: "https://www.sihf.ch/de/verband/organisation/geschaeftsstelle/flavia-tschumi/", kind: official, date: "2026-11-01"}
+  sda_muller: {name: "blue News (Keystone-SDA), 25.04.2026", url: "https://www.bluewin.ch/en/swiss-women-lose-last-game-with-colin-muller-li.3205269", kind: media, date: "2026-04-25"}
+
+staff:
+  # head coach: the change
+  - name: "Shannon Miller"
+    role: "Head Coach"
+    since: "2026-08"
+    note: "Vertrag bis Sommer 2029; Nachfolgerin von Colin Muller"
+    src: sda_miller
+    quote: "Wie der Verband am Freitag mitteilt, unterschreibt die ehemalige kanadische Nationaltrainerin einen bis im Sommer 2029 gültigen Vertrag – ihr Amt tritt sie Anfang August an. Miller folgt bei den Eishockeyanerinnen auf Colin Muller, der eine Vertragsverlängerung nach dem Gewinn der Bronzemedaille an den diesjährigen Olympischen Spielen im Februar ausschloss."
+  - name: "Colin Muller"
+    role: "Head coach"
+    since: "2019"
+    until: "2026-04-25"
+    note: "letztes Spiel 25.04.2026 in Augsburg gegen Deutschland (3:5); zuvor Assistent"
+    src: sda_muller
+    quote: "Colin Muller's almost seven-year tenure as head coach of the Swiss women's national team ends with a defeat"
+  # current staff as listed on the SIHF team page (Management, Coaching Staff, Medical Staff, Other Staff)
+  - {name: "Melanie Häfliger", role: "Head of Women's Hockey", src: sihf_team, quote: "Management Melanie Häfliger Head of Women’s Hockey"}
+  - {name: "Saara Kivenmäki", role: "Assistant Coach", src: sihf_team, quote: "Saara Kivenmäki Assistant Coach"}
+  - {name: "Justin Krueger", role: "Assistant Coach", src: sihf_team, quote: "Justin Krueger Assistant Coach"}
+  - {name: "Simon Theiler", role: "Goalie Coach", src: sihf_team, quote: "Simon Theiler Goalie Coach"}
+  - {name: "Remo Egger", role: "Video Coach", src: sihf_team, quote: "Remo Egger Video Coach"}
+  - {name: "Corsin Camichel", role: "Performance Coach", src: sihf_team, quote: "Corsin Camichel Performance Coach"}
+  - {name: "Lukas Weisskopf", role: "Doktor", src: sihf_team, quote: "Lukas Weisskopf Doktor"}
+  - {name: "Judith Bering", role: "Doktorin", src: sihf_team, quote: "Judith Bering Doktorin"}
+  - {name: "Gloria Gaiser", role: "Doktorin", src: sihf_team, quote: "Gloria Gaiser Doktorin"}
+  - {name: "Christine Krauss", role: "Doktorin", src: sihf_team, quote: "Christine Krauss Doktorin"}
+  - {name: "Irina Amhof", role: "Physiotherapeutin", src: sihf_team, quote: "Irina Amhof Physiotherapeutin"}
+  - {name: "Lisa Peter", role: "Physiotherapeutin", src: sihf_team, quote: "Lisa Peter Physiotherapeutin"}
+  - {name: "Lothar Joch", role: "Equipment Manager", src: sihf_team, quote: "Lothar Joch Equipment Manager"}
+  - {name: "Michael Kehl", role: "Equipment Manager", src: sihf_team, quote: "Michael Kehl Equipment Manager"}
+  - {name: "Sidney Piaget", role: "Team Manager", src: sihf_team, quote: "Sidney Piaget Team Manager"}
+  # 2026-11-01: work contact for Fabi as published on her SIHF staff page (phone = SIHF switchboard)
+  - name: "Flavia Tschumi"
+    role: "Media Manager / Digital Content Producer"
+    src: sihf_team
+    quote: "Flavia Tschumi Media Manager / Digital Content Producer"
+    email: "media@example.org"
+    phone: "+00 00 000 00 00"
+    note: "Tel. = SIHF-Zentrale"
+    contact_src: sihf_tschumi

@@ -1,0 +1,19 @@
+# Media manager of the German women's national team, with the work contact the DEB publishes (for Fabi).
+# Loaded by klugscheisser/staff.py (load_seeds). Coaching staff come from the roster seeds / roster watcher.
+# Only contacts the federation publishes itself; never guessed. Checked 01.11.2026.
+team: ger-women
+checked: "2026-11-01"
+
+sources:
+  deb_team: {name: "DEB, Frauen-Nationalmannschaft (Teamseite)", url: "https://www.deb-online.de/frauen-nationalmannschaft/", kind: official, date: "2026-11-01"}
+  deb_kontakt: {name: "DEB, Ansprechpartner", url: "https://www.deb-online.de/ansprechpartner/", kind: official, date: "2026-11-01"}
+
+staff:
+  - name: "Myriam Wetter"
+    role: "Media Managerin"
+    src: deb_team
+    quote: "Myriam Wetter … Media Managerin"
+    email: "media@example.org"
+    phone: "+00 00 000 00 00 – 33"
+    note: "auf der DEB-Kontaktseite «Managerin Digitale Medien»"
+    contact_src: deb_kontakt

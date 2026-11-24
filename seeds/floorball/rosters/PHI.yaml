@@ -1,0 +1,21 @@
+team: Philippines
+code: PHI
+group: D
+status: not_found
+status_note: "The Philippine men's team posted 'The official squad for the World Floorball Championships 2026!' on Instagram (@phi_mnt with @phi_floorball) on 2026-11-08, but the names are only in the 3 image slides (not readable here). A Sports Corner PH Facebook post 'PH Men's Floorball Team - Men's World Floorball Championships December 5-13, 2026 Tampere' also exists (Facebook not scrapable). Official list: IFF App (login)."
+announced:
+  date: 2026-11-08
+  source_url: https://www.instagram.com/p/Dfemag5jTbr/
+  source_title: "The official squad for the World Floorball Championships 2026! (PHI Men's National Team - Floorball, Instagram @phi_mnt, 2026-11-08) - names in images only"
+  also: "https://www.facebook.com/sportscornerph/posts/ph-mens-floorball-team-mens-world-floorball-championships-december-5-13-2026tamp/1792584939544007/"
+retrieved: 2026-11-24
+squad_facts:
+  - "Qualified at the Asia-Oceania regional qualification in Wellington, New Zealand (Akau Tangi Sports Centre, 13-19 Jan 2026), securing one of four WFC slots. Ten teams: Japan, Thailand, Solomon Islands, Australia, Singapore, China, Philippines, Hong Kong (China), Korea, New Zealand (Philippine Embassy NZ press release 2026-01-21 https://philembassy.org.nz/news-and-info/press-release/philippine-embassy-extends-support-to-philippine-men-floorball-team-in-asia-oceania-qualifiers)."
+  - "The Philippine Embassy hosted a meet-and-greet for the team; Consul General Christopher Patrick Aro met the players; strong support from the Filipino community in Wellington (same press release; it says '14 January 2025', obviously meaning 2026)."
+  - "Group D: Denmark, Japan, Canada, Philippines. Canada's opener is v Philippines on 6 Dec (10:00 EST per Floorball Canada)."
+coaches: {head_coach: null}
+captain: {name: null}
+players: []
+notable: []
+gaps:
+  - "Entire squad (image only), coaches, clubs."

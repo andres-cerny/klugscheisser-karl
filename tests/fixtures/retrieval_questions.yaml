@@ -1,0 +1,21 @@
+# Labelled retrieval set: question -> URLs that must appear in the top 3 (fixture data only).
+- q: "Wechsel von Andrea Brändli nach Detroit"
+  expect: ["https://www.instagram.com/p/DcB4G44s6jK/", "https://www.instagram.com/p/DcBYRfmkTQ6/"]
+- q: "Mundschutz Alphabite Lara Stalder"
+  expect: ["https://www.instagram.com/p/Dcne2sTIruz/", "https://www.instagram.com/p/DcToTXSIFBL/"]
+- q: "Kreuzband Verletzung Saison vorbei"
+  expect: ["https://www.instagram.com/p/SYN1/"]
+- q: "Captains Team für die neue Saison EVZ"
+  expect: ["https://www.instagram.com/p/DcBRBsYIP8n/"]
+- q: "Saison Highlights Punkte Tore Assists Stalder"
+  expect: ["https://www.instagram.com/p/DdKGSinjFmE/"]
+- q: "Prognosen für den ersten Spieltag"
+  expect: ["https://www.instagram.com/p/DdLe31RsiLj/"]
+- q: "Sieg zum Saisonstart mit zwei Toren"
+  expect: ["https://www.instagram.com/p/SYN2/"]
+- q: "Schläger Rabattcode Werbung"
+  expect: ["https://www.instagram.com/p/SYN3/"]
+- q: "Olympia Bronze Milano Cortina Epilog"
+  expect: ["https://www.instagram.com/p/DVOUUBwjLm1/"]
+- q: "Schweizerinnen gewinnen gegen Tschechien Euro Hockey Tour"
+  expect: ["https://www.srf.ch/sport/eishockey/frauen-eishockey/test-beispiel-trifft-doppelt"]

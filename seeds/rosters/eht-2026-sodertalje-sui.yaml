@@ -1,0 +1,55 @@
+# Swiss squad for the Women's Euro Hockey Tour in Södertälje, 28.-31.10.2026 (SIHF, 13.10.2026): 3 G, 10 D, 15 F.
+# After the tournament the squad is cut by three players (SIHF). Saskia Maurer: "SC Bern / PWHL Las Vegas" in the
+# source (drafted by the PWHL, see SIHF); stored with SC Bern as in the Lahti list. Staff from the SIHF roster PDF. No jersey numbers in the source.
+# 26.10.2026 (SIHF "Roster-Update"): captain Lara Stalder out (knee injury, misses the WEHT and the WCh); Elisa
+# Dalessi (HC Davos Ladies) called up for her.
+event: eht-2026-sodertalje
+team: sui-women
+list_type: confirmed
+season: "2026-27"
+source: "SIHF"
+source_url: "https://www.sihf.ch/de/news/a-frauen/202627/women-s-euro-hockey-tour-in-schweden-als-hauptprobe-fuer-die-wm-in-daenemark/"
+source_date: "2026-10-13"
+players:
+  - {name: "Andrea Brändli", pos: G, club: "PWHL Detroit", country: USA}
+  - {name: "Saskia Maurer", pos: G, club: "SC Bern"}
+  - {name: "Chiara Pfosi", pos: G, club: "EV Zug"}
+  - {name: "Alizée Aymon", pos: D, club: "SC Bern"}
+  - {name: "Alessia Baechler", pos: D, club: "Northeastern University", country: USA}
+  - {name: "Mara Frey", pos: D, club: "EV Zug"}
+  - {name: "Elena Gaberell", pos: D, club: "HC Davos Ladies"}
+  - {name: "Nina Harju", pos: D, club: "EV Zug"}
+  - {name: "Laure Mériguet", pos: D, club: "Genève-Servette HC"}
+  - {name: "Alena Lynn Rossel", pos: D, club: "HC Davos Ladies"}
+  - {name: "Lucie Tenenbaum", pos: D, club: "Minnesota State University", country: USA}
+  - {name: "Nicole Vallario", pos: D, club: "PWHL New York", country: USA}
+  - {name: "Stefanie Wetli", pos: D, club: "ZSC Lions"}
+  - {name: "Leoni Balzer", pos: F, club: "HC Davos Ladies"}
+  - {name: "Elisa Dalessi", pos: F, club: "HC Davos Ladies"}  # called up 26.10.2026 for Lara Stalder
+  - {name: "Rahel Enzler", pos: F, club: "EV Zug"}
+  - {name: "Nora Harju", pos: F, club: "ZSC Lions"}
+  - {name: "Naemi Herzig", pos: F, club: "Holy Cross University", country: USA}
+  - {name: "Sinja Leemann", pos: F, club: "SC Bern"}
+  - {name: "Ilana Leibundgut", pos: F, club: "HC Davos Ladies"}
+  - {name: "Jael Manetsch", pos: F, club: "EV Zug"}
+  - {name: "Alina Marti", pos: F, club: "EV Zug"}
+  - {name: "Alina Müller", pos: F, club: "PWHL Hamilton", country: CAN}
+  - {name: "Norina Müller", pos: F, club: "HC Fribourg-Gottéron Ladies"}
+  - {name: "Jade Surdez", pos: F, club: "Lausanne HC"}
+  - {name: "Luisa Waser", pos: F, club: "EV Zug"}
+  - {name: "Ivana Wey", pos: F, club: "Northeastern University", country: USA}
+  - {name: "Laura Zimmermann", pos: F, club: "St. Cloud University", country: USA}
+# staff: SIHF roster PDF "Roster Women's National Team, 4-Nations Tournament, 28. - 31.10.2026" (checked 19.10.2026)
+staff:
+  - {name: "Shannon Miller", role: "Head Coach", source_url: "https://www.sihf.ch/media/ygpedu2y/wnt-roster-oktober-2026.pdf"}
+  - {name: "Saara Kivenmäki", role: "Assistant Coach", source_url: "https://www.sihf.ch/media/ygpedu2y/wnt-roster-oktober-2026.pdf"}
+  - {name: "Justin Krueger", role: "Assistant Coach", source_url: "https://www.sihf.ch/media/ygpedu2y/wnt-roster-oktober-2026.pdf"}
+  - {name: "Simon Theiler", role: "Goalie Coach", source_url: "https://www.sihf.ch/media/ygpedu2y/wnt-roster-oktober-2026.pdf"}
+  - {name: "Remo Egger", role: "Video Coach", source_url: "https://www.sihf.ch/media/ygpedu2y/wnt-roster-oktober-2026.pdf"}
+  - {name: "Corsin Camichel", role: "Performance Coach", source_url: "https://www.sihf.ch/media/ygpedu2y/wnt-roster-oktober-2026.pdf"}
+  - {name: "Henrik Ulke", role: "Doctor", source_url: "https://www.sihf.ch/media/ygpedu2y/wnt-roster-oktober-2026.pdf"}
+  - {name: "Lisa Peter", role: "Physiotherapist", source_url: "https://www.sihf.ch/media/ygpedu2y/wnt-roster-oktober-2026.pdf"}
+  - {name: "Sarah Gscheidle", role: "Physiotherapist", source_url: "https://www.sihf.ch/media/ygpedu2y/wnt-roster-oktober-2026.pdf"}
+  - {name: "Lothar Joch", role: "Equipment Manager", source_url: "https://www.sihf.ch/media/ygpedu2y/wnt-roster-oktober-2026.pdf"}
+  - {name: "Sidney Piaget", role: "Team Manager", source_url: "https://www.sihf.ch/media/ygpedu2y/wnt-roster-oktober-2026.pdf"}
+  - {name: "Melanie Häfliger", role: "Head of Women's Hockey", source_url: "https://www.sihf.ch/media/ygpedu2y/wnt-roster-oktober-2026.pdf"}

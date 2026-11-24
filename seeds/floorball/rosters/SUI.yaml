@@ -1,0 +1,93 @@
+team: Switzerland
+code: SUI
+group: A
+status: official_wfc_squad
+announced:
+  date: 2026-11-05
+  source_url: https://unihockey.ch/nationalteams/mnner-a/news/mit-zehn-debtanten-nach-tampere-28693/
+  source_title: "Mit zehn Debütanten nach Tampere (swiss unihockey press release, published on unihockey.ch)"
+  also: "IFF: all team lists published in IFF App 2026-11-17 (login needed) https://floorball.sport/all-mens-world-floorball-championships-2026-team-lists-published/"
+retrieved: 2026-11-24
+squad_facts:
+  - "20 players: 2 goalkeepers + 18 field players (announcement 2026-11-05)."
+  - "10 players before their first A-WFC; Matteo Steiner, Gianluca Persici and goalkeeper Nils Schälin already played the World Games 2025; for the other 7 debutants it is their first major tournament."
+  - "Average age 'knapp 25' = youngest Swiss WFC squad of the last eight championships (swiss unihockey). Own calculation from listed birth dates: 25.4 years at 5 Dec 2026; youngest Mika Hänni (19, b. 2007-11-04), oldest Marco Louis (32, b. 1994-04-06)."
+  - "Most experienced: Jan Bürki, Noël Seiler, Jan Zaugg (several WFCs); they are the only 3 players left from the home WFC 2022 squad (unihockey.ch 2026-03-05)."
+  - "Six players play in Sweden (Bürki - FBC Kalmarsund, Hermle - Växjö Vipers, Persici - Mullsjö AIS, Schmuki - Storvreta IBK, Noël Seiler - IBF Falun, Matteo Steiner - Nykvarns IBF). Five play for Floorball Thurgau (Janis Graf, Niklas Graf, Hänni, Mariotti, Elia Seiler), the photo caption of the announcement mentions Niklas Graf as both Thurgau player and debutant."
+  - "Two pairs of brothers: Noël and Elia Seiler, Janis and Niklas Graf. At the EFT 2026-09-05 v Czechia both pairs played together in an A international for the first time; Noël Seiler got his 50th cap that day. https://unihockey.ch/nationalteams/mnner-a/news/schweiz-gewinnt-dank-unterzahl-tor-gegen-tschechien-28527/"
+  - "Not in the WFC squad although in the Oct 2026 Biglen squad: Jan Ziehli, Jamie Britt, Julian Egli. Jamie Britt scored twice in the WFC-qualification win v Norway (6-2, 2026-02-06)."
+  - "Pre-WFC camp 25-29 Nov 2026 in Thun and Biglen."
+  - "Coach quote (Schönbeck): team with offensive qualities and high ball security; 'ambitioniert, motiviert und mutig'."
+coaches:
+  source: https://www.swissunihockey.ch/de/nationalteams/maenner/   # Betreuerstab, retrieved 2026-11-24
+  head_coach: {name: Johan Schönbeck, nationality: Sweden, since: 2023, note: "Took over after home WFC 2022; WFC 2026 is his last tournament - he will not extend (family in Växjö, long gaps between highlights). https://unihockey.ch/nationalteams/mnner-a/news/schnbeck-hrt-nach-wm-2026-auf-28542/ (2026-09-11)"}
+  assistants: [Armin Brunner, Olli Oilinki]   # Oilinki is also U23 head coach (unihockey.ch 2026-01-14)
+  goalkeeper_coach: Sebastian Hobi
+  athletic_coach: Loris Hintzy
+  physios: [Armando Crottogini, Daniela Studer]
+  team_manager: Marcel Siegenthaler
+  equipment: Adrian Bernasconi
+  head_of_national_teams_men: {name: Matthias Hofbauer, note: "all-time top scorer of men's WFCs (97 points, 2000-2018) per IFF records"}
+captain: {name: null, note: "Not named in the 2026 announcement. Noël Seiler was captain at WFC 2024 (Blick 2024-12-07). unverified for 2026."}
+birth_date_source: "unihockey.ch club roster pages ('Kader', e.g. https://unihockey.ch/meisterschaft/sml-mnner/teams/floorball-thurgau-51/?a=kader) - lists number, birth date, position; the pages appear to show the 2025/26 rosters (some players have since moved), so club numbers there are CLUB numbers and may be outdated. Schmuki and Noël Seiler: German Wikipedia."
+players:
+  - {name: Nils Schälin, birth_date: 2001-01-13, position: goalkeeper, club: Zug United, league: "L-UPL (SUI)", club_number: 62, wfc_debut: true, notes: "World Games 2025 (SF v Finland 0-4); Swiss champion goalie per unihockey.ch 2025-08 ('Meistergoalie')", profiles: {unihockey_ch: "https://unihockey.ch/meisterschaft/sml-mnner/teams/zug-united-11/?a=kader"}}
+  - {name: Eric Kunz, birth_date: 2005-12-17, position: goalkeeper, club: HC Rychenberg Winterthur, league: "L-UPL (SUI)", club_number: 35, wfc_debut: true, notes: "A-team debut 2026-09-05 v Czechia (2-1 win), named best player of the game", profiles: {unihockey_ch: "https://unihockey.ch/meisterschaft/sml-mnner/teams/hc-rychenberg-winterthur-10/?a=kader"}}
+  - {name: Jan Bürki, birth_date: 1999-05-06, position: defender, club: FBC Kalmarsund, league: "SSL (SWE)", wfc_debut: false, notes: "one of 3 players left from WFC 2022; A-team since 2017 (debut under David Jansson, de.wikipedia); earlier Kalmarsund spell from 2021/22 alongside Kim Nilsson (de.wikipedia); listed at SV Wiler-Ersigen in Nov 2025 selection", profiles: {wikipedia_de: "https://de.wikipedia.org/wiki/Jan_B%C3%BCrki"}}
+  - {name: Levin Conrad, birth_date: 1998-03-19, position: defender, club: HC Rychenberg Winterthur, league: "L-UPL (SUI)", club_number: 7, wfc_debut: unknown, notes: "scored v Finland at EFT 2026-09-04 (4-3 win)"}
+  - {name: Noah Püntener, birth_date: 1999-07-12, position: forward, club: HC Rychenberg Winterthur, league: "L-UPL (SUI)", club_number: 19, wfc_debut: unknown, notes: "scored the winner v world champion Finland, EFT Chomutov 2026-09-04 (4-3)"}
+  - {name: Janis Graf, birth_date: 2004-06-28, position: forward, club: Floorball Thurgau, league: "L-UPL (SUI)", club_number: 20, wfc_debut: true, notes: "brother of Niklas Graf"}
+  - {name: Niklas Graf, birth_date: 2002-06-19, position: forward, club: Floorball Thurgau, league: "L-UPL (SUI)", club_number: 40, wfc_debut: true, notes: "scored after 4 seconds v Great Britain in WFC qualification 2026-02-05 (21-0); brother of Janis"}
+  - {name: Mika Hänni, birth_date: 2007-11-04, position: defender, club: Floorball Thurgau, league: "L-UPL (SUI)", club_number: 9, wfc_debut: true, notes: "youngest player in the Swiss squad (19)"}
+  - {name: Pablo Mariotti, birth_date: 2003-11-13, position: forward, club: Floorball Thurgau, league: "L-UPL (SUI)", club_number: 13, wfc_debut: true, notes: "A-team debut at EFT Nyköping Nov 2025; missed WFC qualification Feb 2026 injured (replaced by Yannic Fitzi)"}
+  - {name: Elia Seiler, birth_date: 2004-07-30, position: "forward (center)", club: Floorball Thurgau, league: "L-UPL (SUI)", club_number: 50, wfc_debut: true, notes: "younger brother of Noël Seiler; interview 2026-10-19 'Das könnte eine Waffe sein'"}
+  - {name: David Hermle, birth_date: 2004-01-24, position: forward, club: Växjö Vipers, league: "SSL (SWE)", wfc_debut: unknown, notes: "club named 'Växjö IBK' in May-Oct 2026 lists, 'Växjö Vipers' in WFC list; previously Floorball Köniz Bern (Köniz roster lists him as Sturm)"}
+  - {name: Andrin Hollenstein, birth_date: 1997-04-05, position: defender, club: SV Wiler-Ersigen, league: "L-UPL (SUI)", club_number: 73, wfc_debut: unknown, notes: "scored 1-1 v Czechia in Biglen 2026-10-18 (4-3 PSO win)"}
+  - {name: Marco Louis, birth_date: 1994-04-06, position: forward, club: SV Wiler-Ersigen, league: "L-UPL (SUI)", club_number: 94, wfc_debut: false, notes: "oldest in squad (32), from Toggenburg; 42 caps / 38 points as of 2026-10-15; first A-WFC 2024 Malmö (unihockey.ch 28644)"}
+  - {name: Noah Siegenthaler, birth_date: 2000-11-17, position: forward, club: SV Wiler-Ersigen, league: "L-UPL (SUI)", club_number: 8, wfc_debut: unknown, notes: "short-handed winner v Czechia at EFT 2026-09-05; injured mid-Oct 2026 (missed Biglen), back in WFC squad"}
+  - {name: Janis Lauber, birth_date: 1999-05-02, position: forward, club: Unihockey Tigers Langnau, league: "L-UPL (SUI)", club_number: 7, wfc_debut: unknown}
+  - {name: Gianluca Persici, birth_date: 2000-11-11, position: forward, club: Mullsjö AIS, league: "SSL (SWE)", wfc_debut: true, notes: "World Games 2025; top Swiss scorer at U19 WFC Halifax 2019 (de.wikipedia); 8 points (1+7) v Netherlands in WFC-Q 27-1", profiles: {wikipedia_de: "https://de.wikipedia.org/wiki/Gianluca_Persici"}}
+  - {name: Pascal Schmuki, birth_date: 2004-04-03, birthplace: "Pfäffikon ZH", position: defender, club: Storvreta IBK, league: "SSL (SWE)", wfc_debut: false, notes: "WFC 2024; won Champions Cup 2026 with Storvreta; U19 WFC 2023 silver + All-Star Team; among 40 nominees for world's best player 2025 (all per de.wikipedia, unverified against primary sources)", profiles: {wikipedia_de: "https://de.wikipedia.org/wiki/Pascal_Schmuki"}}
+  - {name: Noël Seiler, birth_date: 2001-08-08, position: "forward (also used as defender in WFC-Q 2026)", club: IBF Falun, league: "SSL (SWE)", wfc_debut: false, notes: "captain at WFC 2024 (Blick 2024-12-07, then with Thorengruppen); 50th cap 2026-09-05; ex-GC; WFC 2022 and 2024", profiles: {wikipedia_de: "https://de.wikipedia.org/wiki/No%C3%ABl_Seiler"}}
+  - {name: Matteo Steiner, birth_date: 2002-04-20, position: forward, club: Nykvarns IBF, league: "SSL? (SWE)", wfc_debut: true, notes: "World Games 2025; previously Unihockey Tigers Langnau; league of Nykvarn not verified (SSL or Allsvenskan)", unverified: league}
+  - {name: Jan Zaugg, birth_date: 1997-07-14, position: forward, club: Floorball Köniz Bern, league: "L-UPL (SUI)", club_number: 61, wfc_debut: false, notes: "one of 3 players left from WFC 2022"}
+wider_candidate_pool:
+  note: "Players selected for the Swiss men's A team in the 2025/26 WFC campaign (EFT Nov 2025, WFC-Q Feb 2026, camps May/Jun 2026, EFT Sep 2026, Biglen Oct 2026) but NOT in the WFC squad. Source articles listed per player. Birth dates from unihockey.ch club rosters where found."
+  sources:
+    nov_2025_eft: https://unihockey.ch/nationalteams/mnner-a/news/aufgebote-der-mnner-nationalteams-27828/
+    feb_2026_wfcq: https://unihockey.ch/nationalteams/mnner-a/news/mit-kontinuitt-ins-wm-jahr-28071/
+    feb_2026_changes: https://unihockey.ch/nationalteams/mnner-a/news/wm-quali-in-lettland-auch-u17-und-u19-im-einsatz-28114/
+    may_2026_camp: https://unihockey.ch/nationalteams/mnner-a/news/bewhrter-kern-und-neue-spieler-28387/
+    may_2026_changes: https://unihockey.ch/nationalteams/mnner-a/news/nachnominationen-bei-a-nationalteams-28409/
+    jun_2026_camp: https://unihockey.ch/nationalteams/mnner-a/news/nati-aufgebote-fr-sommercamps-28424/
+    sep_2026_eft: https://unihockey.ch/nationalteams/mnner-a/news/fnf-spieler-vor-ihrem-lnderspiel-debt-28489/
+    sep_2026_changes: https://unihockey.ch/nationalteams/mnner-a/news/nachnominationen-der-nationalteams-28517/
+    oct_2026_biglen: https://unihockey.ch/nationalteams/mnner-a/news/aufgebot-fr-die-lnderspiele-in-biglen-28580/
+    oct_2026_changes: https://unihockey.ch/nationalteams/mnner-a/news/louis-fr-siegenthaler-nachnominiert-28644/
+  players:
+    - {name: Lukas Genhart, birth_date: 1996-04-03, position: goalkeeper, club: Floorball Köniz Bern, selections: [nov_2025_eft, "feb_2026_wfcq (ill", replaced), may_2026_camp, jun_2026_camp], notes: "WFC 2024 (then Thorengruppen, SWE)"}
+    - {name: Tim Kramer, birth_date: 1995-09-05, position: goalkeeper, club: SV Wiler-Ersigen, selections: ["feb_2026_wfcq (late call-up)"], notes: "A debut 2026-02-05 v Great Britain (21-0)"}
+    - {name: Jan Ziehli, birth_date: 1999-12-26, position: defender, club: SV Wiler-Ersigen, selections: [nov_2025_eft, feb_2026_wfcq, "may_2026_camp (withdrew)", jun_2026_camp, sep_2026_eft, oct_2026_biglen], notes: "returned Nov 2025 after hip surgery; not in WFC squad"}
+    - {name: Jamie Britt, birth_date: 2004-10-20, position: forward, club: "Floorball Thurgau (since summer 2026; before UHC Alligator Malans)", selections: [nov_2025_eft, feb_2026_wfcq, may_2026_camp, jun_2026_camp, "sep_2026_eft (injured)", oct_2026_biglen], notes: "A debut May 2025 v Latvia; 2 goals v Norway in WFC-Q; not in WFC squad"}
+    - {name: Ramon Zenger, birth_date: 2004-02-05, position: defender, club: Floorball Thurgau, selections: [nov_2025_eft, feb_2026_wfcq, may_2026_camp, jun_2026_camp, "sep_2026_eft (late call-up)"]}
+    - {name: Julian Egli, birth_date: 2007-12-08, position: forward, club: HC Rychenberg Winterthur, selections: [oct_2026_biglen]}
+    - {name: Yannic Fitzi, birth_date: 2001-05-14, position: forward, club: Floorball Thurgau, selections: ["feb_2026_wfcq (replaced Mariotti)", jun_2026_camp], notes: "World Games 2025: 3 goals v Philippines (18-0)"}
+    - {name: Stefan Hutzli, birth_date: null, position: "center (sometimes defender)", club: "Floorball Köniz Bern (2026 lists); FBC Kalmarsund (Nov 2025/Feb 2026 lists)", selections: [nov_2025_eft, feb_2026_wfcq, may_2026_camp, jun_2026_camp], notes: "WFC 2024 (then in Jyväskylä, FIN; age 26 in Dec 2024 per Blick)"}
+    - {name: Claudio Schmid, birth_date: 2002-08-31, position: forward, club: SV Wiler-Ersigen, selections: [nov_2025_eft, feb_2026_wfcq]}
+    - {name: Dylan Hasenböhler, birth_date: 2003-01-06, position: forward, club: GC Unihockey, selections: [nov_2025_eft, feb_2026_wfcq]}
+    - {name: Yann Ruh, birth_date: 1998-10-14, position: defender, club: Floorball Köniz Bern, selections: [feb_2026_wfcq]}
+    - {name: Simon Steiner, birth_date: 1996-05-05, position: forward, club: Unihockey Tigers Langnau, selections: [may_2026_camp]}
+    - {name: Jascha Haldemann, birth_date: 2004-07-30, position: defender, club: Floorball Köniz Bern, selections: ["may_2026_camp (late call-up", first A selection)]}
+    - {name: Severin Nigg, birth_date: 2001-01-18, position: forward, club: "Nykvarns IBF (SWE, from summer 2026; before Zug United)", selections: ["may_2026_camp (late call-up)"]}
+    - {name: Yannis Wyss, birth_date: null, position: null, club: null, selections: ["nov_2025_eft (replaced David Hermle)"], source: https://unihockey.ch/nationalteams/mnner-a/news/mnner-nationalteams-im-einsatz-27907/}
+  u23_prospects_note: "U23 (coach Olli Oilinki) regulars 2025/26 incl. goalkeepers Mathias Juon, Yves Walliser (b. 2007-08-28), Alessio Mura, Jannis Röst and field players Linus Arnold (b. 2004-12-07), Timon Anderegg (b. 2006-02-21), Nino Bühler (b. 2007-01-30), Matteo Gervasoni, Loris Murer, Sebastian Mathis, Christian Stucki, Maurice Aebersold, Oliver Wiedmer. Several current WFC players (Kunz, Janis/Niklas Graf, Hänni, Elia Seiler, Hermle) came through this U23 group in 2025/26."
+  switched_nation: "Linus Hedlund (Zug United, b. 2008-02-23) won U19 WFC bronze with Switzerland v Sweden in May 2025 but was then selected by Sweden (his father's country) for the EFT Nov 2025 (unihockey.ch 27907)."
+profiles_and_ids:
+  iff_app: "Player pages in the IFF App require login; no public IFF player URL."
+  swiss_unihockey: "Player data on swissunihockey.ch/myapp.swissunihockey.ch is login/app-based; the public API (api-v2.swissunihockey.ch) now needs a partner key."
+  league_stats: "Swiss league stats: Swiss Unihockey app / game center (login). SSL players: statistik.innebandy.se / ssl.se (see sources.md)."
+gaps:
+  - "Shirt numbers for the WFC not yet public (IFF App team list behind login); club_number values are from unihockey.ch club rosters and may be outdated."
+  - "National-team caps/goals only for Louis (42/38 pts) and Noël Seiler (50 caps on 2026-09-05)."
+  - "WFC debut status unknown for players not named as debutants or veterans (10 debutants named in total: Steiner, Persici, Schälin + 7 unnamed; Niklas Graf confirmed as debutant)."
+  - "Captain 2026 not announced."

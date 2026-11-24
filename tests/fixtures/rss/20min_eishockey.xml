@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SYNTHETIC feed in 20 Minuten's partner-feeds RSS structure (incl. its empty "/undefined" placeholder item);
+     items are fictional except URL patterns. -->
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <channel>
+        <title>20 Minuten | Eishockey</title>
+        <link>https://www.20min.ch/sport/eishockey</link>
+        <description><![CDATA[Synthetic test feed.]]></description>
+        <language>de-ch</language>
+        <item>
+            <title>Eishockey-Frauen: Hockeyanerin Beispiel wechselt in die PWHL</title>
+            <link>https://www.20min.ch/story/eishockey-frauen-hockeyanerin-beispiel-wechselt-in-die-pwhl-100000001</link>
+            <description><![CDATA[Die Schweizer Stürmerin unterschreibt einen Zweijahresvertrag in Nordamerika.]]></description>
+            <guid isPermaLink="true">https://www.20min.ch/story/eishockey-frauen-hockeyanerin-beispiel-wechselt-in-die-pwhl-100000001</guid>
+            <pubDate>Sat, 03 Oct 2026 12:19:03 GMT</pubDate>
+            <enclosure type="image/jpeg" url="https://image.20min.ch/test.jpg" length="1000"/>
+        </item>
+        <item>
+            <link>https://www.20min.ch/undefined</link>
+            <guid isPermaLink="true">https://www.20min.ch/undefined</guid>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure type="image/jpeg" url="https://image.20min.ch/test2.jpg" length="1000"/>
+        </item>
+        <item>
+            <title>ZSC dreht das Spiel gegen Fribourg</title>
+            <link>https://www.20min.ch/story/national-league-zsc-dreht-das-spiel-100000002</link>
+            <description><![CDATA[Die Lions gewinnen nach Rückstand 4:2.]]></description>
+            <guid isPermaLink="true">https://www.20min.ch/story/national-league-zsc-dreht-das-spiel-100000002</guid>
+            <pubDate>Sat, 03 Oct 2026 09:12:16 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

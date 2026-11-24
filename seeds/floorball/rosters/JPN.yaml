@@ -1,0 +1,43 @@
+team: Japan
+code: JPN
+group: D
+status: official_wfc_squad
+status_note: "List as relayed by florbal.cz (2026-11-10), which says the Japan Floorball Association published its nomination 'at the beginning of September' 2026. Primary JFA source not checked; club names were given in Czech ('Univerzita Surugadai' = Surugadai University etc.). unverified: primary_source. Romanisation of names as given by florbal.cz."
+announced:
+  date: null
+  date_note: "early September 2026 per florbal.cz"
+  source_url: https://florbal.cz/clanky/svetove-nominace-pod-lupou-svycarska-omladina-norske-premiery-i-nemecke-hvezdy
+  source_title: "Světové nominace pod lupou: Švýcarská omladina, norské premiéry i německé hvězdy (florbal.cz, 2026-11-10)"
+retrieved: 2026-11-24
+squad_facts:
+  - "20 players: 2 goalkeepers, 6 defenders, 12 forwards; mostly home-based, strong university-team presence (Surugadai University 5, Kokushikan University 2) (florbal.cz)."
+  - "Two 'krajánci' (players abroad) - both in SWITZERLAND: Kai Yui (LUC Floorball Epalinges) and Kenta Ramsauer (Glattal Falcons) (florbal.cz)."
+  - "Group D: Denmark, Canada, Philippines, Japan."
+coaches: {head_coach: null, note: "not found"}
+captain: {name: null}
+players:
+  - {name: Yu Nagata, position: goalkeeper, club: Tokyo Floorball Club, number: null, birth_date: null, source: florbal.cz}
+  - {name: Reia Nagata, position: goalkeeper, club: Kanagawa Floorball Club, number: null, birth_date: null, source: florbal.cz, notes: "same surname as Yu Nagata - relationship unknown"}
+  - {name: Eiji Takizawa, position: defender, club: Surugadai University, number: null, birth_date: null, source: florbal.cz}
+  - {name: Daito Kaneko, position: defender, club: Surugadai University, number: null, birth_date: null, source: florbal.cz}
+  - {name: Gai Tagami, position: defender, club: Kanagawa Floorball Club, number: null, birth_date: null, source: florbal.cz}
+  - {name: Daiya Wakasa, position: defender, club: Tokyo Floorball Club, number: null, birth_date: null, source: florbal.cz}
+  - {name: Yuichiro Sakazume, position: defender, club: Kanagawa Floorball Club, number: null, birth_date: null, source: florbal.cz}
+  - {name: Kai Yui, position: defender, club: LUC Floorball Epalinges, country_of_club: Switzerland, number: null, birth_date: null, source: florbal.cz, notes: "SWISS CLUB (Epalinges, near Lausanne VD); league level not verified"}
+  - {name: Yuichi Yanagita, position: forward, club: Kokushikan University, number: null, birth_date: null, source: florbal.cz}
+  - {name: Tsubasa Inayoshi, position: forward, club: Surugadai University, number: null, birth_date: null, source: florbal.cz}
+  - {name: Hiroto Moriya, position: forward, club: Tokyo Floorball Club, number: null, birth_date: null, source: florbal.cz}
+  - {name: Yusho Moriya, position: forward, club: Surugadai University, number: null, birth_date: null, source: florbal.cz, notes: "same surname as Hiroto Moriya - relationship unknown"}
+  - {name: Shin Nakamura, position: forward, club: Hachioji Floorball Club, number: null, birth_date: null, source: florbal.cz}
+  - {name: Soui Matsuyama, position: forward, club: Hachioji Floorball Club, number: null, birth_date: null, source: florbal.cz}
+  - {name: Yuto Iijima, position: forward, club: Kokushikan University, number: null, birth_date: null, source: florbal.cz}
+  - {name: Yuta Saito, position: forward, club: Kanagawa Floorball Club, number: null, birth_date: null, source: florbal.cz}
+  - {name: Satoru Shimoyama, position: forward, club: Kanagawa Floorball Club, number: null, birth_date: null, source: florbal.cz}
+  - {name: Yosuke Saito, position: forward, club: Tokyo Floorball Club, number: null, birth_date: null, source: florbal.cz}
+  - {name: Shugo Tajima, position: forward, club: Surugadai University, number: null, birth_date: null, source: florbal.cz}
+  - {name: Kenta Ramsauer, position: forward, club: Glattal Falcons, country_of_club: Switzerland, number: null, birth_date: null, source: florbal.cz, notes: "SWISS CLUB (Glattal Falcons, Zurich region); Swiss-sounding surname - background (dual national?) not verified; league level not verified"}
+notable:
+  - "Two Japan players at Swiss clubs: Kai Yui (LUC Floorball Epalinges) and Kenta Ramsauer (Glattal Falcons)."
+gaps:
+  - "Primary JFA announcement (date, URL), numbers, birth dates, coaches, captain."
+  - "Leagues of Epalinges and Glattal Falcons in 2026/27."

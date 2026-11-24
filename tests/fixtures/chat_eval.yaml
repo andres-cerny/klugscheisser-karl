@@ -1,0 +1,93 @@
+# Fixed chat evaluation (2026-10-05): 37 questions in 8 groups, answered with the prosa style against the live data
+# (or a copy). Run: `klugscheisser chat-eval` (paid: Gemini + Jev, about $0.05 per run; needs --yes).
+#
+# Each item:
+#   id, group, frage                    the question
+#   nach: <id>                          follow-up: asked after that item, with its answer as chat history
+#   erwartet                            what a good answer says (for people)
+#   muss: [..]                          every entry must appear in the answer text (case-insensitive);
+#                                       an entry "a|b" means a or b
+#   darf_nicht: [..]                    none of these may appear
+#   art: antwort | rueckfrage | nichts  expected shape (default antwort); "antwort|nichts" = either
+#
+# Checked on the whole shown answer: sentences, table cells, "unbekannt"/rest lines (not the source list).
+
+- {id: A1, group: Fakt Person, frage: "Wie alt ist Lara Stalder?", erwartet: "32 Jahre, geb. 15.05.1994", muss: ["32"]}
+- {id: A2, group: Fakt Person, frage: "How tall is Alina Müller?", erwartet: "167 cm (Elite Prospects); Wikidata 176 abweichend", muss: ["167"]}
+- {id: A3, group: Fakt Person, frage: "Bei welchem Verein spielt Ivana Wey?", erwartet: "Northeastern University", muss: ["Northeastern"]}
+- {id: A4, group: Fakt Person, frage: "Bis wann läuft der Vertrag von Andrea Brändli?", erwartet: "bis 2028/29 bei PWHL Detroit", muss: ["2028"]}
+- {id: A5, group: Fakt Person, frage: "Wo ist Rahel Enzler geboren?", erwartet: "Zug (EP), Walchwil abweichend", muss: ["Zug"]}
+- {id: A6, group: Fakt Person, frage: "Mit welcher Hand schiesst Lara Stalder?", erwartet: "rechts", muss: ["recht"]}
+- {id: A7, group: Fakt Person, frage: "Wer hat Alina Müller gedraftet?", erwartet: "Boston (PWHL Draft 2023, 1. Runde, Nr. 3)", muss: ["Boston", "2023"]}
+- {id: A8, group: Fakt Person, frage: "Hat Lara Stalder Geschwister im Eishockey?", erwartet: "Bruder Dario Stalder", muss: ["Dario"]}
+
+- {id: B1, group: Gruppe, frage: "Wer ist die jüngste Spielerin im Schweizer Olympia-Kader?", erwartet: "Laure Mériguet, geb. 15.08.2008", muss: ["Mériguet"]}
+- {id: B2, group: Gruppe, frage: "Wer ist die grösste Spielerin im Schweizer Nationalteam?", erwartet: "Name + cm", muss: ["cm|Zentimeter"]}
+- {id: B3, group: Gruppe, frage: "Wie viele Spielerinnen im Olympia-Kader sind unter 23?", erwartet: "Zahl + Liste", muss: ["unter 23"]}
+- {id: B4, group: Gruppe, frage: "Welche Schweizerinnen spielen in der PWHL?", erwartet: "Müller (Hamilton), Brändli (Detroit), Vallario (New York) …", muss: ["Müller", "Brändli", "Vallario"]}
+- {id: B5, group: Gruppe, frage: "Which Swiss national team players play college hockey in the US?", erwartet: "aktuell: Wey, Bächler (Northeastern), Zimmermann (St. Cloud State) …; nicht ehemalige", muss: ["Wey", "Bächler"], darf_nicht: ["Ohio State"]}
+
+- {id: C1, group: Statistik, frage: "Wie viele Punkte hat Lara Stalder diese Saison?", erwartet: "SWHL 5 Sp, 6 T, 7 A, 13 P", muss: ["13 Punkte"]}
+- {id: C2, group: Statistik, frage: "Wer hat bei Olympia am meisten Tore für die Schweiz geschossen?", erwartet: "Alina Müller, 16 Tore", muss: ["Alina Müller", "16 Tore"]}
+- {id: C3, group: Statistik, frage: "What was Andrea Brändli's save percentage at the Olympics 2026?", erwartet: "95,3 %", muss: ["95,3|0,953|.953"]}
+- {id: C4, group: Statistik, frage: "Beste Schweizerin nach Punkten pro Spiel in der SWHL diese Saison", erwartet: "Lara Stalder 2,60", muss: ["Stalder", "2,60"]}
+- {id: C5, group: Statistik, frage: "Stalder vs Müller an Weltmeisterschaften", erwartet: "WM-Karriere beider nebeneinander", muss: ["Stalder", "Müller", "WC|WM"]}
+- {id: C6, group: Statistik, frage: "Wie viele Spiele hat Alina Müller in der NCAA gespielt?", erwartet: "Northeastern-Karriere (159 Spiele)", muss: ["159"]}
+
+- {id: D1, group: Beziehung, frage: "Wer aus dem Nationalteam hat zusammen in Northeastern gespielt?", erwartet: "Paare bei Northeastern: Wey und Bächler (2026/27); Müller war vorher dort (2018–2022)", muss: ["Wey", "Bächler"]}
+- {id: D2, group: Beziehung, frage: "Haben Lara Stalder und Andrea Brändli schon im selben Club gespielt?", erwartet: "nein (nur Nationalteam) — oder gemeinsamer Club mit Saison", muss: ["nie|nicht|kein|keine"]}
+- {id: D3, group: Beziehung, frage: "Welche Schwedinnen haben mit Schweizerinnen im selben Club gespielt?", erwartet: "Paare-Tabelle", muss: ["Paare"], art: antwort}
+
+- {id: E1, group: Spiel, frage: "Wie ist das letzte Spiel der Schweiz gegen Finnland ausgegangen?", erwartet: "1:4 in Lahti", muss: ["1:4|4:1|1-4|4-1"]}
+- {id: E2, group: Spiel, frage: "Wer hat für die Schweiz gegen Tschechien an der Euro Hockey Tour getroffen?", erwartet: "Torschützinnen aus dem Bericht", muss: ["Balzer|Enzler|Leemann"]}
+- {id: E3, group: Spiel, frage: "Wann ist die nächste WM und wer ist im Kader?", erwartet: "WM 2026 Herning/Esbjerg mit Datum, provisorischer Kader", muss: ["Herning|Esbjerg", "2026"], darf_nicht: ["Euro Hockey Tour"]}
+
+- {id: F1, group: News, frage: "Was gibt es Neues bei Lara Stalder?", erwartet: "neueste belegte Meldungen", muss: ["Stalder"]}
+- {id: F2, group: News, frage: "Wer hat im Sommer 2026 den Club gewechselt?", erwartet: "Transfers mit Datum: Müller → Hamilton, Brändli → Detroit, Wey → Northeastern …", muss: ["Hamilton", "Detroit"]}
+- {id: F3, group: News, frage: "Ist eine Schweizer Nationalspielerin aktuell verletzt?", erwartet: "nur belegte Verletzungen oder klar: nichts belegt", muss: [], art: "antwort|nichts"}
+- {id: F4, group: News, frage: "Was sagte Shannon Miller über das Team vor der Euro Hockey Tour?", erwartet: "Zitat oder klare Lücke (kein echtes Zitat gespeichert)", muss: ["Miller"], art: "antwort|nichts"}
+
+- {id: G1, group: Follow-up, frage: "Wer ist die älteste Spielerin im Olympia-Kader?", erwartet: "Lara Stalder", muss: ["Stalder"]}
+- {id: G2, group: Follow-up, nach: G1, frage: "Und wie viele Punkte hat sie diese Saison?", erwartet: "Stalder 13 Punkte (SWHL)", muss: ["13 Punkte"]}
+- {id: G3, group: Follow-up, nach: G1, frage: "und wo spielt sie?", erwartet: "EVZ Women's Team", muss: ["EVZ"]}
+
+- {id: H1, group: Rand, frage: "Wie alt ist Maria Musterfrau?", erwartet: "sofort: keine Daten zu dieser Person", muss: ["keine Daten|nichts gefunden"], art: "antwort|nichts"}
+- {id: H2, group: Rand, frage: "How old is Lara Staldr?", erwartet: "Tippfehler erkannt: Lara Stalder, 32", muss: ["32"], darf_nicht: ["31 Jahre"]}
+- {id: H3, group: Rand, frage: "Hat Alina Müller einen Freund?", erwartet: "was sie selbst dazu sagt (eigene Posts/Interviews) oder klar: nichts gespeichert", darf_nicht: ["Freund ist", "liiert"], art: "antwort|nichts"}
+- {id: H4, group: Rand, frage: "who was a teammate with whom", erwartet: "Rückfrage", art: rueckfrage}
+- {id: H5, group: Rand, frage: "Wer ist der Trainer der Schweizer Frauen-Nati?", erwartet: "Shannon Miller", muss: ["Shannon Miller"]}
+
+# --- added 2026-10-05 (13 more, areas not covered above; measured first, fixed after Fabi's real questions) ---
+- {id: I1, group: Fakt Person, frage: "Welche Rückennummer hat Lara Stalder?", erwartet: "7 (EVZ Women's Team)", muss: ["7"]}
+- {id: I2, group: Fakt Person, frage: "Wie schwer ist Andrea Brändli?", erwartet: "75 kg", muss: ["75"]}
+- {id: I3, group: Fakt Person, frage: "Bei welchem Club hat Alina Müller als Juniorin gespielt?", erwartet: "EHC Winterthur", muss: ["Winterthur"]}
+- {id: I4, group: Fakt Person, frage: "Welche Position spielt Alina Müller?", erwartet: "Stürmerin (Center)", muss: ["Stürm|Center|forward"]}
+- {id: I5, group: Gruppe, frage: "Welche Schweizer Spielerin hat am meisten Instagram-Follower?", erwartet: "Alina Müller (rund 15'700)", muss: ["Alina Müller"]}
+- {id: I6, group: Gruppe, frage: "Wer ist die älteste Spielerin im finnischen Nationalteam?", erwartet: "Jenni Hiirikoski, geb. 30.03.1987", muss: ["Hiirikoski"]}
+- {id: I7, group: Gruppe, frage: "Wer ist der Trainer von Kanada?", erwartet: "Troy Ryan", muss: ["Troy Ryan"]}
+- {id: I8, group: Gruppe, frage: "Who coaches Finland?", erwartet: "Tero Lehterä", muss: ["Lehterä"]}
+- {id: I9, group: Statistik, frage: "Wie war Lara Stalders Form in den letzten 5 Spielen?", erwartet: "5 Spiele, 3 Tore, 4 Assists, 7 Punkte", muss: ["7"]}
+- {id: I10, group: Statistik, frage: "Wie hat Andrea Brändli in den letzten Spielen gehalten?", erwartet: "Fangquote 91,8 % in den letzten 4 Spielen", muss: ["91,8|91.8|0,918"]}
+- {id: I11, group: Statistik, frage: "Who scored the most points for Switzerland at the 2026 Olympics?", erwartet: "Alina Müller, 6 Punkte (4 Tore)", muss: ["Alina Müller", "6"]}
+- {id: I12, group: News, frage: "Welche Auszeichnungen hat Andrea Brändli in der Saison 2025/26 gewonnen?", erwartet: "Olympic All-Star Team, SDHL Best SV% und GAA …", muss: ["All-Star|SDHL"]}
+- {id: I13, group: Spiel, frage: "Wann spielt Frölunda das nächste Mal?", erwartet: "09.10.2026 gegen Färjestad", muss: ["Färjestad"]}
+
+# --- Fabi's real questions (06.10.2026, live chat) — they got "nichts gefunden" (v13) -------------------------
+- {id: J1, group: Fabi, team: sui-women, frage: "Anzahl länderspiele liste", erwartet: "Liste pro Spielerin mit Quelle; Elite-Prospects-Zahlen als unvollständig bezeichnet; unbekannte genannt", muss: ["Länderspiel|Nationalteam", "unvollständig|nur erfasst|erfasste"]}
+- {id: J2, group: Fabi, team: sui-women, frage: "Enzler Stalder EVZ spielen in der tleichen Linie?", erwartet: "Linien nicht gespeichert; aber gemeinsame Tore/Assists aus Spielberichten (Bern–Zug 1:3) — nie 'spielen in der gleichen Linie' als Tatsache", muss: ["Enzler", "Stalder", "Tor|Assist|Vorlage|vorbereitet|vorgelegt"]}
+- {id: J3, group: Fabi, person: Naemi Herzig, frage: "Auf welche position spielt sie?", erwartet: "Stürmerin", muss: ["Stürm"]}
+- {id: J4, group: Fabi, person: Naemi Herzig, nach: J3, frage: "Ja aber flügel oder center", erwartet: "Stürmerin; ob Flügel oder Center ist nicht gespeichert", muss: ["Stürm"]}
+
+# --- Suche (08.10.2026): the answer is in one document the search must find. S1–S6: only in an older document
+# of a person with more than 150 documents; S7–S11: no person named, the document is in English or French ---------
+- {id: S1, group: Suche, frage: "Welche Aufgabe hat die Mutter von Lara Stalder beim EVZ?", erwartet: "Susanna Stalder ist Betreuerin des Frauenteams (Blick, Jan. 2025)", muss: ["Betreuerin|betreut"]}
+- {id: S2, group: Suche, frage: "Bei welchem Nachwuchsturnier ist Lara Stalder Botschafterin?", erwartet: "Speedy Cup (Instagram, Sept. 2023)", muss: ["Speedy"]}
+- {id: S3, group: Suche, frage: "Hat Lara Stalder schon auf Kunsteis aus Kunststoff trainiert?", erwartet: "ja, Glice (YouTube, Feb. 2023)", muss: ["Glice"]}
+- {id: S4, group: Suche, frage: "Welchen Punkterekord hat Alina Müller an der Northeastern aufgestellt?", erwartet: "168 Punkte, Allzeit-Leaderin (Blick, Jan. 2023)", muss: ["168"]}
+- {id: S5, group: Suche, frage: "Wurde Alina Müller schon an den Sports Awards nominiert?", erwartet: "ja, 2019 als Schweizer Eishockeyspielerin des Jahres (Schweizer Illustrierte)", muss: ["2019"]}
+- {id: S6, group: Suche, frage: "Hat Lena-Marie Lutz das Militär gemacht?", erwartet: "ja, Spitzensport-Rekrutenschule (2022)", muss: ["Spitzensport|Rekrutenschule"]}
+- {id: S7, group: Suche, frage: "Welche Spielerin vermacht ihr Gehirn der Forschung?", erwartet: "Erin Ambrose (Wikipedia fr) oder Fran Rider (en)", muss: ["Ambrose|Rider"]}
+- {id: S8, group: Suche, frage: "Welche Spielerin hatte als Kind einen Hirntumor?", erwartet: "Rory Guilday (Sehnerv-Gliom, Chemotherapie)", muss: ["Guilday"]}
+- {id: S9, group: Suche, frage: "Wer hat mit dem Eishockey aufgehört, um Ärztin zu werden?", erwartet: "Claire Thompson (Okt. 2026, NYU Medizin)", muss: ["Thompson"]}
+- {id: S10, group: Suche, frage: "Welche Kapitänin erwartet ein Baby?", erwartet: "Blayre Turnbull (Toronto Sceptres, Geburt Dez. 2026)", muss: ["Turnbull"]}
+- {id: S11, group: Suche, frage: "Welche Spielerin hat sich am Knie verletzt und musste operiert werden?", erwartet: "z. B. Sini Karjalainen (EV Zug, Kreuzband) oder Marie-Philip Poulin", muss: ["Karjalainen|Poulin"]}

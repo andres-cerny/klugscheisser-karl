@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SYNTHETIC feed in Blick's RSS 2.0 structure (sport/eishockey/rss.xml); items are fictional except URL patterns. -->
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel>
+<title>Eishockey - Alle News, Analysen, Bilder &amp; Videos | Blick.ch</title>
+<link>https://www.blick.ch/sport/eishockey</link>
+<item><title>Frauen-Nati jubelt: Beispiel schiesst die Schweiz zum Sieg</title>
+<link>https://www.blick.ch/sport/eishockey/frauen-nati-beispiel-schiesst-die-schweiz-zum-sieg/t3stb1k</link>
+<guid isPermaLink="false">t3stb1k</guid>
+<description>Die Frauen-Nati gewinnt das Testspiel gegen Schweden 2:1. Testa Beispiel trifft doppelt.</description>
+<pubDate>Sat, 03 Oct 2026 12:05:01 +0000</pubDate>
+<media:content url="https://img.blick.ch/test.jpg" medium="image"/></item>
+<item><title>«Wir sind wie eine Familie» – Beispiel über ihr neues Team</title>
+<link>https://www.blick.ch/sport/eishockey/beispiel-ueber-ihr-neues-team/t3stb2k</link>
+<guid isPermaLink="false">t3stb2k</guid>
+<description>Testa Beispiel spricht über den Wechsel und ihr Leben ausserhalb der Eishalle.</description>
+<pubDate>Sat, 03 Oct 2026 09:25:29 +0000</pubDate></item>
+<item><title>Servette-Topskorer wird gesperrt</title>
+<link>https://www.blick.ch/sport/eishockey/nl/servette-topskorer-wird-gesperrt/t3stb3k</link>
+<guid isPermaLink="false">t3stb3k</guid>
+<description>Der Stürmer fehlt nach einem Check zwei Spiele.</description>
+<pubDate>Sat, 03 Oct 2026 07:00:00 +0000</pubDate></item>
+<item><title>Nati-Spielerin fällt verletzt aus</title>
+<link>https://www.blick.ch/sport/fussball/frauen/nati-spielerin-faellt-verletzt-aus/t3stb4k</link>
+<guid isPermaLink="false">t3stb4k</guid>
+<description>Die Fussballerin verpasst die Playoffs.</description>
+<pubDate>Fri, 02 Oct 2026 20:41:35 +0000</pubDate></item>
+</channel></rss>

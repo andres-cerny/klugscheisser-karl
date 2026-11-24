@@ -1,0 +1,12 @@
+# Alternative to Homebrew Postgres. Matches local dev: Postgres 17 + pgvector.
+services:
+  db:
+    image: pgvector/pgvector:pg17
+    environment:
+      POSTGRES_USER: klugscheisser
+      POSTGRES_PASSWORD: klugscheisser
+      POSTGRES_DB: klugscheisser
+    ports: ["5432:5432"]
+    volumes: ["pgdata:/var/lib/postgresql/data"]
+volumes:
+  pgdata:

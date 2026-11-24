@@ -1,0 +1,25 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# local data
+data/
+*.log
+.DS_Store
+
+# Claude Code local state and agent worktrees (project skills are tracked)
+.claude/*
+!.claude/skills/
+.playwright-mcp/
+backups/

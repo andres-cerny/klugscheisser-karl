@@ -1,0 +1,88 @@
+[
+{
+"dataColumns": [
+{
+"name": "Rank",
+"type": "integer",
+"highlighted": false,
+"group": ""
+},
+{
+"name": "Player",
+"type": "string",
+"highlighted": false,
+"group": ""
+},
+{
+"name": "Team",
+"type": "string",
+"highlighted": false,
+"group": ""
+},
+{
+"name": "GP",
+"type": "integer",
+"highlighted": false,
+"group": ""
+},
+{
+"name": "GPI",
+"type": "integer",
+"highlighted": false,
+"group": ""
+},
+{
+"name": "GA",
+"type": "integer",
+"highlighted": true,
+"group": ""
+},
+{
+"name": "GAA",
+"type": "float_two",
+"highlighted": true,
+"group": ""
+},
+{
+"name": "SVSPerc",
+"type": "percentage_two",
+"highlighted": true,
+"group": ""
+}
+],
+"stats": [
+{
+"Rank": null,
+"Player": 0,
+"Team": 0,
+"GP": 10,
+"GPI": null,
+"GA": 29,
+"GAA": 0,
+"SVSPerc": "80.92",
+"info": {
+"uuid": "kzyj01rdfu",
+"fullName": "Miroslav Kovarik",
+"firstName": "Miroslav",
+"lastName": "Kovarik",
+"birthDate": "N/A",
+"nationality": "N/A",
+"shoots": null,
+"gender": "",
+"team": {
+"uuid": "5452-cd8111QiTe",
+"name": "Nykvarns IBF",
+"code": "NYK",
+"media": "https://sportality.cdn.s8y.se/team-logos/nyk2_nyk.svg",
+"ownerInstanceId": "nyk2_nyk",
+"siteDisplayName": "Nykvarns IBF"
+},
+"teamCode": 14584,
+"teamId": "5452-cd8111QiTe"
+}
+}
+],
+"provider": "ibis",
+"totalCount": 1
+}
+]

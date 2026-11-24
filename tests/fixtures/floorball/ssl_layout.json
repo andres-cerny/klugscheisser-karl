@@ -1,0 +1,187 @@
+[
+{
+"originalSeasonSeriesGameTypeTeams": [
+{
+"state": "closed",
+"ssgtUuid": "ov02ysucwb",
+"gameType": {
+"uuid": "qQ9-af37Ti40B",
+"code": "regular",
+"deleted": false,
+"name": "Seriematch"
+},
+"season": {
+"uuid": "u19i105cb7",
+"code": "2025",
+"deleted": false,
+"name": "2025/2026"
+},
+"series": {
+"uuid": "qRl-8B5kOFjKL",
+"code": "SSLHerr",
+"createdAt": null,
+"createdBy": null,
+"deleted": false,
+"lastModified": "2024-02-20T14:32:15.000Z",
+"names": [
+{
+"language": "sv",
+"translation": "SSL Herr"
+},
+{
+"language": "display",
+"translation": "SSL Herr"
+}
+],
+"name": "SSL Herr"
+},
+"teams": []
+},
+{
+"state": "active",
+"ssgtUuid": "qqing3frfp",
+"gameType": {
+"uuid": "qQ9-af37Ti40B",
+"code": "regular",
+"deleted": false,
+"name": "Seriematch"
+},
+"season": {
+"uuid": "vt4kt77vxk",
+"code": "2026",
+"deleted": false,
+"name": "2026/2027"
+},
+"series": {
+"uuid": "qRl-8B5kOFjKL",
+"code": "SSLHerr",
+"createdAt": null,
+"createdBy": null,
+"deleted": false,
+"lastModified": "2024-02-20T14:32:15.000Z",
+"names": [
+{
+"language": "sv",
+"translation": "SSL Herr"
+},
+{
+"language": "display",
+"translation": "SSL Herr"
+}
+],
+"name": "SSL Herr"
+},
+"teams": []
+},
+{
+"state": "closed",
+"ssgtUuid": "rc5poeihmh",
+"gameType": {
+"uuid": "qQ9-7debq38kX",
+"code": "playoff",
+"deleted": false,
+"name": "Slutspelsmatch"
+},
+"season": {
+"uuid": "u19i105cb7",
+"code": "2025",
+"deleted": false,
+"name": "2025/2026"
+},
+"series": {
+"uuid": "qRl-8B5kOFjKL",
+"code": "SSLHerr",
+"createdAt": null,
+"createdBy": null,
+"deleted": false,
+"lastModified": "2024-02-20T14:32:15.000Z",
+"names": [
+{
+"language": "sv",
+"translation": "SSL Herr"
+},
+{
+"language": "display",
+"translation": "SSL Herr"
+}
+],
+"name": "SSL Herr"
+},
+"teams": []
+},
+{
+"state": "active",
+"ssgtUuid": "ujdsndgskt",
+"gameType": {
+"uuid": "qQ9-af37Ti40B",
+"code": "regular",
+"deleted": false,
+"name": "Seriematch"
+},
+"season": {
+"uuid": "vt4kt77vxk",
+"code": "2026",
+"deleted": false,
+"name": "2026/2027"
+},
+"series": {
+"uuid": "qRl-8B5wsw8lj",
+"code": "SSLDam",
+"createdAt": null,
+"createdBy": null,
+"deleted": false,
+"lastModified": "2024-02-20T14:32:19.000Z",
+"names": [
+{
+"language": "sv",
+"translation": "SSL Dam"
+},
+{
+"language": "display",
+"translation": "SSL Dam"
+}
+],
+"name": "SSL Dam"
+},
+"teams": []
+}
+],
+"ssgtDefaultValue": {
+"state": "active",
+"ssgtUuid": "qqing3frfp",
+"gameType": {
+"uuid": "qQ9-af37Ti40B",
+"code": "regular",
+"deleted": false,
+"name": "Seriematch"
+},
+"season": {
+"uuid": "vt4kt77vxk",
+"code": "2026",
+"deleted": false,
+"name": "2026/2027"
+},
+"series": {
+"uuid": "qRl-8B5kOFjKL",
+"code": "SSLHerr",
+"createdAt": null,
+"createdBy": null,
+"deleted": false,
+"lastModified": "2024-02-20T14:32:15.000Z",
+"names": [
+{
+"language": "sv",
+"translation": "SSL Herr"
+},
+{
+"language": "display",
+"translation": "SSL Herr"
+}
+],
+"name": "SSL Herr"
+},
+"teams": []
+},
+"provider": "ibis"
+}
+]

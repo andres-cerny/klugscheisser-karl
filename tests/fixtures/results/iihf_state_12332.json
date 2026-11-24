@@ -1,0 +1,274 @@
+{
+ "GameId": "12332",
+ "GameNumber": "11",
+ "EventId": "793",
+ "Gender": "W",
+ "Status": "Game Completed",
+ "IsGameOverridden": false,
+ "IsForfeit": false,
+ "IsGameCompleted": true,
+ "HomeTeam": {
+  "ShortTeamName": "AUT",
+  "LongTeamName": "Austria",
+  "Color": "Red"
+ },
+ "AwayTeam": {
+  "ShortTeamName": "NED",
+  "LongTeamName": "Netherlands",
+  "Color": "White"
+ },
+ "CurrentScore": {
+  "Home": "3",
+  "Away": "2"
+ },
+ "Venue": {
+  "Code": "SUC",
+  "Name": "Shenzhen Universiade Center"
+ },
+ "EventDateTime": {
+  "Day": "17",
+  "Month": "APR",
+  "Year": "2025",
+  "Weekday": "THU",
+  "Value": "20250417",
+  "StartTime": {
+   "TimeValue": "1630000000",
+   "TimeFormat": "16:30"
+  },
+  "EndTime": {
+   "TimeValue": "1835000000",
+   "TimeFormat": "18:35"
+  }
+ },
+ "Spectators": "211",
+ "Periods": [
+  {
+   "PeriodCode": "1",
+   "Score": {
+    "Home": "0",
+    "Away": "1"
+   },
+   "ScoringActions": [
+    {
+     "Assistant1": {
+      "GivenName": "Kayleigh",
+      "FamilyName": "HAMERS",
+      "ReportingName": "HAMERS Kayleigh",
+      "NOC_Code": "NED"
+     },
+     "Assistant2": {
+      "GivenName": "Maree",
+      "FamilyName": "DIJKEMA",
+      "ReportingName": "DIJKEMA Maree",
+      "NOC_Code": "NED"
+     },
+     "Scorer": {
+      "GivenName": "Esther",
+      "FamilyName": "DE JONG",
+      "ReportingName": "de JONG Esther",
+      "NOC_Code": "NED"
+     },
+     "NewScore": {
+      "Home": "0",
+      "Away": "1"
+     },
+     "TimeOfPlay": "12:08",
+     "ExecutedByShortTeamName": "NED",
+     "SituationType": "EQ"
+    }
+   ],
+   "Actions": [
+    {
+     "Code": "GOL_KPR_IN",
+     "ExecutedByShortTeamName": null,
+     "GoalTender": null
+    },
+    {
+     "Code": "GOL_KPR_IN",
+     "ExecutedByShortTeamName": "NED",
+     "GoalTender": {
+      "GivenName": "Eline",
+      "FamilyName": "GABRIELE",
+      "ReportingName": "GABRIELE Eline",
+      "NOC_Code": "NED"
+     }
+    },
+    {
+     "Code": "GOL_KPR_IN",
+     "ExecutedByShortTeamName": "AUT",
+     "GoalTender": {
+      "GivenName": "Selma",
+      "FamilyName": "LUGGIN",
+      "ReportingName": "LUGGIN Selma",
+      "NOC_Code": "AUT"
+     }
+    }
+   ]
+  },
+  {
+   "PeriodCode": "2",
+   "Score": {
+    "Home": "1",
+    "Away": "1"
+   },
+   "ScoringActions": [
+    {
+     "Assistant1": {
+      "GivenName": "Savine",
+      "FamilyName": "WIELENGA",
+      "ReportingName": "WIELENGA Savine",
+      "NOC_Code": "NED"
+     },
+     "Assistant2": {
+      "GivenName": "Kayleigh",
+      "FamilyName": "HAMERS",
+      "ReportingName": "HAMERS Kayleigh",
+      "NOC_Code": "NED"
+     },
+     "Scorer": {
+      "GivenName": "Bieke",
+      "FamilyName": "VAN NES",
+      "ReportingName": "van NES Bieke",
+      "NOC_Code": "NED"
+     },
+     "NewScore": {
+      "Home": "0",
+      "Away": "2"
+     },
+     "TimeOfPlay": "25:34",
+     "ExecutedByShortTeamName": "NED",
+     "SituationType": "EQ"
+    },
+    {
+     "Assistant1": {
+      "GivenName": "Hanna",
+      "FamilyName": "OBERMAYR",
+      "ReportingName": "OBERMAYR Hanna",
+      "NOC_Code": "AUT"
+     },
+     "Assistant2": {
+      "GivenName": "Anna",
+      "FamilyName": "BILLA",
+      "ReportingName": "BILLA Anna",
+      "NOC_Code": "AUT"
+     },
+     "Scorer": {
+      "GivenName": "Emma",
+      "FamilyName": "LINTNER",
+      "ReportingName": "LINTNER Emma",
+      "NOC_Code": "AUT"
+     },
+     "NewScore": {
+      "Home": "1",
+      "Away": "2"
+     },
+     "TimeOfPlay": "33:11",
+     "ExecutedByShortTeamName": "AUT",
+     "SituationType": "EQ"
+    }
+   ],
+   "Actions": [
+    {
+     "Code": "GOL_KPR_IN",
+     "ExecutedByShortTeamName": null,
+     "GoalTender": null
+    }
+   ]
+  },
+  {
+   "PeriodCode": "3",
+   "Score": {
+    "Home": "1",
+    "Away": "0"
+   },
+   "ScoringActions": [
+    {
+     "Assistant1": {
+      "GivenName": "Anna",
+      "FamilyName": "MEIXNER",
+      "ReportingName": "MEIXNER Anna",
+      "NOC_Code": "AUT"
+     },
+     "Assistant2": {
+      "GivenName": "Antonia",
+      "FamilyName": "MATZKA",
+      "ReportingName": "MATZKA Antonia",
+      "NOC_Code": "AUT"
+     },
+     "Scorer": {
+      "GivenName": "Annika",
+      "FamilyName": "FAZOKAS",
+      "ReportingName": "FAZOKAS Annika",
+      "NOC_Code": "AUT"
+     },
+     "NewScore": {
+      "Home": "2",
+      "Away": "2"
+     },
+     "TimeOfPlay": "45:23",
+     "ExecutedByShortTeamName": "AUT",
+     "SituationType": "EQ"
+    }
+   ],
+   "Actions": [
+    {
+     "Code": "GOL_KPR_IN",
+     "ExecutedByShortTeamName": null,
+     "GoalTender": null
+    }
+   ]
+  },
+  {
+   "PeriodCode": "OT",
+   "Score": {
+    "Home": "1",
+    "Away": "0"
+   },
+   "ScoringActions": [
+    {
+     "Assistant1": {
+      "GivenName": "Emma",
+      "FamilyName": "LINTNER",
+      "ReportingName": "LINTNER Emma",
+      "NOC_Code": "AUT"
+     },
+     "Assistant2": {
+      "GivenName": "Anja",
+      "FamilyName": "TRUMMER",
+      "ReportingName": "TRUMMER Anja",
+      "NOC_Code": "AUT"
+     },
+     "Scorer": {
+      "GivenName": "Annika",
+      "FamilyName": "FAZOKAS",
+      "ReportingName": "FAZOKAS Annika",
+      "NOC_Code": "AUT"
+     },
+     "NewScore": {
+      "Home": "3",
+      "Away": "2"
+     },
+     "TimeOfPlay": "63:32",
+     "ExecutedByShortTeamName": "AUT",
+     "SituationType": "EQ"
+    }
+   ],
+   "Actions": [
+    {
+     "Code": "GOL_KPR_IN",
+     "ExecutedByShortTeamName": null,
+     "GoalTender": null
+    }
+   ]
+  },
+  {
+   "PeriodCode": "TOT",
+   "Score": {
+    "Home": "3",
+    "Away": "2"
+   },
+   "ScoringActions": [],
+   "Actions": []
+  }
+ ]
+}

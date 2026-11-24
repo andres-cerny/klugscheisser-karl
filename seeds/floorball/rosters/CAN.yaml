@@ -1,0 +1,50 @@
+team: Canada
+code: CAN
+group: D
+status: provisional
+status_note: "Floorball Canada announced its WFC 2026 roster on Instagram/Facebook on 2026-11-07, but the names are only in the image (not machine-readable here). Players below = the roster for the AMER qualification v USA (Georgetown, Texas, 19-21 Mar 2026), published on floorballcanada.org (2026-02-16). The WFC roster is described as 'this veteran group along with its rookies' - may differ. unverified: wfc_roster"
+announced:
+  date: 2026-11-07
+  source_url: https://www.instagram.com/p/DfbbLn1OcpP/
+  source_title: "Introducing our roster for the Men's World Floorball Championships 2026 in Tampere, Finland! (Floorball Canada, Instagram, 2026-11-07) - names in image only"
+  players_source_url: https://www.floorballcanada.org/leagues/custom_page.cfm?clientid=5431&leagueid=22443&pageid=13454
+  players_source_title: "TEAM CANADA ANNOUNCES ROSTER FOR WFCQ AMER 2026 (Floorball Canada, 2026-02-16)"
+retrieved: 2026-11-24
+squad_facts:
+  - "Canada took the LAST ticket to the WFC 2026 by winning all three games of the best-of-three AMER qualification v USA (IFF: https://floorball.sport/canada-secures-final-spot-in-wfc-2026/)."
+  - "WFC 2024: Canada finished 16th = last (Floorball Canada, 'disappointing result'). The Nov 2026 post says '16th place finish from WFC 2026' - obviously means 2024."
+  - "Group D opening schedule (Floorball Canada, times EST = CET-6): 6 Dec 10:00 v Philippines, 7 Dec 05:00 v Japan, 8 Dec 02:30 v Denmark."
+coaches:
+  source: https://www.floorballcanada.org/leagues/custom_page.cfm?clientid=5431&leagueid=22443&pageid=13454
+  head_coach: {name: Iiro Romo, note: "continues as head coach for the WFC (Instagram 2026-11-07); Finnish-sounding name, nationality not verified"}
+  assistant: Oliver Teir
+  general_manager: Heather Hudson
+  team_doctor: "Dr. Patrick Welsh (Feb 2026); en.wikipedia lists Deanna Field as doctor - unverified"
+captain: {name: null}
+players:
+  # AMER qualification roster, Feb/Mar 2026 (Floorball Canada lists 'Forwards & Defence' together)
+  - {name: Brandon Barber, position: field, club: null, number: null, birth_date: null, source: floorballcanada-2026-02-16}
+  - {name: Stuart Bowden, position: field, club: null, number: null, birth_date: null, source: floorballcanada-2026-02-16}
+  - {name: Cameron Buck, position: field, club: null, number: null, birth_date: null, source: floorballcanada-2026-02-16}
+  - {name: Thomas Courtemanche, position: field, club: null, number: null, birth_date: null, source: floorballcanada-2026-02-16}
+  - {name: James Daly, position: field, club: null, number: null, birth_date: null, source: floorballcanada-2026-02-16}
+  - {name: Alex Field, position: field, club: null, number: null, birth_date: null, source: floorballcanada-2026-02-16}
+  - {name: Stephen Friedli, position: field, club: null, number: null, birth_date: null, source: floorballcanada-2026-02-16}
+  - {name: Cedric Grenapin, position: field, club: null, number: null, birth_date: null, source: floorballcanada-2026-02-16}
+  - {name: Reed Hunsberger, position: field, club: null, number: null, birth_date: null, source: floorballcanada-2026-02-16}
+  - {name: Alex Jette, position: field, club: null, number: null, birth_date: null, source: floorballcanada-2026-02-16}
+  - {name: Isaac Kashino, position: field, club: null, number: null, birth_date: null, source: floorballcanada-2026-02-16}
+  - {name: Justin Knight, position: field, club: null, number: null, birth_date: null, source: floorballcanada-2026-02-16}
+  - {name: Nick Lankester, position: field, club: null, number: null, birth_date: null, source: floorballcanada-2026-02-16}
+  - {name: Eetu Lumiala, position: field, club: null, number: null, birth_date: null, source: floorballcanada-2026-02-16}
+  - {name: Patrick Mahoney, position: field, club: null, number: null, birth_date: null, source: floorballcanada-2026-02-16}
+  - {name: Matt Smith, position: field, club: null, number: null, birth_date: null, source: floorballcanada-2026-02-16}
+  - {name: Valtteri Viitakoski, position: field, club: null, number: null, birth_date: null, source: floorballcanada-2026-02-16}
+  - {name: Tristan Walsh, position: field, club: null, number: null, birth_date: null, source: floorballcanada-2026-02-16}
+  - {name: Kryštof Kasha, position: goalkeeper, club: null, number: null, birth_date: null, source: floorballcanada-2026-02-16}
+  - {name: Kale Smith, position: goalkeeper, club: null, number: null, birth_date: null, source: floorballcanada-2026-02-16}
+reserve: {name: Patrick McNeill-McKinnell, source: floorballcanada-2026-02-16}
+notable:
+  - "Swiss-club players: none known (clubs not published)."
+gaps:
+  - "Actual WFC names (image only), clubs, positions, numbers, birth dates."

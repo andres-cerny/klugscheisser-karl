@@ -1,0 +1,760 @@
+{
+ "head": {
+  "vars": [
+   "p",
+   "team",
+   "teamLabel",
+   "start",
+   "end",
+   "country"
+  ]
+ },
+ "results": {
+  "bindings": [
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110282230"
+    },
+    "country": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110285649"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "SC Reinach Damen"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110282230"
+    },
+    "country": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110285106"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "SC Reinach Damen"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2015-01-01T00:00:00Z"
+    },
+    "end": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2020-01-01T00:00:00Z"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q122369365"
+    },
+    "country": {
+     "type": "literal",
+     "value": "USA"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15768448"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Boston Fleet"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2023-01-01T00:00:00Z"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q131147581"
+    },
+    "country": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110285106"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "EV Zug Women's Team"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2023-03-16T00:00:00Z"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q131147581"
+    },
+    "country": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q81902092"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "EV Zug Women's Team"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2023-01-01T00:00:00Z"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q136542840"
+    },
+    "country": {
+     "type": "literal",
+     "value": "USA"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q51883463"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Yeti / Fox Factory Race Team"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2025-01-01T00:00:00Z"
+    },
+    "end": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2025-01-01T00:00:00Z"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q1274691"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q2057173"
+    },
+    "teamLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "EHC Schaffhausen"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q136647290"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q51883463"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Dorval AM Commencal"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2020-01-01T00:00:00Z"
+    },
+    "end": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2024-01-01T00:00:00Z"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q387013"
+    },
+    "country": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q19972555"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "GCK Lions"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q387013"
+    },
+    "country": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q520755"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "GCK Lions"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q676135"
+    },
+    "country": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15743541"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Switzerland women's national ice hockey team"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2013-01-01T00:00:00Z"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q688754"
+    },
+    "country": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q1381662"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Hockey Club Lugano"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q1274665"
+    },
+    "country": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q19973703"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "EHC Bülach"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q1274665"
+    },
+    "country": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q520755"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "EHC Bülach"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q1274700"
+    },
+    "country": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q124377500"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "EHC Winterthur"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q1274700"
+    },
+    "country": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q19973703"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "EHC Winterthur"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q1826908"
+    },
+    "country": {
+     "type": "literal",
+     "value": "SWE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15743541"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Linköpings FC"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2017-01-01T00:00:00Z"
+    },
+    "end": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2019-01-01T00:00:00Z"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q2927985"
+    },
+    "country": {
+     "type": "literal",
+     "value": "USA"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15743541"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Minnesota Duluth Bulldogs women's ice hockey"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2013-01-01T00:00:00Z"
+    },
+    "end": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2017-01-01T00:00:00Z"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q3786162"
+    },
+    "country": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110285106"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "HC Ladies Lugano"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2021-12-31T00:00:00Z"
+    },
+    "end": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2023-03-16T00:00:00Z"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q6736324"
+    },
+    "country": {
+     "type": "literal",
+     "value": "USA"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q29716137"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Maine Black Bears women's ice hockey"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q6906252"
+    },
+    "country": {
+     "type": "literal",
+     "value": "CAN"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q64009265"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Montreal Carabins women's ice hockey"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q6906252"
+    },
+    "country": {
+     "type": "literal",
+     "value": "CAN"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q51883463"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Montreal Carabins women's ice hockey"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2009-01-01T00:00:00Z"
+    },
+    "end": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2010-01-01T00:00:00Z"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q7058029"
+    },
+    "country": {
+     "type": "literal",
+     "value": "USA"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15768448"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Northeastern Huskies women's ice hockey"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q7058029"
+    },
+    "country": {
+     "type": "literal",
+     "value": "USA"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q520755"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Northeastern Huskies women's ice hockey"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q7080915"
+    },
+    "country": {
+     "type": "literal",
+     "value": "USA"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q29717053"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Ohio State Buckeyes women's ice hockey"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q10436587"
+    },
+    "country": {
+     "type": "literal",
+     "value": "SWE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15743541"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Brynäs IF Dam"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2019-01-01T00:00:00Z"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q26877655"
+    },
+    "country": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110285649"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "SC Bern Frauen"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q26877655"
+    },
+    "country": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110285106"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "SC Bern Frauen"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2020-01-01T00:00:00Z"
+    },
+    "end": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2021-01-01T00:00:00Z"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q98096918"
+    },
+    "country": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q19973703"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "ZSC Lions Frauen"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q98096918"
+    },
+    "country": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15768448"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "ZSC Lions Frauen"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q106397153"
+    },
+    "country": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110285649"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "HC Thurgau Ladies"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q106397153"
+    },
+    "country": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110285106"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "HC Thurgau Ladies"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2021-07-02T00:00:00Z"
+    },
+    "end": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2021-12-31T00:00:00Z"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q106397153"
+    },
+    "country": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q81902092"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "HC Thurgau Ladies"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2019-01-01T00:00:00Z"
+    },
+    "end": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2023-01-01T00:00:00Z"
+    }
+   }
+  ]
+ }
+}

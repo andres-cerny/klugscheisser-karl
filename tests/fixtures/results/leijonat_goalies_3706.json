@@ -1,0 +1,70 @@
+{
+ "Players": [
+  {
+   "TeamID": 191794005,
+   "PlayerID": 8891,
+   "LastName": "DRUFVA",
+   "FirstName": "Minja",
+   "Yob": "2002",
+   "Img": "",
+   "TeamImg": "",
+   "TeamAbbrv": "K-Espoo",
+   "GoalieGames": 7,
+   "GoaliePlayedGames": 3,
+   "GoalieGoalsAgainst": 2,
+   "GoalieSaves": 40,
+   "TeamIDs": [
+    191794005
+   ],
+   "GoalieZeroGames": 0,
+   "GoalieGA60Min": "0,00",
+   "GoalieGA60MinNum": 0,
+   "GoalieWinGames": 0,
+   "GoalieLossGames": 0,
+   "GoalieWinPerc": "",
+   "GoalieWinPercNum": 0,
+   "GoalieTimeOnIce": 0,
+   "GoalieSavesPerc": "95,2",
+   "GoalieSavesPercNum": 95.23809523809523,
+   "Ranking": 1,
+   "RoleAbbrv": "MV",
+   "RoleID": 1,
+   "CurrentTeam": "KIEKKO-ESPOO RY Naiset",
+   "JerseyNr": "35",
+   "RequiredGames": 3
+  },
+  {
+   "TeamID": 207244855,
+   "PlayerID": 132572,
+   "LastName": "MCGEE",
+   "FirstName": "Zoe",
+   "Yob": "2006",
+   "Img": "",
+   "TeamImg": "",
+   "TeamAbbrv": "TPS",
+   "GoalieGames": 2,
+   "GoaliePlayedGames": 2,
+   "GoalieGoalsAgainst": 5,
+   "GoalieSaves": 93,
+   "TeamIDs": [
+    207244855
+   ],
+   "GoalieZeroGames": 0,
+   "GoalieGA60Min": "0,00",
+   "GoalieGA60MinNum": 0,
+   "GoalieWinGames": 0,
+   "GoalieLossGames": 0,
+   "GoalieWinPerc": "",
+   "GoalieWinPercNum": 0,
+   "GoalieTimeOnIce": 0,
+   "GoalieSavesPerc": "94,9",
+   "GoalieSavesPercNum": 94.89795918367348,
+   "Ranking": 2,
+   "RoleAbbrv": "MV",
+   "RoleID": 1,
+   "CurrentTeam": "TPS JUNIORIJÄÄKIEKKO RY Naiset",
+   "JerseyNr": "55",
+   "RequiredGames": 2
+  }
+ ]
+}

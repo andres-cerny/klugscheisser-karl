@@ -1,0 +1,53 @@
+# Known source accounts/outlets -> kind (drives the emoji label). Unknown Instagram accounts are classified once
+# by Jev and cached in the `accounts` table. Handles lower-case without "@".
+instagram:
+  official:
+    swissicehockeywomen: Swiss Ice Hockey Women
+    swissicehockey: Swiss Ice Hockey
+    swissicehockeymen: Swiss Ice Hockey Men  # the old @swissicehockey, renamed 2025-10
+    swissicehockeyfederation: Swiss Ice Hockey Federation
+    postfinance_womensleague: PostFinance Women's League
+    fr_gotteron_ladies: HC Fribourg-Gottéron Ladies
+    lionsfrauen: ZSC Lions Frauen
+    scb_frauen_official: SC Bern Frauen
+    official_evz: EV Zug
+    hcthurgauladies: HC Thurgau Ladies
+    thepwhlofficial: PWHL
+    pwhl__detroit: PWHL Detroit
+    pwhl_hamilton: PWHL Hamilton
+    pwhl_fleet: Boston Fleet
+    frolunda_hc: Frölunda HC
+    iihfhockey: IIHF
+  srf:
+    srfsport: SRF Sport
+    srf: SRF
+    rtssport: RTS Sport
+    rsisport: RSI Sport
+rss:
+  srf:
+    SRF: SRF
+# Web pages found by web search (v3 P4): registrable domain -> kind. Unknown domains get kind "web".
+web:
+  srf:
+    srf.ch: SRF
+    rts.ch: RTS
+    rsi.ch: RSI
+  media:
+    nzz.ch: NZZ
+    tagesanzeiger.ch: Tages-Anzeiger
+    luzernerzeitung.ch: Luzerner Zeitung
+    aargauerzeitung.ch: Aargauer Zeitung
+    bernerzeitung.ch: Berner Zeitung
+    keystone-sda.ch: Keystone-SDA
+  boulevard:
+    blick.ch: Blick
+    20min.ch: 20 Minuten
+    watson.ch: watson
+  official:
+    sihf.ch: Swiss Ice Hockey
+    swissicehockey.ch: Swiss Ice Hockey
+    iihf.com: IIHF
+    thepwhl.com: PWHL
+    sdhl.se: SDHL
+    swehockey.se: Swedish Ice Hockey Association
+    evz.ch: EV Zug

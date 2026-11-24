@@ -1,0 +1,777 @@
+team: Finland
+code: FIN
+group: A
+status: official_squad
+announced:
+  date: '2026-11-03'
+  source_url: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+  source_title: Salibandymiehet Tampereen MM-kotikisoihin valittu – mukana neljä ensikertalaista (Suomen Salibandyliitto press release, STT Info, 3.11.2026 13:16 EET)
+retrieved: '2026-11-24'
+coaches:
+- name: Esa Jussila
+  role: head coach (päävalmentaja)
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+- name: Antti Vartiainen
+  role: coach
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+- name: Jori Isomäki
+  role: coach
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+- name: Jarno Ihme
+  role: goalkeeper coach
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+- name: Juuso Kilpikoski
+  role: physiotherapist
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+- name: Antti Ylinen
+  role: physiotherapist
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+- name: Jari Oksanen
+  role: team manager (joukkueenjohtaja)
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+captain: null
+players:
+- name: Markus Laakso
+  birth_date: '1995-04-08'
+  age_at_announcement: 31
+  position: goalkeeper
+  club: Esport Oilers, Espoo
+  club_country: FIN
+  league: F-liiga
+  league_unverified: false
+  youth_club: Tapanilan Erä
+  number: 63
+  previous_wfc_tournaments: 1
+  caps: 27
+  goals: 0
+  assists: 0
+  points: 0
+  caps_as_of: '2026-11-03'
+  reserve: false
+  profiles:
+    federation: null
+    league: https://fliiga.com/pelaajat/miehet/markus-laakso/
+  notes:
+  - Named Finland's best player in the 8-2 win over Sweden in Kokkola, 2026-10-18 (https://www.sttinfo.fi/tiedote/72420389/salibandymiehet-komeaan-voittoon-ruotsista-kokkolan-mm-kenraalissa?lang=fi)
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+  birth_date_source: https://fliiga.com/pelaajat/miehet/
+  club_number_2026_27: 36
+- name: Oskari Fälden
+  birth_date: null
+  age_at_announcement: 26
+  position: goalkeeper
+  club: Floorball Thurgau
+  club_country: SUI
+  league: Unihockey Prime League (L-UPL)
+  league_unverified: true
+  youth_club: TPS
+  number: 91
+  previous_wfc_tournaments: 3
+  caps: 56
+  goals: 0
+  assists: 0
+  points: 0
+  caps_as_of: '2026-11-03'
+  reserve: false
+  profiles:
+    federation: null
+    league: null
+  notes:
+  - 'Swiss connection: plays for a Swiss club'
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+- name: Aaro Astala
+  birth_date: null
+  age_at_announcement: 29
+  position: outfield (kenttäpelaaja; defender/forward not specified)
+  club: Esport Oilers
+  club_country: FIN
+  league: F-liiga
+  league_unverified: false
+  youth_club: Pakilan Visa
+  number: 2
+  previous_wfc_tournaments: 2
+  caps: 46
+  goals: 18
+  assists: 14
+  points: 32
+  caps_as_of: '2026-11-03'
+  reserve: false
+  profiles:
+    federation: null
+    league: https://fliiga.com/pelaajat/miehet/aaro-astala/
+  notes: []
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+  club_number_2026_27: 2
+- name: Eemeli Salin
+  birth_date: '1990-05-01'
+  age_at_announcement: 36
+  position: outfield (kenttäpelaaja; defender/forward not specified)
+  club: Classic, Tampere
+  club_country: FIN
+  league: F-liiga
+  league_unverified: false
+  youth_club: Uudenkaupungin Salibandy
+  number: 9
+  previous_wfc_tournaments: 6
+  caps: 131
+  goals: 71
+  assists: 76
+  points: 148
+  caps_as_of: '2026-11-03'
+  reserve: false
+  profiles:
+    federation: null
+    league: https://fliiga.com/pelaajat/miehet/eemeli-salin/
+  notes:
+  - 'Most experienced in the squad: going to his 7th World Championship (announcement)'
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+  birth_date_source: https://fliiga.com/pelaajat/miehet/
+  club_number_2026_27: 9
+- name: Oskari Heikkilä
+  birth_date: '1997-10-17'
+  age_at_announcement: 29
+  position: outfield (kenttäpelaaja; defender/forward not specified)
+  club: Classic, Tampere
+  club_country: FIN
+  league: F-liiga
+  league_unverified: false
+  youth_club: Classic
+  number: 10
+  previous_wfc_tournaments: 3
+  caps: 56
+  goals: 29
+  assists: 17
+  points: 46
+  caps_as_of: '2026-11-03'
+  reserve: false
+  profiles:
+    federation: null
+    league: https://fliiga.com/pelaajat/miehet/oskari-heikkila/
+  notes: []
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+  birth_date_source: https://fliiga.com/pelaajat/miehet/
+  club_number_2026_27: 10
+- name: Antti Suomela
+  birth_date: null
+  age_at_announcement: 28
+  position: outfield (kenttäpelaaja; defender/forward not specified)
+  club: Esport Oilers, Espoo
+  club_country: FIN
+  league: F-liiga
+  league_unverified: true
+  youth_club: OLS
+  number: 18
+  previous_wfc_tournaments: 0
+  caps: 11
+  goals: 2
+  assists: 3
+  points: 5
+  caps_as_of: '2026-11-03'
+  reserve: false
+  profiles:
+    federation: null
+    league: null
+  notes:
+  - First World Championship (one of 4 debutants named in the announcement)
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+- name: Nico Salo
+  birth_date: '1994-01-20'
+  age_at_announcement: 32
+  position: outfield (kenttäpelaaja; defender/forward not specified)
+  club: Classic, Tampere
+  club_country: FIN
+  league: F-liiga
+  league_unverified: false
+  youth_club: Classic
+  number: 20
+  previous_wfc_tournaments: 6
+  caps: 120
+  goals: 40
+  assists: 61
+  points: 101
+  caps_as_of: '2026-11-03'
+  reserve: false
+  profiles:
+    federation: null
+    league: https://fliiga.com/pelaajat/miehet/nico-salo/
+  notes:
+  - 'Most experienced in the squad: going to his 7th World Championship (announcement)'
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+  birth_date_source: https://fliiga.com/pelaajat/miehet/
+  club_number_2026_27: 20
+- name: Heikki Iiskola
+  birth_date: null
+  age_at_announcement: 28
+  position: outfield (kenttäpelaaja; defender/forward not specified)
+  club: Växjö Vipers
+  club_country: SWE
+  league: SSL (Svenska Superligan)
+  league_unverified: true
+  youth_club: SB Vantaa
+  number: 21
+  previous_wfc_tournaments: 1
+  caps: 23
+  goals: 23
+  assists: 7
+  points: 30
+  caps_as_of: '2026-11-03'
+  reserve: false
+  profiles:
+    federation: null
+    league: null
+  notes: []
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+- name: Eemeli Akola
+  birth_date: null
+  age_at_announcement: 27
+  position: outfield (kenttäpelaaja; defender/forward not specified)
+  club: Växjö Vipers
+  club_country: SWE
+  league: SSL (Svenska Superligan)
+  league_unverified: true
+  youth_club: FBC Karhut
+  number: 22
+  previous_wfc_tournaments: 2
+  caps: 50
+  goals: 11
+  assists: 15
+  points: 26
+  caps_as_of: '2026-11-03'
+  reserve: false
+  profiles:
+    federation: null
+    league: null
+  notes: []
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+- name: Otto Kilpi
+  birth_date: null
+  age_at_announcement: 24
+  position: outfield (kenttäpelaaja; defender/forward not specified)
+  club: Nykvarns IF
+  club_country: SWE
+  league: SSL (Svenska Superligan)
+  league_unverified: true
+  youth_club: FoSu
+  number: 23
+  previous_wfc_tournaments: 0
+  caps: 7
+  goals: 1
+  assists: 1
+  points: 2
+  caps_as_of: '2026-11-03'
+  reserve: false
+  profiles:
+    federation: null
+    league: null
+  notes:
+  - First World Championship (one of 4 debutants named in the announcement)
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+- name: Miska Mäkinen
+  birth_date: null
+  age_at_announcement: 30
+  position: outfield (kenttäpelaaja; defender/forward not specified)
+  club: Esport Oilers, Espoo
+  club_country: FIN
+  league: F-liiga
+  league_unverified: false
+  youth_club: Tikkurilan Tiikerit
+  number: 33
+  previous_wfc_tournaments: 1
+  caps: 33
+  goals: 4
+  assists: 20
+  points: 24
+  caps_as_of: '2026-11-03'
+  reserve: false
+  profiles:
+    federation: null
+    league: https://fliiga.com/pelaajat/miehet/miska-makinen/
+  notes:
+  - Scored the overtime winner in the 2024 WFC final in Malmö (Finland 5-4 OT vs Sweden after trailing 0-4) - per announcement
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+  club_number_2026_27: 77
+- name: Joona Rantala
+  birth_date: '1999-02-12'
+  age_at_announcement: 27
+  position: outfield (kenttäpelaaja; defender/forward not specified)
+  club: Classic, Tampere
+  club_country: FIN
+  league: F-liiga
+  league_unverified: false
+  youth_club: Taipalsaaren Kisa
+  number: 70
+  previous_wfc_tournaments: 2
+  caps: 60
+  goals: 41
+  assists: 39
+  points: 80
+  caps_as_of: '2026-11-03'
+  reserve: false
+  profiles:
+    federation: null
+    league: https://fliiga.com/pelaajat/miehet/joona-rantala/
+  notes: []
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+  birth_date_source: https://fliiga.com/pelaajat/miehet/
+  club_number_2026_27: 70
+- name: Luukas Hyvärinen
+  birth_date: null
+  age_at_announcement: 21
+  position: outfield (kenttäpelaaja; defender/forward not specified)
+  club: OLS, Oulu
+  club_country: FIN
+  league: F-liiga
+  league_unverified: false
+  youth_club: Tapanilan Erä
+  number: 71
+  previous_wfc_tournaments: 1
+  caps: 28
+  goals: 19
+  assists: 30
+  points: 49
+  caps_as_of: '2026-11-03'
+  reserve: false
+  profiles:
+    federation: null
+    league: https://fliiga.com/pelaajat/miehet/luukas-hyvarinen/
+  notes: []
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+  club_number_2026_27: 71
+- name: Justus Kainulainen
+  birth_date: null
+  age_at_announcement: 27
+  position: outfield (kenttäpelaaja; defender/forward not specified)
+  club: Zug United
+  club_country: SUI
+  league: Unihockey Prime League (L-UPL)
+  league_unverified: true
+  youth_club: Hollolan Urheilijat-46
+  number: 73
+  previous_wfc_tournaments: 3
+  caps: 65
+  goals: 65
+  assists: 28
+  points: 93
+  caps_as_of: '2026-11-03'
+  reserve: false
+  profiles:
+    federation: null
+    league: null
+  notes:
+  - 'Swiss connection: plays for a Swiss club'
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+- name: Juuso Ahola
+  birth_date: '2003-09-19'
+  age_at_announcement: 23
+  position: outfield (kenttäpelaaja; defender/forward not specified)
+  club: Nokian KrP
+  club_country: FIN
+  league: F-liiga
+  league_unverified: false
+  youth_club: Karhut
+  number: 79
+  previous_wfc_tournaments: 1
+  caps: 33
+  goals: 31
+  assists: 20
+  points: 51
+  caps_as_of: '2026-11-03'
+  reserve: false
+  profiles:
+    federation: null
+    league: https://fliiga.com/pelaajat/miehet/juuso-ahola/
+  notes:
+  - Scored 2 goals in the 8-2 win over Sweden in Kokkola, 2026-10-18 (same source)
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+  birth_date_source: https://fliiga.com/pelaajat/miehet/
+  club_number_2026_27: 79
+- name: Otto Lehkosuo
+  birth_date: null
+  age_at_announcement: 29
+  position: outfield (kenttäpelaaja; defender/forward not specified)
+  club: Westend Indians, Espoo
+  club_country: FIN
+  league: F-liiga
+  league_unverified: true
+  youth_club: Pakilan Visa
+  number: 81
+  previous_wfc_tournaments: 3
+  caps: 65
+  goals: 13
+  assists: 27
+  points: 40
+  caps_as_of: '2026-11-03'
+  reserve: false
+  profiles:
+    federation: null
+    league: null
+  notes: []
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+- name: Nico Jonaeson
+  birth_date: '1994-07-17'
+  age_at_announcement: 32
+  position: outfield (kenttäpelaaja; defender/forward not specified)
+  club: Nokian KrP
+  club_country: FIN
+  league: F-liiga
+  league_unverified: false
+  youth_club: SCH
+  number: 86
+  previous_wfc_tournaments: 1
+  caps: 30
+  goals: 5
+  assists: 11
+  points: 16
+  caps_as_of: '2026-11-03'
+  reserve: false
+  profiles:
+    federation: null
+    league: https://fliiga.com/pelaajat/miehet/nico-jonaeson/
+  notes: []
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+  birth_date_source: https://fliiga.com/pelaajat/miehet/
+  club_number_2026_27: 88
+- name: Alpo Laitila
+  birth_date: '2002-06-20'
+  age_at_announcement: 24
+  position: outfield (kenttäpelaaja; defender/forward not specified)
+  club: SPV, Seinäjoki
+  club_country: FIN
+  league: F-liiga
+  league_unverified: false
+  youth_club: Classic
+  number: 88
+  previous_wfc_tournaments: 1
+  caps: 38
+  goals: 14
+  assists: 12
+  points: 26
+  caps_as_of: '2026-11-03'
+  reserve: false
+  profiles:
+    federation: null
+    league: https://fliiga.com/pelaajat/miehet/alpo-laitila/
+  notes: []
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+  birth_date_source: https://fliiga.com/pelaajat/miehet/
+  club_number_2026_27: 88
+- name: Markus Markkola
+  birth_date: '1995-11-29'
+  age_at_announcement: 30
+  position: outfield (kenttäpelaaja; defender/forward not specified)
+  club: Esport Oilers, Espoo
+  club_country: FIN
+  league: F-liiga
+  league_unverified: false
+  youth_club: Kirkkojärven Loiske
+  number: 95
+  previous_wfc_tournaments: 0
+  caps: 7
+  goals: 1
+  assists: 1
+  points: 2
+  caps_as_of: '2026-11-03'
+  reserve: false
+  profiles:
+    federation: null
+    league: https://fliiga.com/pelaajat/miehet/markus-markkola/
+  notes:
+  - First World Championship (one of 4 debutants named in the announcement)
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+  birth_date_source: https://fliiga.com/pelaajat/miehet/
+  club_number_2026_27: 88
+- name: Riku Hakanen
+  birth_date: null
+  age_at_announcement: 25
+  position: outfield (kenttäpelaaja; defender/forward not specified)
+  club: SPV, Seinäjoki
+  club_country: FIN
+  league: F-liiga
+  league_unverified: true
+  youth_club: Woodcutters
+  number: 97
+  previous_wfc_tournaments: 0
+  caps: 15
+  goals: 5
+  assists: 6
+  points: 11
+  caps_as_of: '2026-11-03'
+  reserve: false
+  profiles:
+    federation: null
+    league: null
+  notes:
+  - First World Championship (one of 4 debutants named in the announcement)
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+reserves:
+- name: Santtu Strandberg
+  birth_date: null
+  age_at_announcement: 35
+  position: goalkeeper
+  club: Växjö Vipers
+  club_country: SWE
+  league: SSL (Svenska Superligan)
+  league_unverified: true
+  youth_club: Tapanilan Erä
+  number: 1
+  previous_wfc_tournaments: 0
+  caps: 24
+  goals: 0
+  assists: 0
+  points: 0
+  caps_as_of: '2026-11-03'
+  reserve: true
+  profiles:
+    federation: null
+    league: null
+  notes:
+  - 'Reserve player (varapelaaja): can be added to the squad in case of injury'
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+- name: Jere Niemelä
+  birth_date: null
+  age_at_announcement: 26
+  position: outfield (kenttäpelaaja; defender/forward not specified)
+  club: Westend Indians, Espoo
+  club_country: FIN
+  league: F-liiga
+  league_unverified: true
+  youth_club: NST
+  number: 3
+  previous_wfc_tournaments: 2
+  caps: 34
+  goals: 3
+  assists: 6
+  points: 9
+  caps_as_of: '2026-11-03'
+  reserve: true
+  profiles:
+    federation: null
+    league: null
+  notes:
+  - 'Reserve player (varapelaaja): can be added to the squad in case of injury'
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+- name: Konsta Tykkyläinen
+  birth_date: '1998-06-07'
+  age_at_announcement: 28
+  position: outfield (kenttäpelaaja; defender/forward not specified)
+  club: Classic, Tampere
+  club_country: FIN
+  league: F-liiga
+  league_unverified: false
+  youth_club: Pirkat
+  number: 4
+  previous_wfc_tournaments: 2
+  caps: 40
+  goals: 11
+  assists: 10
+  points: 21
+  caps_as_of: '2026-11-03'
+  reserve: true
+  profiles:
+    federation: null
+    league: https://fliiga.com/pelaajat/miehet/konsta-tykkylainen/
+  notes:
+  - 'Reserve player (varapelaaja): can be added to the squad in case of injury'
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+  birth_date_source: https://fliiga.com/pelaajat/miehet/
+  club_number_2026_27: 4
+- name: Samuli Junnila
+  birth_date: null
+  age_at_announcement: 23
+  position: outfield (kenttäpelaaja; defender/forward not specified)
+  club: Westend Indians, Espoo
+  club_country: FIN
+  league: F-liiga
+  league_unverified: true
+  youth_club: Westend Indians
+  number: 14
+  previous_wfc_tournaments: 0
+  caps: 6
+  goals: 4
+  assists: 3
+  points: 7
+  caps_as_of: '2026-11-03'
+  reserve: true
+  profiles:
+    federation: null
+    league: null
+  notes:
+  - 'Reserve player (varapelaaja): can be added to the squad in case of injury'
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+- name: Juho Repo
+  birth_date: null
+  age_at_announcement: 24
+  position: outfield (kenttäpelaaja; defender/forward not specified)
+  club: SPV, Seinäjoki
+  club_country: FIN
+  league: F-liiga
+  league_unverified: true
+  youth_club: Tikkurilan Tiikerit
+  number: 15
+  previous_wfc_tournaments: 0
+  caps: 12
+  goals: 4
+  assists: 4
+  points: 8
+  caps_as_of: '2026-11-03'
+  reserve: true
+  profiles:
+    federation: null
+    league: null
+  notes:
+  - 'Reserve player (varapelaaja): can be added to the squad in case of injury'
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+- name: Jani Rauhala
+  birth_date: null
+  age_at_announcement: 26
+  position: outfield (kenttäpelaaja; defender/forward not specified)
+  club: Westend Indians, Espoo
+  club_country: FIN
+  league: F-liiga
+  league_unverified: true
+  youth_club: SSV
+  number: 19
+  previous_wfc_tournaments: 0
+  caps: 10
+  goals: 1
+  assists: 1
+  points: 2
+  caps_as_of: '2026-11-03'
+  reserve: true
+  profiles:
+    federation: null
+    league: null
+  notes:
+  - 'Reserve player (varapelaaja): can be added to the squad in case of injury'
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+- name: Teppo Liukkonen
+  birth_date: null
+  age_at_announcement: 22
+  position: goalkeeper
+  club: SPV, Seinäjoki
+  club_country: FIN
+  league: F-liiga
+  league_unverified: false
+  youth_club: SB Welhot
+  number: 32
+  previous_wfc_tournaments: 0
+  caps: 3
+  goals: 0
+  assists: 0
+  points: 0
+  caps_as_of: '2026-11-03'
+  reserve: true
+  profiles:
+    federation: null
+    league: https://fliiga.com/pelaajat/miehet/teppo-liukkonen/
+  notes:
+  - 'Reserve player (varapelaaja): can be added to the squad in case of injury'
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+  club_number_2026_27: 24
+- name: Mikko Laakso
+  birth_date: null
+  age_at_announcement: 28
+  position: outfield (kenttäpelaaja; defender/forward not specified)
+  club: Nokian KrP
+  club_country: FIN
+  league: F-liiga
+  league_unverified: true
+  youth_club: SCH
+  number: 44
+  previous_wfc_tournaments: 0
+  caps: 22
+  goals: 6
+  assists: 9
+  points: 15
+  caps_as_of: '2026-11-03'
+  reserve: true
+  profiles:
+    federation: null
+    league: null
+  notes:
+  - 'Reserve player (varapelaaja): can be added to the squad in case of injury'
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+- name: Waltteri Vesterinen
+  birth_date: '2002-07-21'
+  age_at_announcement: 24
+  position: outfield (kenttäpelaaja; defender/forward not specified)
+  club: Esport Oilers, Espoo
+  club_country: FIN
+  league: F-liiga
+  league_unverified: false
+  youth_club: TPS
+  number: 90
+  previous_wfc_tournaments: 0
+  caps: 25
+  goals: 12
+  assists: 14
+  points: 26
+  caps_as_of: '2026-11-03'
+  reserve: true
+  profiles:
+    federation: null
+    league: https://fliiga.com/pelaajat/miehet/waltteri-vesterinen/
+  notes:
+  - 'Reserve player (varapelaaja): can be added to the squad in case of injury'
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+  birth_date_source: https://fliiga.com/pelaajat/miehet/
+  club_number_2026_27: 90
+- name: Jasper Auvinen
+  birth_date: '2002-07-22'
+  age_at_announcement: 24
+  position: outfield (kenttäpelaaja; defender/forward not specified)
+  club: Esport Oilers, Espoo
+  club_country: FIN
+  league: F-liiga
+  league_unverified: false
+  youth_club: M-Team
+  number: 93
+  previous_wfc_tournaments: 0
+  caps: 4
+  goals: 3
+  assists: 3
+  points: 6
+  caps_as_of: '2026-11-03'
+  reserve: true
+  profiles:
+    federation: null
+    league: https://fliiga.com/pelaajat/miehet/jasper-auvinen/
+  notes:
+  - 'Reserve player (varapelaaja): can be added to the squad in case of injury'
+  source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+  birth_date_source: https://fliiga.com/pelaajat/miehet/
+  club_number_2026_27: 93
+schedule_group_stage:
+- date: '2026-12-05'
+  match: Finland - Switzerland
+  time_local: '19:00'
+- date: '2026-12-06'
+  match: Finland - Norway
+  time_local: '14:00'
+- date: '2026-12-08'
+  match: Latvia - Finland
+  time_local: '19:00'
+schedule_source: https://www.sttinfo.fi/tiedote/72469045/salibandymiehet-tampereen-mm-kotikisoihin-valittu-mukana-nelja-ensikertalaista?lang=fi
+notes:
+- 'Squad: 2 goalkeepers + 18 outfield players, plus 10 reserves who can be added in case of injury (announcement).'
+- Numbers, ages, clubs, youth clubs, previous WFC tournaments and national-team caps/goals/assists/points are from the announcement table (as of 2026-11-03).
+- 'Debutants (first WFC): Antti Suomela, Otto Kilpi, Markus Markkola, Riku Hakanen.'
+- 16 of the 20 players won gold two years ago in Malmö (2024).
+- 'Finland is defending champion: won the 2024 final in Malmö 5-4 in overtime against Sweden after trailing 0-4; overtime winner Miska Mäkinen.'
+- 'Finland''s WFC record per announcement: 5 golds (2008, 2010, 2016, 2018, 2024), 7 silvers, 3 bronzes; 15 men''s WFCs held since 1996; Sweden most successful with 10 titles and 5 silvers.'
+- 'Group A: Finland, Latvia, Norway, Switzerland - Finland opens against Switzerland on 2026-12-05.'
+- 'Swiss connections: goalkeeper Oskari Fälden (Floorball Thurgau) and Justus Kainulainen (Zug United, teammate of Swedes Albin Sjögren and Niklas Ramirez).'
+- Final weekend at Nokia Arena; extra tickets released in autumn (announcement).
+- 'Last pre-WFC test: Kokkola three-nation tournament, Finland beat Sweden 8-2 on 2026-10-18 (2,357 spectators), first win over Sweden in Jussila''s two-year project; Finland had lost all EFT games in September
+  2026 (https://www.sttinfo.fi/tiedote/72420389/salibandymiehet-komeaan-voittoon-ruotsista-kokkolan-mm-kenraalissa?lang=fi).'
+- No late changes / injury replacements found as of 2026-11-24 (one web search only).
+- Birth dates for 12 players from the F-Liiga men's player list (season 2026-2027 view), retrieved 2026-11-24 via rendered page; F-Liiga shows d.m.yyyy plus a machine ISO date that is one day later (timezone
+  bug) - the d.m.yyyy value was used and all 12 match the ages in the federation announcement.
+- 'Club shirt numbers can differ from national-team numbers (e.g. Markus Laakso #36 at Oilers, #63 for Finland).'
+gaps:
+- captain for the WFC not stated (Joona Rantala reportedly captained at an earlier 2026 event - unverified, not used)
+- 'birth_date missing for: Aaro Astala, Luukas Hyvärinen, Miska Mäkinen, Teppo Liukkonen (listed on F-Liiga without date), Antti Suomela, Otto Lehkosuo, Riku Hakanen, Jere Niemelä, Samuli Junnila, Juho
+  Repo, Jani Rauhala, Mikko Laakso (not returned in F-Liiga extract), and the players abroad (Fälden, Iiskola, Akola, Kilpi, Kainulainen, Strandberg)'
+- outfield positions (defender/forward) not in announcement
+- 'league field from general knowledge, not checked against 2026/27 tables (league_unverified: true)'
+- federation/league profile URLs (tulospalvelu.salibandy.fi /person/ pages are disallowed in robots.txt)

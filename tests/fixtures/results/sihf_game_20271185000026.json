@@ -1,0 +1,678 @@
+{
+ "summary": {
+  "periods": [
+   {
+    "name": "1. Drittel",
+    "goals": [
+     {
+      "scorerLicenceNr": 311166,
+      "assist1LicenceNr": 316644,
+      "assist2LicenceNr": 347780,
+      "time": "12:07",
+      "timeInSeconds": 727,
+      "text": "**EQ,GWG** / **1:0** - **Rüedi Lisa (4)**\nPeter Jana (3), Trummer Anja (2)",
+      "teamId": 103432,
+      "result": {
+       "home": 1,
+       "away": 0
+      },
+      "situation": {
+       "code": "EQ",
+       "name": "Even strength",
+       "playersOnIce": {
+        "scoring": 5,
+        "opponent": 5
+       }
+      },
+      "isGameWinningGoal": true,
+      "isEmptyNet": false,
+      "isPenaltyShot": false,
+      "isShootout": false
+     }
+    ]
+   },
+   {
+    "name": "2. Drittel",
+    "goals": [
+     {
+      "scorerLicenceNr": 311166,
+      "assist1LicenceNr": 341567,
+      "assist2LicenceNr": 316644,
+      "time": "36:52",
+      "timeInSeconds": 2212,
+      "text": "**EQ** / **2:0** - **Rüedi Lisa (5)**\nHenek Gloria (2), Peter Jana (4)",
+      "teamId": 103432,
+      "result": {
+       "home": 2,
+       "away": 0
+      },
+      "situation": {
+       "code": "EQ",
+       "name": "Even strength",
+       "playersOnIce": {
+        "scoring": 5,
+        "opponent": 5
+       }
+      },
+      "isGameWinningGoal": false,
+      "isEmptyNet": false,
+      "isPenaltyShot": false,
+      "isShootout": false
+     }
+    ]
+   },
+   {
+    "name": "3. Drittel",
+    "goals": [
+     {
+      "scorerLicenceNr": 324977,
+      "assist1LicenceNr": 328970,
+      "assist2LicenceNr": 0,
+      "time": "45:56",
+      "timeInSeconds": 2756,
+      "text": "**EQ** / **3:0** - **Estermann Hannah (2)**\nRomerio Giulia (1)",
+      "teamId": 103432,
+      "result": {
+       "home": 3,
+       "away": 0
+      },
+      "situation": {
+       "code": "EQ",
+       "name": "Even strength",
+       "playersOnIce": {
+        "scoring": 5,
+        "opponent": 5
+       }
+      },
+      "isGameWinningGoal": false,
+      "isEmptyNet": false,
+      "isPenaltyShot": false,
+      "isShootout": false
+     },
+     {
+      "scorerLicenceNr": 307660,
+      "assist1LicenceNr": 317890,
+      "assist2LicenceNr": 0,
+      "time": "56:45",
+      "timeInSeconds": 3405,
+      "text": "**EQ** / **4:0** - **Wetli Stefanie (1)**\nBachmann Sara (2)",
+      "teamId": 103432,
+      "result": {
+       "home": 4,
+       "away": 0
+      },
+      "situation": {
+       "code": "EQ",
+       "name": "Even strength",
+       "playersOnIce": {
+        "scoring": 5,
+        "opponent": 5
+       }
+      },
+      "isGameWinningGoal": false,
+      "isEmptyNet": false,
+      "isPenaltyShot": false,
+      "isShootout": false
+     }
+    ]
+   }
+  ]
+ },
+ "lineUps": {
+  "homeTeam": {
+   "goalkeepers": [
+    322078,
+    331575
+   ],
+   "defenders": {
+    "left": [
+     307660,
+     347772,
+     341567
+    ],
+    "right": [
+     347780,
+     314877,
+     317164,
+     328187
+    ]
+   },
+   "forwarders": {
+    "left": [
+     316644,
+     349879,
+     337652,
+     334725
+    ],
+    "right": [
+     317890,
+     315674,
+     328970,
+     331748
+    ],
+    "center": [
+     311166,
+     343602,
+     324977,
+     325703
+    ]
+   },
+   "otherPlayers": []
+  },
+  "awayTeam": {
+   "goalkeepers": [
+    321884,
+    330440
+   ],
+   "defenders": {
+    "left": [
+     320150,
+     324251,
+     326512,
+     340600
+    ],
+    "right": [
+     325064,
+     326091,
+     336986
+    ]
+   },
+   "forwarders": {
+    "left": [
+     345026,
+     333433,
+     330654,
+     156761
+    ],
+    "right": [
+     351663,
+     347104,
+     323292
+    ],
+    "center": [
+     351662,
+     306914,
+     341290
+    ]
+   },
+   "otherPlayers": []
+  }
+ },
+ "players": [
+  {
+   "teamId": 103432,
+   "id": 307660,
+   "fullName": "Wetli Stefanie",
+   "jerseyNumber": 16
+  },
+  {
+   "teamId": 103432,
+   "id": 311166,
+   "fullName": "Rüedi Lisa",
+   "jerseyNumber": 12
+  },
+  {
+   "teamId": 103432,
+   "id": 314877,
+   "fullName": "Thalmann Aurela",
+   "jerseyNumber": 19
+  },
+  {
+   "teamId": 103432,
+   "id": 315674,
+   "fullName": "Harju Nora",
+   "jerseyNumber": 5
+  },
+  {
+   "teamId": 103432,
+   "id": 316644,
+   "fullName": "Peter Jana",
+   "jerseyNumber": 21
+  },
+  {
+   "teamId": 103432,
+   "id": 317164,
+   "fullName": "Mächler Zoe",
+   "jerseyNumber": 11
+  },
+  {
+   "teamId": 103432,
+   "id": 317890,
+   "fullName": "Bachmann Sara",
+   "jerseyNumber": 18
+  },
+  {
+   "teamId": 103432,
+   "id": 322078,
+   "fullName": "Berger Alisha",
+   "jerseyNumber": 35
+  },
+  {
+   "teamId": 103432,
+   "id": 324977,
+   "fullName": "Estermann Hannah",
+   "jerseyNumber": 39
+  },
+  {
+   "teamId": 103432,
+   "id": 325703,
+   "fullName": "Ochsner Sarina",
+   "jerseyNumber": 71
+  },
+  {
+   "teamId": 103432,
+   "id": 328187,
+   "fullName": "Merkofer Shayna",
+   "jerseyNumber": 83
+  },
+  {
+   "teamId": 103432,
+   "id": 328970,
+   "fullName": "Romerio Giulia",
+   "jerseyNumber": 9
+  },
+  {
+   "teamId": 103432,
+   "id": 331575,
+   "fullName": "Zagnoli Stella",
+   "jerseyNumber": 90
+  },
+  {
+   "teamId": 103432,
+   "id": 331748,
+   "fullName": "Tovi Lian",
+   "jerseyNumber": 22
+  },
+  {
+   "teamId": 103432,
+   "id": 334725,
+   "fullName": "Frolik Enya",
+   "jerseyNumber": 27
+  },
+  {
+   "teamId": 103432,
+   "id": 337652,
+   "fullName": "Molag Noemi",
+   "jerseyNumber": 4
+  },
+  {
+   "teamId": 103432,
+   "id": 341567,
+   "fullName": "Henek Gloria",
+   "jerseyNumber": 17
+  },
+  {
+   "teamId": 103432,
+   "id": 343602,
+   "fullName": "Rask Fanny",
+   "jerseyNumber": 49
+  },
+  {
+   "teamId": 103432,
+   "id": 347772,
+   "fullName": "Eid Bri",
+   "jerseyNumber": 91
+  },
+  {
+   "teamId": 103432,
+   "id": 347780,
+   "fullName": "Trummer Anja",
+   "jerseyNumber": 24
+  },
+  {
+   "teamId": 103432,
+   "id": 349879,
+   "fullName": "Aurard-Bushee Chloé",
+   "jerseyNumber": 15
+  },
+  {
+   "teamId": 103701,
+   "id": 156761,
+   "fullName": "Sicault Diane",
+   "jerseyNumber": 21
+  },
+  {
+   "teamId": 103701,
+   "id": 306914,
+   "fullName": "Rensch Cassandra",
+   "jerseyNumber": 90
+  },
+  {
+   "teamId": 103701,
+   "id": 309371,
+   "fullName": "Desboeufs Laura",
+   "jerseyNumber": 92
+  },
+  {
+   "teamId": 103701,
+   "id": 318148,
+   "fullName": "Surdez Jade",
+   "jerseyNumber": 66
+  },
+  {
+   "teamId": 103701,
+   "id": 320150,
+   "fullName": "Besson Samira",
+   "jerseyNumber": 18
+  },
+  {
+   "teamId": 103701,
+   "id": 321190,
+   "fullName": "Mériguet Laure",
+   "jerseyNumber": 29
+  },
+  {
+   "teamId": 103701,
+   "id": 321884,
+   "fullName": "Bernardasci Sofia",
+   "jerseyNumber": 31
+  },
+  {
+   "teamId": 103701,
+   "id": 323292,
+   "fullName": "Sierra Chloé",
+   "jerseyNumber": 97
+  },
+  {
+   "teamId": 103701,
+   "id": 324251,
+   "fullName": "Schreier Shannon",
+   "jerseyNumber": 61
+  },
+  {
+   "teamId": 103701,
+   "id": 325064,
+   "fullName": "Anthamatten Lara",
+   "jerseyNumber": 59
+  },
+  {
+   "teamId": 103701,
+   "id": 326091,
+   "fullName": "Himmelberger Emilie",
+   "jerseyNumber": 3
+  },
+  {
+   "teamId": 103701,
+   "id": 326512,
+   "fullName": "Berthod Alixane",
+   "jerseyNumber": 88
+  },
+  {
+   "teamId": 103701,
+   "id": 329836,
+   "fullName": "Berthod Cyrielle",
+   "jerseyNumber": 93
+  },
+  {
+   "teamId": 103701,
+   "id": 330440,
+   "fullName": "Roehrich Aurélie",
+   "jerseyNumber": 1
+  },
+  {
+   "teamId": 103701,
+   "id": 330654,
+   "fullName": "Reuteler Melina Lara",
+   "jerseyNumber": 95
+  },
+  {
+   "teamId": 103701,
+   "id": 331147,
+   "fullName": "Guillaume Hermione",
+   "jerseyNumber": 15
+  },
+  {
+   "teamId": 103701,
+   "id": 333315,
+   "fullName": "Fust Avery",
+   "jerseyNumber": 34
+  },
+  {
+   "teamId": 103701,
+   "id": 333433,
+   "fullName": "Esteve Lena",
+   "jerseyNumber": 4
+  },
+  {
+   "teamId": 103701,
+   "id": 336986,
+   "fullName": "Bangerter Amalia",
+   "jerseyNumber": 28
+  },
+  {
+   "teamId": 103701,
+   "id": 338732,
+   "fullName": "Mayland Agnès",
+   "jerseyNumber": 16
+  },
+  {
+   "teamId": 103701,
+   "id": 340600,
+   "fullName": "Bourcet Ludmilla",
+   "jerseyNumber": 7
+  },
+  {
+   "teamId": 103701,
+   "id": 340878,
+   "fullName": "Otamo Maija",
+   "jerseyNumber": 11
+  },
+  {
+   "teamId": 103701,
+   "id": 341290,
+   "fullName": "Fournier Héloise",
+   "jerseyNumber": 17
+  },
+  {
+   "teamId": 103701,
+   "id": 345026,
+   "fullName": "Rozier Clara",
+   "jerseyNumber": 72
+  },
+  {
+   "teamId": 103701,
+   "id": 346054,
+   "fullName": "Poirrier Jana",
+   "jerseyNumber": 24
+  },
+  {
+   "teamId": 103701,
+   "id": 346569,
+   "fullName": "Boulanger Jessika",
+   "jerseyNumber": 55
+  },
+  {
+   "teamId": 103701,
+   "id": 347104,
+   "fullName": "Cédelle Lisa",
+   "jerseyNumber": 2
+  },
+  {
+   "teamId": 103701,
+   "id": 351662,
+   "fullName": "Mesplède Julia",
+   "jerseyNumber": 9
+  },
+  {
+   "teamId": 103701,
+   "id": 351663,
+   "fullName": "Turcotte Lucie",
+   "jerseyNumber": 19
+  },
+  {
+   "teamId": 103701,
+   "id": 351893,
+   "fullName": "Labad Maya",
+   "jerseyNumber": 27
+  }
+ ],
+ "stats": [
+  {
+   "title": "Goalie Stats",
+   "description": "ZSC Lions",
+   "header": [
+    {
+     "alias": "playerNumber",
+     "name": "No"
+    },
+    {
+     "alias": "player",
+     "name": "Spieler"
+    },
+    {
+     "alias": "goalsAgainst",
+     "name": "GA"
+    },
+    {
+     "alias": "secondsPlayed",
+     "name": "MIP"
+    },
+    {
+     "alias": "goalsAgainstAverage",
+     "name": "GAA"
+    },
+    {
+     "alias": "penaltyInMinutes",
+     "name": "PIM"
+    }
+   ],
+   "data": [
+    [
+     "35",
+     "Berger Alisha",
+     "0",
+     "60:00",
+     "0",
+     "0"
+    ],
+    [
+     "90",
+     "Zagnoli Stella",
+     "0",
+     "00:00",
+     "-",
+     "0"
+    ]
+   ]
+  },
+  {
+   "title": "Goalie Stats",
+   "description": "Lausanne HC",
+   "header": [
+    {
+     "alias": "playerNumber",
+     "name": "No"
+    },
+    {
+     "alias": "player",
+     "name": "Spieler"
+    },
+    {
+     "alias": "goalsAgainst",
+     "name": "GA"
+    },
+    {
+     "alias": "secondsPlayed",
+     "name": "MIP"
+    },
+    {
+     "alias": "goalsAgainstAverage",
+     "name": "GAA"
+    },
+    {
+     "alias": "penaltyInMinutes",
+     "name": "PIM"
+    }
+   ],
+   "data": [
+    [
+     "31",
+     "Bernardasci Sofia",
+     "4",
+     "60:00",
+     "4",
+     "0"
+    ],
+    [
+     "1",
+     "Roehrich Aurélie",
+     "0",
+     "00:00",
+     "-",
+     "0"
+    ]
+   ]
+  }
+ ],
+ "league": {
+  "id": 42,
+  "name": "Postfinance Women's League"
+ },
+ "phase": {
+  "id": 773,
+  "name": "WL Regular Season"
+ },
+ "gameId": "20271185000026",
+ "season": 2027,
+ "result": {
+  "homeTeam": "4",
+  "awayTeam": "0",
+  "scores": [
+   {
+    "homeTeam": "1",
+    "awayTeam": "0",
+    "name": "1. Drittel",
+    "indicator": "1"
+   },
+   {
+    "homeTeam": "1",
+    "awayTeam": "0",
+    "name": "2. Drittel",
+    "indicator": "2"
+   },
+   {
+    "homeTeam": "2",
+    "awayTeam": "0",
+    "name": "3. Drittel",
+    "indicator": "3"
+   }
+  ],
+  "sogs": []
+ },
+ "details": {
+  "venue": {
+   "name": "Swiss Life Arena",
+   "city": "Zürich ZH",
+   "spectators": "415"
+  },
+  "homeTeam": {
+   "id": 103432,
+   "name": "ZSC Lions",
+   "acronym": "ZSC",
+   "signed": false,
+   "type": "team",
+   "clubId": 101098
+  },
+  "awayTeam": {
+   "id": 103701,
+   "name": "Lausanne HC",
+   "acronym": "LHC",
+   "signed": false,
+   "type": "team",
+   "clubId": 103141
+  }
+ },
+ "startDateTime": "2026-09-26T13:15:00+02:00",
+ "endDateTime": "2026-09-26T15:11:45+02:00",
+ "status": {
+  "id": 12,
+  "updateDateTime": "2026-09-26T15:19:20+02:00",
+  "startDateTime": "2026-09-26T13:15:00+02:00",
+  "endDateTime": "2026-09-26T15:11:45+02:00",
+  "percent": 100,
+  "name": "Ende",
+  "canceled": false,
+  "type": "gameStatus"
+ },
+ "alias": "gameDetail"
+}

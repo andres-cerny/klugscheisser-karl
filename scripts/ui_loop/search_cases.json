@@ -1,0 +1,192 @@
+[
+  {
+    "q": "Switzerland",
+    "expect": "Schweiz",
+    "why": "englischer Ländername"
+  },
+  {
+    "q": "Suisse",
+    "expect": "Schweiz",
+    "why": "französischer Ländername"
+  },
+  {
+    "q": "Finland",
+    "expect": "Finnland",
+    "why": "englischer Ländername"
+  },
+  {
+    "q": "Germany",
+    "expect": "Deutschland",
+    "why": "englischer Ländername"
+  },
+  {
+    "q": "Czechia",
+    "expect": "Tschechien",
+    "why": "englischer Ländername"
+  },
+  {
+    "q": "Canada",
+    "expect": "Kanada",
+    "why": "englischer Ländername"
+  },
+  {
+    "q": "Osterreich",
+    "expect": "Österreich",
+    "why": "ohne Umlaut"
+  },
+  {
+    "q": "Frolunda",
+    "expect": "Frölunda HC",
+    "why": "ohne Umlaut"
+  },
+  {
+    "q": "Geneve",
+    "expect": "Genève-Servette U18",
+    "why": "ohne Akzent"
+  },
+  {
+    "q": "Lausane",
+    "expect": "Lausanne HC Féminin",
+    "why": "Tippfehler Team"
+  },
+  {
+    "q": "zsc lions",
+    "expect": "ZSC Lions Frauen",
+    "why": "Teil des Teamnamens, klein"
+  },
+  {
+    "q": "Svizzera",
+    "expect": "Schweiz",
+    "why": "italienischer Ländername"
+  },
+  {
+    "q": "United States",
+    "expect": "USA",
+    "why": "englischer Ländername, zwei Wörter"
+  },
+  {
+    "q": "Suede",
+    "expect": "Schweden",
+    "why": "französischer Ländername ohne Akzent"
+  },
+  {
+    "q": "Tschechei",
+    "expect": "Tschechien",
+    "why": "umgangssprachlicher Ländername"
+  },
+  {
+    "q": "Kanda",
+    "expect": "Kanada",
+    "why": "Tippfehler Land"
+  },
+  {
+    "q": "Damkronorna",
+    "expect": "Schweden",
+    "why": "Spitzname Nationalteam"
+  },
+  {
+    "q": "olympia 2026",
+    "expect": "Olympische Spiele 2026",
+    "why": "Anlass mit anderem Wort"
+  },
+  {
+    "q": "frauen wm",
+    "expect": "IIHF Frauen-WM 2026",
+    "why": "Anlass, Teil des Namens"
+  },
+  {
+    "q": "Davos ladies",
+    "expect": "HC Davos Ladies",
+    "why": "Teil des Teamnamens"
+  },
+  {
+    "q": "Laura Zimermann",
+    "expect": "Laura Zimmermann",
+    "why": "Tippfehler Doppelbuchstabe"
+  },
+  {
+    "q": "Muller Alina",
+    "expect": "Alina Müller",
+    "why": "Reihenfolge, ohne Umlaut"
+  },
+  {
+    "q": "Svezia",
+    "expect": "Schweden",
+    "why": "italienischer Ländername (Runde 2)"
+  },
+  {
+    "q": "Suede",
+    "expect": "Schweden",
+    "why": "französischer Ländername ohne Akzent (Runde 2)"
+  },
+  {
+    "q": "Mauer Saskia",
+    "expect": "Saskia Maurer",
+    "why": "Tippfehler + umgekehrte Reihenfolge (Runde 2)"
+  },
+  {
+    "q": "Andrea Brandli",
+    "expect": "Andrea Brändli",
+    "why": "Umlaut ohne Punkte (Runde 2)"
+  },
+  {
+    "q": "Hadraschek",
+    "expect": "Nicola Hadraschek-Eisenschmid",
+    "why": "nur ein Teil eines Doppelnamens (Runde 2)"
+  },
+  {
+    "q": "EV Zug Frauen",
+    "expect": "EV Zug Damen",
+    "why": "Teamname mit anderem Wort für Frauen (Runde 4)"
+  },
+  {
+    "q": "Davos Damen",
+    "expect": "HC Davos Ladies",
+    "why": "Damen statt Ladies (Runde 4)"
+  },
+  {
+    "q": "Lausanne Frauen",
+    "expect": "Lausanne HC Féminin",
+    "why": "Frauen statt Féminin (Runde 4)"
+  },
+  {
+    "q": "Championnat du monde",
+    "expect": "IIHF Frauen-WM 2026",
+    "why": "französischer Anlassname mit Füllwort (Runde 4)"
+  },
+  {
+    "q": "Women's World Championship",
+    "expect": "IIHF Frauen-WM 2026",
+    "why": "englischer Anlassname mit Women's (Runde 4)"
+  },
+  {
+    "q": "Allemagne",
+    "expect": "Deutschland",
+    "why": "französischer Ländername (Runde 4)"
+  },
+  {
+    "q": "Repubblica Ceca",
+    "expect": "Tschechien",
+    "why": "italienischer Ländername, zwei Wörter (Runde 4)"
+  },
+  {
+    "q": "Etats-Unis",
+    "expect": "USA",
+    "why": "französischer Ländername ohne Akzent, Bindestrich (Runde 4)"
+  },
+  {
+    "q": "Stephanie Wetli",
+    "expect": "Stefanie Wetli",
+    "why": "ph statt f (Runde 4)"
+  },
+  {
+    "q": "Nicole Valario",
+    "expect": "Nicole Vallario",
+    "why": "fehlender Doppelbuchstabe (Runde 4)"
+  },
+  {
+    "q": "Sondergaard",
+    "expect": "Nicoline Søndergaard Jensen",
+    "why": "ø ohne Sonderzeichen, nur Nachname (Runde 4)"
+  }
+]

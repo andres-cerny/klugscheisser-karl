@@ -1,0 +1,59 @@
+team: Norway
+code: NOR
+group: A
+status: official_wfc_squad
+status_note: "WFC list = the 19-man Norwegian WFC nomination as relayed with positions and clubs by florbal.cz (Czech floorball portal, 2026-11-10). Norges Bandyforbund (NBF) announced the 'VM-troppen 2026' on Instagram 2026-10-23 (names only in the image). The NBF text post of 2026-10-30 for the Four Nations tournament in Slovakia (13-15 Nov) has a partly DIFFERENT 19-man list (see four_nations_callup). Primary NBF text list of the WFC squad not found; unverified: primary_source. Late changes possible."
+announced:
+  date: 2026-10-23
+  source_url: https://florbal.cz/clanky/svetove-nominace-pod-lupou-svycarska-omladina-norske-premiery-i-nemecke-hvezdy
+  source_title: "Světové nominace pod lupou: Švýcarská omladina, norské premiéry i německé hvězdy (florbal.cz, Štěpán Ambrozek, 2026-11-10)"
+  also: "Instagram Norsk Innebandy (@innebandy_no) 2026-10-23 'VM-troppen 2026!' https://www.instagram.com/p/De1geahs6d8/"
+retrieved: 2026-11-24
+squad_facts:
+  - "19 players: 2 goalkeepers, 6 defenders, 11 forwards (florbal.cz)."
+  - "Four players will make their senior WFC debut (florbal.cz 'čtyři debutanti'; names not given)."
+  - "Mix of Norwegian league clubs and players in Sweden (florbal.cz)."
+  - "Tunet IBK provides 5 players (Gidske, Solheim, Frafjord, Hasselstrøm, Trandum Terjesen) - matches Tunet's own post 'fem av våre herrer' (Tunet IBK Facebook/Instagram)."
+  - "Four Nations, Slovakia (Žilina, Nov 2026): Latvia 4-4 Norway; Norway beat Slovakia ('Nórski vikingovia boli nad sily slovenského tímu', SZFB 2026-11-14). NBF 2026-11-10 https://bandyforbundet.no/innebandy/?msswb-post=ukens-landskamper"
+  - "Coach change in Sep 2026: Patric Löfborg (also head coach of Pixbo IBK) stepped down due to workload; Swede David Gillek took over (NBF 2026-09-09)."
+  - "WFC qualification Liepāja, Feb 2026: Norway was 2nd in group A behind Switzerland (lost 2-6 to SUI on 2026-02-06, see SUI.yaml) and lost the game v Slovenia 3-4 after penalty shots on 2026-02-07 (siol.net); Norway still qualified - route not verified here."
+coaches:
+  source: https://bandyforbundet.no/innebandy/?msswb-post=ny-landslagstrener-for-herrelandslaget-er-pa-plass
+  head_coach: {name: David Gillek, nationality: Sweden, since: 2026-09, note: "15 seasons in the Swedish SSL as a player, 39 caps for Sweden incl. 2 WFCs; coach in SSL, most recently FBC Kalmarsund; administrative role at Västergötlands Innebandyförbund (NBF 2026-09-09)"}
+  previous_head_coach: {name: Patric Löfborg, note: "left Sep 2026; quote: aim was to help Norway 'ta steg mot topp 4 i världen'"}
+  other_staff: "Gillek mentions working with 'Geir' (surname not given) - unverified"
+captain: {name: null}
+players:
+  # florbal.cz 2026-11-10; numbers and birth dates not given
+  - {name: Nicholay Halvorsen, position: goalkeeper, club: Warberg IBF, country_of_club: Sweden, number: null, birth_date: null, source: florbal.cz, notes: "florbal.cz writes 'Warberg IC'; NBF writes 'Warberg IBF'"}
+  - {name: Markus Jelsnes, position: goalkeeper, club: Slevik IBK, country_of_club: Norway, number: null, birth_date: null, source: florbal.cz, notes: "left WFC 2024 Malmö injured during the tournament, replaced by Steffen Riisa (NBF 2024-12-10)"}
+  - {name: Arvid Wibring Lindqvist, position: defender, club: Mullsjö AIS, country_of_club: Sweden, number: null, birth_date: null, source: florbal.cz, notes: "not in the Four Nations call-up; club-mate of Swiss Gianluca Persici at Mullsjö"}
+  - {name: Daniel Gidske, position: defender, club: Tunet IBK, country_of_club: Norway, number: null, birth_date: null, source: florbal.cz, notes: "not in the Four Nations call-up"}
+  - {name: Andreas Grønli, position: defender, club: Warberg IBF, country_of_club: Sweden, number: null, birth_date: null, source: florbal.cz}
+  - {name: Ludvik Hansen, position: defender, club: Karlstad IBF, country_of_club: Sweden, number: null, birth_date: null, source: florbal.cz}
+  - {name: Joachim Sørby Pedersen, position: defender, club: Slevik IBK, country_of_club: Norway, number: null, birth_date: null, source: florbal.cz, notes: "not in the Four Nations call-up"}
+  - {name: Tobias Solheim, position: defender, club: Tunet IBK, country_of_club: Norway, number: null, birth_date: null, source: florbal.cz}
+  - {name: Christoffer Gjødalstuen, position: forward, club: Sarpsborg IBK, country_of_club: Norway, number: null, birth_date: null, source: florbal.cz}
+  - {name: Colin Oustad, position: forward, club: Sundsvall FBC, country_of_club: Sweden, number: null, birth_date: null, source: florbal.cz}
+  - {name: Fredrik Mohn Frafjord, position: forward, club: Tunet IBK, country_of_club: Norway, number: null, birth_date: null, source: florbal.cz}
+  - {name: Gustav Franzon, position: forward, club: Slevik IBK, country_of_club: Norway, number: null, birth_date: null, source: florbal.cz}
+  - {name: Jesper Hasselstrøm, position: forward, club: Tunet IBK, country_of_club: Norway, number: null, birth_date: null, source: florbal.cz}
+  - {name: Joachim Trandum Terjesen, position: forward, club: Tunet IBK, country_of_club: Norway, number: null, birth_date: null, source: florbal.cz, notes: "not in the Four Nations call-up"}
+  - {name: Lukas Garcia, position: forward, club: IBK Lund, country_of_club: Sweden, number: null, birth_date: null, source: florbal.cz}
+  - {name: Marius Pedersen, position: forward, club: Sveiva Innebandy, country_of_club: Norway, number: null, birth_date: null, source: florbal.cz}
+  - {name: Markus Sandberg-Pedersen, position: forward, club: Karlstad IBF, country_of_club: Sweden, number: null, birth_date: null, source: florbal.cz}
+  - {name: Philip Kämpe, position: forward, club: NOR 92 IBK, country_of_club: Norway, number: null, birth_date: null, source: florbal.cz, notes: "same surname as Sebastian Kämpe - relationship not verified"}
+  - {name: Sebastian Kämpe, position: forward, club: Strängnäs IBK, country_of_club: Sweden, number: null, birth_date: null, source: florbal.cz}
+four_nations_callup:
+  source: https://bandyforbundet.no/innebandy/?msswb-post=uttak-til-4-nasjoners-for-herrelandslaget
+  date: 2026-10-30
+  note: "NBF list for Four Nations, Slovakia 13-15 Nov 2026 (19 names). In it but NOT in the WFC list above: Markus Lindgjerdet (IBF Örebro), William Andersson (Slevik IBK), Jesper Pedersen (Sveiva Innebandy), Morten Gilberg (Gjelleråsen IF). In the WFC list but not at Four Nations: Wibring Lindqvist, Gidske, Sørby Pedersen, Trandum Terjesen."
+notable:
+  - "No Norwegian player at a Swiss club."
+  - "8 of 19 play in Sweden: Warberg IBF (2), Karlstad IBF (2), Mullsjö AIS, Sundsvall FBC, IBK Lund, Strängnäs IBK."
+  - "Tunet IBK (5) is the biggest club block."
+notes:
+  - "Floorball in Norway is run by the innebandy section of Norges Bandyforbund: https://bandyforbundet.no/innebandy/ (WordPress REST works: index.php?rest_route=/wp/v2/msswb-post&per_page=30). Do NOT confuse with bandyforbundet.no/bandy 'VM-troppen 2026' (BANDY squad)."
+gaps:
+  - "Primary NBF text list of the WFC squad (only Instagram image)."
+  - "Numbers, birth dates, captain, names of the 4 debutants."

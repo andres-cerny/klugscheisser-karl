@@ -1,0 +1,1324 @@
+{
+ "head": {
+  "vars": [
+   "p",
+   "prop",
+   "st",
+   "val",
+   "valLabel",
+   "valEn",
+   "precision",
+   "start",
+   "startPrec",
+   "end",
+   "endPrec",
+   "matches",
+   "when",
+   "jersey",
+   "league",
+   "major",
+   "sportCountry",
+   "teamCountry",
+   "types",
+   "sports"
+  ]
+ },
+ "results": {
+  "bindings": [
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q29717053"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P19"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q72"
+    },
+    "valLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Zürich"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Zurich"
+    },
+    "teamCountry": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q51929311|Q14770218|Q1187811|Q70208"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15743541"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P19"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q4191"
+    },
+    "valLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Luzern"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Lucerne"
+    },
+    "teamCountry": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q54935504|Q14770218|Q486972|Q70208"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q16229749"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P19"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q9093"
+    },
+    "valLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Bülach"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Bülach"
+    },
+    "teamCountry": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q54935504|Q70208"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15768448"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P69"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q37548"
+    },
+    "valLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Northeastern University"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Northeastern University"
+    },
+    "teamCountry": {
+     "type": "literal",
+     "value": "USA"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q23002054|Q3918"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15768448"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P19"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q69429"
+    },
+    "valLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Lengnau"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Lengnau"
+    },
+    "teamCountry": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q70208"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q1381662"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P19"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q69503"
+    },
+    "valLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Poschiavo"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Poschiavo"
+    },
+    "teamCountry": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q70208"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q29717053"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P69"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q309331"
+    },
+    "valLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Ohio State University"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Ohio State University"
+    },
+    "teamCountry": {
+     "type": "literal",
+     "value": "USA"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q62078547|Q23002039|Q615150"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15743541"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P54"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q676135"
+    },
+    "valLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Schweizer Eishockeynationalmannschaft der Frauen"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Switzerland women's national ice hockey team"
+    },
+    "teamCountry": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q135747780"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2013-01-01T00:00:00Z"
+    },
+    "startPrec": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+     "type": "literal",
+     "value": "9"
+    },
+    "sports": {
+     "type": "literal",
+     "value": "Q41466"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q1381662"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P54"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q688754"
+    },
+    "valLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "HC Lugano"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Hockey Club Lugano"
+    },
+    "teamCountry": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q4498974"
+    },
+    "sports": {
+     "type": "literal",
+     "value": "Q41466"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q16229749"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P54"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q1274665"
+    },
+    "valLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "EHC Bülach"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "EHC Bülach"
+    },
+    "teamCountry": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q4498974"
+    },
+    "sports": {
+     "type": "literal",
+     "value": "Q41466"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15743541"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P54"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q1826908"
+    },
+    "valLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Linköpings FC"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Linköpings FC"
+    },
+    "teamCountry": {
+     "type": "literal",
+     "value": "SWE"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q51481377"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2017-01-01T00:00:00Z"
+    },
+    "startPrec": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+     "type": "literal",
+     "value": "9"
+    },
+    "sports": {
+     "type": "literal",
+     "value": "Q2736"
+    },
+    "end": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2019-01-01T00:00:00Z"
+    },
+    "endPrec": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+     "type": "literal",
+     "value": "9"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15743541"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P69"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q2495874"
+    },
+    "valLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "University of Minnesota Duluth"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "University of Minnesota Duluth"
+    },
+    "teamCountry": {
+     "type": "literal",
+     "value": "USA"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q23002039|Q875538"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15743541"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P54"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q2927985"
+    },
+    "valLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Minnesota Duluth Bulldogs women's ice hockey"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Minnesota Duluth Bulldogs women's ice hockey"
+    },
+    "teamCountry": {
+     "type": "literal",
+     "value": "USA"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q18558301|Q4498974"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2013-01-01T00:00:00Z"
+    },
+    "startPrec": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+     "type": "literal",
+     "value": "9"
+    },
+    "sports": {
+     "type": "literal",
+     "value": "Q41466"
+    },
+    "end": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2017-01-01T00:00:00Z"
+    },
+    "endPrec": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+     "type": "literal",
+     "value": "9"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15768448"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P54"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q7058029"
+    },
+    "valLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Northeastern Huskies women's ice hockey"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Northeastern Huskies women's ice hockey"
+    },
+    "teamCountry": {
+     "type": "literal",
+     "value": "USA"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q18558301|Q4498974"
+    },
+    "sports": {
+     "type": "literal",
+     "value": "Q41466"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q29717053"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P54"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q7080915"
+    },
+    "valLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Ohio State Buckeyes women's ice hockey"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Ohio State Buckeyes women's ice hockey"
+    },
+    "teamCountry": {
+     "type": "literal",
+     "value": "USA"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q18558301|Q4498974"
+    },
+    "sports": {
+     "type": "literal",
+     "value": "Q41466"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15743541"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P54"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q10436587"
+    },
+    "valLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Brynäs IF Dam"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Brynäs IF Dam"
+    },
+    "teamCountry": {
+     "type": "literal",
+     "value": "SWE"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q133171626"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2019-01-01T00:00:00Z"
+    },
+    "startPrec": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+     "type": "literal",
+     "value": "9"
+    },
+    "sports": {
+     "type": "literal",
+     "value": "Q41466"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15768448"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P166"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q50336073"
+    },
+    "valLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Winterthurer Sportler/in des Jahres"
+    },
+    "teamCountry": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q15229207"
+    },
+    "when": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2019-01-01T00:00:00Z"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15768448"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P54"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q98096918"
+    },
+    "valLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "ZSC Lions Frauen"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "ZSC Lions Frauen"
+    },
+    "teamCountry": {
+     "type": "literal",
+     "value": "CHE"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q12973014|Q4498974"
+    },
+    "sports": {
+     "type": "literal",
+     "value": "Q41466"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15768448"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P54"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q122369365"
+    },
+    "valLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Boston Fleet"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Boston Fleet"
+    },
+    "teamCountry": {
+     "type": "literal",
+     "value": "USA"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q4498974"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2023-01-01T00:00:00Z"
+    },
+    "startPrec": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+     "type": "literal",
+     "value": "9"
+    },
+    "sports": {
+     "type": "literal",
+     "value": "Q41466"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15768448"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P647"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q122369365"
+    },
+    "valLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Boston Fleet"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Boston Fleet"
+    },
+    "teamCountry": {
+     "type": "literal",
+     "value": "USA"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q4498974"
+    },
+    "sports": {
+     "type": "literal",
+     "value": "Q41466"
+    },
+    "when": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2023-01-01T00:00:00Z"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15743541"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P166"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q133310431"
+    },
+    "valLabel": {
+     "type": "literal",
+     "value": "Q133310431"
+    },
+    "teamCountry": {
+     "type": "literal",
+     "value": "SWE"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q15229207|Q116712"
+    },
+    "sports": {
+     "type": "literal",
+     "value": "Q41466"
+    },
+    "when": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2020-01-01T00:00:00Z"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15743541"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P2048"
+    },
+    "val": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+     "type": "literal",
+     "value": "1.66"
+    },
+    "valLabel": {
+     "type": "literal",
+     "value": "1.66"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q29717053"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P2048"
+    },
+    "val": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+     "type": "literal",
+     "value": "1.69"
+    },
+    "valLabel": {
+     "type": "literal",
+     "value": "1.69"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q1381662"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P2048"
+    },
+    "val": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+     "type": "literal",
+     "value": "1.69"
+    },
+    "valLabel": {
+     "type": "literal",
+     "value": "1.69"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15768448"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P2048"
+    },
+    "val": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+     "type": "literal",
+     "value": "1.76"
+    },
+    "valLabel": {
+     "type": "literal",
+     "value": "1.76"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q16229749"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P569"
+    },
+    "val": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1986-05-24T00:00:00Z"
+    },
+    "valLabel": {
+     "type": "literal",
+     "value": "1986-05-24T00:00:00Z"
+    },
+    "precision": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+     "type": "literal",
+     "value": "11"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q1381662"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P569"
+    },
+    "val": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1992-05-03T00:00:00Z"
+    },
+    "valLabel": {
+     "type": "literal",
+     "value": "1992-05-03T00:00:00Z"
+    },
+    "precision": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+     "type": "literal",
+     "value": "11"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15743541"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P569"
+    },
+    "val": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1994-05-15T00:00:00Z"
+    },
+    "valLabel": {
+     "type": "literal",
+     "value": "1994-05-15T00:00:00Z"
+    },
+    "precision": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+     "type": "literal",
+     "value": "11"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q29717053"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P569"
+    },
+    "val": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1997-06-05T00:00:00Z"
+    },
+    "valLabel": {
+     "type": "literal",
+     "value": "1997-06-05T00:00:00Z"
+    },
+    "precision": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+     "type": "literal",
+     "value": "11"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15768448"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P569"
+    },
+    "val": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1998-03-12T00:00:00Z"
+    },
+    "valLabel": {
+     "type": "literal",
+     "value": "1998-03-12T00:00:00Z"
+    },
+    "precision": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+     "type": "literal",
+     "value": "11"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15768448"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P413"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q543457"
+    },
+    "valLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Angriffsspieler"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "forward"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q3399646"
+    },
+    "sports": {
+     "type": "literal",
+     "value": "Q41466"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15743541"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P413"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q543457"
+    },
+    "valLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Angriffsspieler"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "forward"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q3399646"
+    },
+    "sports": {
+     "type": "literal",
+     "value": "Q41466"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q1381662"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P413"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q543457"
+    },
+    "valLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Angriffsspieler"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "forward"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q3399646"
+    },
+    "sports": {
+     "type": "literal",
+     "value": "Q41466"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q29717053"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P413"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q1317534"
+    },
+    "valLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Eishockeytorwart"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "goaltender"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q12737077|Q3399646"
+    },
+    "sports": {
+     "type": "literal",
+     "value": "Q41466"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q16229749"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P413"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q2304909"
+    },
+    "valLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Verteidiger"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "defenseman"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q3399646"
+    },
+    "sports": {
+     "type": "literal",
+     "value": "Q41466"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q29717053"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P423"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q10927615"
+    },
+    "valLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Schusshand links"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "left-handed shot"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q10927834"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q16229749"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P423"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q10927615"
+    },
+    "valLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Schusshand links"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "left-handed shot"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q10927834"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15768448"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P423"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q10927615"
+    },
+    "valLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Schusshand links"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "left-handed shot"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q10927834"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q1381662"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P423"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q10927615"
+    },
+    "valLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Schusshand links"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "left-handed shot"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q10927834"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15743541"
+    },
+    "prop": {
+     "type": "literal",
+     "value": "P423"
+    },
+    "val": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q10927630"
+    },
+    "valLabel": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Schusshand rechts"
+    },
+    "valEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "right-handed shot"
+    },
+    "types": {
+     "type": "literal",
+     "value": "Q10927834"
+    },
+    "sports": {
+     "type": "literal",
+     "value": "Q41466"
+    }
+   }
+  ]
+ }
+}

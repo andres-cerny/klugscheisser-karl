@@ -1,0 +1,58 @@
+team: Denmark
+code: DEN
+group: D
+status: official_wfc_squad
+status_note: "Squad named by head coach Pontus Kozan, reported by Avisen Danmark (JFM) 2026-11-11 (21 names: 2 GK + 19 field). On 2026-11-17 the same paper reported a change: Kalle Tamminen OUT, Hugo Malm IN, Simon Møller travelling reserve. Odd detail: the 11 Nov article (as retrieved 2026-11-24) already lists Hugo Malm AND Kalle Tamminen - probably updated afterwards. players below = 21 names, Tamminen flagged as out -> 20. Primary floorball.dk post not reachable (Cloudflare block); Floorball Danmark Facebook post 'VM TRUPPEN ER UDTAGET' exists. unverified: exact_final_20"
+announced:
+  date: 2026-11-11
+  source_url: https://avisendanmark.dk/floorball/vm-truppen-er-udtaget-danmark-gaar-efter-top-8
+  source_title: "VM-truppen er udtaget: Danmark går efter Top-8 (Avisen Danmark, Christian Sonne Jensen, 2026-11-11)"
+  also:
+    - "Change: https://avisendanmark.dk/floorball/landstraener-tilfreds-med-defensiven-foer-vm-og-skifter-ud-i-truppen (2026-11-17)"
+    - "Floorball Danmark Facebook: https://www.facebook.com/floorballdanmark/posts/vm-truppen-er-udtagetherrelandstr%C3%A6ner-pontus-kozan-har-udtaget-sin-trup-til-det-/1717695730357306/"
+retrieved: 2026-11-24
+squad_facts:
+  - "Goal: back into the world's top 8 (Kozan: 'vores mål er at komme tilbage i Top-8 igen')."
+  - "Continuity: large part of the WFC-qualification squad kept, plus younger players."
+  - "Alliancen København provides most players (6); Sunds Seahawks and AaB Floorball 3 each (Avisen Danmark)."
+  - "Five Danes at Swedish clubs: Jonatan Lie (Västerås IBF), Pontus Henriksen (Lindås IBK), Martin Törnhjelm and Gustav Hansen (Nykvarns IF), Axel Rasmussen (Malmö FBC)."
+  - "Last tests in Sweden, 14-15 Nov 2026: 9-3 v Floda IBK and 3-1 v Lindome IBK (Avisen Danmark 2026-11-17)."
+  - "Qualified for the WFC with a 'dramatic win over the Netherlands' (Avisen Danmark headline 'Danmark er klar til VM efter dramatisk sejr over Holland')."
+  - "Brothers? Emil and Kasper Kajgaard both at AaB Floorball - relationship not verified."
+coaches:
+  source: https://floorball.dk/landshold/herrelandshold/
+  head_coach: {name: Pontus Kozan, nationality: Sweden, note: "35 when appointed (floorball.dk); came from coaching the women's team of SSL club FBC Kalmarsund (Floorball Danmark Facebook)"}
+  assistant: Steffen Neve Dahl
+  goalkeeper_coach: "vacant (floorball.dk)"
+  team_manager: Jesper Kjelgaard
+  masseur: Carina Hansen
+captain: {name: null, note: "Avisen Danmark has an interview 'Landsholdsanfører før VM: Vi tager en moden gruppe afsted for at jagte Top-8' - captain's name not retrieved"}
+players:
+  - {name: Mike Trolle, position: goalkeeper, club: Copenhagen FC, number: null, birth_date: null, source: avisendanmark-2026-11-11}
+  - {name: Jonatan Lie, position: goalkeeper, club: Västerås IBF, country_of_club: Sweden, number: null, birth_date: null, source: avisendanmark-2026-11-11}
+  - {name: Jonas Højmark, position: field, club: Sunds Seahawks, number: null, birth_date: null, source: avisendanmark-2026-11-11}
+  - {name: Pontus Henriksen, position: field, club: Lindås IBK, country_of_club: Sweden, number: null, birth_date: null, source: avisendanmark-2026-11-11}
+  - {name: Martin Törnhjelm, position: field, club: Nykvarns IF, country_of_club: Sweden, number: null, birth_date: null, source: avisendanmark-2026-11-11, notes: "club spelled 'Nykvarns IF' by Avisen Danmark; Swiss Matteo Steiner's club is 'Nykvarns IBF' - probably the same club, unverified"}
+  - {name: Axel Rasmussen, position: field, club: Malmö FBC, country_of_club: Sweden, number: null, birth_date: null, source: avisendanmark-2026-11-11}
+  - {name: August Lunddahl Mathiassen, position: field, club: Rødovre FC, number: null, birth_date: null, source: avisendanmark-2026-11-11}
+  - {name: Jesper Schmidt, position: field, club: Alliancen København, number: null, birth_date: null, source: avisendanmark-2026-11-11}
+  - {name: Frederik Kobberup, position: field, club: Alliancen København, number: null, birth_date: null, source: avisendanmark-2026-11-11}
+  - {name: Lukas Eldholm, position: field, club: Alliancen København, number: null, birth_date: null, source: avisendanmark-2026-11-11}
+  - {name: Jesper Roland, position: field, club: Alliancen København, number: null, birth_date: null, source: avisendanmark-2026-11-11}
+  - {name: Simon Lehnert, position: field, club: Alliancen København, number: null, birth_date: null, source: avisendanmark-2026-11-11, notes: "Avisen Danmark headline: 'Simon Lehnert afgjorde topopgør to sekunder før tid' (decided a top league game 2 seconds from time)"}
+  - {name: Hugo Malm, position: field, club: Alliancen København, number: null, birth_date: null, source: avisendanmark-2026-11-11, notes: "came IN for Kalle Tamminen (Avisen Danmark 2026-11-17)"}
+  - {name: Gustav Hansen, position: field, club: Nykvarns IF, country_of_club: Sweden, number: null, birth_date: null, source: avisendanmark-2026-11-11}
+  - {name: Niklas Andersen, position: field, club: Frederikshavn Blackhawks, number: null, birth_date: null, source: avisendanmark-2026-11-11}
+  - {name: Kalle Tamminen, position: field, club: Copenhagen FC, number: null, birth_date: null, source: avisendanmark-2026-11-11, status: out, notes: "OUT of the WFC squad (Avisen Danmark 2026-11-17); reason not given"}
+  - {name: Kristoffer Handgaard, position: field, club: Sunds Seahawks, number: null, birth_date: null, source: avisendanmark-2026-11-11}
+  - {name: Simon Lauridsen, position: field, club: Sunds Seahawks, number: null, birth_date: null, source: avisendanmark-2026-11-11}
+  - {name: Emil Kajgaard, position: field, club: AaB Floorball, number: null, birth_date: null, source: avisendanmark-2026-11-11}
+  - {name: Kasper Kajgaard, position: field, club: AaB Floorball, number: null, birth_date: null, source: avisendanmark-2026-11-11}
+  - {name: Viktor Gade, position: field, club: AaB Floorball, number: null, birth_date: null, source: avisendanmark-2026-11-11}
+travelling_reserve: {name: Simon Møller, club: null, source: "Avisen Danmark 2026-11-17"}
+notable:
+  - "No Danish player at a Swiss club."
+  - "Kozan on 17 Nov: 'some players with minor injuries' - further changes possible."
+gaps:
+  - "Defender/forward split, numbers, birth dates, captain."
+  - "Primary floorball.dk text (site blocks automated access)."

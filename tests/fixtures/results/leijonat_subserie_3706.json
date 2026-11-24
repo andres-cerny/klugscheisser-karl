@@ -1,0 +1,136 @@
+{
+ "seasonNumber": 2027,
+ "subSerieId": 3706,
+ "subSerieName": "Auroraliiga",
+ "gameRules": "60;0;3;20;0;0;0;5;0;1;5;0;1;1;0;1;1;1;1;1;0;1;0;2;0;5;0;1;0;0",
+ "levelId": 73,
+ "levelName": "Auroraliiga",
+ "serieId": 1707,
+ "serieName": "Auroraliiga",
+ "teams": [
+  {
+   "TeamID": 1368624682,
+   "TeamAbbrv": "HIFK",
+   "TeamImg": "10115639.png"
+  },
+  {
+   "TeamID": 11072203,
+   "TeamAbbrv": "HPK",
+   "TeamImg": "10114753.png"
+  },
+  {
+   "TeamID": 609011474,
+   "TeamAbbrv": "Ilves",
+   "TeamImg": "10114698.png"
+  },
+  {
+   "TeamID": 191794005,
+   "TeamAbbrv": "K-Espoo",
+   "TeamImg": "teams/191794005.png"
+  },
+  {
+   "TeamID": 701155924,
+   "TeamAbbrv": "Kärpät",
+   "TeamImg": "10111879.png"
+  },
+  {
+   "TeamID": 1368624862,
+   "TeamAbbrv": "Pelicans",
+   "TeamImg": "50024082.png"
+  },
+  {
+   "TeamID": 1281984592,
+   "TeamAbbrv": "Team Kuortane",
+   "TeamImg": ""
+  },
+  {
+   "TeamID": 207244855,
+   "TeamAbbrv": "TPS",
+   "TeamImg": "10112386.png"
+  }
+ ],
+ "gameDays": [
+  {
+   "seasonalGameId": 2704316,
+   "gameDate": "2026-09-12",
+   "gameTime": "13:00",
+   "homeTeamId": 1368624862,
+   "homeTeamName": "PELICANS NAISET RY Naiset",
+   "awayTeamId": 207244855,
+   "awayTeamName": "TPS JUNIORIJÄÄKIEKKO RY Naiset",
+   "homeScore": 3,
+   "awayScore": 2,
+   "status": 2,
+   "playOffPhase": null,
+   "playOffPair": null,
+   "FirstDateToShow": 0,
+   "IsDateNow": 0,
+   "DowShortFI": "La",
+   "DowShortEN": "Sat",
+   "DowShortSE": "Lör",
+   "GameDateFormatted": "12.09.2026",
+   "GameDate": "2026-09-12"
+  },
+  {
+   "seasonalGameId": 2704352,
+   "gameDate": "2026-09-13",
+   "gameTime": "13:00",
+   "homeTeamId": 1281984592,
+   "homeTeamName": "GIRLS HOCKEY CENTER OY Naiset",
+   "awayTeamId": 1368624862,
+   "awayTeamName": "PELICANS NAISET RY Naiset",
+   "homeScore": 7,
+   "awayScore": 0,
+   "status": 2,
+   "playOffPhase": null,
+   "playOffPair": null,
+   "FirstDateToShow": 0,
+   "IsDateNow": 0,
+   "DowShortFI": "Su",
+   "DowShortEN": "Sun",
+   "DowShortSE": "Sön",
+   "GameDateFormatted": "13.09.2026",
+   "GameDate": "2026-09-13"
+  },
+  {
+   "seasonalGameId": 2704385,
+   "gameDate": "2027-02-21",
+   "gameTime": "",
+   "homeTeamId": 609011474,
+   "homeTeamName": "ILVES RY Naiset",
+   "awayTeamId": 1281984592,
+   "awayTeamName": "GIRLS HOCKEY CENTER OY Naiset",
+   "homeScore": 0,
+   "awayScore": 0,
+   "status": 0,
+   "playOffPhase": null,
+   "playOffPair": null,
+   "FirstDateToShow": 0,
+   "IsDateNow": 0,
+   "DowShortFI": "Su",
+   "DowShortEN": "Sun",
+   "DowShortSE": "Sön",
+   "GameDateFormatted": "21.02.2027",
+   "GameDate": "2027-02-21"
+  }
+ ],
+ "playerRoles": [
+  "Linjatuomari",
+  "Päätuomari",
+  "Vasen laitahyökkääjä",
+  "Oikea laitahyökkääjä",
+  "Oikea puolustaja",
+  "Keskushyökkääjä",
+  "Vasen puolustaja",
+  "Maalivahti",
+  "7. puolustaja"
+ ],
+ "winPoints": 3,
+ "areaId": 9,
+ "showStandings": true,
+ "playOffStandings": false,
+ "playerDetails": true,
+ "playerStatistics": true,
+ "goalieStatistics": true,
+ "teamStatistics": true
+}

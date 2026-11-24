@@ -1,0 +1,190 @@
+# Men's World Floorball Championships 2026 (16th Men's WFC), Tampere, Finland
+# Compiled 2026-11-24 for Klugscheisser Karl (Unihockey project). Every fact has a source.
+# Times: Finland is EET (UTC+2), Switzerland CET (UTC+1) in December -> Swiss time = local time - 1 h.
+# Fields marked `unverified: true` or `inferred` are not stated verbatim by an official source.
+event:
+  name: "IFF Men's World Floorball Championships 2026"
+  short: "Men's WFC 2026"
+  edition: 16
+  german: "16. Unihockey-Weltmeisterschaft der Männer"
+  dates: {start: 2026-12-05, end: 2026-12-13}
+  city: Tampere
+  country: Finland
+  organisers: [International Floorball Federation (IFF), Finnish Floorball Federation (Suomen Salibandyliitto)]
+  official_site: https://freeoflimits.fi/en/home/   # brand "Free of Limits"; wfc2026.fi redirects here
+  iff_event_page: https://floorball.sport/world-floorball-championships/wfc-men/
+  iff_app: https://app.floorball.sport/league-organizer/217   # groups 2423-2426 = A-D (league ids)
+  official_results_service: https://tulospalvelu.salibandy.fi/category/2702!sb2026int/tables   # Torneopal, competition sb2026int, class 2702
+  mascot: {name: Vekku, what: "fox mascot designed by Finnish children's author/illustrator Mauri Kunnas; will also be used at Women's WFC 2027 Turku and then as joint mascot of Finland's national teams", source: https://freeoflimits.fi/mauri-kunnaksen-suunnittelema-mm-kisamaskotti-on-vekku/, retrieved: 2026-11-24}
+  claim: "biggest sporting event in Finland in 2026 (Finnish Floorball Federation Secretary General Ville-Mikko Korkka)"
+  claim_source: https://floorball.sport/here-are-the-groups-for-the-mens-wfc-2026/
+  defending_champion: Finland   # won 2024 Malmö final vs Sweden 5-4 OT
+  next_events:
+    - {event: "Women's WFC 2027", city: Turku, country: Finland, source: https://floorball.sport/here-are-the-groups-for-the-mens-wfc-2026/}
+    - {event: "Men's WFC 2028", country: Czechia, city: "Prague or Brno (open as of 2025-09)", source: https://unihockey.ch/nationalteams/mnner-a/news/mnner-wm-2028-in-prag-27714/}
+    - {event: "From 2029: new IFF '7-event structure': WFC only every 4 years, European Championships (12 teams, double as WFC qualification) in between, new 'World Trophy'", source: https://unihockey.ch/nationalteams/mnner-a/news/neue-iff-eventstruktur-ab-2029-28107/, date: 2026-02-02}
+  caution:
+    - "unihockey.ch article 'Unihockey-WM in den USA!' (2026-04-01, WFC 2031/2032 in the USA, Trump quotes) is an APRIL FOOLS' joke - do not ingest as fact. https://unihockey.ch/nationalteams/mnner-a/news/unihockey-wm-in-den-usa-28280/"
+
+venues:
+  - name: Nokia Arena
+    use: quarterfinals, semifinals, medal games (from QF on)
+    note: "Finland's most modern arena, in Tampere city centre (official site)"
+    source: https://freeoflimits.fi/faneille/tapahtumapaikat/
+  - name: Hakametsä Ice Hall (Hakametsän jäähalli)
+    use: group stage, playoffs, placement games
+    note: "Finland's first ice hall ('Suomen ensimmäinen jäähalli'), in Kaleva district near the centre (official site); unihockey.ch calls it 'legendary'"
+    source: https://freeoflimits.fi/faneille/tapahtumapaikat/
+  - name: Kauppi Sports Center
+    use: group stage, placement games
+    note: "in Kauppi sports park near the centre"
+    source: https://freeoflimits.fi/faneille/tapahtumapaikat/
+venue_capacities: null   # not found on official site; gap
+fan_zone: "Ideapark, Lempäälä (source: official site menu)"
+
+format:
+  teams: 16
+  groups: 4 x 4 (A and B = top-ranked teams, C and D = lower-ranked), ranking + ballot draw
+  match_length: "3 x 20 min (IFF app league info)"
+  group_ballot: {date: 2026-03-05, place: "Nokia Arena, Tampere", source: https://floorball.sport/here-are-the-groups-for-the-mens-wfc-2026/}
+  schedule_published: {date: 2026-04-08, source: https://floorball.sport/the-mens-world-floorball-championships-2026-match-schedule-has-been-published/, pdf: https://floorball.sport/wp-content/uploads/2026/04/IFFWFC2026_MatchSchedule_1920x1080px__08042026-v1.pdf}
+  progression:
+    - "A1, A2, B1, B2 go straight to the quarterfinals."
+    - "Playoffs (9 Dec): A3-D2, A4-D1, B3-C2, B4-C1; winners to QF, losers to places 9-12."
+    - "C3/C4/D3/D4 play for places 13-16."
+    - "QF pairings (official results service): A1 v Winner(B3-C2), A2 v Winner(B4-C1), B1 v Winner(A3-D2), B2 v Winner(A4-D1)."
+    - "SF1 = Winner(QF A1) v Winner(QF B2); SF2 = Winner(QF B1) v Winner(QF A2). Placement games for 5th/7th/9th/11th/13th/15th."
+  progression_source: "https://salibandy.api.torneopal.com/taso/widget.php?competition=sb2026int&class=2702&group=5&widget=schedule (official results-service widget, retrieved 2026-11-24)"
+  game_numbers_note: "The results service refers to playoff games as 'Häviäjä/Voittaja NN' (loser/winner of game NN). Game numbers 31-54 below are INFERRED from the order of match ids (id - 968250); the inference is internally consistent with all bracket references and with the IFF PDF (5th place 13 Dec 09:00, 7th place 12:00)."
+  schedule_changes_note: "The April 2026 IFF PDF differs from the current results service in some playoff slots (e.g. PDF: A4-D1 16:00; now 10:00). unihockey.ch (2026-04-10) wrote that Switzerland's QF would be Thu 10 Dec 16:30 'whether directly or via playoff'; in the CURRENT schedule only A2 plays QF Thu 16:30; A3 path -> QF Fri 11 Dec 19:00 v B1, A4 path -> QF Fri 11 Dec 16:00 v B2. Always re-check the results service."
+  swiss_paths:
+    A1: "QF Thu 10 Dec 19:30 local / 18:30 CH v Winner(B3-C2), Nokia Arena"
+    A2: "QF Thu 10 Dec 16:30 local / 15:30 CH v Winner(B4-C1), Nokia Arena"
+    A3: "Playoff Wed 9 Dec 13:00 local / 12:00 CH v D2 (Hakametsä); if won: QF Fri 11 Dec 19:00 / 18:00 CH v B1"
+    A4: "Playoff Wed 9 Dec 10:00 local / 09:00 CH v D1 (Hakametsä); if won: QF Fri 11 Dec 16:00 / 15:00 CH v B2"
+  medal_games: {semifinals: "Sat 12 Dec 16:45 and 19:45 local (15:45 / 18:45 CH), Nokia Arena", bronze: "Sun 13 Dec 14:00 local (13:00 CH)", final: "Sun 13 Dec 17:15 local (16:15 CH)"}
+
+referees:
+  source: https://unihockey.ch/nationalteams/mnner-a/news/zweite-a-wm-fr-fsslerschlpfer-28535/   # 2026-09-09; also IFF app post 2026-09-08
+  pairs:
+    - "Josef Fässler / Benjamin Schläpfer (SUI) - 2nd men's WFC after 2024; led the Swiss Superfinal the last three seasons; refereed the U19 men's WFC final 2025 in Switzerland"
+    - "Joni Kokkonen / Tommi Virkki (FIN)"
+    - "Thomas Ellis / Janne Sjögren (FIN)"
+    - "Simon Broman / Martin Matti (SWE)"
+    - "Tobias Pauli Schmidt / Steffen Leholk (DEN)"
+    - "Lukas Cizek / Lukas Lastovička (CZE)"
+    - "Sharil Ismail / Oswind Rosayro (SGP)"
+  head_of_referees: "Nihada Cenanovic (SWE)"
+  referee_coaches: [Jakub Furmanek (CZE), Inge Haug (NOR), Therese Jensen (SWE), Mika Saastamoinen (FIN)]
+
+groups:
+  source: https://floorball.sport/here-are-the-groups-for-the-mens-wfc-2026/   # ballot 2026-03-05
+  A: [Finland, Switzerland, Norway, Latvia]
+  B: [Sweden, Czechia, Germany, Slovakia]
+  C: [Slovenia, Estonia, Singapore, Thailand]
+  D: [Denmark, Japan, Philippines, Canada]
+  pots_note: "Pot 1: Sweden, Finland, Czechia, Latvia; pot 2: Switzerland, Norway, Germany, Slovakia. Switzerland dropped from pot 1 after 5th place 2024 (Latvia 4th). unihockey.ch 2026-03-05 https://unihockey.ch/nationalteams/mnner-a/news/gruppenauslosung-wm-2026-28199/"
+  canada: "Canada won all three AMER qualification games v USA (13-1, 8-2, third game also won) in Georgetown, Texas, March 2026 (IFF lists the event as Austin, TX). https://floorball.sport/canada-secures-final-spot-in-wfc-2026/ (2026-03-21)"
+  austria: "NOT qualified (not among the 16). See rosters/AUT.yaml."
+  qualification_facts:
+    - "35 teams registered; Solomon Islands and Hong Kong, China took part for the first time (IFF 'Event Evolution'). https://floorball.sport/world-floorball-championships/wfc-men/"
+    - "Switzerland won EUR1 group in Liepāja (LAT), 4-7 Feb 2026: 27-1 v Netherlands, 21-0 v Great Britain, 6-2 v Norway (qualified), then lost 3-4 PSO v Latvia in the final game. unihockey.ch 28116/28117/28118/28120"
+    - "Norway qualified only as 'lucky loser' after a 3-4 PSO loss to Slovenia; Denmark beat Poland in the decisive game; Sweden won EUR3 in Trenčín 100:1 on goals incl. 44-0 v Liechtenstein and 46-0 v Iceland, playing with borrowed sticks after lost luggage. unihockey.ch 2026-02-10 https://unihockey.ch/nationalteams/mnner-a/news/15-von-16-wm-pltzen-vergeben-28124/"
+
+team_lists:
+  status: "IFF: all 16 team lists published 2026-11-17 on the IFF App (login needed for team pages) https://floorball.sport/all-mens-world-floorball-championships-2026-team-lists-published/"
+  files: "rosters/<CODE>.yaml"
+
+schedule:
+  source: "Official results service widget (Torneopal) https://salibandy.api.torneopal.com/taso/widget.php?competition=sb2026int&class=2702&group=1..5&widget=schedule, retrieved 2026-11-24; times cross-checked with IFF app (EST display) for group A"
+  opening_game: "Finland - Switzerland, Sat 5 Dec 2026, 19:00 local / 18:00 Swiss time, Hakametsä Ice Hall; SOLD OUT, standing tickets added 23 Nov (official site 2026-11-23); includes premiere of official theme song and celebration of 40 years of Finnish floorball. https://freeoflimits.fi/kovan-kysynnan-vuoksi-loppuunmyytyyn-suomi-sveitsi-otteluun-avataan-seisomakatsomo/"
+  finland_norway_note: "Finland - Norway on 6 Dec = Finnish Independence Day, family event day at Hakametsä. https://freeoflimits.fi/siniverkkarimiehen-money-bowling-itsenaisyyspaivana-hakametsassa/"
+  swiss_time_note: "unihockey.ch (2026-04-10) printed Swiss group games as 19:00 / 15:00 / 17:00 'Uhr' - those are FINNISH local times. Swiss (CET) kick-offs: Sat 5 Dec 18:00 v Finland, Sun 6 Dec 14:00 v Latvia, Mon 7 Dec 16:00 v Norway. Verified via IFF app (12:00/08:00/10:00 EST) = 17:00/13:00/15:00 UTC."
+  games:
+  - {date: 2026-12-05, time_local_EET: '11:00', time_swiss_CET: '10:00', stage: 'Group C', home: 'Estonia', away: 'Singapore', venue: 'Kauppi Sports Center', torneopal_match_id: 967570, result_url: 'https://tulospalvelu.salibandy.fi/match/967570'}
+  - {date: 2026-12-05, time_local_EET: '12:00', time_swiss_CET: '11:00', stage: 'Group C', home: 'Thailand', away: 'Slovenia', venue: 'Hakametsä Ice Hall', torneopal_match_id: 967571, result_url: 'https://tulospalvelu.salibandy.fi/match/967571'}
+  - {date: 2026-12-05, time_local_EET: '14:00', time_swiss_CET: '13:00', stage: 'Group D', home: 'Denmark', away: 'Japan', venue: 'Kauppi Sports Center', torneopal_match_id: 967576, result_url: 'https://tulospalvelu.salibandy.fi/match/967576'}
+  - {date: 2026-12-05, time_local_EET: '15:00', time_swiss_CET: '14:00', stage: 'Group B', home: 'Slovakia', away: 'Sweden', venue: 'Hakametsä Ice Hall', torneopal_match_id: 967564, result_url: 'https://tulospalvelu.salibandy.fi/match/967564'}
+  - {date: 2026-12-05, time_local_EET: '17:00', time_swiss_CET: '16:00', stage: 'Group A', home: 'Norway', away: 'Latvia', venue: 'Kauppi Sports Center', torneopal_match_id: 967558, result_url: 'https://tulospalvelu.salibandy.fi/match/967558'}
+  - {date: 2026-12-05, time_local_EET: '19:00', time_swiss_CET: '18:00', stage: 'Group A', home: 'Finland', away: 'Switzerland', venue: 'Hakametsä Ice Hall', torneopal_match_id: 967559, result_url: 'https://tulospalvelu.salibandy.fi/match/967559'}
+  - {date: 2026-12-06, time_local_EET: '11:00', time_swiss_CET: '10:00', stage: 'Group B', home: 'Germany', away: 'Czechia', venue: 'Hakametsä Ice Hall', torneopal_match_id: 967565, result_url: 'https://tulospalvelu.salibandy.fi/match/967565'}
+  - {date: 2026-12-06, time_local_EET: '12:00', time_swiss_CET: '11:00', stage: 'Group C', home: 'Thailand', away: 'Estonia', venue: 'Kauppi Sports Center', torneopal_match_id: 967572, result_url: 'https://tulospalvelu.salibandy.fi/match/967572'}
+  - {date: 2026-12-06, time_local_EET: '14:00', time_swiss_CET: '13:00', stage: 'Group A', home: 'Finland', away: 'Norway', venue: 'Hakametsä Ice Hall', torneopal_match_id: 967560, result_url: 'https://tulospalvelu.salibandy.fi/match/967560'}
+  - {date: 2026-12-06, time_local_EET: '15:00', time_swiss_CET: '14:00', stage: 'Group A', home: 'Switzerland', away: 'Latvia', venue: 'Kauppi Sports Center', torneopal_match_id: 967561, result_url: 'https://tulospalvelu.salibandy.fi/match/967561'}
+  - {date: 2026-12-06, time_local_EET: '17:00', time_swiss_CET: '16:00', stage: 'Group D', home: 'Philippines', away: 'Canada', venue: 'Hakametsä Ice Hall', torneopal_match_id: 967577, result_url: 'https://tulospalvelu.salibandy.fi/match/967577'}
+  - {date: 2026-12-06, time_local_EET: '18:00', time_swiss_CET: '17:00', stage: 'Group C', home: 'Slovenia', away: 'Singapore', venue: 'Kauppi Sports Center', torneopal_match_id: 967573, result_url: 'https://tulospalvelu.salibandy.fi/match/967573'}
+  - {date: 2026-12-07, time_local_EET: '09:00', time_swiss_CET: '08:00', stage: 'Group D', home: 'Denmark', away: 'Philippines', venue: 'Kauppi Sports Center', torneopal_match_id: 967578, result_url: 'https://tulospalvelu.salibandy.fi/match/967578'}
+  - {date: 2026-12-07, time_local_EET: '10:00', time_swiss_CET: '09:00', stage: 'Group B', home: 'Slovakia', away: 'Germany', venue: 'Hakametsä Ice Hall', torneopal_match_id: 967566, result_url: 'https://tulospalvelu.salibandy.fi/match/967566'}
+  - {date: 2026-12-07, time_local_EET: '12:00', time_swiss_CET: '11:00', stage: 'Group D', home: 'Japan', away: 'Canada', venue: 'Kauppi Sports Center', torneopal_match_id: 967579, result_url: 'https://tulospalvelu.salibandy.fi/match/967579'}
+  - {date: 2026-12-07, time_local_EET: '13:00', time_swiss_CET: '12:00', stage: 'Group C', home: 'Slovenia', away: 'Estonia', venue: 'Hakametsä Ice Hall', torneopal_match_id: 967574, result_url: 'https://tulospalvelu.salibandy.fi/match/967574'}
+  - {date: 2026-12-07, time_local_EET: '17:00', time_swiss_CET: '16:00', stage: 'Group A', home: 'Switzerland', away: 'Norway', venue: 'Hakametsä Ice Hall', torneopal_match_id: 967562, result_url: 'https://tulospalvelu.salibandy.fi/match/967562'}
+  - {date: 2026-12-07, time_local_EET: '20:00', time_swiss_CET: '19:00', stage: 'Group B', home: 'Sweden', away: 'Czechia', venue: 'Hakametsä Ice Hall', torneopal_match_id: 967567, result_url: 'https://tulospalvelu.salibandy.fi/match/967567'}
+  - {date: 2026-12-08, time_local_EET: '09:30', time_swiss_CET: '08:30', stage: 'Group D', home: 'Canada', away: 'Denmark', venue: 'Kauppi Sports Center', torneopal_match_id: 967580, result_url: 'https://tulospalvelu.salibandy.fi/match/967580'}
+  - {date: 2026-12-08, time_local_EET: '10:00', time_swiss_CET: '09:00', stage: 'Group D', home: 'Japan', away: 'Philippines', venue: 'Hakametsä Ice Hall', torneopal_match_id: 967581, result_url: 'https://tulospalvelu.salibandy.fi/match/967581'}
+  - {date: 2026-12-08, time_local_EET: '12:30', time_swiss_CET: '11:30', stage: 'Group C', home: 'Singapore', away: 'Thailand', venue: 'Kauppi Sports Center', torneopal_match_id: 967575, result_url: 'https://tulospalvelu.salibandy.fi/match/967575'}
+  - {date: 2026-12-08, time_local_EET: '16:00', time_swiss_CET: '15:00', stage: 'Group B', home: 'Czechia', away: 'Slovakia', venue: 'Hakametsä Ice Hall', torneopal_match_id: 967568, result_url: 'https://tulospalvelu.salibandy.fi/match/967568'}
+  - {date: 2026-12-08, time_local_EET: '18:00', time_swiss_CET: '17:00', stage: 'Group B', home: 'Sweden', away: 'Germany', venue: 'Kauppi Sports Center', torneopal_match_id: 967569, result_url: 'https://tulospalvelu.salibandy.fi/match/967569'}
+  - {date: 2026-12-08, time_local_EET: '19:00', time_swiss_CET: '18:00', stage: 'Group A', home: 'Latvia', away: 'Finland', venue: 'Hakametsä Ice Hall', torneopal_match_id: 967563, result_url: 'https://tulospalvelu.salibandy.fi/match/967563'}
+  - {date: 2026-12-09, time_local_EET: '09:30', time_swiss_CET: '08:30', stage: '13-16 placement', game_no_inferred: 31, home: 'D3', away: 'C4', venue: 'Kauppi Sports Center', torneopal_match_id: 968281, result_url: 'https://tulospalvelu.salibandy.fi/match/968281'}
+  - {date: 2026-12-09, time_local_EET: '10:00', time_swiss_CET: '09:00', stage: 'Playoff (A4-D1)', game_no_inferred: 33, home: 'A4', away: 'D1', venue: 'Hakametsä Ice Hall', torneopal_match_id: 968283, result_url: 'https://tulospalvelu.salibandy.fi/match/968283'}
+  - {date: 2026-12-09, time_local_EET: '12:30', time_swiss_CET: '11:30', stage: '13-16 placement', game_no_inferred: 32, home: 'C3', away: 'D4', venue: 'Kauppi Sports Center', torneopal_match_id: 968282, result_url: 'https://tulospalvelu.salibandy.fi/match/968282'}
+  - {date: 2026-12-09, time_local_EET: '13:00', time_swiss_CET: '12:00', stage: 'Playoff (A3-D2)', game_no_inferred: 34, home: 'A3', away: 'D2', venue: 'Hakametsä Ice Hall', torneopal_match_id: 968284, result_url: 'https://tulospalvelu.salibandy.fi/match/968284'}
+  - {date: 2026-12-09, time_local_EET: '16:00', time_swiss_CET: '15:00', stage: 'Playoff (B3-C2)', game_no_inferred: 35, home: 'B3', away: 'C2', venue: 'Hakametsä Ice Hall', torneopal_match_id: 968285, result_url: 'https://tulospalvelu.salibandy.fi/match/968285'}
+  - {date: 2026-12-09, time_local_EET: '19:00', time_swiss_CET: '18:00', stage: 'Playoff (B4-C1)', game_no_inferred: 36, home: 'B4', away: 'C1', venue: 'Hakametsä Ice Hall', torneopal_match_id: 968286, result_url: 'https://tulospalvelu.salibandy.fi/match/968286'}
+  - {date: 2026-12-10, time_local_EET: '09:00', time_swiss_CET: '08:00', stage: '9-12 placement semi', game_no_inferred: 37, home: 'Loser 34', away: 'Loser 36', venue: 'Hakametsä Ice Hall', torneopal_match_id: 968287, result_url: 'https://tulospalvelu.salibandy.fi/match/968287'}
+  - {date: 2026-12-10, time_local_EET: '12:00', time_swiss_CET: '11:00', stage: '9-12 placement semi', game_no_inferred: 38, home: 'Loser 35', away: 'Loser 33', venue: 'Hakametsä Ice Hall', torneopal_match_id: 968288, result_url: 'https://tulospalvelu.salibandy.fi/match/968288'}
+  - {date: 2026-12-10, time_local_EET: '15:00', time_swiss_CET: '14:00', stage: '15th place', game_no_inferred: 39, home: 'Loser 31', away: 'Loser 32', venue: 'Hakametsä Ice Hall', torneopal_match_id: 968289, result_url: 'https://tulospalvelu.salibandy.fi/match/968289'}
+  - {date: 2026-12-10, time_local_EET: '16:30', time_swiss_CET: '15:30', stage: 'Quarterfinal (A2 vs W36)', game_no_inferred: 41, home: 'A2', away: 'Winner 36', venue: 'Nokia Arena', torneopal_match_id: 968291, result_url: 'https://tulospalvelu.salibandy.fi/match/968291'}
+  - {date: 2026-12-10, time_local_EET: '18:00', time_swiss_CET: '17:00', stage: '13th place', game_no_inferred: 40, home: 'Winner 31', away: 'Winner 32', venue: 'Hakametsä Ice Hall', torneopal_match_id: 968290, result_url: 'https://tulospalvelu.salibandy.fi/match/968290'}
+  - {date: 2026-12-10, time_local_EET: '19:30', time_swiss_CET: '18:30', stage: 'Quarterfinal (A1 vs W35)', game_no_inferred: 42, home: 'A1', away: 'Winner 35', venue: 'Nokia Arena', torneopal_match_id: 968292, result_url: 'https://tulospalvelu.salibandy.fi/match/968292'}
+  - {date: 2026-12-11, time_local_EET: '10:00', time_swiss_CET: '09:00', stage: '11th place', game_no_inferred: 43, home: 'Loser 38', away: 'Loser 37', venue: 'Hakametsä Ice Hall', torneopal_match_id: 968293, result_url: 'https://tulospalvelu.salibandy.fi/match/968293'}
+  - {date: 2026-12-11, time_local_EET: '13:00', time_swiss_CET: '12:00', stage: '9th place', game_no_inferred: 44, home: 'Winner 38', away: 'Winner 37', venue: 'Hakametsä Ice Hall', torneopal_match_id: 968294, result_url: 'https://tulospalvelu.salibandy.fi/match/968294'}
+  - {date: 2026-12-11, time_local_EET: '16:00', time_swiss_CET: '15:00', stage: 'Quarterfinal (B2 vs W33)', game_no_inferred: 45, home: 'B2', away: 'Winner 33', venue: 'Nokia Arena', torneopal_match_id: 968295, result_url: 'https://tulospalvelu.salibandy.fi/match/968295'}
+  - {date: 2026-12-11, time_local_EET: '19:00', time_swiss_CET: '18:00', stage: 'Quarterfinal (B1 vs W34)', game_no_inferred: 46, home: 'B1', away: 'Winner 34', venue: 'Nokia Arena', torneopal_match_id: 968296, result_url: 'https://tulospalvelu.salibandy.fi/match/968296'}
+  - {date: 2026-12-12, time_local_EET: '10:00', time_swiss_CET: '09:00', stage: '5-8 placement semi', game_no_inferred: 47, home: 'Loser 42', away: 'Loser 45', venue: 'Hakametsä Ice Hall', torneopal_match_id: 968297, result_url: 'https://tulospalvelu.salibandy.fi/match/968297'}
+  - {date: 2026-12-12, time_local_EET: '13:00', time_swiss_CET: '12:00', stage: '5-8 placement semi', game_no_inferred: 48, home: 'Loser 46', away: 'Loser 41', venue: 'Hakametsä Ice Hall', torneopal_match_id: 968298, result_url: 'https://tulospalvelu.salibandy.fi/match/968298'}
+  - {date: 2026-12-12, time_local_EET: '16:45', time_swiss_CET: '15:45', stage: 'Semifinal 1', game_no_inferred: 49, home: 'Winner 42', away: 'Winner 45', venue: 'Nokia Arena', torneopal_match_id: 968299, result_url: 'https://tulospalvelu.salibandy.fi/match/968299'}
+  - {date: 2026-12-12, time_local_EET: '19:45', time_swiss_CET: '18:45', stage: 'Semifinal 2', game_no_inferred: 50, home: 'Winner 46', away: 'Winner 41', venue: 'Nokia Arena', torneopal_match_id: 968300, result_url: 'https://tulospalvelu.salibandy.fi/match/968300'}
+  - {date: 2026-12-13, time_local_EET: '09:00', time_swiss_CET: '08:00', stage: '5th place', game_no_inferred: 51, home: 'Winner 47', away: 'Winner 48', venue: 'Hakametsä Ice Hall', torneopal_match_id: 968301, result_url: 'https://tulospalvelu.salibandy.fi/match/968301'}
+  - {date: 2026-12-13, time_local_EET: '12:00', time_swiss_CET: '11:00', stage: '7th place', game_no_inferred: 52, home: 'Loser 47', away: 'Loser 48', venue: 'Hakametsä Ice Hall', torneopal_match_id: 968302, result_url: 'https://tulospalvelu.salibandy.fi/match/968302'}
+  - {date: 2026-12-13, time_local_EET: '14:00', time_swiss_CET: '13:00', stage: 'Bronze medal game', game_no_inferred: 53, home: 'Loser 49', away: 'Loser 50', venue: 'Nokia Arena', torneopal_match_id: 968303, result_url: 'https://tulospalvelu.salibandy.fi/match/968303'}
+  - {date: 2026-12-13, time_local_EET: '17:15', time_swiss_CET: '16:15', stage: 'Gold medal game (final)', game_no_inferred: 54, home: 'Winner 49', away: 'Winner 50', venue: 'Nokia Arena', torneopal_match_id: 968304, result_url: 'https://tulospalvelu.salibandy.fi/match/968304'}
+
+past_wfc:
+  sources:
+    medal_table_iff: https://floorball.sport/world-floorball-championships/wfc-men/   # Sweden 10-5-0, Finland 5-7-3, Czechia 0-2-4, Switzerland 0-1-7, Norway 0-0-1
+    medals_unihockey_ch: https://unihockey.ch/nationalteams/mnner-a/medaillen/        # same medal table, per year
+    finals_and_4th: https://en.wikipedia.org/wiki/Men%27s_World_Floorball_Championship  # final/bronze scores and 4th places (retrieved 2026-11-24); medallists cross-checked with both sources above
+    hosts: https://floorball.sport/world-floorball-championships/wfc-men/
+  medal_table: {SWE: {gold: 10, silver: 5, bronze: 0}, FIN: {gold: 5, silver: 7, bronze: 3}, CZE: {gold: 0, silver: 2, bronze: 4}, SUI: {gold: 0, silver: 1, bronze: 7}, NOR: {gold: 0, silver: 0, bronze: 1}}
+  facts:
+    - "Only Sweden and Finland have ever won the men's title (IFF medal table)."
+    - "2008 Prague/Ostrava: first time Finland (not Sweden) became champion; first WFC with 100,000 spectators (unihockey.ch 2025-09)."
+    - "Spectator record 181,571 at WFC 2018 Prague; 16,276 at the 2018 final in Prague's O2 Arena (unihockey.ch 2025-09, https://unihockey.ch/nationalteams/mnner-a/news/mnner-wm-2028-in-prag-27714/)."
+    - "Czechia has never won a WFC medal on home ice (as of 2025-09, same source)."
+    - "WFC 2020 Helsinki was postponed by COVID-19 and played in December 2021 (IFF)."
+    - "Format history: 1996 12 teams; 1998-2008 A/B(/C) divisions; 2010 first single 16-team final round; 2014 play-off round before QFs introduced (IFF 'Event Evolution')."
+  editions:
+    - {year: 1996, no: 1, host: "Stockholm, Skellefteå & Uppsala (SWE)", gold: Sweden, final: "5-0", silver: Finland, bronze: Norway, bronze_game: "6-2", fourth: Czechia, switzerland: 5}
+    - {year: 1998, no: 2, host: "Prague & Brno (CZE)", gold: Sweden, final: "10-3 v Switzerland", silver: Switzerland, bronze: Finland, bronze_game: "4-1", fourth: Denmark, switzerland: 2, note: "Switzerland's only WFC final and only silver. NOTE: 1998 Prague = SILVER, not bronze; Switzerland's Prague bronze was 2018."}
+    - {year: 2000, no: 3, host: "Drammen, Oslo & Sarpsborg (NOR)", gold: Sweden, final: "5-3", silver: Finland, bronze: Switzerland, bronze_game: "4-2", fourth: Denmark, switzerland: 3}
+    - {year: 2002, no: 4, host: "Helsinki (FIN)", gold: Sweden, final: "6-4", silver: Finland, bronze: Switzerland, bronze_game: "4-3 OT", fourth: Czechia, switzerland: 3}
+    - {year: 2004, no: 5, host: "Zürich & Kloten (SUI)", gold: Sweden, final: "6-4 v Czechia", silver: Czechia, bronze: Finland, bronze_game: "8-7 PSO v Switzerland", fourth: Switzerland, switzerland: 4}
+    - {year: 2006, no: 6, host: "Stockholm, Helsingborg & Malmö (SWE)", gold: Sweden, final: "7-6 OT", silver: Finland, bronze: Switzerland, bronze_game: "9-4", fourth: Czechia, switzerland: 3}
+    - {year: 2008, no: 7, host: "Prague & Ostrava (CZE)", gold: Finland, final: "7-6 OT v Sweden", silver: Sweden, bronze: Switzerland, bronze_game: "5-4 OT", fourth: Czechia, switzerland: 3}
+    - {year: 2010, no: 8, host: "Helsinki & Vantaa (FIN)", gold: Finland, final: "6-2", silver: Sweden, bronze: Czechia, bronze_game: "9-3 v Switzerland", fourth: Switzerland, switzerland: 4}
+    - {year: 2012, no: 9, host: "Zürich & Bern (SUI)", gold: Sweden, final: "11-5", silver: Finland, bronze: Switzerland, bronze_game: "8-0 Switzerland v Germany", fourth: Germany, switzerland: 3, note: "Germany's best-ever 4th place; Emanuel Antener (SUI) set single-tournament records 26 points / 17 assists (IFF records)"}
+    - {year: 2014, no: 10, host: "Gothenburg (SWE)", gold: Sweden, final: "3-2", silver: Finland, bronze: Czechia, bronze_game: "4-3 v Switzerland", fourth: Switzerland, switzerland: 4, swiss_coach: Petteri Nykky}
+    - {year: 2016, no: 11, host: "Riga (LAT)", gold: Finland, final: "4-3 PSO v Sweden", silver: Sweden, bronze: Switzerland, bronze_game: "8-5", fourth: Czechia, switzerland: 3, swiss_coach: David Jansson}
+    - {year: 2018, no: 12, host: "Prague (CZE)", gold: Finland, final: "6-3 v Sweden", silver: Sweden, bronze: Switzerland, bronze_game: "4-2 v Czechia (hosts)", fourth: Czechia, switzerland: 3, swiss_coach: David Jansson, note: "SUI lost SF to Sweden only in penalty shootout (unihockey.ch 2025-09); last Swiss WFC medal to date"}
+    - {year: 2020, no: 13, host: "Helsinki (FIN), played Dec 2021", gold: Sweden, final: "6-4 v Finland", silver: Finland, bronze: Czechia, bronze_game: "4-3 OT v Switzerland", fourth: Switzerland, switzerland: 4, swiss_coach: David Jansson}
+    - {year: 2022, no: 14, host: "Zürich & Winterthur (SUI)", gold: Sweden, final: "9-3 v Czechia", silver: Czechia, bronze: Finland, bronze_game: "5-3 v Switzerland", fourth: Switzerland, switzerland: 4, swiss_coach: David Jansson}
+    - {year: 2024, no: 15, host: "Malmö (SWE)", gold: Finland, final: "5-4 OT v Sweden", silver: Sweden, bronze: Czechia, bronze_game: "8-2 v Latvia", fourth: Latvia, switzerland: 5, swiss_coach: Johan Schönbeck, note: "Switzerland's worst result since 1996 (5th); 12 WFC debutants; 4-4 v Norway in group, 6-0 v Norway in placement (unihockey.ch 28114, 28542)"}
+  switzerland_summary:
+    placings: [5, 2, 3, 3, 4, 3, 3, 4, 3, 4, 3, 3, 4, 4, 5]   # 1996..2024
+    medals: "1 silver (1998), 7 bronze (2000, 2002, 2006, 2008, 2012, 2016, 2018)"
+    fourth_places: [2004, 2010, 2014, 2020, 2022]
+    hosted: [2004, 2012, 2022]
+    hosted_note: "At home: 2004 4th, 2012 bronze, 2022 4th."
+    medal_drought: "No medal since 2018 (2020: 4th, 2022: 4th, 2024: 5th)."
+  head_to_head_wfc: "see wfc_history_detail.yaml (per-game Swiss WFC results and H2H vs SWE/FIN/CZE/GER/AUT); summary below"

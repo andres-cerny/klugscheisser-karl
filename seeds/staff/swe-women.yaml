@@ -1,0 +1,25 @@
+# Press contact and media manager of Sweden's women's national team (Tre Kronor dam), for Fabi.
+# The federation names its communications chief as the women's team press contact in its 2026 releases (with
+# email/phone); the official WCh roster PDF names Emma Spennare as Media Manager, without a published contact.
+# Loaded by klugscheisser/staff.py (load_seeds). Only contacts the federation publishes itself; never guessed.
+# Checked 01.11.2026.
+team: swe-women
+checked: "2026-11-01"
+
+sources:
+  sif_sep: {name: "Svenska Ishockeyförbundet, Nya spelare får chansen … Tre Kronor dam (17.09.2026)", url: "https://www.swehockey.se/landslag/landslagsnyheter/nya-spelare-faar-chansen-att-visa-upp-sig-i-tre-kronor-dam/", kind: official, date: "2026-09-17"}
+  sif_wwc: {name: "Svenska Ishockeyförbundet, WWC 2026 Roster Sweden (PDF)", url: "https://www.swehockey.se/media/az5p55rk/sweden-women_roster_2026-wwc.pdf", kind: official, date: "2026-10-20"}
+
+staff:
+  - name: "Linus Hugosson"
+    role: "Presskontakt (Kommunikationschef)"
+    src: sif_sep
+    quote: "Presskontakt Kontaka Linus Hugosson vid intervjuförfrågningar, media@example.org, +00 00 000 00 00."
+    email: "media@example.org"
+    phone: "+00 00 000 00 00"
+    note: "Kommunikationschef des Verbands, für Interviewanfragen Tre Kronor dam"
+  - name: "Emma Spennare"
+    role: "Media Manager"
+    src: sif_wwc
+    quote: "Spennare Emma Media Manager"
+    note: "Media Manager im WM-Aufgebot; kein Kontakt publiziert"

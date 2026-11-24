@@ -1,0 +1,324 @@
+# Working language of clubs and leagues (curated by hand, versioned).
+#
+# Used by klugscheisser/facts/german.py to derive "German-speaking club years" per person from career stints,
+# season stats and affiliations. Fabi's question: which players of OTHER nations could give an interview in
+# German? Club years are only a clue ("wahrscheinlich"); "bestätigt" needs a German interview (step 2, facts
+# kind `language_evidence`).
+#
+# Rules:
+# - `language`: one code (de, fr, it, hu, cs, sk, en …) or a list for bilingual places ([fr, de]). A bilingual
+#   club is shown as bilingual and never counted as plain German.
+# - `match`: phrases matched on whole words of the normalised name (lower case, no accents, ß → ss, punctuation
+#   → space). A trailing `*` allows more letters ("germany*" matches "germany2"). The first matching club wins,
+#   so exceptions (HK Budapest in the German DFEL) come before any league rule.
+# - `club`: display name; `group` entries (several clubs) show the name as written in the source.
+# - "kein Hinweis" notes (not German-speaking) are shown for Swiss clubs and for entries with `warn: true`
+#   (clubs playing in a German league, e.g. HK Budapest in the DFEL), so an assistant does not read "Swiss
+#   league" or "DFEL" as German.
+# - Leagues are used only when no club matched; Swiss leagues have no language (three language regions), so a
+#   Swiss club must be listed here to count.
+# - Never infer a language from a person's name or nationality. Add clubs here when they show up in careers.
+version: 1
+updated: 2026-10-25
+
+clubs:
+  # --- clubs in German leagues that are not German-speaking (exceptions first) ---------------------------------
+  - club: HK Budapest
+    warn: true
+    where: Budapest, Ungarn, spielt in der deutschen DFEL
+    country: HUN
+    language: hu
+    match: [hk budapest]
+  - club: KMH Budapest
+    warn: true
+    where: Budapest, Ungarn, EWHL
+    country: HUN
+    language: hu
+    match: [kmh budapest]
+  - club: MAC Budapest
+    warn: true
+    where: Budapest, Ungarn
+    country: HUN
+    language: hu
+    match: [mac budapest]
+  - club: HC Slavia Praha
+    where: Prag, Tschechien, EWHL
+    country: CZE
+    language: cs
+    match: [slavia praha]
+  - club: ŠKP Bratislava
+    where: Bratislava, Slowakei, EWHL
+    country: SVK
+    language: sk
+    match: [skp bratislava, psrz bratislava]
+
+  # --- Switzerland: German-speaking region -------------------------------------------------------------------
+  - club: EV Zug
+    where: Zug, deutschsprachig
+    country: SUI
+    language: de
+    match: [ev zug, evz, sc zug]
+  - club: ZSC Lions
+    where: Zürich, deutschsprachig
+    country: SUI
+    language: de
+    match: [zsc, zhc lions]
+  - club: GCK Lions
+    where: Küsnacht/Zürich, deutschsprachig
+    country: SUI
+    language: de
+    match: [gck, gc kusnacht, gc/kusnacht, gc]
+  - club: SC Bern
+    where: Bern, deutschsprachig
+    country: SUI
+    language: de
+    match: [sc bern, scb]
+  - club: HC Davos
+    where: Davos GR, deutschsprachig
+    country: SUI
+    language: de
+    match: [hc davos, hockey club davos]
+  - club: SC Langenthal
+    where: Langenthal BE, deutschsprachig
+    country: SUI
+    language: de
+    match: [langenthal, lagenthal]
+  - club: SC Reinach
+    where: Reinach AG, deutschsprachig
+    country: SUI
+    language: de
+    match: [sc reinach]
+  - club: SC Weinfelden
+    where: Weinfelden TG, deutschsprachig
+    country: SUI
+    language: de
+    match: [weinfelden]
+  - club: DSC Oberthurgau
+    where: Amriswil TG, deutschsprachig
+    country: SUI
+    language: de
+    match: [dsc oberthurgau, oberthurgau]
+  - club: HC Thurgau
+    where: Thurgau, deutschsprachig
+    country: SUI
+    language: de
+    match: [thurgau, hct young lions, pikes]
+  - club: EHC Kloten
+    where: Kloten ZH, deutschsprachig
+    country: SUI
+    language: de
+    match: [kloten]
+  - club: EHC Basel
+    where: Basel, deutschsprachig
+    country: SUI
+    language: de
+    match: [ehc basel]
+  - club: EHC Winterthur
+    where: Winterthur ZH, deutschsprachig
+    country: SUI
+    language: de
+    match: [winterthur]
+  - club: SC Rapperswil-Jona Lakers
+    where: Rapperswil-Jona SG, deutschsprachig
+    country: SUI
+    language: de
+    match: [rapperswil]
+  - group: Thun  # several clubs: the name as written is shown
+    where: Thun BE, deutschsprachig
+    country: SUI
+    language: de
+    match: [bomo thun, dragon thun, thun dragon, dragons thun]
+  - club: SC Lyss
+    where: Lyss BE, deutschsprachig
+    country: SUI
+    language: de
+    match: [lyss]
+  - club: EHC Visp
+    where: Visp VS, Oberwallis, deutschsprachig
+    country: SUI
+    language: de
+    match: [visp]
+  - club: EHC Saastal
+    where: Saastal VS, Oberwallis, deutschsprachig
+    country: SUI
+    language: de
+    match: [saastal]
+  - club: EHC Raron
+    where: Raron VS, Oberwallis, deutschsprachig
+    country: SUI
+    language: de
+    match: [raron]
+  - club: EHC SenSee
+    where: Sense-/Seebezirk FR, deutschsprachig
+    country: SUI
+    language: de
+    match: [sensee]
+  - club: HC Luzern
+    where: Luzern, deutschsprachig
+    country: SUI
+    language: de
+    match: [hc luzern, sursee, seetal]
+  - club: EHC Chur
+    where: Chur GR, deutschsprachig
+    country: SUI
+    language: de
+    match: [ehc chur]
+  - club: EHC St. Moritz
+    where: St. Moritz GR, deutschsprachig
+    country: SUI
+    language: de
+    match: [st moritz]
+  - group: Ostschweiz  # several clubs: the name as written is shown
+    where: Ostschweiz, deutschsprachig
+    country: SUI
+    language: de
+    match: [st gallen, uzwil, kreuzlingen, schaffhausen, herisau, wil]
+  - group: Zürich Region  # several clubs: the name as written is shown
+    where: Kanton Zürich, deutschsprachig
+    country: SUI
+    language: de
+    match: [bulach, dubendorf, wetzikon, illnau, bassersdorf, wallisellen, urdorf, seewen, innerschwyz]
+  - group: Region Bern / Mittelland  # several clubs: the name as written is shown
+    where: Kanton Bern / Solothurn / Basel-Land, deutschsprachig
+    country: SUI
+    language: de
+    match: [schallenberg, schwarzenburg, ezo, zunzgen, olten, langnau]
+  - club: CdH Engiadina
+    where: Unterengadin GR, Romanisch/Deutsch
+    country: SUI
+    language: [rm, de]
+    match: [engiadina]
+
+  # --- Switzerland: bilingual --------------------------------------------------------------------------------
+  - club: HC Fribourg-Gottéron
+    where: Freiburg/Fribourg, zweisprachig, mehrheitlich Französisch
+    country: SUI
+    language: [fr, de]
+    match: [fribourg, gotteron]
+  - club: EHC Biel-Bienne
+    where: Biel/Bienne, zweisprachig Deutsch/Französisch
+    country: SUI
+    language: [de, fr]
+    match: [biel, bienne]
+
+  # --- Switzerland: Italian-speaking (Ticino) ----------------------------------------------------------------
+  - club: HC Ambrì-Piotta
+    where: Ambrì TI, italienischsprachig
+    country: SUI
+    language: it
+    match: [ambri, hcap]
+  - group: Lugano  # Ladies Team Lugano, HC Lugano: the name as written is shown
+    where: Lugano TI, italienischsprachig
+    country: SUI
+    language: it
+    match: [lugano, ceresio]
+  - club: GDT Bellinzona
+    where: Bellinzona TI, italienischsprachig
+    country: SUI
+    language: it
+    match: [bellinzona]
+
+  # --- Switzerland: French-speaking (Romandie) ---------------------------------------------------------------
+  - club: Lausanne HC
+    where: Lausanne VD, französischsprachig
+    country: SUI
+    language: fr
+    match: [lausanne, losanna]
+  - club: Neuchâtel Hockey Academy
+    where: Neuenburg/Neuchâtel, französischsprachig
+    country: SUI
+    language: fr
+    match: [neuchatel]
+  - club: Genève-Servette HC
+    where: Genf/Genève, französischsprachig
+    country: SUI
+    language: fr
+    match: [geneve, servette, meyrin, trois chene]
+  - club: HC La Chaux-de-Fonds
+    where: La Chaux-de-Fonds NE, französischsprachig
+    country: SUI
+    language: fr
+    match: [chaux de fonds]
+  - club: HC Tramelan
+    where: Tramelan, Berner Jura, französischsprachig
+    country: SUI
+    language: fr
+    match: [tramelan]
+  - club: HC Ajoie
+    where: Porrentruy JU, französischsprachig
+    country: SUI
+    language: fr
+    match: [ajoie]
+  - group: Romandie  # several clubs: the name as written is shown
+    where: Romandie, französischsprachig
+    country: SUI
+    language: fr
+    match: [sierre, martigny, yverdon, villars, star lausanne]
+
+  # --- Italy -------------------------------------------------------------------------------------------------
+  - club: EV Bozen Eagles
+    where: Bozen/Bolzano, Südtirol, zweisprachig Deutsch/Italienisch
+    country: ITA
+    language: [de, it]
+    match: [bozen, bolzano, eagles sudtirol, evb eagles]
+  - group: Südtirol  # several clubs: the name as written is shown
+    where: Südtirol, zweisprachig Deutsch/Italienisch
+    country: ITA
+    language: [de, it]
+    match: [meran, merano, ritten, renon, pustertal, brunico, grodner, gardena]
+  - club: Real Torino
+    where: Turin, italienischsprachig
+    country: ITA
+    language: it
+    match: [real torino]
+
+  # --- Austria (German) --------------------------------------------------------------------------------------
+  - club: DEC Salzburg Eagles
+    where: Salzburg, deutschsprachig
+    country: AUT
+    language: de
+    match: [salzburg eagles, ravens salzburg, salzburg]
+  - group: Wien  # several clubs: the name as written is shown
+    where: Wien, deutschsprachig
+    country: AUT
+    language: de
+    match: [ehv sabres, sabres wien, sabres st polten, wien, vienna, we v flyers, wiener]
+  - group: Graz  # several clubs: the name as written is shown
+    where: Graz, deutschsprachig
+    country: AUT
+    language: de
+    match: [graz]
+  - group: Kärnten  # several clubs: the name as written is shown
+    where: Kärnten, deutschsprachig
+    country: AUT
+    language: de
+    match: [karnten, klagenfurt, kac, villach]
+  - group: Österreich  # several clubs: the name as written is shown
+    where: Österreich, deutschsprachig
+    country: AUT
+    language: de
+    match: [neuberg highlanders, austrian selects, austrian eagles, innsbruck, dornbirn, linz, feldkirch, lustenau, zell am see]
+
+  # --- Germany (German); the league rule below covers most, these catch stints without a league -------------
+  - group: Deutschland  # several clubs: the name as written is shown
+    where: Deutschland, deutschsprachig
+    country: GER
+    language: de
+    match: [memmingen, ingolstadt, planegg, mannheim, mannheimer, eku mannheim, kurpfalz, eisbaren, osc, fass berlin,
+      spreewolfe, berlin, kaufbeuren, tolz, tolzer, iserlohn, kolner, koln, dusseldorf, krefeld, augsburg, nurnberg,
+      straubing, schwenningen, schwenninger, bremerhaven, wolfsburg, hamburger, hsv, crocodiles hamburg, hannover,
+      langenhagen, kassel, landshut, landsberg, garmisch, riessersee, peiting, sonthofen, fussen, erding, geretsried,
+      klostersee, ottobrunn, regensburg, dresden, crimmitschau, weisswasser, niesky, jonsdorf, braunlage, moers,
+      esslingen, kornwestheim, bergkamen, bergkamener, weiden, dorfen, waldkraiburg, heilbronn, heilbronner,
+      bietigheim, ravensburg, frankfurt, munchen, angerlohe]
+
+leagues:
+  - league: Deutschland
+    country: GER
+    language: de
+    match: [dfel, del, del2, dnl, bundesliga*, frauenbundesliga, frauen bundesliga, fraueneishockey bundesliga,
+      germany*, oberliga, schuler bl, jugend bl, deutsche frauen eishockey liga, hochste deutsche frauen eishockeyliga]
+  - league: Österreich
+    country: AUT
+    language: de
+    match: [austria*, osterreich*, dameneishockey bundesliga]

@@ -1,0 +1,72 @@
+# Questions for the MCP gap loop (scripts/mcp_standin.py run). Schema per entry:
+#   id:       short stable id (used by --only and to match runs in `compare`)
+#   question: the text the stand-in client gets as the user's message
+#   origin:   where it comes from ("perplexity-log <date time> (tool <name>, <args>)" or "synthetic")
+#   notes:    optional, free text for the reviewer (what a good answer needs, known traps)
+#
+# The perplexity-log questions are the `frage` arguments Perplexity sent to Karl (from
+# `journalctl -u klugscheisser`, 2026-10-14..17; wrapped log lines joined). They are Perplexity's
+# reformulation of Fabi's question, not her original wording. 2026-10-14..17 had only these 6 tool calls
+# (all `frage`, all on 2026-10-16).
+questions:
+  - id: p01
+    origin: "perplexity-log 2026-10-16 16:22 (tool frage, no person/team/event)"
+    question: >-
+      Frauen-WM in Dänemark: Welches Jahr, Austragungsdaten, Gruppen und Gegnerinnen der Schweiz, genauer
+      Spielmodus inklusive Viertelfinalpaarungen, Halbfinal-Setzung und Abstiegsregelung? Vergleich zur WM 2025
+      in Tschechien (Nutzerin sagt vor 2 Jahren): Was ändert, offizielle Begründung und Folgen für Schweiz?
+      Bitte verifizierte Quellen, Stand und Links.
+    notes: "Trap: user says WM in Tschechien was 2 years ago (it was 2025)."
+  - id: p02
+    origin: "perplexity-log 2026-10-16 16:42 (tool frage, team=Schweiz)"
+    question: >-
+      Wie heisst höchste WM-Division der Schweiz und die nächsttiefere (Division I Gruppe A), Bedeutung
+      Relegationsspiel 2026? Alle Schweizer Resultate Frauen-WM 2025 mit Datum und Phase, Schlussrang. War 0:7
+      gegen Tschechien Viertelfinal oder Vorrunde? Vorrundenniederlage gegen Tschechien wie hoch, Auswirkungen
+      Tordifferenz/Tiebreaks auf Viertelfinalpaarungen 2025?
+  - id: p03
+    origin: "perplexity-log 2026-10-16 16:46 (tool frage, team=Schweiz)"
+    question: >-
+      Wo fand die Frauen-WM 2024 statt (Ort Land Datum)? Historisch beste WM-Platzierung Schweizer
+      Frauen-Nationalteam sowie WM-Schlussränge 2021, 2022, 2023, 2024, 2025. Keine Olympiaresultate mit WM
+      vermischen.
+  - id: p04
+    origin: "perplexity-log 2026-10-16 16:49 (tool frage, team=Schweiz)"
+    question: >-
+      Liste aller bisherigen offiziellen Frauen-Eishockey-Weltmeisterschaften der Top-Division 1990 bis 2025:
+      Jahr, Austragungsorte, Gastgeberland und Schweizer Schlussrang; falls Schweiz in tieferer Division deren
+      Rang separat kennzeichnen. Ausgefallene Jahre 2003 und 2020 und Sonderfall 2004 berücksichtigen.
+  - id: p05
+    origin: "perplexity-log 2026-10-16 16:53 (tool frage, no person/team/event)"
+    question: >-
+      Ist 2026 die erste Frauen-WM Top-Division im November? Termine 2024 und 2025 im April, 2026 6.-16.
+      November; dauerhafte Verlegung ab 2026 und Gründe (PWHL, Kalender), Beschlussdatum?
+  - id: p06
+    origin: "perplexity-log 2026-10-16 16:56 (tool frage, team=Schweiz)"
+    question: >-
+      Welche belegten Vor- und Nachteile sowie Herausforderungen hat die Verlegung der Frauen-WM in den November
+      2026 speziell fürs Schweizer Nationalteam: unterschiedlicher Saisonstand PWHL vs Schweizer Liga vs NCAA,
+      fehlende Spielpraxis, Vorbereitung Euro Hockey Tour Schweden Oktober, Belastung Beruf Studium? Bitte nur
+      passende Quellen, keine Personendaten.
+
+  # synthetic: typical questions of a presenter before a broadcast (current data, Karl's core job)
+  - id: s01
+    origin: synthetic
+    question: Wie hat die Schweizer Frauen-Nati in ihrem letzten Spiel gespielt? Resultat, Torschützinnen, Datum.
+    notes: "Needs the newest Swiss game (EHT / test games in October)."
+  - id: s02
+    origin: synthetic
+    question: Wann und gegen wen spielt die Schweizer Frauen-Nati als Nächstes?
+    notes: "Includes the friendly vs Austria in Bern (mid October) if stored."
+  - id: s03
+    origin: synthetic
+    question: Wer steht im aktuellen Kader der Schweiz für die Frauen-WM 2026? Ist er schon definitiv?
+  - id: s04
+    origin: synthetic
+    question: Gibt es aktuelle Verletzungsnews zu Spielerinnen der Schweizer Nati (letzte 2 Wochen)?
+  - id: s05
+    origin: synthetic
+    question: Was gibt es Neues von Alina Müller in den letzten 7 Tagen?
+  - id: s06
+    origin: synthetic
+    question: Wie viele Punkte hat Lara Stalder diese Saison, und wie war ihr letztes Spiel?

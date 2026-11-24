@@ -1,0 +1,60 @@
+# Czechia: official squad for the 2026 IIHF Women's World Championship (25 players: 3 G, 8 D, 14 F), ČSLH /
+# ceskyhokej.cz news 01.11.2026 ("Trenér Brian Idalski zveřejnil nominaci na mistrovství světa žen 2026 v Dánsku").
+# Names, clubs and staff exactly as in the article (checked 03.11.2026; "obě Seattle Torrent" = Neubauerová and
+# Tejralová). No jersey numbers. Replaces the Södertälje WEHT squad (14.10.2026): Tereza Vanišová out (no reason given;
+# the live DB stores her as "Tereza Holešinská"),
+# Barbora Bartáková in. Staff: doctor Patricia Briešková (instead of Martin Mackovčin), masseuse Karolína Kovářová added.
+event: wch-2026
+team: cze-women
+list_type: confirmed
+season: "2026-27"
+source: "ČSLH, offizieller WM-Kader (01.11.2026)"
+source_url: "https://www.ceskyhokej.cz/novinky/9989-trener-brian-idalski-zverejnil-nominaci-na-mistrovstvi-sveta-zen-2026-v-dansku"
+source_date: "2026-11-01"
+# club_text: club as written in the source (shown in answers, not linked to a club team)
+players:
+  - {name: "Daniela Nováková", pos: G, club_text: "University of St. Thomas"}
+  - {name: "Klára Peslarová", pos: G, club_text: "Brynäs"}
+  - {name: "Aneta Šenková", pos: G, club_text: "Clarkson University"}
+  - {name: "Sára Čajanová", pos: D, club_text: "Brynäs"}
+  - {name: "Ellen Jarabková", pos: D, club_text: "MoDo"}
+  - {name: "Noemi Neubauerová", pos: D, club_text: "Seattle Torrent"}
+  - {name: "Aneta Tejralová", pos: D, club_text: "Seattle Torrent"}
+  - {name: "Aneta Paroubková", pos: D, club_text: "Stoney Creek Sabres"}
+  - {name: "Daniela Pejšová", pos: D, club_text: "PWHL San Jose"}
+  - {name: "Tereza Radová", pos: D, club_text: "HK Budapest"}
+  - {name: "Klára Seroiszková", pos: D, club_text: "Davos"}
+  - {name: "Anežka Čabelová", pos: F, club_text: "Boston University"}
+  - {name: "Tereza Gildainová", pos: F, club_text: "Lovell Academy Lions"}
+  - {name: "Klára Hymlárová", pos: F, club_text: "Minnesota Frost"}
+  - {name: "Barbora Juříčková", pos: F, club_text: "St. Lawrence University"}
+  - {name: "Kristýna Kaltounková", pos: F, club_text: "New York Sirens"}
+  - {name: "Natálie Mlýnková", pos: F, club_text: "PWHL San Jose"}
+  - {name: "Kateřina Mrázová", pos: F, club_text: "Ottawa Charge"}
+  - {name: "Michaela Pejzlová", pos: F, club_text: "Frölunda"}
+  - {name: "Tereza Pištěková", pos: F, club_text: "SDE Hockey"}
+  - {name: "Tereza Plosová", pos: F, club_text: "University of Minnesota"}
+  - {name: "Vendula Přibylová", pos: F, club_text: "Linköping"}
+  - {name: "Adéla Šapovalivová", pos: F, club_text: "University of Wisconsin"}
+  - {name: "Linda Vocetková", pos: F, club_text: "Colgate University"}
+  - {name: "Barbora Bartáková", pos: F, club_text: "Djurgardens"}
+staff:
+  - {name: "Tereza Sadilová", role: "General manager"}
+  - {name: "Brian Idalski", role: "Head coach"}
+  - {name: "Karolína Erbanová", role: "Assistant coach"}
+  - {name: "Ivo Mocek", role: "Assistant coach"}
+  - {name: "Pavel Liehman", role: "Goalkeeping coach"}
+  - {name: "David Sequens", role: "Video coach"}
+  - {name: "Marie Šťastná", role: "Physiotherapist"}
+  - {name: "Jiří Tvrdík", role: "Physiotherapist"}
+  - {name: "Karolína Kovářová", role: "Masseuse"}
+  - {name: "Patricia Briešková", role: "Team doctor"}
+  - {name: "Jan Petružela", role: "Strength and conditioning coach"}
+  - {name: "Drahomíra Fialová", role: "Equipment manager"}
+  - {name: "Petr Mlíkovský", role: "Equipment manager"}
+  - {name: "Ladislav Vlček", role: "Equipment manager"}
+  - {name: "Natálie Skálová", role: "Media manager"}
+# on the Södertälje WEHT list (14.10.2026), not on the WCh list
+also_called_up:
+  - {name: "Tereza Vanišová", pos: F}
+absent: []

@@ -1,0 +1,159 @@
+# Explicit aliases per team (key from teams.yaml). Read by domain/team_matcher.py; nothing goes to the DB.
+# Matching is on whole words of the normalised text (accents stripped, lower case, hyphens = spaces).
+#
+# Flags per alias:
+#   ambiguous: true       city / short names; count only with an ice hockey context in the text
+#                         (classify/rules.py HOCKEY) or a linked player name.
+#   women_specific: true  for national teams: the alias itself names the women's team although it has no
+#                         women's word in it (Smile Japan). Aliases that contain a women's word
+#                         (Frauen, Women, féminine, Damkronorna, Naisleijonat, ženská …) are detected
+#                         automatically. All other national aliases ("Nati", "Team USA") need a women's
+#                         context in the text, so men's teams do not link.
+# Club aliases need no women's context (the news filter already requires women's hockey).
+
+teams:
+  # --- national teams, WCH 2026 top division ---
+  sui-women:
+    - Frauen-Nati
+    - Schweizer Frauen-Nati
+    - Frauen-Nationalteam
+    - Nationalteam der Frauen
+    - Schweizer Frauen-Nationalteam
+    - Schweizerinnen
+    - Swiss women
+    - Swiss women's national team
+    - équipe de Suisse féminine
+    - Nati féminine
+    - Nazionale femminile svizzera
+    - {alias: rossocrociate, women_specific: true}
+    - Nati
+    - Schweizer Nati
+    - Schweizer Nationalteam
+    - Team Switzerland
+    - Team Suisse
+  swe-women:
+    - Damkronorna
+    - Damkronor
+    - svenska damlandslaget
+    - damlandslaget i ishockey
+    - Swedish women
+    - Schwedinnen
+    - Team Sweden
+  fin-women:
+    - Naisleijonat
+    - Naisleijonien
+    - Naisleijonia
+    - Finnish women
+    - Finninnen
+    - Suomen naisten maajoukkue
+    - Team Finland
+  cze-women:
+    - české hokejistky
+    - českých hokejistek
+    - ženská reprezentace
+    - ženské reprezentace
+    - Czech women
+    - Tschechinnen
+    - národní tým
+    - Team Czechia
+  ger-women:
+    - DEB-Frauen
+    - DEB-Damen
+    - deutsche Frauen-Nationalmannschaft
+    - Frauen-Nationalmannschaft
+    - German women
+    - DEB-Auswahl
+    - DEB-Team
+    - Team Germany
+  aut-women:
+    - ÖEHV-Frauen
+    - ÖEHV-Damen
+    - Österreicherinnen
+    - österreichisches Frauen-Nationalteam
+    - Austrian women
+    - ÖEHV-Team
+    - Team Austria
+  fra-women:
+    - Françaises
+    - équipe de France féminine
+    - Bleues
+    - Französinnen
+    - French women
+  ita-women:
+    - Italiane
+    - Nazionale femminile italiana
+    - Italienerinnen
+    - Italian women
+  den-women:
+    - kvindelandsholdet
+    - Danmarks kvindelandshold
+    - Däninnen
+    - Danish women
+    - Team Denmark
+  can-women:
+    - Canadian women
+    - Canada's women
+    - Kanadierinnen
+    - équipe canadienne féminine
+    - Team Canada
+  usa-women:
+    - U.S. women
+    - US women
+    - USA women
+    - American women
+    - Amerikanerinnen
+    - US-Amerikanerinnen
+    - Team USA
+  jpn-women:
+    - {alias: Smile Japan, women_specific: true}
+    - Japanerinnen
+    - Japanese women
+    - Team Japan
+
+  # --- PostFinance Women's League 2026/27 ---
+  evz-women:
+    - EVZ
+    - EV Zug Women
+    - EV Zug Frauen
+    - EVZ Women
+    - EVZ Women's Team
+    - EVZ Frauen
+    - EV Zug
+    - {alias: Zug, ambiguous: true}
+  zsc-frauen:
+    - ZSC
+    - ZSC Lions Frauen
+    - ZSC Lions Women
+    - ZSC Lions
+    - {alias: Zürcherinnen, ambiguous: true}
+  scb-frauen:
+    - SCB
+    - SC Bern Frauen
+    - SCB Frauen
+    - SC Bern Women
+    - SC Bern
+    - {alias: Bernerinnen, ambiguous: true}
+    - {alias: Bern, ambiguous: true}
+  hcd-ladies:
+    - HC Davos Ladies
+    - HCD Ladies
+    - HC Davos
+    - {alias: HCD, ambiguous: true}
+    - {alias: Davos, ambiguous: true}
+  fribourg-ladies:
+    - HC Fribourg-Gottéron Ladies
+    - Gottéron Ladies
+    - Fribourg-Gottéron
+    - Gottéron
+    - {alias: Fribourg, ambiguous: true}
+  lausanne-feminin:
+    - Lausanne HC Féminin
+    - LHC Féminin
+    - Lausanne HC
+    - {alias: LHC, ambiguous: true}
+    - {alias: Lausanne, ambiguous: true}
+  neuchatel-academy:
+    - Neuchâtel Hockey Academy
+    - Neuchâtel Academy
+    - {alias: NHA, ambiguous: true}
+    - {alias: Neuchâtel, ambiguous: true}

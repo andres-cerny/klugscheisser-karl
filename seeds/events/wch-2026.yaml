@@ -1,0 +1,217 @@
+# 2026 IIHF Women's World Championship (Top Division): tournament facts for Karl (format, schedule, history).
+# Every fact names its source ("src", see sources:) and, where we have one, a verbatim quote from it.
+# Researched 17.10.2026. Facts that could not be verified are NOT here (see the PR / docs/orchestrator.md).
+# Loaded by seed/loader.load_event_info (games -> events table, keys iihf-<GameId> = the keys the IIHF results
+# collector uses, so results update these rows); the rest is read at answer time by klugscheisser/tournament.py.
+event: wch-2026
+name: "IIHF Frauen-WM 2026 (Top Division)"
+aliases: [wch-2026, frauen-wm, wm 2026, frauen wm, weltmeisterschaft, women's worlds, wwc]
+starts: "2026-11-06"
+ends: "2026-11-16"
+host: "Dänemark (Herning und Esbjerg)"
+checked: "2026-10-17"
+
+sources:
+  iihf_feed: {name: "IIHF Spielplan-Daten (realtime.iihf.com, Event 773)", url: "https://realtime.iihf.com/gamestate/GetLatestScoresStateForEvents/773", kind: official, date: "2026-10-17"}
+  iihf_site: {name: "IIHF Turnierseite", url: "https://www.iihf.com/en/events/2026/ww", kind: official}
+  sihf_sod: {name: "SIHF, 13.10.2026", url: "https://www.sihf.ch/de/news/a-frauen/202627/women-s-euro-hockey-tour-in-schweden-als-hauptprobe-fuer-die-wm-in-daenemark/", kind: official, date: "2026-10-13"}
+  sihf_lahti: {name: "SIHF, 06.10.2026", url: "https://www.sihf.ch/de/news/a-frauen/202627/frauen-nationalteam-beendet-womens-euro-hockey-tour-turnier-in-lahti-auf-dem-dritten-platz/", kind: official, date: "2026-10-06"}
+  wiki_2026: {name: "Wikipedia: 2026 IIHF Women's World Championship", url: "https://en.wikipedia.org/w/index.php?title=2026_IIHF_Women%27s_World_Championship&oldid=1379044033", kind: web, date: "2026-10-17"}
+  thn_format: {name: "The Hockey News, 28.09.2024", url: "https://thehockeynews.com/international/latest-news/new-format-for-womens-world-championship-beginning-in-2026", kind: media, date: "2024-09-28"}
+  bluewin: {name: "blue News (Keystone-SDA), 09.06.2026", url: "https://www.bluewin.ch/de/sport/eishockey/schweizerinnen-starten-gegen-titelverteidiger-usa-in-die-wm-li.3272197", kind: media, date: "2026-06-09"}
+  ixsports: {name: "The Ice Garden, 07.10.2025", url: "https://www.theixsports.com/the-ice-garden/pwhl/iihf-pwhl-move-womens-worlds-to-november/", kind: media, date: "2025-10-07"}
+  wiki_wwc: {name: "Wikipedia: IIHF Women's World Championship", url: "https://en.wikipedia.org/wiki/IIHF_Women%27s_World_Championship", kind: web, date: "2026-10-17"}
+  wiki_sui: {name: "Wikipedia: Switzerland women's national ice hockey team", url: "https://en.wikipedia.org/wiki/Switzerland_women%27s_national_ice_hockey_team", kind: web, date: "2026-10-17"}
+  deb_wm: {name: "DEB, 07.10.2026", url: "https://www.deb-online.de/2026/10/07/kader-fr-die-frauen-weltmeisterschaft-in-dnemark-steht-fest/", kind: official, date: "2026-10-07"}
+  cze_sod: {name: "ČSLH, Programm Södertälje (PDF)", url: "https://www.ceskyhokej.cz/data/document/20261014/163213_c972_2026-10-27-Program-CR-zeny-A.pdf", kind: official, date: "2026-10-14"}
+  fin_sod: {name: "Suomen Jääkiekkoliitto, 14.10.2026", url: "https://www.leijonat.fi/maajoukkueet/naisleijonat/2026-27/naisleijonat-pelaa-ruotsissa-viimeisen-weht-turnauksensa-ennen-mm-kisoja-tassa-ko", kind: official, date: "2026-10-14"}
+  jihf_asia: {name: "JIHF, 05.10.2026", url: "https://www.jihf.or.jp/news/detail.php?id=2429", kind: official, date: "2026-10-05"}
+
+# Swiss local time = Danish local time in November (both CET, UTC+1).
+venues:
+  - {city: Esbjerg, arena: "Granly Hockey Arena", iihf_name: "Hockey Arena Esbjerg", capacity: 4200, rounds: "Gruppe A, zwei Viertelfinals (laut Wikipedia)", src: wiki_2026}
+  - {city: Herning, arena: "KVIK Hockey Arena", iihf_name: "Hockey Arena Herning", capacity: 4120, rounds: "Gruppe B, Relegationsspiel, Viertelfinals, Halbfinals, Medaillenspiele", src: wiki_2026}
+
+groups:
+  A: {teams: [USA, CZE, SUI, GER, AUT], city: Esbjerg}
+  B: {teams: [CAN, FIN, SWE, JPN, DEN], city: Herning}
+seeding: {USA: 1, CAN: 2, FIN: 3, CZE: 4, SUI: 5, SWE: 6, JPN: 7, GER: 8, AUT: 9, DEN: 10}
+
+facts:
+  - topic: [modus, gruppen, uebersicht]
+    text: "10 Teams in zwei Fünfergruppen. Neu (erstmals 2026) werden die Gruppen ausgeglichen nach Weltrangliste und Ergebnissen der letzten WM zusammengestellt, statt Top-5 in Gruppe A und die nächsten fünf in Gruppe B."
+    quote: "Erstmals kommt an der WM ein neuer Turniermodus zur Anwendung: Statt einer Aufteilung in die fünf stärksten und fünf nächstplatzierten Nationen werden die Gruppen neu anhand der Weltrangliste und der Ergebnisse der vergangenen WM zusammengestellt."
+    src: sihf_sod
+  - topic: [modus, gruppen]
+    text: "Gruppen nach dem Schlangensystem (serpentine) eingeteilt; Setzliste: USA 1, Kanada 2, Finnland 3, Tschechien 4, Schweiz 5, Schweden 6, Japan 7, Deutschland 8, Österreich 9, Dänemark 10."
+    quote: "The serpentine system was used to organise the groups (rankings in brackets)."
+    src: wiki_2026
+  - topic: [modus, viertelfinal, abstieg, uebersicht]
+    text: "Die besten vier jeder Gruppe kommen in die Viertelfinals; die Gruppenletzten spielen um den Abstieg."
+    quote: "The top four teams will advance to the knockout phase, while the bottom teams will play the relegation playoff."
+    src: wiki_2026
+  - topic: [viertelfinal, modus]
+    text: "Viertelfinal-Paarungen über Kreuz: Gruppenerster gegen Vierten der anderen Gruppe, Zweiter gegen Dritten der anderen Gruppe (A1–B4, B1–A4, A2–B3, B2–A3)."
+    quote: "Quarter-finalists are paired according to their positions in the groups: the first-place team in each preliminary-round group plays the fourth-place team of the other group, while the second-place team plays the third-place team of the other group."
+    src: wiki_2026
+  - topic: [viertelfinal, halbfinal, modus]
+    text: "Nach den Viertelfinals wird neu gesetzt: das bestklassierte Halbfinal-Team spielt gegen das schwächstklassierte, das zweitbeste gegen das drittbeste."
+    quote: "The best-ranked semi-finalist plays against the lowest-ranked semi-finalist, while the second-best ranked semi-finalist plays the third-best ranked semi-finalist."
+    src: wiki_2026
+  - topic: [viertelfinal, halbfinal, modus]
+    text: "Rangierung für die Setzung: 1) Gruppenplatz, 2) Punkte, 3) Tordifferenz, 4) erzielte Tore, 5) Setzung vor dem Turnier."
+    quote: "Classification rules: 1) position in the group; 2) number of points; 3) goal difference; 4) number of goals scored for; 5) seeding number entering the tournament."
+    src: wiki_2026
+  - topic: [abstieg]
+    text: "Relegationsspiel A5 gegen B5 am Freitag, 13.11.2026, 11:00, KVIK Hockey Arena Herning; die Verliererin steigt in die Division I A 2027 ab (ein Absteiger)."
+    quote: "From 2026 on, the ten teams will be put into two groups of five, with the top four teams advancing to the knockout stage while the last-placed teams will play out the relegated team."
+    src: wiki_wwc
+  - topic: [spielplan, viertelfinal, halbfinal, final, uebersicht]
+    text: "K.-o.-Phase: Freitag 13.11. Relegationsspiel und vier Viertelfinals, Sonntag 15.11. Halbfinals, Montag 16.11. Bronze- und Goldspiel."
+    quote: "Am Freitag, 13. November, beginnt die K.-o.-Phase mit dem Relegationsspiel und den vier Viertelfinals in Herning. Die Halbfinals folgen am Sonntag, 15. November, bevor am Montag, 16. November, die Medaillenentscheidungen fallen."
+    src: sihf_sod
+  - topic: [spielplan, viertelfinal]
+    text: "Viertelfinals am 13.11. um 15:00 und 19:00, je eines in Herning (KVIK Hockey Arena) und Esbjerg (Granly Hockey Arena) – laut Wikipedia; SIHF schreibt «die vier Viertelfinals in Herning». Welche Paarung wo spielt, ist nicht festgelegt."
+    quote: "Granly Hockey Arena || Group A, Quarterfinals"
+    src: wiki_2026
+  - topic: [spielplan, final]
+    text: "Bronzespiel Montag 16.11. 15:00, Final 16.11. 19:00, beide KVIK Hockey Arena Herning (laut Wikipedia; Halbfinal-Zeiten dort widersprüchlich, darum nicht übernommen)."
+    quote: "Hosts Group B, the relegation game, the quarterfinals, semifinals, and final."
+    src: wiki_2026
+  - topic: [november, uebersicht]
+    text: "Die Top-Division-WM wurde ab 2026 von April in den November verschoben (beschlossen von IIHF und PWHL, angekündigt 6.10.2025): so gibt es auch in Olympiajahren eine volle WM, und sie kollidiert weder mit dem Ende der PWHL-Saison noch mit deren Start. Die unteren Divisionen spielten 2026 noch im April und wechseln ab 2027 in den November."
+    quote: "This allows for a full Women's Worlds even in Olympic years."
+    src: ixsports
+  - topic: [november]
+    text: "Zweiter Grund: die Terminkollision mit der PWHL (Profiliga in Nordamerika) – der November vermeidet Konflikte mit Saisonende und Saisonstart."
+    quote: "avoids conflict with both the end of the PWHL season and the beginning of the next."
+    src: ixsports
+  - topic: [teams, uebersicht]
+    text: "25. Austragung der Top Division. Neu dabei: Österreich (Sieger der Division I, erstmals in der Top Division) und Dänemark (Zweiter der Division I, sofort wieder aufgestiegen); Ungarn und Norwegen stiegen 2025 nach nur einer Teilnahme wieder ab."
+    quote: "They will be replaced by Division I champions Austria, who will make their debut in the top division, and runners-up, Denmark, who secured their immediate promotion back to the top division."
+    src: wiki_2026
+  - topic: [modus, alt]
+    text: "Bis 2025 spielten die fünf Stärksten in Gruppe A (alle sicher im Viertelfinal), die nächsten fünf in Gruppe B; 2026 erstmals ausgeglichene Gruppen."
+    quote: "Beginning in 2026, the number of teams will remain at 10 but the groups will be balanced"
+    src: thn_format
+  - topic: [geschichte, zukunft]
+    text: "Nächste WMs: 2027 in Québec City (Kanada); 2028 in der Schweiz (Vergabe am IIHF-Kongress, 29.05.2026; Spielort laut Quelle noch offen)."
+    quote: "2028 | Switzerland"
+    src: wiki_wwc
+
+# Preliminary round: all 20 games from the IIHF feed (local time = Swiss time = UTC+1).
+games:
+  - {key: iihf-13545, nr: 1, phase: preliminary, group: A, utc: "2026-11-06T14:00:00Z", home: AUT, away: CZE, venue: "Hockey Arena Esbjerg"}
+  - {key: iihf-13546, nr: 2, phase: preliminary, group: B, utc: "2026-11-06T14:00:00Z", home: SWE, away: CAN, venue: "Hockey Arena Herning"}
+  - {key: iihf-13547, nr: 3, phase: preliminary, group: A, utc: "2026-11-06T18:00:00Z", home: SUI, away: USA, venue: "Hockey Arena Esbjerg"}
+  - {key: iihf-13548, nr: 4, phase: preliminary, group: B, utc: "2026-11-06T18:00:00Z", home: DEN, away: FIN, venue: "Hockey Arena Herning"}
+  - {key: iihf-13549, nr: 5, phase: preliminary, group: A, utc: "2026-11-07T18:00:00Z", home: GER, away: AUT, venue: "Hockey Arena Esbjerg"}
+  - {key: iihf-13550, nr: 6, phase: preliminary, group: B, utc: "2026-11-07T18:00:00Z", home: JPN, away: DEN, venue: "Hockey Arena Herning"}
+  - {key: iihf-13551, nr: 7, phase: preliminary, group: A, utc: "2026-11-08T14:00:00Z", home: USA, away: GER, venue: "Hockey Arena Esbjerg"}
+  - {key: iihf-13552, nr: 8, phase: preliminary, group: B, utc: "2026-11-08T14:00:00Z", home: FIN, away: SWE, venue: "Hockey Arena Herning"}
+  - {key: iihf-13553, nr: 9, phase: preliminary, group: A, utc: "2026-11-08T18:00:00Z", home: CZE, away: SUI, venue: "Hockey Arena Esbjerg"}
+  - {key: iihf-13554, nr: 10, phase: preliminary, group: B, utc: "2026-11-08T18:00:00Z", home: CAN, away: JPN, venue: "Hockey Arena Herning"}
+  - {key: iihf-13555, nr: 11, phase: preliminary, group: A, utc: "2026-11-09T18:00:00Z", home: AUT, away: USA, venue: "Hockey Arena Esbjerg"}
+  - {key: iihf-13556, nr: 12, phase: preliminary, group: B, utc: "2026-11-09T18:00:00Z", home: DEN, away: CAN, venue: "Hockey Arena Herning"}
+  - {key: iihf-13557, nr: 13, phase: preliminary, group: A, utc: "2026-11-10T14:00:00Z", home: CZE, away: GER, venue: "Hockey Arena Esbjerg"}
+  - {key: iihf-13558, nr: 14, phase: preliminary, group: B, utc: "2026-11-10T14:00:00Z", home: FIN, away: JPN, venue: "Hockey Arena Herning"}
+  - {key: iihf-13559, nr: 15, phase: preliminary, group: A, utc: "2026-11-10T18:00:00Z", home: SUI, away: AUT, venue: "Hockey Arena Esbjerg"}
+  - {key: iihf-13560, nr: 16, phase: preliminary, group: B, utc: "2026-11-10T18:00:00Z", home: SWE, away: DEN, venue: "Hockey Arena Herning"}
+  - {key: iihf-13561, nr: 17, phase: preliminary, group: A, utc: "2026-11-11T14:00:00Z", home: GER, away: SUI, venue: "Hockey Arena Esbjerg"}
+  - {key: iihf-13562, nr: 18, phase: preliminary, group: B, utc: "2026-11-11T14:00:00Z", home: CAN, away: FIN, venue: "Hockey Arena Herning"}
+  - {key: iihf-13563, nr: 19, phase: preliminary, group: A, utc: "2026-11-11T18:00:00Z", home: USA, away: CZE, venue: "Hockey Arena Esbjerg"}
+  - {key: iihf-13564, nr: 20, phase: preliminary, group: B, utc: "2026-11-11T18:00:00Z", home: JPN, away: SWE, venue: "Hockey Arena Herning"}
+
+# Knock-out games: no teams yet. Times from Wikipedia (the IIHF schedule page itself could not be read).
+playoffs:
+  - {day: "2026-11-13", time: "11:00", what: "Relegationsspiel A5 – B5", arena: "KVIK Hockey Arena, Herning", src: wiki_2026}
+  - {day: "2026-11-13", time: "15:00", what: "Viertelfinal", arena: "KVIK Hockey Arena, Herning", src: wiki_2026}
+  - {day: "2026-11-13", time: "15:00", what: "Viertelfinal", arena: "Granly Hockey Arena, Esbjerg", src: wiki_2026}
+  - {day: "2026-11-13", time: "19:00", what: "Viertelfinal", arena: "KVIK Hockey Arena, Herning", src: wiki_2026}
+  - {day: "2026-11-13", time: "19:00", what: "Viertelfinal", arena: "Granly Hockey Arena, Esbjerg", src: wiki_2026}
+  - {day: "2026-11-15", what: "zwei Halbfinals (Zeiten nicht verifiziert)", arena: "KVIK Hockey Arena, Herning", src: sihf_sod}
+  - {day: "2026-11-16", time: "15:00", what: "Bronzespiel", arena: "KVIK Hockey Arena, Herning", src: wiki_2026}
+  - {day: "2026-11-16", time: "19:00", what: "Final", arena: "KVIK Hockey Arena, Herning", src: wiki_2026}
+
+# Games before the WCh. time = Swiss time (CET/CEST); Finnish sources give Finnish time (Swiss + 1 h).
+pre_games:
+  - {date: "2026-09-30", home: SUI, away: SWE, neutral: true, score: "0:5", what: "Women's Euro Hockey Tour, Lahti", src: sihf_lahti, quote: "Nachdem die Schweizerinnen zum Auftakt des WEHT-Turniers am vergangenen Mittwoch gegen Schweden eine 0:5-Niederlage hinnehmen mussten"}
+  - {date: "2026-10-02", home: SUI, away: FIN, neutral: true, score: "1:4", what: "Women's Euro Hockey Tour, Lahti", src: sihf_lahti, quote: "und am Freitag Finnland mit 1:4 unterlagen"}
+  - {date: "2026-10-03", home: SUI, away: CZE, neutral: true, score: "2:2 n.V., Sieg der Schweiz im Penaltyschiessen", what: "Women's Euro Hockey Tour, Lahti", src: sihf_lahti, quote: "Dort erzielte Leoni Balzer den einzigen Treffer und sicherte der Schweiz damit den Comeback-Sieg."}
+  - {date: "2026-10-15", time: "11:30", home: JPN, away: KAZ, what: "IIHF Women's Asia Championship, Sapporo (Nachwuchs-Aufgebot)", src: jihf_asia}
+  - {date: "2026-10-17", time: "08:30", home: JPN, away: KOR, what: "IIHF Women's Asia Championship, Sapporo (Nachwuchs-Aufgebot)", src: jihf_asia}
+  - {date: "2026-10-18", time: "08:30", home: JPN, away: CHN, what: "IIHF Women's Asia Championship, Sapporo (Nachwuchs-Aufgebot)", src: jihf_asia}
+  - {date: "2026-10-28", time: "14:00", home: FIN, away: SUI, what: "Women's Euro Hockey Tour, Södertälje", src: sihf_sod, quote: "Mittwoch, 28. Oktober, 14:00 Uhr: Finnland - Schweiz"}
+  - {date: "2026-10-28", time: "18:00", home: CZE, away: SWE, what: "Women's Euro Hockey Tour, Södertälje", src: cze_sod}
+  - {date: "2026-10-30", time: "14:00", home: FIN, away: CZE, what: "Women's Euro Hockey Tour, Södertälje", src: fin_sod}
+  - {date: "2026-10-30", time: "18:00", home: SWE, away: SUI, what: "Women's Euro Hockey Tour, Södertälje", src: sihf_sod, quote: "Freitag, 30. Oktober, 18:00 Uhr: Schweden - Schweiz"}
+  - {date: "2026-10-31", time: "13:30", home: SUI, away: CZE, what: "Women's Euro Hockey Tour, Södertälje", src: sihf_sod, quote: "Samstag, 31. Oktober, 13:30 Uhr: Schweiz - Tschechien"}
+  - {date: "2026-10-31", time: "17:30", home: SWE, away: FIN, what: "Women's Euro Hockey Tour, Södertälje", src: fin_sod}
+  - {date: "2026-10-31", time: "17:00", home: GER, away: JPN, what: "Testspiel, Bremerhaven", src: deb_wm}
+  - {date: "2026-11-03", time: "19:00", home: GER, away: DEN, what: "Testspiel, Vojens (DEN)", src: deb_wm}
+
+swiss_preparation:
+  text: "Nach dem Turnier in Södertälje wird das Schweizer Kader um drei Spielerinnen reduziert; zwei Trainingstage in Södertälje, am 4. November Weiterreise nach Esbjerg, Abschlusstraining am 5. November."
+  quote: "Im Anschluss an das WEHT-Turnier wird das Kader um drei Spielerinnen reduziert."
+  src: sihf_sod
+
+# History: host, medallists and the Swiss rank. Hosts/medals: wiki_wwc; Swiss ranks: wiki_sui.
+# No women's WCh in the Olympic years 1998, 2002, 2006, 2010, 2014, 2018; 2003 (SARS) and 2020 (COVID) cancelled.
+history:
+  - {year: 1990, host: "Ottawa (CAN)", gold: CAN, silver: USA, bronze: FIN, sui: "5."}
+  - {year: 1992, host: "Tampere (FIN)", gold: CAN, silver: USA, bronze: FIN, sui: "8."}
+  - {year: 1994, host: "Lake Placid (USA)", gold: CAN, silver: USA, bronze: FIN, sui: "7."}
+  - {year: 1997, host: "Kitchener (CAN)", gold: CAN, silver: USA, bronze: FIN, sui: "7."}
+  - {year: 1999, host: "Espoo/Vantaa (FIN)", gold: CAN, silver: USA, bronze: FIN, sui: "8. (Abstieg)"}
+  - {year: 2000, host: "Mississauga (CAN)", gold: CAN, silver: USA, bronze: FIN, sui: "Division I, 2. (Gesamt 10.)"}
+  - {year: 2001, host: "Minneapolis (USA)", gold: CAN, silver: USA, bronze: RUS, sui: "Division I, 1. – Aufstieg (Gesamt 9.)"}
+  - {year: 2003, host: "China", note: "Top Division wegen SARS abgesagt"}
+  - {year: 2004, host: "Halifax/Dartmouth (CAN)", gold: CAN, silver: USA, bronze: FIN, sui: "8. (Abstieg)"}
+  - {year: 2005, host: "Linköping/Norrköping (SWE)", gold: USA, silver: CAN, bronze: SWE, sui: "Division I, 1. – Aufstieg (Gesamt 9.)"}
+  - {year: 2007, host: "Winnipeg/Selkirk (CAN)", gold: CAN, silver: USA, bronze: SWE, sui: "5."}
+  - {year: 2008, host: "Harbin (CHN)", gold: USA, silver: CAN, bronze: FIN, sui: "4."}
+  - {year: 2009, host: "Hämeenlinna (FIN)", gold: USA, silver: CAN, bronze: FIN, sui: "7."}
+  - {year: 2011, host: "Zürich/Winterthur (SUI)", gold: USA, silver: CAN, bronze: FIN, sui: "6."}
+  - {year: 2012, host: "Burlington (USA)", gold: CAN, silver: USA, bronze: SUI, sui: "3. – Bronze"}
+  - {year: 2013, host: "Ottawa (CAN)", gold: USA, silver: CAN, bronze: RUS, sui: "6."}
+  - {year: 2015, host: "Malmö (SWE)", gold: USA, silver: CAN, bronze: FIN, sui: "6."}
+  - {year: 2016, host: "Kamloops (CAN)", gold: USA, silver: CAN, bronze: RUS, sui: "7."}
+  - {year: 2017, host: "Plymouth (USA)", gold: USA, silver: CAN, bronze: FIN, sui: "7."}
+  - {year: 2019, host: "Espoo (FIN)", gold: USA, silver: FIN, bronze: CAN, sui: "5."}
+  - {year: 2020, host: "–", note: "wegen COVID-19 abgesagt"}
+  - {year: 2021, host: "Calgary (CAN)", gold: CAN, silver: USA, bronze: FIN, sui: "4."}
+  - {year: 2022, host: "Herning/Frederikshavn (DEN)", gold: CAN, silver: USA, bronze: CZE, sui: "4."}
+  - {year: 2023, host: "Brampton (CAN)", gold: USA, silver: CAN, bronze: CZE, sui: "4."}
+  - {year: 2024, host: "Utica (USA)", gold: CAN, silver: USA, bronze: FIN, sui: "5."}
+  - {year: 2025, host: "České Budějovice (CZE)", gold: USA, silver: CAN, bronze: FIN, sui: "5."}
+history_notes:
+  - text: "Bestes Schweizer WM-Resultat: Bronze 2012 in Burlington (USA); dazu 4. Plätze 2008, 2021, 2022 und 2023. Die Schweiz war 2011 (Zürich/Winterthur) Gastgeberin."
+    quote: "2012 – Won Bronze Medal"
+    src: wiki_sui
+  - text: "Kanada und die USA haben alle Titel geholt; Kanada gewann die ersten acht WMs. Titelverteidiger ist die USA (WM 2025, 4:3 n.V. gegen Kanada)."
+    quote: "Canada won gold at the first eight consecutive tournaments"
+    src: wiki_wwc
+
+# Official WCh roster announcements: checked by klugscheisser/jobs/roster_watch.py (nightly step "kaderwatch",
+# or by hand: klugscheisser wch-watch; all teams at once with a dry run first: klugscheisser wch-rosters).
+# Free, one listing page per federation, robots.txt respected, bot protection never worked around.
+# url + pattern = listing page and regex on link text + URL (lower case); exclude = links that look alike but are not
+#   the WCh roster (camp lists, tune-up tournaments, roster updates); youth teams (U16/U18/U20) never count.
+# parse = format of the official list page (roster_parsers.py / sihf); list_url (+ list_date) = that page when it is
+#   already known, else the announcement found is read. The list is re-read every night (late replacements).
+# Without a readable list the IIHF tournament roster mirrored on hockeycanada.ca is used once it is filled.
+roster_watch:
+  until: "2026-11-16"
+  teams:
+    SUI: {url: "https://www.sihf.ch/de/news/", pattern: "a-frauen.*(wm|weltmeisterschaft|world-championship).*(kader|aufgebot|selektion|nominier)|a-frauen.*(kader|aufgebot|selektion|nominier).*(wm|weltmeisterschaft|world-championship)", exclude: "roster-update|nachnomin|verpasst|euro.hockey.tour|weht|södertälje|sodertalje", parse: sihf}
+    USA: {url: "https://teamusa.usahockey.com/", pattern: "women.{0,80}(roster|named|selected|team set).{0,80}(world championship|worlds|wwc)|(world championship|worlds|wwc).{0,80}roster", exclude: "camp|u18|junior|sled|para"}
+    CAN: {url: "https://www.hockeycanada.ca/en-ca/news", pattern: "women.{0,40}worlds?.{0,60}roster|roster.{0,80}women.{0,60}world", exclude: "camp|u18|under-18|para", parse: hockeycanada}
+    CZE: {url: "https://www.ceskyhokej.cz/novinky", pattern: "^(?=.*(žen|zeny))(?=.*(mistrovstv|\\bms\\b|světov|svetov|šampionát|sampionat))(?=.*(nominac|soupisk))", exclude: "generálk|generalk|euro hockey tour|švédsk|svedsk|södertälje|turnaj"}
+    SWE: {url: "https://www.swehockey.se/", pattern: "(tre kronor dam|damkronorna).{0,120}(vm-?trupp|vm-?laget|truppen till vm|uttagna till vm|lag.{0,60}\\bvm\\b)|(vm-?trupp|vm-?laget).{0,120}(tre kronor dam|damkronorna)", exclude: "herr", parse: swehockey, list_url: "https://www.swehockey.se/toppnyheter/haer-aer-tre-kronor-dams-lag-till-lidl-hockey-games-och-vm/", list_date: "2026-10-20"}
+    # FIN: leijonat.fi answers with a Cloudflare challenge (HTTP 403) to any non-browser client; not worked around,
+    # so the Finnish roster comes from the IIHF mirror on hockeycanada.ca once it is filled.
+    FIN: {url: "https://www.leijonat.fi/maajoukkueet/naisleijonat", pattern: "naisleijon.*mm.*(joukkue|kokoonpano|nimet)"}
+    JPN: {url: "https://www.jihf.or.jp/news/", pattern: "(代表|メンバー).*女子.*世界選手権|女子.*世界選手権.*(代表|メンバー)", parse: jihf_pdf, list_url: "https://www.jihf.or.jp/news/detail.php?id=2434", list_date: "2026-10-21"}
+    DEN: {url: "https://ishockey.dk/wp-json/wp/v2/posts?per_page=20&_fields=date,link,title", pattern: "kvinde\\w*.{0,80}(vm-?trup|udtaget|truppen)|(vm-?trup|truppen).{0,80}kvinde"}
+    GER: {parse: deb_team, list_url: "https://www.deb-online.de/frauen-nationalmannschaft/"}
+    AUT: {parse: oehv, list_url: "https://www.eishockey.at/news/eishockey-frauen-wm-2026-oesterreich-kader", list_date: "2026-10-09"}

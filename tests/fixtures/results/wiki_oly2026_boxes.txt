@@ -1,0 +1,108 @@
+Excerpt (CC BY-SA 4.0) of https://en.wikipedia.org/wiki/Ice_hockey_at_the_2026_Winter_Olympics_–_Women's_tournament, revision 1367628736, for tests.
+
+==Preliminary round==
+===Group A===
+{{Ice hockey box
+| bg          = 
+| date        = {{start date|2026|2|5|df=y}}
+| time        = 16:40<br>[[#Group A|v]]
+| team1       = '''{{ihw-rt|USA}}'''
+| team2       = {{ihw|CZE|name=Czechia}}
+| score       = 5–1
+| periods     = (1–0, 3–1, 1–0)
+| reference   = https://www.iihf.com/pdf/852/ihw852a01_74_5_1
+| goalie1     = [[Aerin Frankel]]
+| goalie2     = [[Klára Peslarová]]
+| progression = 1–0 / 2–0 / 3–0 / 3–1 / 4–1 / 5–1
+| goals1      = [[Alex Carpenter|Carpenter]] ([[Megan Keller|Keller]], [[Laila Edwards|Edwards]]) (PP) – 15:55 / [[Joy Dunne|Dunne]] ([[Tessa Janecke|Janecke]]) – 23:13 / [[Hayley Scamurra|Scamurra]] (Janecke) – 24:36 / [[Hilary Knight|Knight]] (Carpenter, [[Hannah Bilka|Bilka]]) – 37:50 / Scamurra ([[Kelly Pannek|Pannek]]) – 44:22
+| goals2      = 28:37 – [[Barbora Juříčková|Juříčková]] ([[Natálie Mlýnková|Mlýnková]])
+| official    = {{flagicon|AUT}} Julia Kainberger
+| official2   = {{flagicon|CAN}} [[Cianna Murray]]
+| linesman    = {{flagicon|SWE}} Jessica Lundgren
+| linesman2   = {{flagicon|CAN}} Justine Todd
+| stadium     = [[Fiera Milano]], [[Milan]]
+| attendance  = 3,766
+| penalties1  = 2
+| penalties2  = 6
+| shots1      = 42
+| shots2      = 14
+}}
+{{Ice hockey box
+| bg          = 
+| date        = {{start date|2026|2|6|df=y}}
+| time        = 14:40<br>[[#Group A|v]]
+| team1       = {{ihw-rt|CZE|name=Czechia}}
+| team2       = '''{{ihw|SUI}}'''
+| score       = 3–4 {{small|[[Overtime (ice hockey)#Shootout|GWS]]}}
+| periods     = (2–1, 0–0, 1–2)<br>(OT: 0–0)<br>(SO: 0–1)
+| reference   = https://www.iihf.com/pdf/852/ihw852a03_74_5_0
+| goalie1     = [[Michaela Hesová]]
+| goalie2     = [[Saskia Maurer]]
+| progression = 1–0 / 1–1 / 2–1 / 3–1 / 3–2 / 3–3
+| goals1      = [[Kristýna Kaltounková|Kaltounková]] ([[Adéla Šapovalivová|Šapovalivová]], [[Klára Hymlárová|Hymlárová]]) – 01:32 / [[Natálie Mlýnková|Mlýnková]] ([[Kateřina Mrázová (ice hockey)|Mrázová]]) – 08:33 / [[Tereza Plosová|Plosová]] – 46:09
+| goals2      = 07:16 – [[Laura Zimmermann|Zimmermann]] / 49:33 – [[Alina Müller|Müller]] ([[Ivana Wey|Wey]], [[Lara Stalder|Stalder]]) (PP) / 57:40 – [[Lara Christen|Christen]] ([[Rahel Enzler|Enzler]], Müller)
+| soshots1    = Mrázová {{SOgoal}} / Mlýnková {{SOmiss}} / Hymlárová {{SOgoal}} / Kaltounková {{SOmiss}} / Šapovalivová {{SOgoal}} / Mrázová {{SOmiss}} / Hymlárová {{SOmiss}} / Šapovalivová {{SOmiss}}
+| soshots2    = {{SOgoal}} Stalder / {{SOgoal}} Müller / {{SOgoal}} Wey / {{SOmiss}} [[Alina Marti|Marti]] / {{SOmiss}} [[Naemi Herzig|Herzig]] / {{SOmiss}} Müller / {{SOmiss}} Stalder / {{SOgoal}} Wey
+| official    = {{flagicon|SWE}} Ida Henriksson
+| official2   = {{flagicon|USA}} Samantha Hiller
+| linesman    = {{flagicon|CAN}} Alexandra Clarke
+| linesman2   = {{flagicon|CAN}} Erin Zach
+| stadium     = [[PalaItalia]], [[Milan]]
+| attendance  = 8,927
+| penalties1  = 4
+| penalties2  = 2
+| shots1      = 36
+| shots2      = 31
+}}
+{{Ice hockey box
+| bg          = 
+| date        = {{start date|2026|2|9|df=y}}
+| time        = 20:40<br>[[#Group A|v]]
+| team1       = {{ihw-rt|SUI}}
+| team2       = '''{{ihw|USA}}'''
+| score       = 0–5
+| periods     = (0–1, 0–1, 0–3)
+| reference   = https://www.iihf.com/pdf/852/ihw852a07_74_3_0
+| goalie1     = [[Andrea Brändli]]
+| goalie2     = [[Gwyneth Philips]]
+| progression = 0–1 / 0–2 / 0–3 / 0–4 / 0–5
+| goals1      = 
+| goals2      = 06:04 – [[Haley Winn|Winn]] ([[Caroline Harvey|Harvey]], [[Hilary Knight|Knight]]) / 34:08 – [[Joy Dunne|Dunne]] / 41:17 – [[Hannah Bilka|Bilka]] ([[Taylor Heise|Heise]], Harvey) / 46:34 – [[Alex Carpenter|Carpenter]] (Knight, Dunne) / 47:42 – Harvey (Carpenter, Dunne)
+| official    = {{flagicon|AUT}} Julia Kainberger
+| official2   = {{flagicon|CAN}} Shauna Neary
+| linesman    = {{flagicon|CAN}} Laura Gutauskas
+| linesman2   = {{flagicon|FIN}} Tiina Saarimäki
+| stadium     = [[PalaItalia]], [[Milan]]
+| attendance  = 11,132
+| penalties1  = 2
+| penalties2  = 4
+| shots1      = 21
+| shots2      = 50
+}}
+==Knockout stage==
+===Quarter-finals===
+{{Ice hockey box
+| bg          = 
+| date        = {{start date|2026|2|14|df=y}}
+| time        = 21:10<br>v
+| team1       = {{ihw-rt|FIN}}
+| team2       = '''{{ihw|SWI}}'''
+| score       = 0–1
+| periods     = (0–0, 0–1, 0–0)
+| reference   = https://www.iihf.com/pdf/852/ihw852304_74_3_0
+| goalie1     = [[Sanni Ahola]]
+| goalie2     = [[Andrea Brändli]]
+| progression = 0–1
+| goals1      = 
+| goals2      = 34:17 – [[Alina Müller|Müller]] ([[Rahel Enzler|Enzler]], [[Lara Stalder|Stalder]])
+| official    = {{flagicon|USA}} Samantha Hiller
+| official2   = {{flagicon|CAN}} [[Elizabeth Mantha]]
+| linesman    = {{flagicon|CAN}} Alexandra Clarke
+| linesman2   = {{flagicon|CAN}} Laura Gutauskas
+| stadium     = [[Fiera Milano]], [[Milan]]
+| attendance  = 3,686
+| penalties1  = 6
+| penalties2  = 6
+| shots1      = 40
+| shots2      = 14
+}}

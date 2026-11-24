@@ -1,0 +1,22 @@
+team: Thailand
+code: THA
+group: C
+status: not_found
+status_note: "No readable Thailand WFC 2026 squad list found. Search snippets indicate Thailand Floorball (Instagram) announced 'The squad for the World Floorball Championships will be announced on November 8, 12 PM CET' (photo dated 2026-10-15) and later posted a 'Men's World Floorball Championships 2026 squad announcement' - names presumably in images only; not retrieved. Official list: IFF App (login)."
+announced:
+  date: 2026-11-08
+  date_note: "planned announcement date per Thailand Floorball Instagram teaser (search snippet only) - unverified"
+  source_url: null
+  source_title: null
+retrieved: 2026-11-24
+squad_facts:
+  - "Group C: Estonia, Slovenia, Singapore, Thailand."
+  - "WFC 2024: Thailand lost to Slovenia in the game for 13th place (siol.net headline 'Slovenskim igralcem floorballa po zmagi nad Tajsko končno 13. mesto')."
+  - "IFF video title: 'Thailand is the first Asian team to compete in floorball at The World Games' (https://www.facebook.com/IFF.Floorball/videos/road-to-the-world-games-with-alexander-rinefalk/967552227108196/) - World Games 2025 Chengdu; title only, unverified in detail. The video features Alexander Rinefalk (role not verified)."
+coaches: {head_coach: null}
+captain: {name: null}
+players: []
+notable: []
+gaps:
+  - "Entire squad, coaches, clubs."
+  - "Try: Thailand Floorball Instagram/Facebook squad graphics (8 Nov 2026), Floorball Association of Thailand website, IFF App."

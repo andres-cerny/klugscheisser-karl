@@ -1,0 +1,40 @@
+# Austria women's roster for the IIHF Women's World Championship 2026 (25 players), ÖEHV / eishockey.at, published 09.10.2026
+event: wch-2026
+team: aut-women
+list_type: confirmed
+season: "2026-27"
+source: "ÖEHV, offizieller WM-Kader (09.10.2026)"
+source_url: "https://www.eishockey.at/news/eishockey-frauen-wm-2026-oesterreich-kader"
+source_date: "2026-10-09"
+# Source writes names as "SURNAME First"; converted to "First Surname". No jersey numbers given.
+# club_text: club as written in the source (shown in answers, not linked to a club team)
+players:
+  - {name: "Anja Adamitsch", pos: G, club_text: "KSV Highlanders"}
+  - {name: "Magdalena Luggin", pos: G, club_text: "Mercyhurst University (USA)"}
+  - {name: "Selma Luggin", pos: G, club_text: "Sabres St. Pölten"}
+  - {name: "Anna Billa", pos: D, club_text: "College of the Holy Cross (USA)"}
+  - {name: "Annika Fazokas", pos: D, club_text: "EV Zug (SUI)"}
+  - {name: "Antonia Matzka", pos: D, club_text: "Sabres St. Pölten"}
+  - {name: "Emma Mörtl", pos: D, club_text: "Sabres St. Pölten"}
+  - {name: "Laura Nagy", pos: D, club_text: "Long Island University (USA)"}
+  - {name: "Lisa Schröfl", pos: D, club_text: "KSV Highlanders"}
+  - {name: "Artemis Tekin", pos: D, club_text: "Sabres St. Pölten"}
+  - {name: "Charlotte Wittich", pos: D, club_text: "Sabres St. Pölten"}
+  - {name: "Eva Beiter", pos: F, club_text: "EHC Lustenau"}
+  - {name: "Lena Dauböck", pos: F, club_text: "KSV Highlanders"}
+  - {name: "Tamara Grascher", pos: F, club_text: "Graz99ers Huskies"}
+  - {name: "Emma Hofbauer", pos: F, club_text: "Providence College (USA)"}
+  - {name: "Leonie Kutzer", pos: F, club_text: "EV Zug (SUI)"}
+  - {name: "Emma Lintner", pos: F, club_text: "EV Zug (SUI)"}
+  - {name: "Marja Linzbichler", pos: F, club_text: "Norwich University (USA)"}
+  - {name: "Anna Meixner", pos: F, club_text: "Brynäs IF (SWE)"}
+  - {name: "Hanna Obermayr", pos: F, club_text: "Sabres St. Pölten"}
+  - {name: "Emma Pfeffer", pos: F, club_text: "Merrimack College (USA)"}
+  - {name: "Vanessa Picka", pos: F, club_text: "Leksands IF (SWE)"}
+  - {name: "Theresa Schafzahl", pos: F, club_text: "Seattle Torrent (USA)"}
+  - {name: "Amelie Suppan", pos: F, club_text: "Sabres St. Pölten"}
+  - {name: "Anja Trummer", pos: F, club_text: "ZSC Lions (SUI)"}
+staff:
+  - {name: "Alexander Bröms", role: "Head coach"}
+  - {name: "Gina Kingsbury", role: "General manager"}
+absent: []

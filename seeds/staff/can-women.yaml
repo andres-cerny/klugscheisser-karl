@@ -1,0 +1,18 @@
+# Media contact for Canada's National Women's Team (for Fabi). Hockey Canada's WCh 2026 roster release
+# (19.10.2026) ends with three communications contacts and does not say which one covers the women's team;
+# Esther Madziya is listed first (the other two: Spencer Sharkey, Jeremy Knight). Never guessed.
+# Loaded by klugscheisser/staff.py (load_seeds). Checked 01.11.2026.
+team: can-women
+checked: "2026-11-01"
+
+sources:
+  hc_wwc: {name: "Hockey Canada, National Women's Team roster named for 2026 IIHF Women's World Championship (19.10.2026)", url: "https://www.hockeycanada.ca/en-ca/news/womens-worlds-roster-set-2026-27-nwt", kind: official, date: "2026-10-19"}
+
+staff:
+  - name: "Esther Madziya"
+    role: "Manager, Communications"
+    src: hc_wwc
+    quote: "Esther Madziya Manager, Communications Hockey Canada (403) 284-6484 media@example.org"
+    email: "media@example.org"
+    phone: "+00 00 000 00 00"
+    note: "Medienkontakt der WM-Kader-Mitteilung (erste von drei Hockey-Canada-Kontakten)"

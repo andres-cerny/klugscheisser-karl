@@ -1,0 +1,1538 @@
+meta:
+  topic: Men's World Floorball Championships 1996-2024 (A-division / top tier), Switzerland's games and awards
+  compiled: '2026-11-24'
+  score_convention: score is always Switzerland's goals first; result W/D/L from Swiss view; OT/PSO games counted as W or L. Penalty-shootout games recorded with the shootout winner credited one extra goal
+    (IFF convention, e.g. 2018 SF 4–5 PSO; German Wikipedia shows 5:6 n.P. for the same game).
+  already_known_elsewhere: medallists, final scores, Swiss final placing per edition (see event.yaml)
+editions:
+- year: 1996
+  host: SWE (Stockholm, Skellefteå, Uppsala)
+  sources:
+  - https://archive.floorball.sport/match/1203675551/
+  - https://de.wikipedia.org/wiki/Unihockey-Weltmeisterschaft_1996
+  - https://en.wikipedia.org/wiki/1996_Men%27s_World_Floorball_Championships
+  switzerland_games:
+  - date: '1996-05-11'
+    stage: Group A
+    opponent: EST
+    score: 10–0
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/1996_Men%27s_World_Floorball_Championships
+  - date: '1996-05-12'
+    stage: Group A
+    opponent: DEN
+    score: 7–5
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/1996_Men%27s_World_Floorball_Championships
+  - date: '1996-05-13'
+    stage: Group A
+    opponent: SWE
+    score: 0–9
+    result: L
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/1996_Men%27s_World_Floorball_Championships
+  - date: '1996-05-14'
+    stage: Group A
+    opponent: NOR
+    score: 4–4
+    result: D
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/1996_Men%27s_World_Floorball_Championships
+  - date: '1996-05-15'
+    stage: Group A
+    opponent: LAT
+    score: 14–1
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/1996_Men%27s_World_Floorball_Championships
+  - date: '1996-05-16'
+    stage: 5th place match
+    opponent: RUS
+    score: 8–3
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/1996_Men%27s_World_Floorball_Championships
+    - https://archive.floorball.sport/match/1203675551/
+  top_scorer:
+    name: Martin Olofsson
+    country: SWE
+    games: 7
+    goals: 11
+    assists: 5
+    points: 16
+    note: tied on 16 pts with Vladimír Fuchs (CZE, 6+10); Olofsson ranked 1st on goals
+    source: https://de.wikipedia.org/wiki/Unihockey-Weltmeisterschaft_1996
+  mvp: null
+  best_goalkeeper:
+    name: Stefan Mattsson
+    country: SWE
+    basis: all-star goalkeeper
+  all_star_team:
+  - position: G
+    name: Stefan Mattsson
+    country: SWE
+  - position: D
+    name: Jari-Pekka Lehtonen
+    country: FIN
+  - position: D
+    name: Jonas Eriksson
+    country: SWE
+  - position: F
+    name: Christian Hellström
+    country: SWE
+  - position: F
+    name: Andrea Engel
+    country: SUI
+  - position: F
+    name: Martin Olofsson
+    country: SWE
+  notes: 'Swiss all-star: Andrea Engel (F). Only WFC before 2024 in which SUI missed the semi-finals (en Wikipedia). MVP not listed.'
+- year: 1998
+  host: CZE (Prague, Brno)
+  sources:
+  - https://app.floorball.sport/game-view/5394
+  - https://app.floorball.sport/game-view/6186
+  - https://de.wikipedia.org/wiki/Unihockey-Weltmeisterschaft_1998
+  - https://en.wikipedia.org/wiki/1998_Men%27s_World_Floorball_Championships
+  switzerland_games:
+  - date: '1998-05-25'
+    stage: Group A
+    opponent: SWE
+    score: 0–9
+    result: L
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/1998_Men%27s_World_Floorball_Championships
+  - date: '1998-05-26'
+    stage: Group A
+    opponent: CZE
+    score: 5–0
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/1998_Men%27s_World_Floorball_Championships
+  - date: '1998-05-27'
+    stage: Group A
+    opponent: GER
+    score: 11–0
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/1998_Men%27s_World_Floorball_Championships
+  - date: '1998-05-29'
+    stage: Semi-final
+    opponent: FIN
+    score: 5–4
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/1998_Men%27s_World_Floorball_Championships
+    - https://app.floorball.sport/game-view/6186
+  - date: '1998-05-30'
+    stage: Final
+    opponent: SWE
+    score: 3–10
+    result: L
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/1998_Men%27s_World_Floorball_Championships
+    - https://app.floorball.sport/game-view/5394
+  top_scorer:
+    name: Magnus Augustsson
+    country: SWE
+    games: 5
+    goals: 6
+    assists: 4
+    points: 10
+    note: tied on 10 pts with Niklas Jihde (SWE, 5+5)
+    source: https://de.wikipedia.org/wiki/Unihockey-Weltmeisterschaft_1998
+  mvp:
+    name: Martin Olofsson
+    country: SWE
+  best_goalkeeper:
+    name: Mark Wolf
+    country: SUI
+    basis: all-star goalkeeper
+  all_star_team:
+  - position: G
+    name: Mark Wolf
+    country: SUI
+  - position: D
+    name: Klas Karlsson
+    country: SWE
+  - position: D
+    name: Jan-Erik Vaara
+    country: SWE
+  - position: F
+    name: Mika Kohonen
+    country: FIN
+  - position: F
+    name: Thomas Engel
+    country: SUI
+  - position: F
+    name: Magnus Augustsson
+    country: SWE
+  notes: 'Swiss all-stars: Mark Wolf (G), Thomas Engel (F). Switzerland''s only WFC final (lost 3–10 to SWE).'
+- year: 2000
+  host: NOR (Drammen, Oslo, Sarpsborg)
+  sources:
+  - https://app.floorball.sport/game-view/5034
+  - https://app.floorball.sport/game-view/5891
+  - https://de.wikipedia.org/wiki/Unihockey-Weltmeisterschaft_2000
+  - https://en.wikipedia.org/wiki/2000_Men%27s_World_Floorball_Championships
+  switzerland_games:
+  - date: '2000-05-15'
+    stage: Group B
+    opponent: FIN
+    score: 3–5
+    result: L
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2000_Men%27s_World_Floorball_Championships
+  - date: '2000-05-16'
+    stage: Group B
+    opponent: CZE
+    score: 3–2
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2000_Men%27s_World_Floorball_Championships
+  - date: '2000-05-18'
+    stage: Group B
+    opponent: RUS
+    score: 11–1
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2000_Men%27s_World_Floorball_Championships
+  - date: '2000-05-20'
+    stage: Semi-final
+    opponent: SWE
+    score: 2–8
+    result: L
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2000_Men%27s_World_Floorball_Championships
+    - https://app.floorball.sport/game-view/5034
+  - date: '2000-05-21'
+    stage: Bronze medal match
+    opponent: DEN
+    score: 4–2
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2000_Men%27s_World_Floorball_Championships
+    - https://app.floorball.sport/game-view/5891
+  top_scorer:
+    name: Tero Karppanen
+    country: FIN
+    games: 5
+    goals: 6
+    assists: 3
+    points: 9
+    note: 'four players on 9 pts: Karppanen, Martin Olofsson (SWE), Daniel Telli (SUI, 4+5), Anders Hellgård (SWE)'
+    source: https://de.wikipedia.org/wiki/Unihockey-Weltmeisterschaft_2000
+  mvp:
+    name: Martin Olofsson
+    country: SWE
+  best_goalkeeper:
+    name: Morten Andersen
+    country: DEN
+    basis: all-star goalkeeper
+  all_star_team:
+  - position: G
+    name: Morten Andersen
+    country: DEN
+  - position: D
+    name: Vesa Punkari
+    country: FIN
+  - position: D
+    name: Johan Davidsson
+    country: SWE
+  - position: F
+    name: Tero Karppanen
+    country: FIN
+  - position: F
+    name: Mika Kohonen
+    country: FIN
+  - position: F
+    name: Martin Olofsson
+    country: SWE
+  notes: No Swiss all-star. Daniel Telli (SUI) 9 pts, joint-best points total.
+- year: 2002
+  host: 'FIN (Helsinki: Hartwall Arena, Helsinki Ice Hall)'
+  sources:
+  - https://archive.floorball.sport/match/1203582198/
+  - https://archive.floorball.sport/match/1203582630/
+  - https://archive.floorball.sport/match/1203582841/
+  - https://de.wikipedia.org/wiki/Unihockey-Weltmeisterschaft_2002
+  - https://en.wikipedia.org/wiki/2002_Men%27s_World_Floorball_Championships
+  switzerland_games:
+  - date: '2002-05-18'
+    stage: Group B
+    opponent: FIN
+    score: 1–4
+    result: L
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2002_Men%27s_World_Floorball_Championships
+  - date: '2002-05-19'
+    stage: Group B
+    opponent: LAT
+    score: 9–4
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2002_Men%27s_World_Floorball_Championships
+  - date: '2002-05-20'
+    stage: Group B
+    opponent: CZE
+    score: 6–4
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2002_Men%27s_World_Floorball_Championships
+  - date: '2002-05-22'
+    stage: Quarter-final
+    opponent: NOR
+    score: 3–2
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2002_Men%27s_World_Floorball_Championships
+    - https://archive.floorball.sport/match/1203582198/
+  - date: '2002-05-24'
+    stage: Semi-final
+    opponent: FIN
+    score: 1–5
+    result: L
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2002_Men%27s_World_Floorball_Championships
+    - https://archive.floorball.sport/match/1203582630/
+  - date: '2002-05-25'
+    stage: Bronze medal match
+    opponent: CZE
+    score: 4–3
+    result: W
+    ot_pso: OT
+    source:
+    - https://en.wikipedia.org/wiki/2002_Men%27s_World_Floorball_Championships
+    - https://archive.floorball.sport/match/1203582841/
+  top_scorer:
+    name: Johan Andersson
+    country: SWE
+    games: 6
+    goals: 14
+    assists: 4
+    points: 18
+    source: https://de.wikipedia.org/wiki/Unihockey-Weltmeisterschaft_2002
+  mvp:
+    name: Johan Andersson
+    country: SWE
+  best_goalkeeper:
+    name: Mårten Blixt
+    country: SWE
+    basis: all-star goalkeeper
+  all_star_team:
+  - position: G
+    name: Mårten Blixt
+    country: SWE
+  - position: D
+    name: Jari-Pekka Lehtonen
+    country: FIN
+  - position: D
+    name: Henrik Quist
+    country: SWE
+  - position: F
+    name: Johan Andersson
+    country: SWE
+  - position: F
+    name: Jaakko Hintikka
+    country: FIN
+  - position: F
+    name: Martin Olofsson
+    country: SWE
+  notes: No Swiss all-star. Bronze won 4–3 OT vs CZE.
+- year: 2004
+  host: SUI (cities not recorded here)
+  sources:
+  - https://archive.floorball.sport/match/1203594332/
+  - https://archive.floorball.sport/match/1207740222/
+  - https://de.wikipedia.org/wiki/Unihockey-Weltmeisterschaft_2004
+  - https://en.wikipedia.org/wiki/2004_Men%27s_World_Floorball_Championships
+  switzerland_games:
+  - date: '2004-05-16'
+    stage: Group B
+    opponent: LAT
+    score: 4–3
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2004_Men%27s_World_Floorball_Championships
+  - date: '2004-05-17'
+    stage: Group B
+    opponent: DEN
+    score: 15–4
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2004_Men%27s_World_Floorball_Championships
+  - date: '2004-05-18'
+    stage: Group B
+    opponent: RUS
+    score: 10–2
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2004_Men%27s_World_Floorball_Championships
+  - date: '2004-05-20'
+    stage: Group B
+    opponent: FIN
+    score: 4–3
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2004_Men%27s_World_Floorball_Championships
+  - date: '2004-05-22'
+    stage: Semi-final
+    opponent: CZE
+    score: 3–5
+    result: L
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2004_Men%27s_World_Floorball_Championships
+    - https://archive.floorball.sport/match/1207740222/
+  - date: '2004-05-23'
+    stage: Bronze medal match
+    opponent: FIN
+    score: 7–8
+    result: L
+    ot_pso: PSO
+    source:
+    - https://en.wikipedia.org/wiki/2004_Men%27s_World_Floorball_Championships
+    - https://archive.floorball.sport/match/1203594332/
+  top_scorer:
+    name: Matthias Hofbauer
+    country: SUI
+    games: 6
+    goals: 11
+    assists: 11
+    points: 22
+    source: https://de.wikipedia.org/wiki/Unihockey-Weltmeisterschaft_2004
+  mvp: null
+  best_goalkeeper:
+    name: Henri Toivoniemi
+    country: FIN
+    basis: all-star goalkeeper
+  all_star_team:
+  - position: G
+    name: Henri Toivoniemi
+    country: FIN
+  - position: D
+    name: Jari-Pekka Lehtonen
+    country: FIN
+  - position: D
+    name: Jakob Olofsson
+    country: SWE
+  - position: F
+    name: Matthias Hofbauer
+    country: SUI
+  - position: F
+    name: Niklas Jihde
+    country: SWE
+  - position: F
+    name: Mika Kohonen
+    country: FIN
+  notes: Home WFC. Matthias Hofbauer top scorer (22 pts) and all-star; Christoph Hofbauer (SUI) 3rd with 15 pts. SUI beat FIN 4–3 in group, lost bronze to FIN on penalty shots. MVP not listed.
+- year: 2006
+  host: SWE (cities not recorded here)
+  sources:
+  - https://de.wikipedia.org/wiki/Unihockey-Weltmeisterschaft_2006
+  - https://en.wikipedia.org/wiki/2006_Men%27s_World_Floorball_Championships
+  switzerland_games:
+  - date: '2006-05-21'
+    stage: Group A
+    opponent: NOR
+    score: 6–6
+    result: D
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2006_Men%27s_World_Floorball_Championships
+  - date: '2006-05-23'
+    stage: Group A
+    opponent: GER
+    score: 22–5
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2006_Men%27s_World_Floorball_Championships
+  - date: '2006-05-24'
+    stage: Group A
+    opponent: DEN
+    score: 12–3
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2006_Men%27s_World_Floorball_Championships
+  - date: '2006-05-25'
+    stage: Group A
+    opponent: SWE
+    score: 4–4
+    result: D
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2006_Men%27s_World_Floorball_Championships
+  - date: '2006-05-27'
+    stage: Semi-final
+    opponent: FIN
+    score: 2–5
+    result: L
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2006_Men%27s_World_Floorball_Championships
+  - date: '2006-05-28'
+    stage: Bronze medal match
+    opponent: CZE
+    score: 9–4
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2006_Men%27s_World_Floorball_Championships
+  top_scorer:
+    name: Adrian Zimmerman
+    country: SUI
+    games: 6
+    goals: 9
+    assists: 7
+    points: 16
+    note: spelling as on de Wikipedia (unverified whether Zimmermann); Marcus Gerber (SUI) 2nd with 15 pts, Michael Zürcher (SUI) 13 pts
+    source: https://de.wikipedia.org/wiki/Unihockey-Weltmeisterschaft_2006
+  mvp: null
+  best_goalkeeper:
+    name: Henri Toivoniemi
+    country: FIN
+    basis: all-star goalkeeper
+  all_star_team:
+  - position: G
+    name: Henri Toivoniemi
+    country: FIN
+  - position: D
+    name: Henrik Quist
+    country: SWE
+  - position: D
+    name: Marcus Gerber
+    country: SUI
+  - position: F
+    name: Tero Tiitu
+    country: FIN
+  - position: F
+    name: Anders Hellgård
+    country: SWE
+  - position: F
+    name: Mika Kohonen
+    country: FIN
+  notes: 'Swiss all-star: Marcus Gerber (D). SUI drew 4–4 with SWE in the group (first non-loss vs SWE at a WFC). MVP not listed.'
+- year: 2008
+  host: CZE (Prague, Ostrava)
+  sources:
+  - https://de.wikipedia.org/wiki/Unihockey-Weltmeisterschaft_2008
+  - https://en.wikipedia.org/wiki/2008_Men%27s_World_Floorball_Championships
+  - https://floorball.sport/match/1222777454/
+  - https://floorball.sport/match/1222782771/
+  - https://unihockey.ch/nationalteams/mnner-a/events/wm-2008-2/
+  switzerland_games:
+  - date: '2008-12-06'
+    stage: Group B
+    opponent: EST
+    score: 7–6
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2008_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2008-2/
+  - date: '2008-12-07'
+    stage: Group B
+    opponent: NOR
+    score: 9–6
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2008_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2008-2/
+  - date: '2008-12-09'
+    stage: Group B
+    opponent: FIN
+    score: 0–4
+    result: L
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2008_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2008-2/
+  - date: '2008-12-10'
+    stage: Group B
+    opponent: DEN
+    score: 12–1
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2008_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2008-2/
+  - date: '2008-12-13'
+    stage: Semi-final
+    opponent: SWE
+    score: 2–3
+    result: L
+    ot_pso: OT
+    source:
+    - https://en.wikipedia.org/wiki/2008_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2008-2/
+    - https://floorball.sport/match/1222777454/
+  - date: '2008-12-14'
+    stage: Bronze medal match
+    opponent: CZE
+    score: 5–4
+    result: W
+    ot_pso: OT
+    source:
+    - https://en.wikipedia.org/wiki/2008_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2008-2/
+    - https://floorball.sport/match/1222782771/
+  top_scorer:
+    name: Fredrik Djurling
+    country: SWE
+    games: 6
+    goals: 11
+    assists: 4
+    points: 15
+    note: 'best Swiss: Emanuel Antener 13 pts (2+11), 5th'
+    source: https://de.wikipedia.org/wiki/Unihockey-Weltmeisterschaft_2008
+  mvp: null
+  best_goalkeeper:
+    name: Henri Toivoniemi
+    country: FIN
+    basis: all-star goalkeeper
+  all_star_team:
+  - position: G
+    name: Henri Toivoniemi
+    country: FIN
+  - position: D
+    name: Daniel Folta
+    country: CZE
+  - position: D
+    name: Henrik Quist
+    country: SWE
+  - position: C
+    name: Fredrik Djurling
+    country: SWE
+  - position: F
+    name: Aleš Zálesný
+    country: CZE
+  - position: F
+    name: Santtu Manner
+    country: FIN
+  notes: No Swiss all-star. MVP not listed on en Wikipedia.
+- year: 2010
+  host: FIN (Helsinki, Vantaa)
+  sources:
+  - https://de.wikipedia.org/wiki/Unihockey-Weltmeisterschaft_2010
+  - https://en.wikipedia.org/wiki/2010_Men%27s_World_Floorball_Championships
+  - https://unihockey.ch/nationalteams/mnner-a/events/wm-2010-7/
+  switzerland_games:
+  - date: '2010-12-04'
+    stage: Group B
+    opponent: LAT
+    score: 6–2
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2010_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2010-7/
+  - date: '2010-12-06'
+    stage: Group B
+    opponent: POL
+    score: 12–2
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2010_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2010-7/
+  - date: '2010-12-07'
+    stage: Group B
+    opponent: SGP
+    score: 37–0
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2010_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2010-7/
+  - date: '2010-12-09'
+    stage: Quarter-final
+    opponent: RUS
+    score: 9–2
+    result: W
+    ot_pso: null
+    source:
+    - https://de.wikipedia.org/wiki/Unihockey-Weltmeisterschaft_2010
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2010-7/
+  - date: '2010-12-10'
+    stage: Semi-final
+    opponent: SWE
+    score: 2–3
+    result: L
+    ot_pso: null
+    source:
+    - https://de.wikipedia.org/wiki/Unihockey-Weltmeisterschaft_2010
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2010-7/
+  - date: '2010-12-11'
+    stage: Bronze medal match
+    opponent: CZE
+    score: 3–9
+    result: L
+    ot_pso: null
+    source:
+    - https://de.wikipedia.org/wiki/Unihockey-Weltmeisterschaft_2010
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2010-7/
+  top_scorer:
+    name: Matthias Hofbauer
+    country: SUI
+    games: 6
+    goals: 12
+    assists: 8
+    points: 20
+    source: https://de.wikipedia.org/wiki/Unihockey-Weltmeisterschaft_2010
+  mvp:
+    name: Mika Kohonen
+    country: FIN
+  best_goalkeeper: null
+  all_star_team: null
+  notes: Matthias Hofbauer top scorer for the second time (also 2004). SUI 37–0 vs Singapore = biggest Swiss WFC win.
+- year: 2012
+  host: SUI (Bern, Zurich)
+  sources:
+  - https://archive.floorball.sport/match/1331021945/
+  - https://archive.floorball.sport/match/1331023175/
+  - https://archive.floorball.sport/match/1331023336/
+  - https://en.wikipedia.org/wiki/2012_Men%27s_World_Floorball_Championships
+  - https://floorball.sport/wfc-records/mens-wfc-records/
+  - https://sv.wikipedia.org/wiki/V%C3%A4rldsm%C3%A4sterskapet_i_innebandy_f%C3%B6r_herrar_2012
+  - https://unihockey.ch/nationalteams/mnner-a/events/wm-2012-21/
+  switzerland_games:
+  - date: '2012-12-02'
+    stage: Group A
+    opponent: SVK
+    score: 8–4
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2012_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2012-21/
+  - date: '2012-12-04'
+    stage: Group A
+    opponent: SGP
+    score: 35–0
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2012_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2012-21/
+  - date: '2012-12-05'
+    stage: Group A
+    opponent: EST
+    score: 14–3
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2012_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2012-21/
+  - date: '2012-12-06'
+    stage: Quarter-final
+    opponent: NOR
+    score: 11–5
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2012_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2012-21/
+    - https://archive.floorball.sport/match/1331021945/
+  - date: '2012-12-08'
+    stage: Semi-final
+    opponent: FIN
+    score: 3–4
+    result: L
+    ot_pso: OT
+    source:
+    - https://en.wikipedia.org/wiki/2012_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2012-21/
+    - https://archive.floorball.sport/match/1331023175/
+  - date: '2012-12-09'
+    stage: Bronze medal match
+    opponent: GER
+    score: 8–0
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2012_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2012-21/
+    - https://archive.floorball.sport/match/1331023336/
+  top_scorer:
+    name: Emanuel Antener
+    country: SUI
+    goals: 9
+    assists: 17
+    points: 26
+    note: 'IFF single-tournament record for points (26) and assists (17); next: Rasmus Enström SWE 22, Kim Nilsson SWE 22, Matthias Hofbauer SUI 22 (11+11) per sv Wikipedia'
+    source:
+    - https://floorball.sport/wfc-records/mens-wfc-records/
+    - https://sv.wikipedia.org/wiki/V%C3%A4rldsm%C3%A4sterskapet_i_innebandy_f%C3%B6r_herrar_2012
+  mvp:
+    name: Kim Nilsson
+    country: SWE
+  best_goalkeeper:
+    name: Henri Toivoniemi
+    country: FIN
+    basis: all-star goalkeeper (sv Wikipedia only)
+    unverified: true
+  all_star_team:
+  - position: G
+    name: Henri Toivoniemi
+    country: FIN
+  - position: D
+    name: Tatu Väänänen
+    country: FIN
+  - position: D
+    name: Martin Östholm
+    country: SWE
+  - position: F
+    name: Matthias Hofbauer
+    country: SUI
+  - position: F
+    name: Kim Nilsson
+    country: SWE
+  - position: F
+    name: Emanuel Antener
+    country: SUI
+  all_star_team_unverified: true
+  notes: 'Home WFC (Bern, Zurich). SF lost 3–4 OT to FIN, bronze 8–0 vs GER. Antener 26 pts = all-time single-WFC record (IFF). All-star team from sv Wikipedia only (two Swiss: Hofbauer, Antener); not cross-checked
+    with IFF.'
+- year: 2014
+  host: SWE (Gothenburg)
+  sources:
+  - https://app.floorball.sport/game-view/2724
+  - https://app.floorball.sport/game-view/2734
+  - https://app.floorball.sport/game-view/2740
+  - https://en.wikipedia.org/wiki/2014_Men%27s_World_Floorball_Championships
+  - https://unihockey.ch/nationalteams/mnner-a/events/wm-2014-27/
+  switzerland_games:
+  - date: '2014-12-07'
+    stage: Group B
+    opponent: EST
+    score: 7–3
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2014_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2014-27/
+  - date: '2014-12-08'
+    stage: Group B
+    opponent: CZE
+    score: 2–2
+    result: D
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2014_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2014-27/
+  - date: '2014-12-09'
+    stage: Group B
+    opponent: NOR
+    score: 10–7
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2014_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2014-27/
+  - date: '2014-12-12'
+    stage: Quarter-final
+    opponent: LAT
+    score: 6–1
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2014_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2014-27/
+    - https://app.floorball.sport/game-view/2734
+  - date: '2014-12-13'
+    stage: Semi-final
+    opponent: SWE
+    score: 1–10
+    result: L
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2014_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2014-27/
+    - https://app.floorball.sport/game-view/2724
+  - date: '2014-12-14'
+    stage: Bronze medal match
+    opponent: CZE
+    score: 3–4
+    result: L
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2014_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2014-27/
+    - https://app.floorball.sport/game-view/2740
+  top_scorer: null
+  mvp:
+    name: Kim Nilsson
+    country: SWE
+  best_goalkeeper:
+    name: Mike Trolle Wede
+    country: DEN
+    basis: all-star goalkeeper
+  all_star_team:
+  - position: G
+    name: Mike Trolle Wede
+    country: DEN
+  - position: D
+    name: Tatu Väänänen
+    country: FIN
+  - position: D
+    name: Martin Östholm
+    country: SWE
+  - position: F
+    name: Rasmus Enström
+    country: SWE
+  - position: F
+    name: Jani Kukkola
+    country: FIN
+  - position: F
+    name: Kim Nilsson
+    country: SWE
+  notes: No Swiss all-star.
+- year: 2016
+  host: LAT (Riga)
+  sources:
+  - https://de.wikipedia.org/wiki/Unihockey-Weltmeisterschaft_2016
+  - https://en.wikipedia.org/wiki/2016_Men%27s_World_Floorball_Championships
+  - https://floorball.sport/match/1461824692/
+  - https://floorball.sport/match/1461824933/
+  - https://floorball.sport/match/1461825305/
+  - https://unihockey.ch/nationalteams/mnner-a/events/wm-2016-32/
+  switzerland_games:
+  - date: '2016-12-03'
+    stage: Group B
+    opponent: EST
+    score: 8–4
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2016_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2016-32/
+  - date: '2016-12-04'
+    stage: Group B
+    opponent: FIN
+    score: 4–6
+    result: L
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2016_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2016-32/
+  - date: '2016-12-06'
+    stage: Group B
+    opponent: GER
+    score: 11–3
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2016_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2016-32/
+  - date: '2016-12-09'
+    stage: Quarter-final
+    opponent: NOR
+    score: 7–2
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2016_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2016-32/
+    - https://floorball.sport/match/1461824692/
+  - date: '2016-12-10'
+    stage: Semi-final
+    opponent: SWE
+    score: 2–7
+    result: L
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2016_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2016-32/
+    - https://floorball.sport/match/1461824933/
+  - date: '2016-12-11'
+    stage: Bronze medal match
+    opponent: CZE
+    score: 8–5
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2016_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2016-32/
+    - https://floorball.sport/match/1461825305/
+  top_scorer: null
+  mvp:
+    name: Peter Kotilainen
+    country: FIN
+  best_goalkeeper:
+    name: Pascal Meier
+    country: SUI
+    basis: all-star best goalkeeper
+  all_star_team:
+  - position: G
+    name: Pascal Meier
+    country: SUI
+  - position: D
+    name: Krister Savonen
+    country: FIN
+  - position: D
+    name: Tatu Väänänen
+    country: FIN
+  - position: F
+    name: Alexander Galante Carlström
+    country: SWE
+  - position: F
+    name: Matěj Jendrišák
+    country: CZE
+  - position: F
+    name: Peter Kotilainen
+    country: FIN
+  notes: 'Swiss all-star: Pascal Meier (best goalkeeper). unihockey.ch lists the 6, 9, 10, 11 Dec games with year "2014" (typo on their page).'
+- year: 2018
+  host: CZE (Prague)
+  sources:
+  - http://iffwfc.org/news.asp?kieli=826&id_tiedote=5378
+  - https://de.wikipedia.org/wiki/Unihockey-Weltmeisterschaft_2018
+  - https://en.wikipedia.org/wiki/2018_Men%27s_World_Floorball_Championships
+  - https://floorball.sport/match/1520942623/
+  - https://floorball.sport/match/1520943221/
+  - https://floorball.sport/match/1520943404/
+  - https://unihockey.ch/nationalteams/mnner-a/events/wm-2018-36/
+  switzerland_games:
+  - date: '2018-12-01'
+    stage: Group
+    opponent: LAT
+    score: 7–3
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2018_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2018-36/
+  - date: '2018-12-02'
+    stage: Group
+    opponent: GER
+    score: 13–1
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2018_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2018-36/
+  - date: '2018-12-04'
+    stage: Group
+    opponent: CZE
+    score: 4–6
+    result: L
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2018_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2018-36/
+  - date: '2018-12-06'
+    stage: Quarter-final
+    opponent: NOR
+    score: 3–2
+    result: W
+    ot_pso: OT
+    source:
+    - https://en.wikipedia.org/wiki/2018_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2018-36/
+    - https://floorball.sport/match/1520942623/
+  - date: '2018-12-08'
+    stage: Semi-final
+    opponent: SWE
+    score: 4–5
+    result: L
+    ot_pso: PSO
+    source:
+    - https://en.wikipedia.org/wiki/2018_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2018-36/
+    - https://floorball.sport/match/1520943221/
+  - date: '2018-12-09'
+    stage: Bronze medal match
+    opponent: CZE
+    score: 4–2
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2018_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2018-36/
+    - https://floorball.sport/match/1520943404/
+  top_scorer: null
+  mvp:
+    name: Pascal Meier
+    country: SUI
+    source: http://iffwfc.org/news.asp?kieli=826&id_tiedote=5379 (archived)
+  best_goalkeeper:
+    name: Pascal Meier
+    country: SUI
+  all_star_team:
+  - position: G
+    name: Pascal Meier
+    country: SUI
+  - position: D
+    name: Emil Johansson
+    country: SWE
+  - position: D
+    name: Robin Nilsberth
+    country: SWE
+  - position: C
+    name: Joonas Pylsy
+    country: FIN
+  - position: F
+    name: Adam Delong
+    country: CZE
+  - position: F
+    name: Kim Nilsson
+    country: SWE
+  notes: 'Pascal Meier: MVP and best goalkeeper, the only Swiss WFC MVP found 1996-2024. SF vs SWE lost on penalty shots.'
+- year: 2020
+  host: FIN (Helsinki), played 3-11 Dec 2021
+  sources:
+  - https://archive.floorball.sport/2021/12/12/mens-wfc-2020-all-star-team/
+  - https://archive.floorball.sport/match/1588746555/
+  - https://archive.floorball.sport/match/1588746623/
+  - https://archive.floorball.sport/match/1588746682/
+  - https://archive.floorball.sport/match/1588749068/
+  - https://archive.floorball.sport/match/1588749456/
+  - https://archive.floorball.sport/match/1588749626/
+  - https://en.wikipedia.org/wiki/2020_Men%27s_World_Floorball_Championships
+  - https://unihockey.ch/nationalteams/mnner-a/events/wm-2021-39/
+  switzerland_games:
+  - date: '2021-12-04'
+    stage: Group B
+    opponent: NOR
+    score: 7–5
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2020_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2021-39/
+    - https://archive.floorball.sport/match/1588746555/
+  - date: '2021-12-05'
+    stage: Group B
+    opponent: CZE
+    score: 4–2
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2020_Men%27s_World_Floorball_Championships
+    - https://archive.floorball.sport/match/1588746623/
+  - date: '2021-12-06'
+    stage: Group B
+    opponent: GER
+    score: 9–2
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2020_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2021-39/
+    - https://archive.floorball.sport/match/1588746682/
+  - date: '2021-12-09'
+    stage: Quarter-final
+    opponent: EST
+    score: 9–0
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2020_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2021-39/
+    - https://archive.floorball.sport/match/1588749068/
+  - date: '2021-12-10'
+    stage: Semi-final
+    opponent: SWE
+    score: 1–6
+    result: L
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2020_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2021-39/
+    - https://archive.floorball.sport/match/1588749456/
+  - date: '2021-12-11'
+    stage: Bronze medal match
+    opponent: CZE
+    score: 3–4
+    result: L
+    ot_pso: OT
+    source:
+    - https://en.wikipedia.org/wiki/2020_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2021-39/
+    - https://archive.floorball.sport/match/1588749626/
+  top_scorer: null
+  mvp:
+    name: Ville Lastikka
+    country: FIN
+  best_goalkeeper:
+    name: Lukáš Bauer
+    country: CZE
+  all_star_team:
+  - position: G
+    name: Lukáš Bauer
+    country: CZE
+  - position: D
+    name: Juha Kivilehto
+    country: FIN
+  - position: D
+    name: Tobias Gustafsson
+    country: SWE
+  - position: C
+    name: Justus Kainulainen
+    country: FIN
+  - position: F
+    name: Marek Beneš
+    country: CZE
+  - position: F
+    name: Ville Lastikka
+    country: FIN
+  notes: Played 3-11 Dec 2021 (postponed by COVID-19). No Swiss all-star.
+- year: 2022
+  host: SUI (Zurich, Winterthur)
+  sources:
+  - https://archive.floorball.sport/2022/11/15/mens-wfc-2022-all-star-team/
+  - https://archive.floorball.sport/match/1655796174/
+  - https://archive.floorball.sport/match/1655796260/
+  - https://archive.floorball.sport/match/1655796363/
+  - https://archive.floorball.sport/match/1655803227/
+  - https://archive.floorball.sport/match/1655803448/
+  - https://archive.floorball.sport/match/1655803726/
+  - https://de.wikipedia.org/wiki/Unihockey-Weltmeisterschaft_2022
+  - https://en.wikipedia.org/wiki/2022_Men%27s_World_Floorball_Championships
+  - https://floorballstatistics.com/eventdetails.php?EventID=79
+  - https://unihockey.ch/nationalteams/mnner-a/events/wm-2022-mnner-41/
+  switzerland_games:
+  - date: '2022-11-05'
+    stage: Group A
+    opponent: NOR
+    score: 4–4
+    result: D
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2022_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2022-mnner-41/
+    - https://archive.floorball.sport/match/1655796174/
+  - date: '2022-11-06'
+    stage: Group A
+    opponent: FIN
+    score: 7–5
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2022_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2022-mnner-41/
+    - https://archive.floorball.sport/match/1655796260/
+  - date: '2022-11-08'
+    stage: Group A
+    opponent: SVK
+    score: 9–3
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2022_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2022-mnner-41/
+    - https://archive.floorball.sport/match/1655796363/
+  - date: '2022-11-10'
+    stage: Quarter-final
+    opponent: LAT
+    score: 3–1
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2022_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2022-mnner-41/
+    - https://archive.floorball.sport/match/1655803227/
+  - date: '2022-11-12'
+    stage: Semi-final
+    opponent: CZE
+    score: 3–11
+    result: L
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2022_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2022-mnner-41/
+    - https://floorballstatistics.com/eventdetails.php?EventID=79
+    - https://archive.floorball.sport/match/1655803448/
+  - date: '2022-11-13'
+    stage: Bronze medal match
+    opponent: FIN
+    score: 3–5
+    result: L
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2022_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2022-mnner-41/
+    - https://floorballstatistics.com/eventdetails.php?EventID=79
+    - https://archive.floorball.sport/match/1655803726/
+  top_scorer:
+    name: Mathias Glass
+    country: DEN
+    goals: 16
+    assists: 7
+    points: 23
+    note: 16 goals = IFF single-WFC goals record; IFF records page lists him as Norway, but de Wikipedia and Swiss Floorball Statistics list Denmark (DEN is correct for his national team per both)
+    source:
+    - https://floorballstatistics.com/eventdetails.php?EventID=79
+    - https://floorball.sport/wfc-records/mens-wfc-records/
+  mvp:
+    name: Alexander Galante Carlström
+    country: SWE
+  best_goalkeeper:
+    name: Lukáš Bauer
+    country: CZE
+  all_star_team:
+  - position: G
+    name: Lukáš Bauer
+    country: CZE
+  - position: D
+    name: Ondřej Němeček
+    country: CZE
+  - position: D
+    name: Emil Johansson
+    country: SWE
+  - position: F
+    name: Marek Beneš
+    country: CZE
+  - position: F
+    name: Hampus Ahrén
+    country: SWE
+  - position: F
+    name: Alexander Galante Carlström
+    country: SWE
+  notes: Home WFC (Zurich, Winterthur). SUI beat FIN 7–5 in group but lost bronze 3–5 to FIN. No Swiss all-star.
+- year: 2024
+  host: SWE (Malmö)
+  sources:
+  - https://app.floorball.sport/#/magazinegameview/7168
+  - https://app.floorball.sport/#/magazinegameview/7184
+  - https://app.floorball.sport/#/magazinegameview/7186
+  - https://app.floorball.sport/#/magazinegameview/7232
+  - https://app.floorball.sport/#/magazinegameview/7242
+  - https://app.floorball.sport/#/magazinegameview/7244
+  - https://archive.floorball.sport/2024/12/15/malte-lundmark-is-the-mvp-of-wfc-2024/
+  - https://archive.floorball.sport/2024/12/16/mens-wfc-2024-all-star-team/
+  - https://en.wikipedia.org/wiki/2024_Men%27s_World_Floorball_Championships
+  - https://unihockey.ch/nationalteams/mnner-a/events/wm-2024-mnner-43/
+  switzerland_games:
+  - date: '2024-12-08'
+    stage: Group A
+    opponent: GER
+    score: 8–2
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2024_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2024-mnner-43/
+    - https://app.floorball.sport/#/magazinegameview/7168
+  - date: '2024-12-09'
+    stage: Group A
+    opponent: CZE
+    score: 2–5
+    result: L
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2024_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2024-mnner-43/
+    - https://app.floorball.sport/#/magazinegameview/7184
+  - date: '2024-12-10'
+    stage: Group A
+    opponent: NOR
+    score: 4–4
+    result: D
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2024_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2024-mnner-43/
+    - https://app.floorball.sport/#/magazinegameview/7186
+  - date: '2024-12-13'
+    stage: Quarter-final
+    opponent: LAT
+    score: 3–4
+    result: L
+    ot_pso: OT
+    source:
+    - https://en.wikipedia.org/wiki/2024_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2024-mnner-43/
+    - https://app.floorball.sport/#/magazinegameview/7232
+  - date: '2024-12-14'
+    stage: 5th-8th place semi-final
+    opponent: NOR
+    score: 6–0
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2024_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2024-mnner-43/
+    - https://app.floorball.sport/#/magazinegameview/7244
+  - date: '2024-12-15'
+    stage: 5th place match
+    opponent: SVK
+    score: 6–3
+    result: W
+    ot_pso: null
+    source:
+    - https://en.wikipedia.org/wiki/2024_Men%27s_World_Floorball_Championships
+    - https://unihockey.ch/nationalteams/mnner-a/events/wm-2024-mnner-43/
+    - https://app.floorball.sport/#/magazinegameview/7242
+  top_scorer: null
+  mvp:
+    name: Malte Lundmark
+    country: SWE
+  best_goalkeeper:
+    name: Jon Hedlund
+    country: SWE
+  all_star_team:
+  - position: G
+    name: Jon Hedlund
+    country: SWE
+  - position: D
+    name: Ondřej Němeček
+    country: CZE
+  - position: D
+    name: Miska Mäkinen
+    country: FIN
+  - position: C
+    name: Hampus Ahrén
+    country: SWE
+  - position: F
+    name: Aaro Astala
+    country: FIN
+  - position: F
+    name: Malte Lundmark
+    country: SWE
+  notes: 'SUI out in the QF (3–4 OT vs LAT), finished 5th: first time out of the top 4 since 1996. No Swiss all-star.'
+head_to_head:
+  SWE:
+    played: 11
+    w: 0
+    d: 1
+    l: 10
+    gf: 21
+    ga: 74
+    games:
+    - '1996 Group A: SUI 0–9 SWE'
+    - '1998 Group A: SUI 0–9 SWE'
+    - '1998 Final: SUI 3–10 SWE'
+    - '2000 Semi-final: SUI 2–8 SWE'
+    - '2006 Group A: SUI 4–4 SWE'
+    - '2008 Semi-final: SUI 2–3 SWE (OT)'
+    - '2010 Semi-final: SUI 2–3 SWE'
+    - '2014 Semi-final: SUI 1–10 SWE'
+    - '2016 Semi-final: SUI 2–7 SWE'
+    - '2018 Semi-final: SUI 4–5 SWE (PSO)'
+    - '2020 Semi-final: SUI 1–6 SWE'
+    note: OT/PSO games counted as W/L; goals include the PSO bonus goal (2004 FIN 7–8, 2018 SWE 4–5).
+  FIN:
+    played: 12
+    w: 3
+    d: 0
+    l: 9
+    gf: 40
+    ga: 58
+    games:
+    - '1998 Semi-final: SUI 5–4 FIN'
+    - '2000 Group B: SUI 3–5 FIN'
+    - '2002 Group B: SUI 1–4 FIN'
+    - '2002 Semi-final: SUI 1–5 FIN'
+    - '2004 Group B: SUI 4–3 FIN'
+    - '2004 Bronze medal match: SUI 7–8 FIN (PSO)'
+    - '2006 Semi-final: SUI 2–5 FIN'
+    - '2008 Group B: SUI 0–4 FIN'
+    - '2012 Semi-final: SUI 3–4 FIN (OT)'
+    - '2016 Group B: SUI 4–6 FIN'
+    - '2022 Group A: SUI 7–5 FIN'
+    - '2022 Bronze medal match: SUI 3–5 FIN'
+    note: OT/PSO games counted as W/L; goals include the PSO bonus goal (2004 FIN 7–8, 2018 SWE 4–5).
+  CZE:
+    played: 17
+    w: 9
+    d: 1
+    l: 7
+    gf: 71
+    ga: 72
+    games:
+    - '1998 Group A: SUI 5–0 CZE'
+    - '2000 Group B: SUI 3–2 CZE'
+    - '2002 Group B: SUI 6–4 CZE'
+    - '2002 Bronze medal match: SUI 4–3 CZE (OT)'
+    - '2004 Semi-final: SUI 3–5 CZE'
+    - '2006 Bronze medal match: SUI 9–4 CZE'
+    - '2008 Bronze medal match: SUI 5–4 CZE (OT)'
+    - '2010 Bronze medal match: SUI 3–9 CZE'
+    - '2014 Group B: SUI 2–2 CZE'
+    - '2014 Bronze medal match: SUI 3–4 CZE'
+    - '2016 Bronze medal match: SUI 8–5 CZE'
+    - '2018 Group: SUI 4–6 CZE'
+    - '2018 Bronze medal match: SUI 4–2 CZE'
+    - '2020 Group B: SUI 4–2 CZE'
+    - '2020 Bronze medal match: SUI 3–4 CZE (OT)'
+    - '2022 Semi-final: SUI 3–11 CZE'
+    - '2024 Group A: SUI 2–5 CZE'
+    note: OT/PSO games counted as W/L; goals include the PSO bonus goal (2004 FIN 7–8, 2018 SWE 4–5).
+  GER:
+    played: 7
+    w: 7
+    d: 0
+    l: 0
+    gf: 82
+    ga: 13
+    games:
+    - '1998 Group A: SUI 11–0 GER'
+    - '2006 Group A: SUI 22–5 GER'
+    - '2012 Bronze medal match: SUI 8–0 GER'
+    - '2016 Group B: SUI 11–3 GER'
+    - '2018 Group: SUI 13–1 GER'
+    - '2020 Group B: SUI 9–2 GER'
+    - '2024 Group A: SUI 8–2 GER'
+    note: OT/PSO games counted as W/L; goals include the PSO bonus goal (2004 FIN 7–8, 2018 SWE 4–5).
+  AUT:
+    played: 0
+    w: 0
+    d: 0
+    l: 0
+    gf: 0
+    ga: 0
+    games: []
+    note: Switzerland never met Austria at a top-division men's WFC 1996-2024 (Austria not in any of the 15 top-division fields covered here).
+iff_records:
+  source: https://floorball.sport/wfc-records/mens-wfc-records/
+  all_time_points:
+  - 'Matthias Hofbauer SUI 97 (48+49) in 57 games, 2000-2018 (all-time #1)'
+  - Willy Fauskanger NOR 88
+  - Ketil Kronberg NOR 88
+  - Kim Nilsson SWE 85
+  - Mika Kohonen FIN 78
+  swiss_in_all_time_top10:
+  - 'Matthias Hofbauer #1 (97 pts)'
+  - 'Emanuel Antener #9 (68 pts: 18 G + 50 A in 30 games, 2008-2016)'
+  most_assists_all_time: Emanuel Antener SUI 50 (tied with Mika Kohonen FIN)
+  single_tournament_points: Emanuel Antener SUI 26 (9+17), 2012
+  single_tournament_assists: Emanuel Antener SUI 17, 2012
+  single_tournament_goals: Mathias Glass 16, 2022
+gaps:
+- Top scorers 2014, 2016, 2018, 2020, 2024 not found (not on en/de/sv Wikipedia; app.floorball.sport stats are JS-only)
+- All-star team / best goalkeeper 2010 not found
+- 2012 all-star team only from sv Wikipedia (unverified)
+- MVP not listed for 1996, 2004, 2006, 2008
+- '1996-2006 games: single source (en Wikipedia, IFF archive links for KO games); no second source checked'
+- 2020 (played 2021) group game vs CZE on 5 Dec 2021 not listed on unihockey.ch page (only en Wikipedia + IFF match link)

@@ -1,0 +1,49 @@
+team: Slovenia
+code: SLO
+group: C
+status: official_wfc_squad
+announced:
+  date: 2026-11-12
+  source_url: https://www.instagram.com/p/DfpQZdGkeK7/
+  source_title: "Ekipa za Tampere (Floorball Zveza Slovenije, Instagram @floorball_zveza_slovenije, 2026-11-12)"
+  also: "Same post on Facebook: https://www.facebook.com/floorball.slovenije/posts/ekipa-za-tampere-to-so-fantje-ki-bodo-decembra-slovenijo-zastopali-na-svetovnem-/1676501301160991/"
+retrieved: 2026-11-24
+squad_facts:
+  - "20 players: 2 goalkeepers + 18 field players. 'The same team that won the WFC place in Liepāja in February' (federation, 2026-11-12)."
+  - "Second WFC in a row: first ever WFC was 2024 in Sweden, finished 13th of 16 after a win over Thailand (STA/siol.net 2026-02-07)."
+  - "Qualification Liepāja, Feb 2026: 2-0 v Hungary, 10-6 v Ukraine, 2-8 v Latvia; then decisive game v Norway (world no. 8) won 4-3 after penalty shots. Goals: David Pečlin, Nejc Peklaj 2; goalkeeper Tim Luznar saved the decisive shot in the last round. Slovenia was 16th in the world ranking (siol.net 2026-02-07 https://siol.net/sportal/hokej/slovenski-igralci-floorball-drugic-na-sp-683873)."
+  - "Federation runs the social series 'Misija Tampere' (this post was 10 of 22) and asked fans for support ('Pomagajte nam zaigrati na SP', Facebook)."
+  - "Family names: Bogataj (Aleksander, Tristan), Kohne (Blaž, Matevž), Peklaj (Luka - captain, Nejc), Podobnik (Anže, Luka); head coach Gorazd Tomc and player Blaž Tomc share a surname. Relationships NOT verified."
+  - "Four Nations in Žilina, Nov 2026: lost heavily to Slovakia ('Slovinci schytali tucet' = conceded a dozen, SZFB 2026-11-13)."
+coaches:
+  source: https://www.instagram.com/p/DfpQZdGkeK7/
+  head_coach: Gorazd Tomc
+  assistant: {name: Tommi Lehto, note: "Finnish-sounding name; nationality not verified"}
+  physio: Žiga Podlogar
+captain: {name: Luka Peklaj, source: "federation Instagram 2026-11-12 ('kapetan')"}
+players:
+  - {name: Tim Luznar, position: goalkeeper, club: null, number: null, birth_date: null, source: FZS-instagram-2026-11-12, notes: "saved the decisive penalty shot v Norway in the qualification"}
+  - {name: Blaž Tomažin, position: goalkeeper, club: null, number: null, birth_date: null, source: FZS-instagram-2026-11-12}
+  - {name: Aleksander Bogataj, position: field, club: null, number: null, birth_date: null, source: FZS-instagram-2026-11-12}
+  - {name: Tristan Bogataj, position: field, club: null, number: null, birth_date: null, source: FZS-instagram-2026-11-12}
+  - {name: Anže Brajič, position: field, club: null, number: null, birth_date: null, source: FZS-instagram-2026-11-12}
+  - {name: Blaž Kohne, position: field, club: null, number: null, birth_date: null, source: FZS-instagram-2026-11-12}
+  - {name: Matevž Kohne, position: field, club: null, number: null, birth_date: null, source: FZS-instagram-2026-11-12}
+  - {name: Robert Košir, position: field, club: null, number: null, birth_date: null, source: FZS-instagram-2026-11-12}
+  - {name: Lovro Oblak, position: field, club: null, number: null, birth_date: null, source: FZS-instagram-2026-11-12}
+  - {name: Maj Oman, position: field, club: null, number: null, birth_date: null, source: FZS-instagram-2026-11-12}
+  - {name: David Pečlin, position: field, club: null, number: null, birth_date: null, source: FZS-instagram-2026-11-12, notes: "scored v Norway in the qualification decider"}
+  - {name: Luka Peklaj, position: field, club: null, number: null, birth_date: null, source: FZS-instagram-2026-11-12, captain: true}
+  - {name: Nejc Peklaj, position: field, club: null, number: null, birth_date: null, source: FZS-instagram-2026-11-12, notes: "2 goals v Norway in the qualification decider"}
+  - {name: Anže Podobnik, position: field, club: null, number: null, birth_date: null, source: FZS-instagram-2026-11-12}
+  - {name: Luka Podobnik, position: field, club: null, number: null, birth_date: null, source: FZS-instagram-2026-11-12}
+  - {name: Jaka Rous, position: field, club: null, number: null, birth_date: null, source: FZS-instagram-2026-11-12}
+  - {name: Gal Šardi, position: field, club: null, number: null, birth_date: null, source: FZS-instagram-2026-11-12}
+  - {name: Rok Španger, position: field, club: null, number: null, birth_date: null, source: FZS-instagram-2026-11-12}
+  - {name: Blaž Tomc, position: field, club: null, number: null, birth_date: null, source: FZS-instagram-2026-11-12}
+  - {name: Gašper Triler, position: field, club: null, number: null, birth_date: null, source: FZS-instagram-2026-11-12}
+notable:
+  - "Swiss-club players: none known (clubs not published)."
+  - "Slovenia beat Norway (Switzerland's group-A opponent) 4-3 on penalties in the Feb 2026 qualification (siol.net)."
+gaps:
+  - "Clubs, defender/forward split, numbers, birth dates."

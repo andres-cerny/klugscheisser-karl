@@ -1,0 +1,137 @@
+[
+ {
+  "t": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q174641"
+  },
+  "labelEn": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Sweden women's national ice hockey team"
+  },
+  "labelDe": {
+   "xml:lang": "de",
+   "type": "literal",
+   "value": "Schwedische Eishockeynationalmannschaft der Frauen"
+  },
+  "descEn": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "women's national ice hockey team representing Sweden"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Sweden_women%27s_national_ice_hockey_team"
+  },
+  "dewiki": {
+   "type": "uri",
+   "value": "https://de.wikipedia.org/wiki/Schwedische_Eishockeynationalmannschaft_der_Frauen"
+  },
+  "instances": {
+   "type": "literal",
+   "value": "women's national ice hockey team"
+  },
+  "sports": {
+   "type": "literal",
+   "value": "ice hockey"
+  },
+  "nations": {
+   "type": "literal",
+   "value": "SWE:SWE"
+  },
+  "leagues": {
+   "type": "literal",
+   "value": ""
+  }
+ },
+ {
+  "t": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1142013"
+  },
+  "labelEn": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Frölunda HC"
+  },
+  "labelDe": {
+   "xml:lang": "de",
+   "type": "literal",
+   "value": "Frölunda HC"
+  },
+  "descEn": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "ice hockey club in Gothenburg, Sweden"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Fr%C3%B6lunda_HC"
+  },
+  "dewiki": {
+   "type": "uri",
+   "value": "https://de.wikipedia.org/wiki/Fr%C3%B6lunda_HC"
+  },
+  "instances": {
+   "type": "literal",
+   "value": "ice hockey team"
+  },
+  "sports": {
+   "type": "literal",
+   "value": "ice hockey"
+  },
+  "nations": {
+   "type": "literal",
+   "value": "SWE:SWE"
+  },
+  "leagues": {
+   "type": "literal",
+   "value": ""
+  },
+  "descDe": {
+   "xml:lang": "de",
+   "type": "literal",
+   "value": "schwedischer Eishockeyclub"
+  }
+ },
+ {
+  "t": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q121392101"
+  },
+  "labelEn": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Frölunda HC (women)"
+  },
+  "descEn": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "SDHL ice hockey team in Gothenburg"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Fr%C3%B6lunda_HC_(women)"
+  },
+  "instances": {
+   "type": "literal",
+   "value": "women's ice hockey team"
+  },
+  "sports": {
+   "type": "literal",
+   "value": "ice hockey"
+  },
+  "nations": {
+   "type": "literal",
+   "value": "SWE:SWE"
+  },
+  "leagues": {
+   "type": "literal",
+   "value": "Nationella Damhockeyligan|Swedish Women's Hockey League"
+  },
+  "coaches": {
+   "type": "literal",
+   "value": "Q274487::Erika Holst"
+  }
+ }
+]

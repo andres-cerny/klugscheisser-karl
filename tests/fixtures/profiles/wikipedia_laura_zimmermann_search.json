@@ -1,0 +1,129 @@
+{
+ "search_hockey": {
+  "batchcomplete": true,
+  "continue": {
+   "sroffset": 5,
+   "continue": "-||"
+  },
+  "query": {
+   "searchinfo": {
+    "totalhits": 10
+   },
+   "search": [
+    {
+     "ns": 0,
+     "title": "Liste der olympischen Medaillengewinner aus der Schweiz",
+     "pageid": 409679,
+     "snippet": "Slalom Männer Pyeongchang 2018: Gold, Mannschaftswettbewerb <span class=\"searchmatch\">Laura</span> <span class=\"searchmatch\">Zimmermann</span> – <span class=\"searchmatch\">Eishockey</span> (0-0-1) Mailand-Cortina 2026: Bronze, Frauen Fritz Zulauf – Schiessen"
+    },
+    {
+     "ns": 0,
+     "title": "Eishockey-Weltmeisterschaft der U18-Frauen 2020",
+     "pageid": 10992042,
+     "snippet": "Die 13. <span class=\"searchmatch\">Eishockey</span>-Weltmeisterschaften der U18-Frauen der Internationalen <span class=\"searchmatch\">Eishockey</span>-Föderation IIHF waren die <span class=\"searchmatch\">Eishockey</span>-Weltmeisterschaften des Jahres 2020"
+    },
+    {
+     "ns": 0,
+     "title": "Liste der Olympiasieger im Eishockey",
+     "pageid": 2692076,
+     "snippet": "Die Liste der Olympiasieger im <span class=\"searchmatch\">Eishockey</span> listet alle Sieger sowie die Zweit- und Drittplatzierten der Eishockeywettbewerbe bei den Olympischen Winterspielen"
+    },
+    {
+     "ns": 0,
+     "title": "Olympische Winterspiele 2022/Teilnehmer (Schweiz)",
+     "pageid": 11972888,
+     "snippet": "Caroline Spies Phoebe Stänz Lara Stalder Nicole Vallario Stefanie Wetli <span class=\"searchmatch\">Laura</span> <span class=\"searchmatch\">Zimmermann</span> Sandro Aeschlimann Santeri Alatalo Andres Ambühl Sven Andrighetto Reto"
+    },
+    {
+     "ns": 0,
+     "title": "Women’s League 2020/21",
+     "pageid": 12188521,
+     "snippet": "2020/21 bei hockeyarchives.info (französisch) Saisonende im Schweizer <span class=\"searchmatch\">Eishockey</span>! In: hockeyfans.ch. 12. März 2021, abgerufen am 2. Dezember 2021 (englisch)"
+    }
+   ]
+  }
+ },
+ "search_plain": {
+  "batchcomplete": true,
+  "continue": {
+   "sroffset": 5,
+   "continue": "-||"
+  },
+  "query": {
+   "searchinfo": {
+    "totalhits": 47
+   },
+   "search": [
+    {
+     "ns": 0,
+     "title": "Laura Zimmermann (Triathletin)",
+     "pageid": 11848572,
+     "snippet": "<span class=\"searchmatch\">Laura</span> <span class=\"searchmatch\">Zimmermann</span> (* 23. Juni 1990 in Marktoberdorf) ist eine ehemalige deutsche Triathletin und Duathletin. Sie ist deutsche Meisterin Duathlon (2019)"
+    },
+    {
+     "ns": 0,
+     "title": "Laura Zimmermann (Aktivistin)",
+     "pageid": 10560336,
+     "snippet": "<span class=\"searchmatch\">Laura</span> <span class=\"searchmatch\">Zimmermann</span> (* 6. November 1991 in Bern) ist eine Schweizer Politaktivistin und ehemalige Co-Präsidentin der Operation Libero. <span class=\"searchmatch\">Laura</span> <span class=\"searchmatch\">Zimmermann</span> wuchs"
+    },
+    {
+     "ns": 0,
+     "title": "Laura Zimmermann",
+     "pageid": 11902334,
+     "snippet": "<span class=\"searchmatch\">Laura</span> <span class=\"searchmatch\">Zimmermann</span> ist der Name folgender Personen: <span class=\"searchmatch\">Laura</span> <span class=\"searchmatch\">Zimmermann</span> (Triathletin) (* 1990), deutsche Tri- und Duathletin <span class=\"searchmatch\">Laura</span> <span class=\"searchmatch\">Zimmermann</span> (Aktivistin) (*"
+    },
+    {
+     "ns": 0,
+     "title": "Women’s League 2021/22",
+     "pageid": 12204283,
+     "snippet": "Valuable Player: Sidney Morin (HC Ladies Lugano) Beste Stürmerin: <span class=\"searchmatch\">Laura</span> <span class=\"searchmatch\">Zimmermann</span> (EV Bomo Thun) Beste Verteidigerin: Sidney Morin und Nicole Bullo (beide"
+    },
+    {
+     "ns": 0,
+     "title": "Operation Libero",
+     "pageid": 9369315,
+     "snippet": "Co-Leitung aus Kleiner und <span class=\"searchmatch\">Laura</span> <span class=\"searchmatch\">Zimmermann</span> wurde zum Gesicht der Kampagne gegen die No-Billag-Initiative. <span class=\"searchmatch\">Laura</span> <span class=\"searchmatch\">Zimmermann</span> übergab 2021 an Sanija Ameti"
+    }
+   ]
+  }
+ },
+ "extract_triathletin": {
+  "batchcomplete": true,
+  "query": {
+   "pages": [
+    {
+     "pageid": 11848572,
+     "ns": 0,
+     "title": "Laura Zimmermann (Triathletin)",
+     "touched": "2026-09-23T13:01:22Z",
+     "fullurl": "https://de.wikipedia.org/wiki/Laura_Zimmermann_(Triathletin)",
+     "pageprops": {
+      "defaultsort": "Zimmermann, Laura",
+      "wikibase_item": "Q97274529"
+     },
+     "extract": "Laura Zimmermann (* 23. Juni  1990 in Marktoberdorf) ist eine ehemalige deutsche Triathletin und Duathletin. Sie ist deutsche Meisterin Duathlon (2019), Ironman-Siegerin und wird in der Bestenliste deutscher Triathletinnen auf der Ironman-Distanz geführt.\n\n\nWerdegang\nLaura Zimmermann war seit 2011 im Triathlon aktiv. Seit 2016 startete sie als Profi-Athletin. Sie wurde von Utz Brenner und David Tilbury-Davis trainiert.\n2017 wurde sie Vize-Europameisterin auf der Duathlon-Langdistanz. Im September 2018 wurde Zimmermann dritte beim Ironman 70.3 auf der Ostseeinsel Rügen.\nIm April 2019 wurde Zimmermann im Rahmen des Powerman Alsdorf Deutsche Meisterin Duathlon. Im August konnte sie die Mitteldi"
+    }
+   ]
+  }
+ },
+ "extract_disambiguation": {
+  "batchcomplete": true,
+  "query": {
+   "pages": [
+    {
+     "pageid": 11902334,
+     "ns": 0,
+     "title": "Laura Zimmermann",
+     "touched": "2026-09-11T14:40:34Z",
+     "fullurl": "https://de.wikipedia.org/wiki/Laura_Zimmermann",
+     "pageprops": {
+      "disambiguation": "",
+      "expectshortpage": "",
+      "wikibase_item": "Q108311866"
+     },
+     "extract": "Laura Zimmermann ist der Name folgender Personen:\n\nLaura Zimmermann (Triathletin) (* 1990), deutsche Tri- und Duathletin\nLaura Zimmermann (Aktivistin) (* 1991), Schweizer Politaktivistin\nLaura Zimmermann (Eishockeyspielerin) (* 2003), Schweizer Eishockeyspielerin"
+    }
+   ]
+  }
+ }
+}

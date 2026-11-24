@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SYNTHETIC feed in SRF's RSS structure; items are fictional except the URL patterns. -->
+<rss version="2.0"><channel>
+<title>Sport News aus der Schweiz und International – Sport – SRF</title>
+<item><title>Frauen-Eishockey – Beispiel trifft doppelt beim Sieg der Schweizerinnen</title>
+<link>https://www.srf.ch/sport/eishockey/frauen-eishockey/test-beispiel-trifft-doppelt</link>
+<description>&lt;img src="https://www.srf.ch/static/x.webp" /&gt;Die Schweizerinnen gewinnen 3:1.</description>
+<pubDate>Fri, 02 Oct 2026 19:19:00 +0200</pubDate></item>
+<item><title>National League – Kloten verliert erneut</title>
+<link>https://www.srf.ch/sport/eishockey/national-league/test-kloten</link>
+<description>Kloten verliert 1:4.</description><pubDate>Fri, 02 Oct 2026 22:00:00 +0200</pubDate></item>
+<item><title>Nations League – Ein Fussballspiel</title>
+<link>https://www.srf.ch/sport/fussball/nations-league/test-fussball</link>
+<description>Fussball.</description><pubDate>Fri, 02 Oct 2026 21:00:00 +0200</pubDate></item>
+</channel></rss>

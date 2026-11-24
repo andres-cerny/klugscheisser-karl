@@ -1,0 +1,20 @@
+# Media contact of the U.S. women's national team, with the work contact USA Hockey publishes (for Fabi).
+# Loaded by klugscheisser/staff.py (load_seeds). Only contacts the federation publishes itself; never guessed.
+# Role from the WCh 2026 roster release (31.10.2026, no contact block there); email/phone from the newest official
+# game notes that print them (Olympics 2026, 13.02.2026). Checked 01.11.2026.
+team: usa-women
+checked: "2026-11-01"
+
+sources:
+  usah_wwc: {name: "USA Hockey, 2026 U.S. Women's National Team Roster Announced (31.10.2026)", url: "https://teamusa.usahockey.com/news_article/show/1369418", kind: official, date: "2026-10-31"}
+  usah_notes: {name: "USA Hockey, Game Notes USA–Italien, Olympia 2026 (13.02.2026)", url: "https://cdn3.sportngin.com/attachments/document/13d3-3530686/260213_GameNotes_USvsITALY_2026OlympicsWomensHockey.pdf", kind: official, date: "2026-02-13"}
+
+staff:
+  - name: "Melissa Katz"
+    role: "Communications Manager"
+    src: usah_wwc
+    quote: "communications manager Melissa Katz (South Brunswick, N.J.)"
+    email: "media@example.org"
+    phone: "+00 00 000 00 00"
+    note: "«All interviews must be coordinated through Melissa Katz of USA Hockey» (Game Notes)"
+    contact_src: usah_notes

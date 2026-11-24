@@ -1,0 +1,63 @@
+# Switzerland: official squad for the 2026 IIHF Women's World Championship (25 players: 3 G, 8 D, 14 F), SIHF news
+# 01.11.2026 ("Diese Spielerinnen vertreten die Schweiz an der Frauen-WM 2026 in Dänemark"). After the Women's Euro
+# Hockey Tour in Södertälje head coach Shannon Miller cut the 28-player squad by three: defenders Alizée Aymon and
+# Elena Gaberell, forward Jade Surdez (kept below as also_called_up). Elisa Dalessi is in for the injured Lara Stalder
+# (SIHF 26.10.2026). Names and clubs exactly as in the article (checked 03.11.2026); Saskia Maurer "SC Bern / PWHL Las
+# Vegas / USA" in the source, stored with SC Bern as in the earlier lists.
+# Jersey numbers: not in the source; kept from the player's latest national-team roster with numbers (Olympia 2026),
+# as in the provisional list this file replaces.
+# Staff: the article names only head coach Shannon Miller; the rest of the staff is kept from the SIHF roster PDF of
+# the Södertälje tournament (19.10.2026), the latest SIHF staff list.
+event: wch-2026
+team: sui-women
+list_type: confirmed
+season: "2026-27"
+source: "SIHF, offizieller WM-Kader (01.11.2026)"
+source_url: "https://www.sihf.ch/de/news/a-frauen/202627/diese-spielerinnen-vertreten-die-schweiz-an-der-frauen-wm-2026-in-daenemark/"
+source_date: "2026-11-01"
+players:
+  - {name: "Andrea Brändli", pos: G, number: 20, club: "PWHL Detroit", country: USA}
+  - {name: "Saskia Maurer", pos: G, number: 29, club: "SC Bern"}
+  - {name: "Chiara Pfosi", pos: G, club: "EV Zug"}
+  - {name: "Alessia Baechler", pos: D, number: 82, club: "Northeastern University", country: USA}
+  - {name: "Mara Frey", pos: D, club: "EV Zug"}
+  - {name: "Nina Harju", pos: D, club: "EV Zug"}
+  - {name: "Laure Mériguet", pos: D, number: 15, club: "Genève-Servette HC"}
+  - {name: "Alena Lynn Rossel", pos: D, club: "HC Davos Ladies"}
+  - {name: "Lucie Tenenbaum", pos: D, club: "Minnesota State University", country: USA}
+  - {name: "Nicole Vallario", pos: D, number: 16, club: "PWHL New York", country: USA}
+  - {name: "Stefanie Wetli", pos: D, number: 18, club: "ZSC Lions"}
+  - {name: "Leoni Balzer", pos: F, number: 68, club: "HC Davos Ladies"}
+  - {name: "Elisa Dalessi", pos: F, club: "HC Davos Ladies"}
+  - {name: "Rahel Enzler", pos: F, number: 21, club: "EV Zug"}
+  - {name: "Nora Harju", pos: F, club: "ZSC Lions"}
+  - {name: "Naemi Herzig", pos: F, number: 26, club: "Holy Cross University", country: USA}
+  - {name: "Sinja Leemann", pos: F, number: 22, club: "SC Bern"}
+  - {name: "Ilana Leibundgut", pos: F, club: "HC Davos Ladies"}
+  - {name: "Jael Manetsch", pos: F, club: "EV Zug"}
+  - {name: "Alina Marti", pos: F, number: 28, club: "EV Zug"}
+  - {name: "Alina Müller", pos: F, number: 25, club: "PWHL Hamilton", country: CAN}
+  - {name: "Norina Müller", pos: F, club: "HC Fribourg-Gottéron Ladies"}
+  - {name: "Luisa Waser", pos: F, club: "EV Zug"}
+  - {name: "Ivana Wey", pos: F, number: 13, club: "Northeastern University", country: USA}
+  - {name: "Laura Zimmermann", pos: F, number: 11, club: "St. Cloud University", country: USA}
+staff:
+  - {name: "Shannon Miller", role: "Head Coach"}
+  - {name: "Saara Kivenmäki", role: "Assistant Coach", source: "SIHF Roster-PDF Women's Euro Hockey Tour Södertälje (Staff für die WM nicht separat publiziert)", source_url: "https://www.sihf.ch/media/ygpedu2y/wnt-roster-oktober-2026.pdf"}
+  - {name: "Justin Krueger", role: "Assistant Coach", source: "SIHF Roster-PDF Women's Euro Hockey Tour Södertälje (Staff für die WM nicht separat publiziert)", source_url: "https://www.sihf.ch/media/ygpedu2y/wnt-roster-oktober-2026.pdf"}
+  - {name: "Simon Theiler", role: "Goalie Coach", source: "SIHF Roster-PDF Women's Euro Hockey Tour Södertälje (Staff für die WM nicht separat publiziert)", source_url: "https://www.sihf.ch/media/ygpedu2y/wnt-roster-oktober-2026.pdf"}
+  - {name: "Remo Egger", role: "Video Coach", source: "SIHF Roster-PDF Women's Euro Hockey Tour Södertälje (Staff für die WM nicht separat publiziert)", source_url: "https://www.sihf.ch/media/ygpedu2y/wnt-roster-oktober-2026.pdf"}
+  - {name: "Corsin Camichel", role: "Performance Coach", source: "SIHF Roster-PDF Women's Euro Hockey Tour Södertälje (Staff für die WM nicht separat publiziert)", source_url: "https://www.sihf.ch/media/ygpedu2y/wnt-roster-oktober-2026.pdf"}
+  - {name: "Henrik Ulke", role: "Doctor", source: "SIHF Roster-PDF Women's Euro Hockey Tour Södertälje (Staff für die WM nicht separat publiziert)", source_url: "https://www.sihf.ch/media/ygpedu2y/wnt-roster-oktober-2026.pdf"}
+  - {name: "Lisa Peter", role: "Physiotherapist", source: "SIHF Roster-PDF Women's Euro Hockey Tour Södertälje (Staff für die WM nicht separat publiziert)", source_url: "https://www.sihf.ch/media/ygpedu2y/wnt-roster-oktober-2026.pdf"}
+  - {name: "Sarah Gscheidle", role: "Physiotherapist", source: "SIHF Roster-PDF Women's Euro Hockey Tour Södertälje (Staff für die WM nicht separat publiziert)", source_url: "https://www.sihf.ch/media/ygpedu2y/wnt-roster-oktober-2026.pdf"}
+  - {name: "Lothar Joch", role: "Equipment Manager", source: "SIHF Roster-PDF Women's Euro Hockey Tour Södertälje (Staff für die WM nicht separat publiziert)", source_url: "https://www.sihf.ch/media/ygpedu2y/wnt-roster-oktober-2026.pdf"}
+  - {name: "Sidney Piaget", role: "Team Manager", source: "SIHF Roster-PDF Women's Euro Hockey Tour Södertälje (Staff für die WM nicht separat publiziert)", source_url: "https://www.sihf.ch/media/ygpedu2y/wnt-roster-oktober-2026.pdf"}
+  - {name: "Melanie Häfliger", role: "Head of Women's Hockey", source: "SIHF Roster-PDF Women's Euro Hockey Tour Södertälje (Staff für die WM nicht separat publiziert)", source_url: "https://www.sihf.ch/media/ygpedu2y/wnt-roster-oktober-2026.pdf"}
+# named in the Södertälje squad, not selected for the WCh (SIHF 01.11.2026)
+also_called_up:
+  - {name: "Alizée Aymon", pos: D}
+  - {name: "Elena Gaberell", pos: D}
+  - {name: "Jade Surdez", pos: F}
+absent:
+  - {name: "Lara Stalder", pos: F, reason: "Knieverletzung (24.10.2026), verpasst die WM", quote: "Damit verpasst Stalder sowohl das bevorstehende Turnier der Women’s Euro Hockey Tour in Schweden als auch die Weltmeisterschaft in Dänemark, die am 6. November beginnt.", source_url: "https://www.sihf.ch/de/news/a-frauen/202627/roster-update-captain-lara-stalder-verpasst-die-wm-verletzungsbedingt/"}

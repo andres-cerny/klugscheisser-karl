@@ -1,0 +1,152 @@
+[
+{
+"dataColumns": [
+{
+"name": "Rank",
+"type": "integer",
+"highlighted": false,
+"group": ""
+},
+{
+"name": "Player",
+"type": "integer",
+"highlighted": false,
+"group": ""
+},
+{
+"name": "Team",
+"type": "integer",
+"highlighted": false,
+"group": ""
+},
+{
+"name": "GP",
+"type": "integer",
+"highlighted": false,
+"group": ""
+},
+{
+"name": "G",
+"type": "integer",
+"highlighted": true,
+"group": ""
+},
+{
+"name": "A",
+"type": "integer",
+"highlighted": true,
+"group": ""
+},
+{
+"name": "TP",
+"type": "integer",
+"highlighted": true,
+"group": ""
+},
+{
+"name": "PIM",
+"type": "integer",
+"highlighted": false,
+"group": ""
+}
+],
+"stats": [
+{
+"Rank": null,
+"Player": 0,
+"Team": 0,
+"GP": 23,
+"G": 22,
+"A": 15,
+"TP": 37,
+"PIM": 0,
+"info": {
+"uuid": "qbR-5fZbIbltt",
+"fullName": "Arvid Äse",
+"firstName": "Arvid",
+"lastName": "Äse",
+"birthDate": "2004-03-17",
+"nationality": "SE",
+"number": 13,
+"position": "F",
+"shoots": null,
+"gender": "",
+"team": {
+"uuid": "8615-d492oYxBh",
+"name": "Pixbo IBK",
+"code": "PIX",
+"media": "https://sportality.cdn.s8y.se/team-logos/pix1_pix.svg",
+"ownerInstanceId": "pix1_pix",
+"siteDisplayName": "Pixbo IBK"
+},
+"teamCode": 4081,
+"teamId": "8615-d492oYxBh"
+}
+},
+{
+"Rank": null,
+"Player": 0,
+"Team": 0,
+"GP": 26,
+"G": 3,
+"A": 0,
+"TP": 3,
+"PIM": 8,
+"info": {
+"uuid": "r0v9ngw54b",
+"fullName": "Noël Seiler",
+"firstName": "Noël",
+"lastName": "Seiler",
+"birthDate": "2001-08-08",
+"nationality": "CH",
+"shoots": "L",
+"gender": "male",
+"team": {
+"uuid": "e7cb-035exdeHN",
+"name": "IBF Falun",
+"code": "FAL",
+"media": "https://sportality.cdn.s8y.se/team-logos/fal1_fal.svg",
+"ownerInstanceId": "fal1_fal",
+"siteDisplayName": "IBF Falun"
+},
+"teamCode": 4091,
+"teamId": "e7cb-035exdeHN"
+}
+},
+{
+"Rank": null,
+"Player": 0,
+"Team": 0,
+"GP": 25,
+"G": 1,
+"A": 2,
+"TP": 3,
+"PIM": 0,
+"info": {
+"uuid": "z0puaasg7p",
+"fullName": "Pascal Schmuki",
+"firstName": "Pascal",
+"lastName": "Schmuki",
+"birthDate": "2004-01-01",
+"nationality": "CH",
+"number": 17,
+"position": "D",
+"shoots": "L",
+"gender": "male",
+"team": {
+"uuid": "1c79-bb6dyljzt",
+"name": "Storvreta IBK",
+"code": "SIBK",
+"media": "https://sportality.cdn.s8y.se/team-logos/sto1_sto.svg",
+"ownerInstanceId": "sto1_sto",
+"siteDisplayName": "Storvreta IBK"
+},
+"teamCode": 4079,
+"teamId": "1c79-bb6dyljzt"
+}
+}
+],
+"provider": "ibis",
+"totalCount": 3
+}
+]

@@ -1,0 +1,484 @@
+[
+ {
+  "p": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q19972549"
+  },
+  "labelDe": {
+   "xml:lang": "de",
+   "type": "literal",
+   "value": "Hanna Olsson"
+  },
+  "labelEn": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Hanna Olsson"
+  },
+  "descDe": {
+   "xml:lang": "de",
+   "type": "literal",
+   "value": "schwedische Eishockeyspielerin"
+  },
+  "descEn": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Swedish ice hockey player (born 1999)"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581072"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1999-01-20T00:00:00Z"
+  },
+  "birthPrec": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "11"
+  },
+  "ep": {
+   "type": "literal",
+   "value": "316516"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Hanna_Olsson"
+  },
+  "instances": {
+   "type": "literal",
+   "value": "http://www.wikidata.org/entity/Q5"
+  },
+  "occupations": {
+   "type": "literal",
+   "value": "ice hockey player"
+  },
+  "sports": {
+   "type": "literal",
+   "value": "ice hockey"
+  },
+  "nations": {
+   "type": "literal",
+   "value": "SWE:SWE"
+  },
+  "positions": {
+   "type": "literal",
+   "value": "forward"
+  },
+  "positionsDe": {
+   "type": "literal",
+   "value": "Angriffsspieler"
+  },
+  "instagram": {
+   "type": "literal",
+   "value": "holsson"
+  },
+  "teams": {
+   "type": "literal",
+   "value": ""
+  }
+ },
+ {
+  "p": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q96107826"
+  },
+  "labelEn": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Hanna Olsson"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581072"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1944-01-01T00:00:00Z"
+  },
+  "birthPrec": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "9"
+  },
+  "instances": {
+   "type": "literal",
+   "value": "http://www.wikidata.org/entity/Q5"
+  },
+  "occupations": {
+   "type": "literal",
+   "value": "therapist|journalist|author"
+  },
+  "sports": {
+   "type": "literal",
+   "value": ""
+  },
+  "nations": {
+   "type": "literal",
+   "value": "SWE:SWE"
+  },
+  "positions": {
+   "type": "literal",
+   "value": ""
+  },
+  "positionsDe": {
+   "type": "literal",
+   "value": ""
+  },
+  "instagram": {
+   "type": "literal",
+   "value": ""
+  },
+  "teams": {
+   "type": "literal",
+   "value": ""
+  }
+ },
+ {
+  "p": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q97723108"
+  },
+  "labelEn": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Hanna Olsson"
+  },
+  "descEn": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Swedish association football player"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581072"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1986-10-09T00:00:00Z"
+  },
+  "birthPrec": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "11"
+  },
+  "instances": {
+   "type": "literal",
+   "value": "http://www.wikidata.org/entity/Q5"
+  },
+  "occupations": {
+   "type": "literal",
+   "value": "association football player"
+  },
+  "sports": {
+   "type": "literal",
+   "value": "association football"
+  },
+  "nations": {
+   "type": "literal",
+   "value": "SWE:SWE"
+  },
+  "positions": {
+   "type": "literal",
+   "value": "defender"
+  },
+  "positionsDe": {
+   "type": "literal",
+   "value": "Abwehrspieler"
+  },
+  "instagram": {
+   "type": "literal",
+   "value": ""
+  },
+  "teams": {
+   "type": "literal",
+   "value": ""
+  }
+ },
+ {
+  "p": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q98803904"
+  },
+  "labelEn": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Hanna Olsson Berg"
+  },
+  "descEn": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Swedish journalist"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581072"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1985-11-20T00:00:00Z"
+  },
+  "birthPrec": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "11"
+  },
+  "instances": {
+   "type": "literal",
+   "value": "http://www.wikidata.org/entity/Q5"
+  },
+  "occupations": {
+   "type": "literal",
+   "value": "journalist"
+  },
+  "sports": {
+   "type": "literal",
+   "value": ""
+  },
+  "nations": {
+   "type": "literal",
+   "value": "SWE:SWE"
+  },
+  "positions": {
+   "type": "literal",
+   "value": ""
+  },
+  "positionsDe": {
+   "type": "literal",
+   "value": ""
+  },
+  "instagram": {
+   "type": "literal",
+   "value": ""
+  },
+  "teams": {
+   "type": "literal",
+   "value": ""
+  }
+ },
+ {
+  "p": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q123693831"
+  },
+  "labelEn": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Hanna Olsson"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581072"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1878-02-13T00:00:00Z"
+  },
+  "birthPrec": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "11"
+  },
+  "instances": {
+   "type": "literal",
+   "value": "http://www.wikidata.org/entity/Q5"
+  },
+  "occupations": {
+   "type": "literal",
+   "value": "teacher"
+  },
+  "sports": {
+   "type": "literal",
+   "value": ""
+  },
+  "nations": {
+   "type": "literal",
+   "value": "SWE:SWE"
+  },
+  "positions": {
+   "type": "literal",
+   "value": ""
+  },
+  "positionsDe": {
+   "type": "literal",
+   "value": ""
+  },
+  "instagram": {
+   "type": "literal",
+   "value": ""
+  },
+  "teams": {
+   "type": "literal",
+   "value": ""
+  }
+ },
+ {
+  "p": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q30293"
+  },
+  "labelDe": {
+   "xml:lang": "de",
+   "type": "literal",
+   "value": "Lara Gut-Behrami"
+  },
+  "labelEn": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Lara Gut-Behrami"
+  },
+  "descDe": {
+   "xml:lang": "de",
+   "type": "literal",
+   "value": "Schweizer Skirennfahrerin"
+  },
+  "descEn": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Swiss alpine skier"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581072"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1991-04-27T00:00:00Z"
+  },
+  "birthPrec": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "11"
+  },
+  "dewiki": {
+   "type": "uri",
+   "value": "https://de.wikipedia.org/wiki/Lara_Gut-Behrami"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Lara_Gut-Behrami"
+  },
+  "instances": {
+   "type": "literal",
+   "value": "http://www.wikidata.org/entity/Q5"
+  },
+  "occupations": {
+   "type": "literal",
+   "value": "alpine skier"
+  },
+  "sports": {
+   "type": "literal",
+   "value": "alpine skiing"
+  },
+  "nations": {
+   "type": "literal",
+   "value": "LIE:LIE|SUI:CHE"
+  },
+  "positions": {
+   "type": "literal",
+   "value": ""
+  },
+  "positionsDe": {
+   "type": "literal",
+   "value": ""
+  },
+  "instagram": {
+   "type": "literal",
+   "value": "laragutofficial"
+  },
+  "teams": {
+   "type": "literal",
+   "value": ""
+  }
+ },
+ {
+  "p": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q16540791"
+  },
+  "labelDe": {
+   "xml:lang": "de",
+   "type": "literal",
+   "value": "Colin Muller"
+  },
+  "labelEn": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Colin Muller"
+  },
+  "descDe": {
+   "xml:lang": "de",
+   "type": "literal",
+   "value": "kanadisch-schweizerischer Eishockeytrainer"
+  },
+  "descEn": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Swiss ice hockey player"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1963-12-01T00:00:00Z"
+  },
+  "birthPrec": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+   "type": "literal",
+   "value": "11"
+  },
+  "ep": {
+   "type": "literal",
+   "value": "29003"
+  },
+  "dewiki": {
+   "type": "uri",
+   "value": "https://de.wikipedia.org/wiki/Colin_Muller"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Colin_Muller"
+  },
+  "instances": {
+   "type": "literal",
+   "value": "http://www.wikidata.org/entity/Q5"
+  },
+  "occupations": {
+   "type": "literal",
+   "value": "ice hockey player"
+  },
+  "sports": {
+   "type": "literal",
+   "value": "ice hockey"
+  },
+  "nations": {
+   "type": "literal",
+   "value": "SUI:CHE"
+  },
+  "positions": {
+   "type": "literal",
+   "value": "forward"
+  },
+  "positionsDe": {
+   "type": "literal",
+   "value": "Angriffsspieler"
+  },
+  "instagram": {
+   "type": "literal",
+   "value": ""
+  },
+  "teams": {
+   "type": "literal",
+   "value": "Q652053::EHC Basel::|Q662592::EV Zug::|Q33699::Fribourg-Gottéron::"
+  }
+ }
+]

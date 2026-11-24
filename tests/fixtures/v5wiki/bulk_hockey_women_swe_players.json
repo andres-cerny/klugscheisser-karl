@@ -1,0 +1,410 @@
+{
+ "head": {
+  "vars": [
+   "p",
+   "label",
+   "labelEn",
+   "given",
+   "family",
+   "birth",
+   "ig",
+   "x",
+   "ep",
+   "posLabel",
+   "workEnd",
+   "alts"
+  ]
+ },
+ "results": {
+  "bindings": [
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110624493"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Ebba Berglund"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Ebba Berglund"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Ebba"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Berglund"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1998-06-13T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "ebba_berglund"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "366091"
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "defenseman"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Ebba Sara Amanda Berglund"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110657355"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Emma Söderberg"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Emma Söderberg"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Emma"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Söderberg"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1998-02-18T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "emmasoderbrg"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "281759"
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "goaltender"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Emma Soderberg"
+    },
+    "x": {
+     "type": "literal",
+     "value": "emmasoderbrg"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110658290"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Felizia Wikner Zienkiewicz"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Felizia Wikner Zienkiewicz"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Felizia"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Wikner"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1999-09-17T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "feliziawikner"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "350635"
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "left winger"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Elin Felizia Wikner Zienkiewicz|Elin Felizia Wikner-Zienkiewicz|Felizia Wikner|Felizia Wikner-Zienkiewicz"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110658290"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Felizia Wikner Zienkiewicz"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Felizia Wikner Zienkiewicz"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Elin"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Wikner"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1999-09-17T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "feliziawikner"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "350635"
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "left winger"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Elin Felizia Wikner Zienkiewicz|Elin Felizia Wikner-Zienkiewicz|Felizia Wikner|Felizia Wikner-Zienkiewicz"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110658290"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Felizia Wikner Zienkiewicz"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Felizia Wikner Zienkiewicz"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Felizia"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Zienkiewicz"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1999-09-17T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "feliziawikner"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "350635"
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "left winger"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Elin Felizia Wikner Zienkiewicz|Elin Felizia Wikner-Zienkiewicz|Felizia Wikner|Felizia Wikner-Zienkiewicz"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110658290"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Felizia Wikner Zienkiewicz"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Felizia Wikner Zienkiewicz"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Elin"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Zienkiewicz"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1999-09-17T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "feliziawikner"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "350635"
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "left winger"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Elin Felizia Wikner Zienkiewicz|Elin Felizia Wikner-Zienkiewicz|Felizia Wikner|Felizia Wikner-Zienkiewicz"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110712879"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Linnéa Andersson"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Linnéa Andersson"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Linnéa"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Andersson"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1998-09-30T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "linneajosefinaa"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "371982"
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "defenseman"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Linnea Andersson"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q123273676"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Mira Jungåker"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Mira Jungaker"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Mira"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Jungåker"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2005-07-22T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "mira.jungaker"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "635979"
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "defenseman"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Mira Jungåker"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,531 @@
+{
+ "head": {
+  "vars": [
+   "p",
+   "team",
+   "teamLabel",
+   "start",
+   "end",
+   "country"
+  ]
+ },
+ "results": {
+  "bindings": [
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q1163263"
+    },
+    "country": {
+     "type": "literal",
+     "value": "SWE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110657355"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2016-01-01T00:00:00Z"
+    },
+    "end": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2017-01-01T00:00:00Z"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Modo Hockey"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q1163263"
+    },
+    "country": {
+     "type": "literal",
+     "value": "SWE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110657355"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2013-01-01T00:00:00Z"
+    },
+    "end": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2016-01-01T00:00:00Z"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Modo Hockey"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q1653588"
+    },
+    "country": {
+     "type": "literal",
+     "value": "SWE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q123273676"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "IF Troja-Ljungby"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q2927985"
+    },
+    "country": {
+     "type": "literal",
+     "value": "USA"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110657355"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2018-01-01T00:00:00Z"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Minnesota Duluth Bulldogs women's ice hockey"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q7080915"
+    },
+    "country": {
+     "type": "literal",
+     "value": "USA"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q123273676"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2024-01-01T00:00:00Z"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Ohio State Buckeyes women's ice hockey"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q10436587"
+    },
+    "country": {
+     "type": "literal",
+     "value": "SWE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110658290"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2022-01-01T00:00:00Z"
+    },
+    "end": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2023-01-01T00:00:00Z"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Brynäs IF Dam"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q10513042"
+    },
+    "country": {
+     "type": "literal",
+     "value": "SWE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q123273676"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "HC Dalen"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q10515316"
+    },
+    "country": {
+     "type": "literal",
+     "value": "SWE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q123273676"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2019-01-01T00:00:00Z"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "HV71"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q10515316"
+    },
+    "country": {
+     "type": "literal",
+     "value": "SWE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110712879"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2013-01-01T00:00:00Z"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "HV71"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q10515316"
+    },
+    "country": {
+     "type": "literal",
+     "value": "SWE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110658290"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2018-01-01T00:00:00Z"
+    },
+    "end": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2022-01-01T00:00:00Z"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "HV71"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q10515316"
+    },
+    "country": {
+     "type": "literal",
+     "value": "SWE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110624493"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2021-01-01T00:00:00Z"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "HV71"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q10541999"
+    },
+    "country": {
+     "type": "literal",
+     "value": "SWE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110657355"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2017-01-01T00:00:00Z"
+    },
+    "end": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2018-01-01T00:00:00Z"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Järveds IF"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q10587396"
+    },
+    "country": {
+     "type": "literal",
+     "value": "SWE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110658290"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2015-01-01T00:00:00Z"
+    },
+    "end": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2018-01-01T00:00:00Z"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "MoDo Hockey (women)"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q10587396"
+    },
+    "country": {
+     "type": "literal",
+     "value": "SWE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110657355"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2014-01-01T00:00:00Z"
+    },
+    "end": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2018-01-01T00:00:00Z"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "MoDo Hockey (women)"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q10587396"
+    },
+    "country": {
+     "type": "literal",
+     "value": "SWE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110624493"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2014-01-01T00:00:00Z"
+    },
+    "end": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2017-01-01T00:00:00Z"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "MoDo Hockey (women)"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q10587396"
+    },
+    "country": {
+     "type": "literal",
+     "value": "SWE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110624493"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2023-01-01T00:00:00Z"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "MoDo Hockey (women)"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q20647984"
+    },
+    "country": {
+     "type": "literal",
+     "value": "USA"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110624493"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2022-01-01T00:00:00Z"
+    },
+    "end": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2023-01-01T00:00:00Z"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Metropolitan Riveters"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q31887906"
+    },
+    "country": {
+     "type": "literal",
+     "value": "SWE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110624493"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2018-01-01T00:00:00Z"
+    },
+    "end": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2021-01-01T00:00:00Z"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Luleå HF/MSSK"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q121392101"
+    },
+    "country": {
+     "type": "literal",
+     "value": "SWE"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110658290"
+    },
+    "start": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2023-01-01T00:00:00Z"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Frölunda HC (women)"
+    }
+   },
+   {
+    "team": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q122369365"
+    },
+    "country": {
+     "type": "literal",
+     "value": "USA"
+    },
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110657355"
+    },
+    "teamLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Boston Fleet"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,19 @@
+# Press contact for the Danish women's national team (for Fabi). Danmarks Ishockey Union names no media manager
+# of the women's team (WM roster article 29.10.2026 lists none); its press officer handles press enquiries about
+# the national teams. Email (external agency domain) exactly as published on the union's page; the phone is
+# published as "3025 4819" (Danish number, +45 added). Never guessed.
+# Loaded by klugscheisser/staff.py (load_seeds). Checked 01.11.2026.
+team: den-women
+checked: "2026-11-01"
+
+sources:
+  diu_adm: {name: "Danmarks Ishockey Union, Administration og sportsafdeling", url: "https://ishockey.dk/administration-og-sportsafdeling/", kind: official, date: "2026-11-01"}
+
+staff:
+  - name: "Jonas Nygaard"
+    role: "Presseansvarlig"
+    src: diu_adm
+    quote: "PRESSEANSVARLIG JONAS NYGAARD Kan kontaktes vedrørende – Pressehenvendelser om landsholdene – Pressehenvendelser om unionen – Generel kommunikation"
+    email: "media@example.org"
+    phone: "+00 00 000 00 00"
+    note: "Presseverantwortlicher des Verbands (alle Nationalteams)"

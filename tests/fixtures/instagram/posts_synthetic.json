@@ -1,0 +1,14 @@
+[
+ {"_note": "SYNTHETIC test data about a fictional athlete", "id": "syn1", "shortCode": "SYN1", "url": "https://www.instagram.com/p/SYN1/",
+  "ownerUsername": "testa.beispiel", "ownerFullName": "Testa Beispiel", "timestamp": "2026-09-30T10:00:00.000Z", "type": "Image",
+  "caption": "Leider hat es mich im Training erwischt: Kreuzband im linken Knie gerissen. Die Saison ist für mich vorbei. Danke für eure Nachrichten ❤️",
+  "alt": "Photo by Testa Beispiel on September 30, 2026.", "hashtags": [], "mentions": [], "taggedUsers": [], "paidPartnership": false},
+ {"id": "syn2", "shortCode": "SYN2", "url": "https://www.instagram.com/p/SYN2/",
+  "ownerUsername": "testa.beispiel", "ownerFullName": "Testa Beispiel", "timestamp": "2026-09-20T18:00:00.000Z", "type": "Sidecar",
+  "caption": "3:1 Sieg zum Saisonstart! Zwei Tore und ein Assist 🏒 #fürblauundwiis", "alt": "May be an image of 3 people, ice hockey and text",
+  "hashtags": ["fürblauundwiis"], "mentions": [], "taggedUsers": [{"username": "official_evz"}], "paidPartnership": false},
+ {"id": "syn3", "shortCode": "SYN3", "url": "https://www.instagram.com/p/SYN3/",
+  "ownerUsername": "sportbrand.example", "ownerFullName": "Sportbrand", "timestamp": "2026-09-25T09:00:00.000Z", "type": "Video",
+  "caption": "Neu im Shop: unser Schläger, entwickelt zusammen mit @testa.beispiel. Mit Code TESTA10 gibt es 10% Rabatt.",
+  "alt": null, "hashtags": [], "mentions": ["testa.beispiel"], "taggedUsers": [{"username": "testa.beispiel"}], "paidPartnership": true}
+]

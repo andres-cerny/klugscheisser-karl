@@ -1,0 +1,80 @@
+team: Czechia
+code: CZE
+group: B
+status: official_wfc_squad
+announced:
+  date: 2026-11-05
+  source_url: https://www.ceskyflorbal.cz/article/default/detail?slug=nominace-reprezentace-muzu-na-mistrovstvi-sveta-v-tampere
+  source_title: "KDO SE TAM PERE? Nominace reprezentace mužů na mistrovství světa (Český florbal, Richard Wagner, 5.11.2026)"
+  mirror_url: https://finale-poharu.ceskyflorbal.cz/article/default/detail?slug=nominace-reprezentace-muzu-na-mistrovstvi-sveta-v-tampere   # same CMS, no Cloudflare challenge; www. host returns a JS challenge to curl/Firecrawl
+retrieved: 2026-11-24
+squad_facts:
+  - "20 players (2 GK, 7 D, 11 F) + 10 reserves (náhradníci). Head coaches Jaroslav Berka and Joonas Naava (announcement 2026-11-05)."
+  - "Most WFC appearances: Ondřej Němeček and Marek Beneš (both Tatran Střešovice) - their 6th WFC (announcement)."
+  - "WFC debutants: Jakub Buršík, Mikeš Motejzík, Šimon Stránský, Jan Zoufalý (announcement)."
+  - "Club split: Florbal MB 8, Tatran Střešovice 5, Linköping IBK (SWE) 3, Florbal Vary 2, AC Sparta Praha 1, SC Classic (FIN) 1, Nokian KrP (FIN) 1 -> 5 players abroad (3 Sweden, 2 Finland). No player at a Swiss club."
+  - "Youngest: Mikeš Motejzík (born 2008, 18); oldest: Lukáš Bauer (born 1991, 35) - birth years from ceskyflorbal.cz 'Širší kádr' https://www.ceskyflorbal.cz/national-team/detail/roster/1 (retrieved 2026-11-24)."
+  - "Coach Berka (announcement): three lines with different identities; 'for the first time the four traditional Euro Floorball Tour teams do not enter the WFC as the four top seeds' because Latvia broke in at Malmö 2024."
+  - "Schedule per announcement: first game Sunday 6 Dec; group opponents in order Germany, Sweden, Slovakia; CZE-SVK on 8 Dec 14:00 (ceskyflorbal.cz national-team page). Live on ČT sport."
+coaches:
+  source: https://www.ceskyflorbal.cz/national-team/detail/coaches/1   # 'Realizační tým 2026/2027', retrieved 2026-11-24
+  head_coaches:
+    - {name: Jaroslav Berka, birth_year: 1987, nationality: Czech}
+    - {name: Joonas Naava, birth_year: 1980, nationality: Finnish}
+  assistants:
+    - {name: Tom Ondrušek, birth_year: 1992, note: "former national-team captain (ceskyflorbal Facebook video 'Kapitán české florbalové reprezentace Tom Ondrušek', MS 2020 medallion)"}
+    - {name: Marek Vojta, birth_year: 1989}
+  team_manager: {name: Martin Beneš, birth_year: 1986}   # 'vedoucí'
+  physios: [Martina Vargová, Matěj Zelený]
+  equipment: {name: Jakub Mudra, birth_year: 1978}   # 'kustod'
+  doctor: "MUDr. Pavel Holeka, Ph.D., MBA"
+  other_staff: [Tomáš Fibiger, Jan Hejný]
+captain:
+  name: Ondřej Němeček
+  unverified: true
+  note: "Called 'Kapitán české reprezentace' by Tatran Střešovice on 2026-05-15 (https://www.tatranflorbal.cz/novinky/po-trech-letech-ve-svedsku-trech-titulech-a-treblu-se-ondra-nemecek-vraci-do-tatranu). Captaincy for WFC 2026 itself not stated in the announcement."
+field_sources:
+  birth_year_height_hand: "Federation player profiles https://www.ceskyflorbal.cz/person/detail/representative/<id> ('Osobní údaje': Rok narození, Post, Držení hole, Výška, Obec). Only birth YEAR is public, not full date."
+  national_team_stats: "Same profiles, table 'Sezóna / Soutěž | Fáze | Tým | Z | B | A | KB | TM' (games, goals, assists, points, PIM). senior_* below = sum of rows with Tým 'Česko' (senior men). INCOMPLETE for several players (their rows start only at World Games 2025 although they played earlier WFCs, e.g. Marek Beneš 6th WFC but 10 games listed) - use as 'at least', not as official caps. Goalkeepers show no stats."
+  numbers: "Shirt numbers not published in the announcement or on the federation pages -> null."
+players:
+  - {name: Lukáš Bauer, birth_year: 1991, birth_date: null, position: goalkeeper, club: Florbal MB, league: "Livesport Superliga (CZE)", number: null, height_cm: 192, hometown: "Mladá Boleslav", caps: null, goals: null, wfc_debut: null, notes: "oldest in squad (35); Florbal MB since 2016 (federation registration history)", profiles: {federation: "https://www.ceskyflorbal.cz/person/detail/representative/0708140201"}}
+  - {name: Tomáš Jurco, birth_year: 2003, birth_date: null, position: goalkeeper, club: Linköping IBK, league: "SSL (SWE)", number: null, height_cm: 182, hometown: "Ústí nad Orlicí", caps: null, goals: null, wfc_debut: null, notes: "transfer abroad 2025-08-27; before that Tatran Střešovice (federation profile)", profiles: {federation: "https://www.ceskyflorbal.cz/person/detail/representative/1210040691"}}
+  - {name: Jiří Besta, birth_year: 1999, birth_date: null, position: defender, club: Florbal MB, league: "Livesport Superliga (CZE)", number: null, height_cm: 179, hand: left, hometown: Ostrava, senior_games_listed: 4, senior_goals_listed: 0, senior_assists_listed: 0, wfc_debut: null, notes: "first senior row in profile: EFT 2026 (Sep); earlier 1. SC Vítkovice", profiles: {federation: "https://www.ceskyflorbal.cz/person/detail/representative/0509100711"}}
+  - {name: Filip Zakonov, birth_year: 1999, birth_date: null, position: defender, club: Florbal MB, league: "Livesport Superliga (CZE)", number: null, height_cm: 186, hand: left, hometown: "Mladá Boleslav", senior_games_listed: 10, senior_goals_listed: 3, senior_assists_listed: 4, wfc_debut: false, notes: "not among the 4 named debutants; profile rows start at World Games 2025 (incomplete)", profiles: {federation: "https://www.ceskyflorbal.cz/person/detail/representative/0910050461"}}
+  - {name: Jan Zoufalý, birth_year: 2003, birth_date: null, position: defender, club: Florbal MB, league: "Livesport Superliga (CZE)", number: null, height_cm: 185, hand: left, hometown: "Mladá Boleslav", senior_games_listed: 11, senior_goals_listed: 6, senior_assists_listed: 4, wfc_debut: true, notes: "WFC debutant (announcement); first senior row WFC qualification 2026", profiles: {federation: "https://www.ceskyflorbal.cz/person/detail/representative/1103220221"}}
+  - {name: Adam Hemerka, birth_year: 2002, birth_date: null, position: defender, club: SC Classic, league: "F-liiga (FIN)", number: null, height_cm: 189, hand: left, hometown: Brno, senior_games_listed: 10, senior_goals_listed: 6, senior_assists_listed: 5, wfc_debut: false, notes: "moved abroad 2026-07-01 (from Florbal MB); profile rows start at World Games 2025 (incomplete)", profiles: {federation: "https://www.ceskyflorbal.cz/person/detail/representative/1107120181"}}
+  - {name: Ondřej Němeček, birth_year: 1998, birth_date: null, position: defender, club: Tatran Střešovice, league: "Livesport Superliga (CZE)", number: null, height_cm: 190, hand: right, hometown: Praha, senior_games_listed: 99, senior_goals_listed: 39, senior_assists_listed: 48, wfc_debut: false, wfc_previous: [2016, 2018, 2020, 2022, 2024], notes: "6th WFC (announcement); captain per Tatran 2026-05-15; 2023-2026 Storvreta IBK (SWE): 3 Swedish titles, treble, SSL most valuable defender, Innebandymagazinet top-3 player in the world (Tatran article 2026-05-15); back at Tatran since summer 2026. 99 senior games listed = he could reach 100 at the WFC (own count, unverified vs. official caps)", profiles: {federation: "https://www.ceskyflorbal.cz/person/detail/representative/0609191451"}}
+  - {name: Lukáš Punčochář, birth_year: 2002, birth_date: null, position: defender, club: Linköping IBK, league: "SSL (SWE)", number: null, height_cm: 189, hand: left, hometown: Brno, senior_games_listed: 19, senior_goals_listed: 11, senior_assists_listed: 6, wfc_debut: null, notes: "abroad since 2025-08-26 (from Florbal MB)", profiles: {federation: "https://www.ceskyflorbal.cz/person/detail/representative/1402140321"}}
+  - {name: Josef Rýpar, birth_year: 1993, birth_date: null, position: defender, club: Linköping IBK, league: "SSL (SWE)", number: null, height_cm: 191, hand: right, hometown: "Černotín", senior_games_listed: 66, senior_goals_listed: 42, senior_assists_listed: 21, wfc_debut: false, wfc_previous: [2020, 2022, 2024], notes: "abroad since 2020 (from 1. SC Vítkovice); second-oldest (33)", profiles: {federation: "https://www.ceskyflorbal.cz/person/detail/representative/0809080871"}}
+  - {name: Marek Beneš, birth_year: 1997, birth_date: null, position: forward, club: Tatran Střešovice, league: "Livesport Superliga (CZE)", number: null, height_cm: 193, hand: left, hometown: Praha, wfc_debut: false, notes: "6th WFC (announcement); 'best floorball friend' and former defence/attack partner of Němeček (Tatran 2026-05-15); profile stats incomplete (start 2025)", profiles: {federation: "https://www.ceskyflorbal.cz/person/detail/representative/0810170181"}}
+  - {name: Tomáš Hanák, birth_year: 2002, birth_date: null, position: forward, club: Tatran Střešovice, league: "Livesport Superliga (CZE)", number: null, height_cm: 190, hand: left, hometown: "Český Krumlov", wfc_debut: false, notes: "profile stats incomplete (start World Games 2025)", profiles: {federation: "https://www.ceskyflorbal.cz/person/detail/representative/1111210211"}}
+  - {name: Matěj Havlas, birth_year: 2002, birth_date: null, position: forward, club: Tatran Střešovice, league: "Livesport Superliga (CZE)", number: null, height_cm: 181, hand: right, hometown: Praha, wfc_debut: false, notes: "scored the overtime winner in the 2023 Czech Superfinal (assist Němeček) per Tatran 2026-05-15; profile stats incomplete", profiles: {federation: "https://www.ceskyflorbal.cz/person/detail/representative/1009221521"}}
+  - {name: Filip Langer, birth_year: 2001, birth_date: null, position: forward, club: Tatran Střešovice, league: "Livesport Superliga (CZE)", number: null, height_cm: 187, hand: left, hometown: "Horoměřice", senior_games_listed: 98, senior_goals_listed: 66, senior_assists_listed: 72, wfc_debut: false, wfc_previous: [2018, 2020, 2022, 2024], notes: "top scorer in the listed senior data (138 points); abroad 2021-2026 (Storvreta IBK in Champions Cup 2025/26 per profile), re-registered at Tatran 2026-07-31; also near 100 listed senior games", profiles: {federation: "https://www.ceskyflorbal.cz/person/detail/representative/0910020821"}}
+  - {name: Jakub Buršík, birth_year: 2001, birth_date: null, position: forward, club: Florbal Vary, league: "Livesport Superliga (CZE)", number: null, height_cm: 181, hand: left, hometown: Praha, senior_games_listed: 17, senior_goals_listed: 7, senior_assists_listed: 8, wfc_debut: true, notes: "WFC debutant; joined Florbal Vary 2025 from FbŠ Bohemians", profiles: {federation: "https://www.ceskyflorbal.cz/person/detail/representative/1009200081"}}
+  - {name: Filip Forman, birth_year: 2002, birth_date: null, position: forward, club: Florbal Vary, league: "Livesport Superliga (CZE)", number: null, height_cm: 180, hand: left, hometown: Praha, senior_games_listed: 66, senior_goals_listed: 29, senior_assists_listed: 39, wfc_debut: false, wfc_previous: [2020, 2022, 2024], notes: "abroad 2023-2025, Florbal Vary since 2025", profiles: {federation: "https://www.ceskyflorbal.cz/person/detail/representative/1009100701"}}
+  - {name: Adam Delong, birth_year: 1996, birth_date: null, position: forward, club: Florbal MB, league: "Livesport Superliga (CZE)", number: null, height_cm: 183, hand: left, hometown: "Horní Suchá", wfc_debut: false, notes: "Florbal MB since 2023 (from 1. SC Vítkovice); profile stats incomplete (start 2025)", profiles: {federation: "https://www.ceskyflorbal.cz/person/detail/representative/0508030251"}}
+  - {name: Mikeš Motejzík, birth_year: 2008, birth_date: null, position: forward, club: Florbal MB, league: "Livesport Superliga (CZE)", number: null, height_cm: 189, hand: left, hometown: "Česká Lípa", senior_games_listed: 5, senior_goals_listed: 1, senior_assists_listed: 0, wfc_debut: true, notes: "youngest in squad (18); WFC debutant; senior debut in 2026 friendlies", profiles: {federation: "https://www.ceskyflorbal.cz/person/detail/representative/1411130421"}}
+  - {name: Šimon Stránský, birth_year: 2003, birth_date: null, position: forward, club: Florbal MB, league: "Livesport Superliga (CZE)", number: null, height_cm: 187, hand: left, hometown: "Syřenov", senior_games_listed: 7, senior_goals_listed: 1, senior_assists_listed: 0, wfc_debut: true, notes: "WFC debutant; abroad 2023-2025, Florbal MB since 2025", profiles: {federation: "https://www.ceskyflorbal.cz/person/detail/representative/1112140041"}}
+  - {name: Matyáš Šindler, birth_year: 2000, birth_date: null, position: forward, club: AC Sparta Praha, league: "Livesport Superliga (CZE)", number: null, height_cm: 186, hand: left, hometown: Ostrava, senior_games_listed: 59, senior_goals_listed: 6, senior_assists_listed: 21, wfc_debut: false, wfc_previous: [2020, 2022], notes: "Sparta since 2025 (from 1. SC Vítkovice)", profiles: {federation: "https://www.ceskyflorbal.cz/person/detail/representative/0709260951"}}
+  - {name: Adam Zubek, birth_year: 2004, birth_date: null, position: forward, club: Nokian KrP, league: "F-liiga (FIN)", number: null, height_cm: 173, hand: right, hometown: Ostrava, senior_games_listed: 26, senior_goals_listed: 19, senior_assists_listed: 23, wfc_debut: false, wfc_previous: [2024], notes: "moved abroad 2026-07-27 (from 1. SC Vítkovice, his first club)", profiles: {federation: "https://www.ceskyflorbal.cz/person/detail/representative/1102170011"}}
+reserves:   # 'Náhradníci' from the announcement, as written (goalkeepers first, then field players)
+  - {name: Miroslav Kovařík, position: goalkeeper, club: Nykvarns Steelers}
+  - {name: Lukáš Kříž, position: goalkeeper, club: Tatran Střešovice}
+  - {name: Matyáš Bachmaier, club: Kanonýři Kladno}
+  - {name: Dominik Beneš, club: Florbal MB}
+  - {name: Martin Feigl, club: Florbal MB}
+  - {name: Jakub Vařecha, club: Florbal MB}
+  - {name: Vojtěch Wiener, club: Florbal MB}
+  - {name: Martin Čermák, club: "Jönköpings IK (SWE)"}
+  - {name: Radek Drba, club: AC Sparta Praha}
+  - {name: Michael Wertheim, club: AC Sparta Praha}
+notes:
+  - "Group B with SWE, GER, SVK."
+  - "Players at Swedish clubs: Jurco, Punčochář, Rýpar (all Linköping IBK). Reserves Kovařík (Nykvarns) and Čermák (Jönköpings IK) also in Sweden. Němeček and Langer played in Sweden (Storvreta) in 2025/26."
+gaps:
+  - "Full birth dates (federation shows only birth year)."
+  - "Shirt numbers."
+  - "Official caps/goals totals: federation profile stats incomplete for several players (start 2025)."
+  - "Captain for WFC 2026 not officially confirmed."
+  - "wfc_debut null for Bauer, Jurco, Besta, Punčochář: they are not among the 4 named debutants, so presumably they played a WFC before (Jurco b. 2003 maybe 2024) - not verified."

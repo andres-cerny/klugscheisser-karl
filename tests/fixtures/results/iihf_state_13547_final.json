@@ -1,0 +1,291 @@
+{
+ "GameId": "13547",
+ "GameNumber": "3",
+ "EventId": "773",
+ "Gender": "W",
+ "Status": "Game Completed",
+ "GameTime": {
+  "TimedGameStatus": "Final",
+  "PlayTime": "0",
+  "Time": "0"
+ },
+ "IsGameOverridden": false,
+ "IsForfeit": false,
+ "IsGameCompleted": true,
+ "HomeTeam": {
+  "ShortTeamName": "SUI",
+  "LongTeamName": "Switzerland",
+  "Color": "Red"
+ },
+ "AwayTeam": {
+  "ShortTeamName": "USA",
+  "LongTeamName": "USA",
+  "Color": "White"
+ },
+ "CurrentScore": {
+  "Home": "3",
+  "Away": "2"
+ },
+ "Venue": {
+  "Code": "HAE",
+  "Name": "Hockey Arena Esbjerg"
+ },
+ "EventDateTime": {
+  "Day": "06",
+  "Month": "NOV",
+  "Year": "2026",
+  "Weekday": "FRI",
+  "Value": "20261106",
+  "StartTime": {
+   "TimeFormat": "19:00"
+  },
+  "EndTime": {
+   "TimeFormat": "21:31"
+  }
+ },
+ "Spectators": "3812",
+ "Periods": [
+  {
+   "PeriodCode": "1",
+   "Score": {
+    "Home": "1",
+    "Away": "0"
+   },
+   "ScoringActions": [
+    {
+     "Code": "GOL",
+     "TimeOfPlay": "12:41",
+     "IsExecutedByHomeTeam": true,
+     "ExecutedByShortTeamName": "SUI",
+     "SituationType": "PP1",
+     "NewScore": {
+      "Home": "1",
+      "Away": "0"
+     },
+     "Scorer": {
+      "NOC_Code": "SUI",
+      "Number": "25",
+      "Position": "F",
+      "ReportingName": "MULLER Alina",
+      "FamilyName": "MULLER",
+      "GivenName": "Alina"
+     },
+     "Assistant1": {
+      "NOC_Code": "SUI",
+      "Number": "17",
+      "Position": "F",
+      "ReportingName": "ENZLER Rahel",
+      "FamilyName": "ENZLER",
+      "GivenName": "Rahel"
+     },
+     "Assistant2": {
+      "NOC_Code": "SUI",
+      "Number": "9",
+      "Position": "D",
+      "ReportingName": "VALLARIO Nicole",
+      "FamilyName": "VALLARIO",
+      "GivenName": "Nicole"
+     }
+    }
+   ],
+   "Actions": [
+    {
+     "Code": "GOL_KPR_IN",
+     "TimeOfPlay": "00:00",
+     "IsExecutedByHomeTeam": true,
+     "ExecutedByShortTeamName": "SUI",
+     "GoalTender": {
+      "NOC_Code": "SUI",
+      "Number": "1",
+      "Position": "GK",
+      "ReportingName": "BRANDLI Andrea",
+      "FamilyName": "BRANDLI",
+      "GivenName": "Andrea"
+     }
+    },
+    {
+     "Code": "GOL_KPR_IN",
+     "TimeOfPlay": "00:00",
+     "IsExecutedByHomeTeam": false,
+     "ExecutedByShortTeamName": "USA",
+     "GoalTender": {
+      "NOC_Code": "USA",
+      "Number": "31",
+      "Position": "GK",
+      "ReportingName": "FRANKEL Aerin",
+      "FamilyName": "FRANKEL",
+      "GivenName": "Aerin"
+     }
+    }
+   ]
+  },
+  {
+   "PeriodCode": "2",
+   "Score": {
+    "Home": "0",
+    "Away": "1"
+   },
+   "ScoringActions": [
+    {
+     "Code": "GOL",
+     "TimeOfPlay": "27:05",
+     "IsExecutedByHomeTeam": false,
+     "ExecutedByShortTeamName": "USA",
+     "SituationType": "EQ",
+     "NewScore": {
+      "Home": "1",
+      "Away": "1"
+     },
+     "Scorer": {
+      "NOC_Code": "USA",
+      "Number": "21",
+      "Position": "F",
+      "ReportingName": "KNIGHT Hilary",
+      "FamilyName": "KNIGHT",
+      "GivenName": "Hilary"
+     },
+     "Assistant1": {
+      "NOC_Code": "USA",
+      "Number": "5",
+      "Position": "D",
+      "ReportingName": "KELLER Megan",
+      "FamilyName": "KELLER",
+      "GivenName": "Megan"
+     }
+    }
+   ],
+   "Actions": []
+  },
+  {
+   "PeriodCode": "3",
+   "Score": {
+    "Home": "1",
+    "Away": "1"
+   },
+   "ScoringActions": [
+    {
+     "Code": "GOL",
+     "TimeOfPlay": "44:10",
+     "IsExecutedByHomeTeam": false,
+     "ExecutedByShortTeamName": "USA",
+     "SituationType": "EQ",
+     "NewScore": {
+      "Home": "1",
+      "Away": "2"
+     },
+     "Scorer": {
+      "NOC_Code": "USA",
+      "Number": "4",
+      "Position": "D",
+      "ReportingName": "HARVEY Caroline",
+      "FamilyName": "HARVEY",
+      "GivenName": "Caroline"
+     },
+     "Assistant1": {
+      "NOC_Code": "USA",
+      "Number": "21",
+      "Position": "F",
+      "ReportingName": "KNIGHT Hilary",
+      "FamilyName": "KNIGHT",
+      "GivenName": "Hilary"
+     }
+    },
+    {
+     "Code": "GOL",
+     "TimeOfPlay": "58:02",
+     "IsExecutedByHomeTeam": true,
+     "ExecutedByShortTeamName": "SUI",
+     "SituationType": "EQ",
+     "NewScore": {
+      "Home": "2",
+      "Away": "2"
+     },
+     "Scorer": {
+      "NOC_Code": "SUI",
+      "Number": "17",
+      "Position": "F",
+      "ReportingName": "ENZLER Rahel",
+      "FamilyName": "ENZLER",
+      "GivenName": "Rahel"
+     },
+     "Assistant1": {
+      "NOC_Code": "SUI",
+      "Number": "25",
+      "Position": "F",
+      "ReportingName": "MULLER Alina",
+      "FamilyName": "MULLER",
+      "GivenName": "Alina"
+     }
+    }
+   ],
+   "Actions": []
+  },
+  {
+   "PeriodCode": "OT",
+   "Score": {
+    "Home": "1",
+    "Away": "0"
+   },
+   "ScoringActions": [
+    {
+     "Code": "GOL",
+     "TimeOfPlay": "63:27",
+     "IsExecutedByHomeTeam": true,
+     "ExecutedByShortTeamName": "SUI",
+     "SituationType": "EQ",
+     "NewScore": {
+      "Home": "3",
+      "Away": "2"
+     },
+     "Scorer": {
+      "NOC_Code": "SUI",
+      "Number": "25",
+      "Position": "F",
+      "ReportingName": "MULLER Alina",
+      "FamilyName": "MULLER",
+      "GivenName": "Alina"
+     }
+    }
+   ],
+   "Actions": [
+    {
+     "Code": "GOL_KPR_OUT",
+     "TimeOfPlay": "63:27",
+     "IsExecutedByHomeTeam": true,
+     "ExecutedByShortTeamName": "SUI",
+     "GoalTender": {
+      "NOC_Code": "SUI",
+      "Number": "1",
+      "Position": "GK",
+      "ReportingName": "BRANDLI Andrea",
+      "FamilyName": "BRANDLI",
+      "GivenName": "Andrea"
+     }
+    },
+    {
+     "Code": "GOL_KPR_OUT",
+     "TimeOfPlay": "63:27",
+     "IsExecutedByHomeTeam": false,
+     "ExecutedByShortTeamName": "USA",
+     "GoalTender": {
+      "NOC_Code": "USA",
+      "Number": "31",
+      "Position": "GK",
+      "ReportingName": "FRANKEL Aerin",
+      "FamilyName": "FRANKEL",
+      "GivenName": "Aerin"
+     }
+    }
+   ]
+  },
+  {
+   "PeriodCode": "TOT",
+   "Score": {
+    "Home": "3",
+    "Away": "2"
+   },
+   "ScoringActions": [],
+   "Actions": []
+  }
+ ]
+}

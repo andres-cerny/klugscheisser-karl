@@ -1,0 +1,464 @@
+{
+ "GameId": "13500",
+ "GameNumber": "12",
+ "EventId": "874",
+ "Gender": "M",
+ "Status": "Game Completed",
+ "GameTime": {
+  "TimedGameStatus": "Final",
+  "PlayTime": "0",
+  "Time": "0",
+  "PlayTimeMinValue": "0",
+  "TimeMaxvalue": "0"
+ },
+ "IsGameOverridden": false,
+ "IsForfeit": false,
+ "IsGameCompleted": true,
+ "HomeTeam": {
+  "ShortTeamName": "THA",
+  "LongTeamName": "Thailand",
+  "Color": "White"
+ },
+ "AwayTeam": {
+  "ShortTeamName": "PHI",
+  "LongTeamName": "Philippines",
+  "Color": "Blue"
+ },
+ "CurrentScore": {
+  "Home": "8",
+  "Away": "1"
+ },
+ "Venue": {
+  "Code": "TIH",
+  "Name": "International Ice Hockey Arena"
+ },
+ "EventDateTime": {
+  "Day": "17",
+  "Month": "DEC",
+  "Year": "2025",
+  "Weekday": "WED",
+  "Value": "20251217",
+  "StartTime": {
+   "TimeValue": "2030000000",
+   "TimeFormat": "20:30"
+  },
+  "EndTime": {
+   "TimeValue": "2239000000",
+   "TimeFormat": "22:39"
+  }
+ },
+ "Spectators": "239",
+ "Periods": [
+  {
+   "Score": {
+    "Home": "0",
+    "Away": "0"
+   },
+   "Type": 0,
+   "PeriodCode": "1",
+   "Period": "1",
+   "Statistics": {
+    "SOG_H": "13",
+    "SOG_A": "11"
+   },
+   "Actions": [
+    {
+     "Code": "GOL_KPR_IN",
+     "TimeOfPlay": "00:00",
+     "IsExecutedByHomeTeam": false,
+     "ExecutedByShortTeamName": "PHI",
+     "GoalTender": {
+      "NOC_Code": "PHI",
+      "Number": "28",
+      "Position": "GK",
+      "ReportingName": "GAUTIER Francois Emmanuel",
+      "FamilyName": "GAUTIER",
+      "GivenName": "Francois Emmanuel"
+     }
+    },
+    {
+     "Code": "GOL_KPR_IN",
+     "TimeOfPlay": "00:00",
+     "IsExecutedByHomeTeam": true,
+     "ExecutedByShortTeamName": "THA",
+     "GoalTender": {
+      "NOC_Code": "THA",
+      "Number": "1",
+      "Position": "GK",
+      "ReportingName": "KLEINESCHAY Benjamin David",
+      "FamilyName": "KLEINESCHAY",
+      "GivenName": "Benjamin David"
+     }
+    }
+   ],
+   "ScoringActions": []
+  },
+  {
+   "Score": {
+    "Home": "2",
+    "Away": "0"
+   },
+   "Type": 0,
+   "PeriodCode": "2",
+   "Period": "2",
+   "Statistics": {
+    "SOG_H": "12",
+    "SOG_A": "12"
+   },
+   "Actions": [],
+   "ScoringActions": [
+    {
+     "Code": "GOL",
+     "TimeOfPlay": "26:37",
+     "IsExecutedByHomeTeam": true,
+     "ExecutedByShortTeamName": "THA",
+     "SituationType": "PP1",
+     "NewScore": {
+      "Home": "1",
+      "Away": "0"
+     },
+     "Scorer": {
+      "NOC_Code": "THA",
+      "Number": "10",
+      "Position": "F",
+      "ReportingName": "LAMPSON Nicholas Charles",
+      "FamilyName": "LAMPSON",
+      "GivenName": "Nicholas Charles"
+     },
+     "Assistant1": {
+      "NOC_Code": "THA",
+      "Number": "55",
+      "Position": "D",
+      "ReportingName": "KINDBORN Ken Edvin",
+      "FamilyName": "KINDBORN",
+      "GivenName": "Ken Edvin"
+     },
+     "Assistant2": {
+      "NOC_Code": "THA",
+      "Number": "56",
+      "Position": "D",
+      "ReportingName": "THANAKROEKKIAT Papan",
+      "FamilyName": "THANAKROEKKIAT",
+      "GivenName": "Papan"
+     }
+    },
+    {
+     "Code": "GOL",
+     "TimeOfPlay": "38:30",
+     "IsExecutedByHomeTeam": true,
+     "ExecutedByShortTeamName": "THA",
+     "SituationType": "EQ",
+     "NewScore": {
+      "Home": "2",
+      "Away": "0"
+     },
+     "Scorer": {
+      "NOC_Code": "THA",
+      "Number": "22",
+      "Position": "D",
+      "ReportingName": "YANNAKORNTHANAPUNT Natchayatorn",
+      "FamilyName": "YANNAKORNTHANAPUNT",
+      "GivenName": "Natchayatorn"
+     },
+     "Assistant1": {
+      "NOC_Code": "THA",
+      "Number": "10",
+      "Position": "F",
+      "ReportingName": "LAMPSON Nicholas Charles",
+      "FamilyName": "LAMPSON",
+      "GivenName": "Nicholas Charles"
+     }
+    }
+   ]
+  },
+  {
+   "Score": {
+    "Home": "6",
+    "Away": "1"
+   },
+   "Type": 0,
+   "PeriodCode": "3",
+   "Period": "3",
+   "Statistics": {
+    "SOG_H": "11",
+    "SOG_A": "19"
+   },
+   "Actions": [
+    {
+     "Code": "GOL_KPR_OUT",
+     "TimeOfPlay": "60:00",
+     "IsExecutedByHomeTeam": true,
+     "ExecutedByShortTeamName": "THA",
+     "GoalTender": {
+      "NOC_Code": "THA",
+      "Number": "1",
+      "Position": "GK",
+      "ReportingName": "KLEINESCHAY Benjamin David",
+      "FamilyName": "KLEINESCHAY",
+      "GivenName": "Benjamin David"
+     }
+    },
+    {
+     "Code": "GOL_KPR_OUT",
+     "TimeOfPlay": "60:00",
+     "IsExecutedByHomeTeam": false,
+     "ExecutedByShortTeamName": "PHI",
+     "GoalTender": {
+      "NOC_Code": "PHI",
+      "Number": "28",
+      "Position": "GK",
+      "ReportingName": "GAUTIER Francois Emmanuel",
+      "FamilyName": "GAUTIER",
+      "GivenName": "Francois Emmanuel"
+     }
+    }
+   ],
+   "ScoringActions": [
+    {
+     "Code": "GOL",
+     "TimeOfPlay": "41:13",
+     "IsExecutedByHomeTeam": true,
+     "ExecutedByShortTeamName": "THA",
+     "SituationType": "PP1",
+     "NewScore": {
+      "Home": "3",
+      "Away": "0"
+     },
+     "Scorer": {
+      "NOC_Code": "THA",
+      "Number": "10",
+      "Position": "F",
+      "ReportingName": "LAMPSON Nicholas Charles",
+      "FamilyName": "LAMPSON",
+      "GivenName": "Nicholas Charles"
+     },
+     "Assistant1": {
+      "NOC_Code": "THA",
+      "Number": "28",
+      "Position": "F",
+      "ReportingName": "AAROLA Kim Juhani",
+      "FamilyName": "AAROLA",
+      "GivenName": "Kim Juhani"
+     },
+     "Assistant2": {
+      "NOC_Code": "THA",
+      "Number": "22",
+      "Position": "D",
+      "ReportingName": "YANNAKORNTHANAPUNT Natchayatorn",
+      "FamilyName": "YANNAKORNTHANAPUNT",
+      "GivenName": "Natchayatorn"
+     }
+    },
+    {
+     "Code": "GOL",
+     "TimeOfPlay": "44:41",
+     "IsExecutedByHomeTeam": true,
+     "ExecutedByShortTeamName": "THA",
+     "SituationType": "EQ",
+     "NewScore": {
+      "Home": "4",
+      "Away": "0"
+     },
+     "Scorer": {
+      "NOC_Code": "THA",
+      "Number": "10",
+      "Position": "F",
+      "ReportingName": "LAMPSON Nicholas Charles",
+      "FamilyName": "LAMPSON",
+      "GivenName": "Nicholas Charles"
+     },
+     "Assistant1": {
+      "NOC_Code": "THA",
+      "Number": "55",
+      "Position": "D",
+      "ReportingName": "KINDBORN Ken Edvin",
+      "FamilyName": "KINDBORN",
+      "GivenName": "Ken Edvin"
+     }
+    },
+    {
+     "Code": "GOL",
+     "TimeOfPlay": "44:47",
+     "IsExecutedByHomeTeam": false,
+     "ExecutedByShortTeamName": "PHI",
+     "SituationType": "EQ",
+     "NewScore": {
+      "Home": "4",
+      "Away": "1"
+     },
+     "Scorer": {
+      "NOC_Code": "PHI",
+      "Number": "61",
+      "Position": "D",
+      "ReportingName": "BILLONES Manvil",
+      "FamilyName": "BILLONES",
+      "GivenName": "Manvil"
+     },
+     "Assistant1": {
+      "NOC_Code": "PHI",
+      "Number": "3",
+      "Position": "F",
+      "ReportingName": "SZE Kenwrick",
+      "FamilyName": "SZE",
+      "GivenName": "Kenwrick"
+     },
+     "Assistant2": {
+      "NOC_Code": "PHI",
+      "Number": "25",
+      "Position": "F",
+      "ReportingName": "FUGLISTER John Steven",
+      "FamilyName": "FUGLISTER",
+      "GivenName": "John Steven"
+     }
+    },
+    {
+     "Code": "GOL",
+     "TimeOfPlay": "46:35",
+     "IsExecutedByHomeTeam": true,
+     "ExecutedByShortTeamName": "THA",
+     "SituationType": "PP1",
+     "NewScore": {
+      "Home": "5",
+      "Away": "1"
+     },
+     "Scorer": {
+      "NOC_Code": "THA",
+      "Number": "83",
+      "Position": "F",
+      "ReportingName": "KITAYAMA Masato",
+      "FamilyName": "KITAYAMA",
+      "GivenName": "Masato"
+     },
+     "Assistant1": {
+      "NOC_Code": "THA",
+      "Number": "10",
+      "Position": "F",
+      "ReportingName": "LAMPSON Nicholas Charles",
+      "FamilyName": "LAMPSON",
+      "GivenName": "Nicholas Charles"
+     },
+     "Assistant2": {
+      "NOC_Code": "THA",
+      "Number": "22",
+      "Position": "D",
+      "ReportingName": "YANNAKORNTHANAPUNT Natchayatorn",
+      "FamilyName": "YANNAKORNTHANAPUNT",
+      "GivenName": "Natchayatorn"
+     }
+    },
+    {
+     "Code": "GOL",
+     "TimeOfPlay": "47:03",
+     "IsExecutedByHomeTeam": true,
+     "ExecutedByShortTeamName": "THA",
+     "SituationType": "EQ",
+     "NewScore": {
+      "Home": "6",
+      "Away": "1"
+     },
+     "Scorer": {
+      "NOC_Code": "THA",
+      "Number": "56",
+      "Position": "D",
+      "ReportingName": "THANAKROEKKIAT Papan",
+      "FamilyName": "THANAKROEKKIAT",
+      "GivenName": "Papan"
+     },
+     "Assistant1": {
+      "NOC_Code": "THA",
+      "Number": "11",
+      "Position": "F",
+      "ReportingName": "FORSTNER Patrick",
+      "FamilyName": "FORSTNER",
+      "GivenName": "Patrick"
+     }
+    },
+    {
+     "Code": "GOL",
+     "TimeOfPlay": "52:18",
+     "IsExecutedByHomeTeam": true,
+     "ExecutedByShortTeamName": "THA",
+     "SituationType": "EQ",
+     "NewScore": {
+      "Home": "7",
+      "Away": "1"
+     },
+     "Scorer": {
+      "NOC_Code": "THA",
+      "Number": "11",
+      "Position": "F",
+      "ReportingName": "FORSTNER Patrick",
+      "FamilyName": "FORSTNER",
+      "GivenName": "Patrick"
+     },
+     "Assistant1": {
+      "NOC_Code": "THA",
+      "Number": "97",
+      "Position": "F",
+      "ReportingName": "KHUHAKAEW Phandaj",
+      "FamilyName": "KHUHAKAEW",
+      "GivenName": "Phandaj"
+     },
+     "Assistant2": {
+      "NOC_Code": "THA",
+      "Number": "56",
+      "Position": "D",
+      "ReportingName": "THANAKROEKKIAT Papan",
+      "FamilyName": "THANAKROEKKIAT",
+      "GivenName": "Papan"
+     }
+    },
+    {
+     "Code": "GOL",
+     "TimeOfPlay": "56:09",
+     "IsExecutedByHomeTeam": true,
+     "ExecutedByShortTeamName": "THA",
+     "SituationType": "EQ",
+     "NewScore": {
+      "Home": "8",
+      "Away": "1"
+     },
+     "Scorer": {
+      "NOC_Code": "THA",
+      "Number": "28",
+      "Position": "F",
+      "ReportingName": "AAROLA Kim Juhani",
+      "FamilyName": "AAROLA",
+      "GivenName": "Kim Juhani"
+     },
+     "Assistant1": {
+      "NOC_Code": "THA",
+      "Number": "10",
+      "Position": "F",
+      "ReportingName": "LAMPSON Nicholas Charles",
+      "FamilyName": "LAMPSON",
+      "GivenName": "Nicholas Charles"
+     },
+     "Assistant2": {
+      "NOC_Code": "THA",
+      "Number": "55",
+      "Position": "D",
+      "ReportingName": "KINDBORN Ken Edvin",
+      "FamilyName": "KINDBORN",
+      "GivenName": "Ken Edvin"
+     }
+    }
+   ]
+  },
+  {
+   "Score": {
+    "Home": "8",
+    "Away": "1"
+   },
+   "Type": 3,
+   "PeriodCode": "TOT",
+   "Period": "TOT",
+   "Statistics": {
+    "SOG_H": "36",
+    "SOG_A": "42"
+   },
+   "Actions": [],
+   "ScoringActions": []
+  }
+ ]
+}

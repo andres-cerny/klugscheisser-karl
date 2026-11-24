@@ -1,0 +1,714 @@
+{
+ "GC": {
+  "Gamesummary": {
+   "meta": {
+    "id": "338",
+    "season_id": "9",
+    "home_team": "1",
+    "visiting_team": "5",
+    "date_played": "2026-04-30",
+    "start_time": "19:10:00",
+    "end_time": "21:38:00",
+    "timezone": "America/Toronto",
+    "status": "4",
+    "started": "1",
+    "final": "1",
+    "home_goal_count": "2",
+    "visiting_goal_count": "1",
+    "shootout": "0",
+    "attendance": "4285"
+   },
+   "status_value": "Final",
+   "game_date_iso_8601": "2026-04-30T19:00:00-04:00",
+   "venue": "Tsongas Center | Lowell",
+   "home": {
+    "id": "1",
+    "code": "BOS",
+    "name": "Boston Fleet"
+   },
+   "visitor": {
+    "id": "5",
+    "code": "OTT",
+    "name": "Ottawa Charge"
+   },
+   "periods": {
+    "1": {
+     "long_name": "1st"
+    },
+    "2": {
+     "long_name": "2nd"
+    },
+    "3": {
+     "long_name": "3rd"
+    }
+   },
+   "mvps": [
+    {
+     "first_name": "Alina",
+     "last_name": "Müller",
+     "jersey_number": "11",
+     "home": 1
+    },
+    {
+     "first_name": "Jessie",
+     "last_name": "Eldridge",
+     "jersey_number": "18",
+     "home": 1
+    },
+    {
+     "first_name": "Jocelyne",
+     "last_name": "Larocque",
+     "jersey_number": "3",
+     "home": 0
+    }
+   ],
+   "goals": [
+    {
+     "time": "18:06",
+     "team_id": "5",
+     "home": "0",
+     "period_id": "1",
+     "goal_type": "PP",
+     "power_play": "1",
+     "short_handed": "0",
+     "empty_net": "0",
+     "penalty_shot": "0",
+     "game_winning": "0",
+     "s": 1086,
+     "goal_scorer": {
+      "player_id": "71",
+      "first_name": "Jocelyne",
+      "last_name": "Larocque",
+      "jersey_number": "3"
+     },
+     "assist1_player": {
+      "player_id": "242",
+      "first_name": "Rory",
+      "last_name": "Guilday",
+      "jersey_number": "5"
+     },
+     "assist2_player": {
+      "player_id": "72",
+      "first_name": "Rebecca",
+      "last_name": "Leslie",
+      "jersey_number": "37"
+     }
+    },
+    {
+     "time": "17:56",
+     "team_id": "1",
+     "home": "1",
+     "period_id": "2",
+     "goal_type": "",
+     "power_play": "0",
+     "short_handed": "0",
+     "empty_net": "0",
+     "penalty_shot": "0",
+     "game_winning": "0",
+     "s": 1076,
+     "goal_scorer": {
+      "player_id": "15",
+      "first_name": "Alina",
+      "last_name": "Müller",
+      "jersey_number": "11"
+     },
+     "assist1_player": {
+      "player_id": "36",
+      "first_name": "Jessie",
+      "last_name": "Eldridge",
+      "jersey_number": "18"
+     },
+     "assist2_player": {
+      "player_id": null,
+      "first_name": null,
+      "last_name": null,
+      "jersey_number": null
+     }
+    },
+    {
+     "time": "19:27",
+     "team_id": "1",
+     "home": "1",
+     "period_id": "2",
+     "goal_type": "",
+     "power_play": "0",
+     "short_handed": "0",
+     "empty_net": "0",
+     "penalty_shot": "0",
+     "game_winning": "1",
+     "s": 1167,
+     "goal_scorer": {
+      "player_id": "16",
+      "first_name": "Jamie Lee",
+      "last_name": "Rattray",
+      "jersey_number": "47"
+     },
+     "assist1_player": {
+      "player_id": "36",
+      "first_name": "Jessie",
+      "last_name": "Eldridge",
+      "jersey_number": "18"
+     },
+     "assist2_player": {
+      "player_id": "15",
+      "first_name": "Alina",
+      "last_name": "Müller",
+      "jersey_number": "11"
+     }
+    }
+   ],
+   "goalies": {
+    "visitor": [
+     {
+      "player_id": "222",
+      "first_name": "Gwyneth",
+      "last_name": "Philips",
+      "saves": "3",
+      "shots_against": 3,
+      "goals_against": "0",
+      "secs": "353",
+      "secs_mmss": "05:53",
+      "win": "0",
+      "loss": "1"
+     },
+     {
+      "player_id": "222",
+      "first_name": "Gwyneth",
+      "last_name": "Philips",
+      "saves": "23",
+      "shots_against": 25,
+      "goals_against": "2",
+      "secs": "3185",
+      "secs_mmss": "53:05",
+      "win": "0",
+      "loss": "1"
+     }
+    ],
+    "home": [
+     {
+      "player_id": "6",
+      "first_name": "Aerin",
+      "last_name": "Frankel",
+      "saves": "17",
+      "shots_against": 18,
+      "goals_against": "1",
+      "secs": "3600",
+      "secs_mmss": "60:00",
+      "win": "1",
+      "loss": "0"
+     }
+    ]
+   },
+   "home_team_lineup": {
+    "goalies": [
+     {
+      "player_id": "6",
+      "first_name": "Aerin",
+      "last_name": "Frankel",
+      "jersey_number": "31",
+      "position_str": "G",
+      "seconds": 3600,
+      "time": "60:00",
+      "saves": 17,
+      "shots_against": 18,
+      "goals_against": 1
+     },
+     {
+      "player_id": "41",
+      "first_name": "Abbey",
+      "last_name": "Levy",
+      "jersey_number": "39",
+      "position_str": "G",
+      "seconds": 0,
+      "time": null,
+      "saves": 0,
+      "shots_against": 0,
+      "goals_against": 0
+     }
+    ],
+    "players": [
+     {
+      "player_id": "12",
+      "first_name": "Megan",
+      "last_name": "Keller",
+      "jersey_number": "5",
+      "position_str": "LD",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": "+1",
+      "shots": "2"
+     },
+     {
+      "player_id": "182",
+      "first_name": "Hadley",
+      "last_name": "Hartmetz",
+      "jersey_number": "6",
+      "position_str": "RD",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": 0,
+      "shots": "1"
+     },
+     {
+      "player_id": "254",
+      "first_name": "Mia",
+      "last_name": "Biotti",
+      "jersey_number": "7",
+      "position_str": "LD",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": 0,
+      "shots": "0"
+     },
+     {
+      "player_id": "246",
+      "first_name": "Haley",
+      "last_name": "Winn",
+      "jersey_number": "8",
+      "position_str": "RD",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": "+2",
+      "shots": "2"
+     },
+     {
+      "player_id": "18",
+      "first_name": "Sophie",
+      "last_name": "Shirley",
+      "jersey_number": "9",
+      "position_str": "RW",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": 0,
+      "shots": "0"
+     },
+     {
+      "player_id": "15",
+      "first_name": "Alina",
+      "last_name": "Müller",
+      "jersey_number": "11",
+      "position_str": "C",
+      "goals": 1,
+      "assists": 1,
+      "plusminus": "+1",
+      "shots": "7"
+     },
+     {
+      "player_id": "97",
+      "first_name": "Liz",
+      "last_name": "Schepers",
+      "jersey_number": "13",
+      "position_str": "C",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": 0,
+      "shots": "0"
+     },
+     {
+      "player_id": "256",
+      "first_name": "Olivia",
+      "last_name": "Mobley",
+      "jersey_number": "15",
+      "position_str": "RW",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": 0,
+      "shots": "0"
+     },
+     {
+      "player_id": "255",
+      "first_name": "Riley",
+      "last_name": "Brengman",
+      "jersey_number": "16",
+      "position_str": "RD",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": "+1",
+      "shots": "1"
+     },
+     {
+      "player_id": "36",
+      "first_name": "Jessie",
+      "last_name": "Eldridge",
+      "jersey_number": "18",
+      "position_str": "LW",
+      "goals": 0,
+      "assists": 2,
+      "plusminus": "+2",
+      "shots": "5"
+     },
+     {
+      "player_id": "259",
+      "first_name": "Abby",
+      "last_name": "Newhook",
+      "jersey_number": "19",
+      "position_str": "RW",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": 0,
+      "shots": "3"
+     },
+     {
+      "player_id": "1",
+      "first_name": "Hannah",
+      "last_name": "Brandt",
+      "jersey_number": "20",
+      "position_str": "C",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": 0,
+      "shots": "1"
+     },
+     {
+      "player_id": "243",
+      "first_name": "Ella",
+      "last_name": "Huber",
+      "jersey_number": "26",
+      "position_str": "LW",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": 0,
+      "shots": "2"
+     },
+     {
+      "player_id": "183",
+      "first_name": "Shay",
+      "last_name": "Maloney",
+      "jersey_number": "27",
+      "position_str": "RW",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": 0,
+      "shots": "1"
+     },
+     {
+      "player_id": "149",
+      "first_name": "Jill",
+      "last_name": "Saulnier",
+      "jersey_number": "44",
+      "position_str": "LW",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": 0,
+      "shots": "0"
+     },
+     {
+      "player_id": "16",
+      "first_name": "Jamie Lee",
+      "last_name": "Rattray",
+      "jersey_number": "47",
+      "position_str": "LW",
+      "goals": 1,
+      "assists": 0,
+      "plusminus": "+2",
+      "shots": "1"
+     },
+     {
+      "player_id": "232",
+      "first_name": "Rylind",
+      "last_name": "MacKinnon",
+      "jersey_number": "53",
+      "position_str": "LD",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": 0,
+      "shots": "0"
+     },
+     {
+      "player_id": "185",
+      "first_name": "Daniela",
+      "last_name": "Pejšová",
+      "jersey_number": "55",
+      "position_str": "LD",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": 0,
+      "shots": "1"
+     },
+     {
+      "player_id": "78",
+      "first_name": "Susanna",
+      "last_name": "Tapani",
+      "jersey_number": "77",
+      "position_str": "C",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": "+1",
+      "shots": "1"
+     }
+    ]
+   },
+   "visitor_team_lineup": {
+    "goalies": [
+     {
+      "player_id": "238",
+      "first_name": "Sanni",
+      "last_name": "Ahola",
+      "jersey_number": "1",
+      "position_str": "G",
+      "seconds": 0,
+      "time": null,
+      "saves": 0,
+      "shots_against": 0,
+      "goals_against": 0
+     },
+     {
+      "player_id": "222",
+      "first_name": "Gwyneth",
+      "last_name": "Philips",
+      "jersey_number": "33",
+      "position_str": "G",
+      "seconds": 3538,
+      "time": "58:58",
+      "saves": 26,
+      "shots_against": 28,
+      "goals_against": 2
+     }
+    ],
+    "players": [
+     {
+      "player_id": "71",
+      "first_name": "Jocelyne",
+      "last_name": "Larocque",
+      "jersey_number": "3",
+      "position_str": "LD",
+      "goals": 1,
+      "assists": 0,
+      "plusminus": 0,
+      "shots": "1"
+     },
+     {
+      "player_id": "242",
+      "first_name": "Rory",
+      "last_name": "Guilday",
+      "jersey_number": "5",
+      "position_str": "LD",
+      "goals": 0,
+      "assists": 1,
+      "plusminus": -2,
+      "shots": "1"
+     },
+     {
+      "player_id": "219",
+      "first_name": "Stephanie",
+      "last_name": "Markowski",
+      "jersey_number": "6",
+      "position_str": "LD",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": 0,
+      "shots": "0"
+     },
+     {
+      "player_id": "289",
+      "first_name": "Kathryn",
+      "last_name": "Reilly",
+      "jersey_number": "8",
+      "position_str": "RD",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": 0,
+      "shots": "1"
+     },
+     {
+      "player_id": "101",
+      "first_name": "Alexa",
+      "last_name": "Vasko",
+      "jersey_number": "10",
+      "position_str": "C",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": 0,
+      "shots": "0"
+     },
+     {
+      "player_id": "38",
+      "first_name": "Brooke",
+      "last_name": "Hobson",
+      "jersey_number": "11",
+      "position_str": "LD",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": 0,
+      "shots": "0"
+     },
+     {
+      "player_id": "88",
+      "first_name": "Kateřina",
+      "last_name": "Mrázová",
+      "jersey_number": "16",
+      "position_str": "C",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": -1,
+      "shots": "1"
+     },
+     {
+      "player_id": "57",
+      "first_name": "Gabbie",
+      "last_name": "Hughes",
+      "jersey_number": "17",
+      "position_str": "C",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": -1,
+      "shots": "1"
+     },
+     {
+      "player_id": "58",
+      "first_name": "Brianne",
+      "last_name": "Jenner",
+      "jersey_number": "19",
+      "position_str": "C",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": 0,
+      "shots": "2"
+     },
+     {
+      "player_id": "217",
+      "first_name": "Taylor",
+      "last_name": "House",
+      "jersey_number": "22",
+      "position_str": "RW",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": 0,
+      "shots": "0"
+     },
+     {
+      "player_id": "241",
+      "first_name": "Sarah",
+      "last_name": "Wozniewicz",
+      "jersey_number": "23",
+      "position_str": "LW",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": 0,
+      "shots": "1"
+     },
+     {
+      "player_id": "118",
+      "first_name": "Emma",
+      "last_name": "Greco",
+      "jersey_number": "25",
+      "position_str": "RD",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": 0,
+      "shots": "0"
+     },
+     {
+      "player_id": "53",
+      "first_name": "Emily",
+      "last_name": "Clark",
+      "jersey_number": "26",
+      "position_str": "LW",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": -1,
+      "shots": "4"
+     },
+     {
+      "player_id": "192",
+      "first_name": "Brooke",
+      "last_name": "McQuigge",
+      "jersey_number": "27",
+      "position_str": "LW",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": 0,
+      "shots": "0"
+     },
+     {
+      "player_id": "286",
+      "first_name": "Peyton",
+      "last_name": "Hemp",
+      "jersey_number": "29",
+      "position_str": "RW",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": -1,
+      "shots": "3"
+     },
+     {
+      "player_id": "72",
+      "first_name": "Rebecca",
+      "last_name": "Leslie",
+      "jersey_number": "37",
+      "position_str": "RW",
+      "goals": 0,
+      "assists": 1,
+      "plusminus": 0,
+      "shots": "2"
+     },
+     {
+      "player_id": "240",
+      "first_name": "Fanuza",
+      "last_name": "Kadirova",
+      "jersey_number": "71",
+      "position_str": "LW",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": -1,
+      "shots": "1"
+     },
+     {
+      "player_id": "115",
+      "first_name": "Michela",
+      "last_name": "Cava",
+      "jersey_number": "86",
+      "position_str": "RW",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": -1,
+      "shots": "0"
+     },
+     {
+      "player_id": "223",
+      "first_name": "Ronja",
+      "last_name": "Savolainen",
+      "jersey_number": "88",
+      "position_str": "RD",
+      "goals": 0,
+      "assists": 0,
+      "plusminus": -2,
+      "shots": "0"
+     }
+    ]
+   },
+   "goalsByPeriod": {
+    "visitor": {
+     "1": 1,
+     "2": 0,
+     "3": 0
+    },
+    "home": {
+     "1": 0,
+     "2": 2,
+     "3": 0
+    }
+   },
+   "shotsByPeriod": {
+    "visitor": {
+     "1": 5,
+     "2": 5,
+     "3": 8
+    },
+    "home": {
+     "1": 7,
+     "2": 15,
+     "3": 6
+    }
+   },
+   "totalGoals": {
+    "visitor": 1,
+    "home": 2
+   },
+   "totalShots": {
+    "visitor": 18,
+    "home": 28
+   }
+  }
+ }
+}

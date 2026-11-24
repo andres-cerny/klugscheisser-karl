@@ -1,0 +1,50 @@
+# Finland (Naisleijonat): official squad for the 2026 IIHF Women's World Championship (25 players: 3 G, 8 D, 14 F),
+# Suomen Jääkiekkoliitto press release 31.10.2026. leijonat.fi is behind a bot check (not circumvented), so the list is
+# taken from Jatkoaika (31.10.2026), which prints the release's list with numbers and clubs and quotes head coach Tero
+# Lehterä "tiedotteessa"; cross-checked with STT (via Salon Seudun Sanomat 31.10./01.11.2026: five debutants, Suoranta,
+# Ekoluoma, Salonen cut, 8 PWHL / 7 college / 9 SDHL players). Replaces the Södertälje WEHT squad (14.10.2026): Elli
+# Suoranta, Emma Ekoluoma, Pauliina Salonen not selected, Hannele Tarkiainen injured, Nella Berg (Luleå HF) new.
+# Names, numbers and clubs as printed (checked 03.11.2026).
+event: wch-2026
+team: fin-women
+list_type: confirmed
+season: "2026-27"
+source: "Suomen Jääkiekkoliitto, offizieller WM-Kader (Tiedote 31.10.2026, Liste via Jatkoaika)"
+source_url: "https://www.jatkoaika.com/Uutiset/Naisleijonien-MM-ryhm%C3%A4ss%C3%A4-viisi-ensikertalaista/189030"
+source_date: "2026-10-31"
+# club_text: club as written in the source (shown in answers, not linked to a club team)
+players:
+  - {name: "Sanni Ahola", pos: G, number: 1, club_text: "Ottawa Charge"}
+  - {name: "Emilia Kyrkkö", pos: G, number: 30, club_text: "St. Cloud State University"}
+  - {name: "Kerttu Kuja-Halkola", pos: G, number: 35, club_text: "HIFK"}
+  - {name: "Siiri Yrjölä", pos: D, number: 5, club_text: "St. Cloud State University"}
+  - {name: "Jenni Hiirikoski", pos: D, number: 6, club_text: "Luleå HF"}
+  - {name: "Sanni Rantala", pos: D, number: 7, club_text: "Frölunda HC"}
+  - {name: "Nelli Laitinen", pos: D, number: 9, club_text: "Hamilton"}
+  - {name: "Oona Koukkula", pos: D, number: 11, club_text: "Brynäs IF"}
+  - {name: "Krista Parkkonen", pos: D, number: 14, club_text: "Färjestad BK"}
+  - {name: "Nella Berg", pos: D, number: 45, club_text: "Luleå HF"}
+  - {name: "Tuuli Tallinen", pos: D, number: 46, club_text: "University of Minnesota Duluth"}
+  - {name: "Elisa Holopainen", pos: F, number: 10, club_text: "New York Sirens"}
+  - {name: "Sanni Vanhanen", pos: F, number: 12, club_text: "Ohio State University"}
+  - {name: "Emmi Juusela", pos: F, number: 15, club_text: "SDE HF"}
+  - {name: "Petra Nieminen", pos: F, number: 16, club_text: "Montréal Victoire"}
+  - {name: "Jenniina Nylund", pos: F, number: 18, club_text: "Brynäs IF"}
+  - {name: "Sofia Nuutinen", pos: F, number: 20, club_text: "Mercyhurst University"}
+  - {name: "Julia Schalin", pos: F, number: 22, club_text: "University of Minnesota"}
+  - {name: "Viivi Vainikka", pos: F, number: 24, club_text: "Minnesota Frost"}
+  - {name: "Michelle Karvinen", pos: F, number: 33, club_text: "Montréal Victoire"}
+  - {name: "Sofianna Sundelin", pos: F, number: 34, club_text: "St. Cloud State University"}
+  - {name: "Noora Tulus", pos: F, number: 40, club_text: "Brynäs IF"}
+  - {name: "Emma Nuutinen", pos: F, number: 61, club_text: "Seattle Torrent"}
+  - {name: "Susanna Tapani", pos: F, number: 77, club_text: "Boston Fleet"}
+  - {name: "Julia Liikala", pos: F, number: 91, club_text: "Frölunda HC"}
+staff:
+  - {name: "Tero Lehterä", role: "Head coach"}
+# on the Södertälje WEHT list (14.10.2026), not selected for the WCh
+also_called_up:
+  - {name: "Elli Suoranta", pos: D}
+  - {name: "Emma Ekoluoma", pos: F}
+  - {name: "Pauliina Salonen", pos: F}
+absent:
+  - {name: "Hannele Tarkiainen", pos: D, reason: "verletzt, nicht im WM-Kader", quote: "Viimeisessä EHT-turnauksessa mukana olleet Ilveksen Elli Suoranta ja Emma Ekoluoma sekä Minnesota-Duluthin yliopiston Pauliina Salonen sekä loukkaantunut St. Cloudin yliopiston Hannele Tarkiainen eivät mahtuneet joukkueeseen.", source_url: "https://www.jatkoaika.com/Uutiset/Naisleijonien-MM-ryhm%C3%A4ss%C3%A4-viisi-ensikertalaista/189030"}

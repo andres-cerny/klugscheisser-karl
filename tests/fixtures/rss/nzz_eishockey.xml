@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SYNTHETIC feed in NZZ's RSS 2.0 structure (sport/eishockey.rss); items are fictional except URL patterns. -->
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel>
+<title>Eishockey</title>
+<link>https://www.nzz.ch/sport/eishockey</link>
+<item><title>Das Schweizer Frauen-Eishockey sucht seinen Platz</title>
+<link>https://www.nzz.ch/sport/eishockey/das-schweizer-frauen-eishockey-sucht-seinen-platz-ld.1000001</link>
+<description>Die Nationalspielerinnen fordern bessere Bedingungen in der Liga.</description>
+<pubDate>Tue, 29 Sep 2026 21:38:23 GMT</pubDate>
+<guid>https://www.nzz.ch/sport/eishockey/das-schweizer-frauen-eishockey-sucht-seinen-platz-ld.1000001</guid>
+<media:thumbnail url="https://img.nzz.ch/test.jpg"/></item>
+<item><title>INTERVIEW - Ein Trainer über den Druck im Profisport</title>
+<link>https://www.nzz.ch/sport/ein-trainer-ueber-den-druck-im-profisport-ld.1000002</link>
+<description>Ein Gespräch über Erwartungen.</description>
+<pubDate>Sun, 27 Sep 2026 09:57:00 GMT</pubDate>
+<guid>https://www.nzz.ch/sport/ein-trainer-ueber-den-druck-im-profisport-ld.1000002</guid></item>
+</channel></rss>

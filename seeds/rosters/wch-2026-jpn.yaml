@@ -1,0 +1,55 @@
+# Japan (SMILE JAPAN): official squad for the 2026 IIHF Women's World Championship (23 players: 3 G, 8 D, 12 F),
+# JIHF news 21.10.2026 ("「2026IIHF女子世界選手権」に向けたSMILE JAPAN(女子日本代表)メンバーが決定しました。"), member
+# list PDF https://www.jihf.or.jp/common/img/info/info_20261020_154731.pdf (uploaded 20.10.2026). Names: romanization as printed (SURNAME, Given) -> "Given Surname";
+# birth dates and clubs as printed. No jersey numbers in the source. Replaces the Asia Championship squad (05.10.2026).
+event: wch-2026
+team: jpn-women
+list_type: confirmed
+season: "2026-27"
+source: "JIHF, offizieller WM-Kader (21.10.2026)"
+source_url: "https://www.jihf.or.jp/news/detail.php?id=2434"
+source_date: "2026-10-21"
+# club_text: club as written in the source (shown in answers, not linked to a club team)
+players:
+  - {name: "Rei Halloran", name_orig: "ハロラン 麗", pos: G, birth: "2001-03-22", club_text: "Timra IK (SWE)"}
+  - {name: "Miyuu Masuhara", name_orig: "増原 海夕", pos: G, birth: "2001-10-04", club_text: "Sabres St. Pölten(AUT)"}
+  - {name: "Riko Kawaguchi", name_orig: "川口 莉子", pos: G, birth: "2004-09-19", club_text: "Daishin"}
+  - {name: "Aoi Shiga", name_orig: "志賀 葵", pos: D, birth: "1999-07-04", club_text: "Luleå HF(SWE)"}
+  - {name: "Kanami Seki", name_orig: "関 夏菜美", pos: D, birth: "2000-06-23", club_text: "TPS (FIN)"}
+  - {name: "Shiori Yamashita", name_orig: "山下 栞", pos: D, birth: "2002-04-28", club_text: "SEIBUプリンセスラビッツ"}
+  - {name: "Ayaka Tomiuchi", name_orig: "冨内 彩花", pos: D, birth: "2003-04-24", club_text: "Daishin"}
+  - {name: "An Shinoda", name_orig: "篠田 安", pos: D, birth: "2004-07-03", club_text: "御影グレッズ"}
+  - {name: "Kohane Sato", name_orig: "佐藤 虹羽", pos: D, birth: "2006-03-16", club_text: "Daishin"}
+  - {name: "Natsuki Okumura", name_orig: "奥村 菜月", pos: D, birth: "2006-05-14", club_text: "TOYOTAシグナス"}
+  - {name: "Kika Terauchi", name_orig: "寺内 姫夏", pos: D, birth: "2008-06-02", club_text: "Mississauga Jr. Hurricanes (CAN)"}
+  - {name: "Wakana Kurosu", name_orig: "黒須 若菜", pos: F, birth: "2000-06-03", club_text: "道路建設ペリグリン"}
+  - {name: "Remi Koyama", name_orig: "小山 玲弥", pos: F, birth: "2000-07-17", club_text: "SEIBUプリンセスラビッツ"}
+  - {name: "Hikaru Yamashita", name_orig: "山下 光", pos: F, birth: "2000-09-23", club_text: "SEIBUプリンセスラビッツ"}
+  - {name: "Akane Shiga", name_orig: "志賀 紅音", pos: F, birth: "2001-03-03", club_text: "PWHL Detroit (USA)"}
+  - {name: "Marin Nagaoka", name_orig: "長岡 真鈴", pos: F, birth: "2002-07-27", club_text: "SEIBUプリンセスラビッツ"}
+  - {name: "Yumeka Wajima", name_orig: "輪島 夢叶", pos: F, birth: "2002-10-19", club_text: "道路建設ペリグリン"}
+  - {name: "Hinata Lack", name_orig: "ラック 陽", pos: F, birth: "2003-12-19", club_text: "道路建設ペリグリン"}
+  - {name: "Makoto Ito", name_orig: "伊藤 麻琴", pos: F, birth: "2004-05-02", club_text: "TOYOTAシグナス"}
+  - {name: "Rio Noro", name_orig: "野呂 里桜", pos: F, birth: "2004-05-15", club_text: "Daishin"}
+  - {name: "Riri Noro", name_orig: "野呂 莉里", pos: F, birth: "2004-05-15", club_text: "Daishin"}
+  - {name: "Ai Tada", name_orig: "多田 藍", pos: F, birth: "2006-04-04", club_text: "Daishin"}
+  - {name: "Umeka Odaira", name_orig: "小平 梅花", pos: F, birth: "2008-12-12", club_text: "North York Storm(CAN)"}
+# staff: STAFF block of the same PDF
+staff:
+  - {name: "Tomohito Okubo", name_orig: "大久保 智仁", role: "Head coach", source_url: "https://www.jihf.or.jp/common/img/info/info_20261020_154731.pdf"}
+  - {name: "Hanae Kubo", name_orig: "久保 英恵", role: "Assistant coach", source_url: "https://www.jihf.or.jp/common/img/info/info_20261020_154731.pdf"}
+  - {name: "Jun Hanzawa", name_orig: "榛澤 淳", role: "Assistant coach", source_url: "https://www.jihf.or.jp/common/img/info/info_20261020_154731.pdf"}
+  - {name: "Mitsuaki Inoue", name_orig: "井上 光明", role: "Goalkeeper coach", source_url: "https://www.jihf.or.jp/common/img/info/info_20261020_154731.pdf"}
+  - {name: "Tomoko Meguro", name_orig: "目黒 智子", role: "Doctor", source_url: "https://www.jihf.or.jp/common/img/info/info_20261020_154731.pdf"}
+  - {name: "Tsutomu Wako", name_orig: "和光 努", role: "Trainer", source_url: "https://www.jihf.or.jp/common/img/info/info_20261020_154731.pdf"}
+  - {name: "Mayumi Matsuda", name_orig: "松田 茉弓", role: "Trainer", source_url: "https://www.jihf.or.jp/common/img/info/info_20261020_154731.pdf"}
+  - {name: "Shingo Sasaki", name_orig: "佐々木 伸吾", role: "Equipment", source_url: "https://www.jihf.or.jp/common/img/info/info_20261020_154731.pdf"}
+  - {name: "Kimmo Olavi Hokkanen", name_orig: "ホッカネン・キモ", role: "Staff (TM)", source_url: "https://www.jihf.or.jp/common/img/info/info_20261020_154731.pdf"}
+# on the Asia Championship squad (05.10.2026, the earlier provisional basis) but not on the WCh squad
+also_called_up:
+  - {name: "Haruka Kuromaru", pos: G}
+  - {name: "Rin Kawaguchi", pos: G}
+  - {name: "Rino Tada", pos: D}
+  - {name: "Nana Akimoto", pos: D}
+  - {name: "Nagisa Sone", pos: F}
+absent: []

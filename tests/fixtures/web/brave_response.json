@@ -1,0 +1,45 @@
+{
+  "type": "search",
+  "query": {"original": "Testa Beispiel Eishockey Studium", "more_results_available": true},
+  "web": {
+    "type": "search",
+    "results": [
+      {
+        "title": "Testa Beispiel – <strong>Studium</strong> und Eishockey",
+        "url": "https://www.srf.ch/sport/eishockey/testa-beispiel-studium",
+        "description": "Die Stürmerin <strong>Testa Beispiel</strong> studiert neben dem Eishockey Psychologie.",
+        "page_age": "2026-09-20T08:00:00",
+        "profile": {"name": "SRF"},
+        "meta_url": {"hostname": "www.srf.ch"}
+      },
+      {
+        "title": "Testa Beispiel - Elite Prospects",
+        "url": "https://www.eliteprospects.com/player/1/testa-beispiel",
+        "description": "Stats and profile.",
+        "meta_url": {"hostname": "www.eliteprospects.com"}
+      },
+      {
+        "title": "Testa Beispiel (@testa.beispiel) • Instagram",
+        "url": "https://www.instagram.com/testa.beispiel/",
+        "description": "Followers &amp; posts",
+        "meta_url": {"hostname": "www.instagram.com"}
+      },
+      {
+        "title": "Testa Beispiel live - Flashscore",
+        "url": "https://www.flashscore.co.uk/player/beispiel-testa/abc/",
+        "description": "Live scores."
+      },
+      {
+        "title": "Testa Beispiel - Women's Ice Hockey - Example State Athletics",
+        "url": "https://examplestateathletics.com/sports/womens-ice-hockey/roster/testa-beispiel/1234",
+        "description": "Major: Psychology. Hometown: Zug, Switzerland.",
+        "meta_url": {"hostname": "examplestateathletics.com"}
+      },
+      {
+        "title": "Ein Blog über Testa Beispiel",
+        "url": "https://hockeyblog.example.org/2026/09/testa",
+        "description": "Porträt der Nati-Stürmerin."
+      }
+    ]
+  }
+}

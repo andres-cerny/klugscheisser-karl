@@ -1,0 +1,1713 @@
+{
+ "head": {
+  "vars": [
+   "p",
+   "label",
+   "labelEn",
+   "given",
+   "family",
+   "birth",
+   "ig",
+   "x",
+   "ep",
+   "posLabel",
+   "alts"
+  ]
+ },
+ "results": {
+  "bindings": [
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q127687852"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Elena Lengwiler"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Elena Lengwiler"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Elena"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Lengwiler"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1996-06-01T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "ele_lengwiler"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "366493"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Elena Bosshard"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q139979273"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Amaya Iseli"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Amaya"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Iseli"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2007-01-12T00:00:00Z"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "993443"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Amaya Valentina Iseli"
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "goaltender"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110285106"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Lena Marie Lutz"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Lena Lutz"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Lena"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Lutz"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2001-07-12T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "lenamarie.lutz"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "387494"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Lena Lutz|Lena Lutz|Lena Marie Lutz|Lena-Marie Lutz"
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "forward"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q115760592"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Sandra Dombrowski"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Sandra Dombrowski"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Sandra"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Frey"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1966-01-01T00:00:00Z"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Sandra Frey|Sandra Dombrowski Frey|Sandra Dombrowski-Frey|Sandra Frey|Sandra Frey"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q115760592"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Sandra Dombrowski"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Sandra Dombrowski"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Sandra"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Dombrowski"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1966-01-01T00:00:00Z"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Sandra Frey|Sandra Dombrowski Frey|Sandra Dombrowski-Frey|Sandra Frey|Sandra Frey"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q124157184"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Alena Rossel"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Alena Rossel"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Alena"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Rossel"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2006-06-08T00:00:00Z"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "823681"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Alena Lynn Rossel"
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "forward"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q124377500"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Jil Baker"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Jil Baker"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Jil"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Baker"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2009-02-23T00:00:00Z"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "1073576"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Jil May Baker|Jil May Baker|Jil May Baker"
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "forward"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q124377500"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Jil Baker"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Jil Baker"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "May"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Baker"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2009-02-23T00:00:00Z"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "1073576"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Jil May Baker|Jil May Baker|Jil May Baker"
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "forward"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q520755"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Florence Schelling"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Florence Schelling"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Florence"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Schelling"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1989-03-09T00:00:00Z"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "243270"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Florence Isabelle Schelling|Florence Isabelle Schelling"
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "goaltender"
+    },
+    "x": {
+     "type": "literal",
+     "value": "schellingf"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q1381662"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Evelina Raselli"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Evelina Raselli"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Evelina"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Raselli"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1992-05-03T00:00:00Z"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "366394"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Raselli"
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "forward"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q2057173"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Patricia Elsmore-Sautter"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Patricia Elsmore-Sautter"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Patricia"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Sautter"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1979-02-28T00:00:00Z"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "371256"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Elsmore|Patricia Elsmore|Patricia Sautter"
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "goaltender"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q2086592"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Kaitlyn McGregor"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Kaitlyn McGregor"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Kaitlyn"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "McGregor"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1994-03-03T00:00:00Z"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "373386"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Kaitlyn Anne McGregor|Kaitlyn Anne McGregor|Kaitlyn Anne McGregor"
+    },
+    "x": {
+     "type": "literal",
+     "value": "mcgregorK"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q2086592"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Kaitlyn McGregor"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Kaitlyn McGregor"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Anne"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "McGregor"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1994-03-03T00:00:00Z"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "373386"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Kaitlyn Anne McGregor|Kaitlyn Anne McGregor|Kaitlyn Anne McGregor"
+    },
+    "x": {
+     "type": "literal",
+     "value": "mcgregorK"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15768448"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Alina Müller"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Alina Müller"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Alina"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Müller"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1998-03-12T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "alinamueller_"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "366688"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Alina Mueller"
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "forward"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q19973703"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Reica Staiger"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Reica Staiger"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Reica"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Staiger"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1996-11-08T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "rose_reica"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "367357"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Reica Rose Staiger"
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "defenseman"
+    },
+    "x": {
+     "type": "literal",
+     "value": "rosereica"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q19973703"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Reica Staiger"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Reica Staiger"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Rose"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Staiger"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1996-11-08T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "rose_reica"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "367357"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Reica Rose Staiger"
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "defenseman"
+    },
+    "x": {
+     "type": "literal",
+     "value": "rosereica"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q29717053"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Andrea Brändli"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Andrea Brändli"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Andrea"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Brändli"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1997-06-05T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "andrea.braendli"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "295222"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Andrea Braendli"
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "goaltender"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q81901231"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Alessia Bächler"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Alessia Bächler"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Alessia"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Baechler"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2005-09-07T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "alessiabaechler"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "711835"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Alessia Baechler"
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "defenseman"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q81902092"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Annic Büchi"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Annic Büchi"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Annic"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Büchi"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2005-04-02T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "annic.buchi"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "709678"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Annic Buechi|Annic Danielle Büchi"
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "defenseman"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q81902092"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Annic Büchi"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Annic Büchi"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Danielle"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Büchi"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2005-04-02T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "annic.buchi"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "709678"
+    },
+    "alts": {
+     "type": "literal",
+     "value": "Annic Buechi|Annic Danielle Büchi"
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "defenseman"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q15743541"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Lara Stalder"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Lara Stalder"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Lara"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Stalder"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1994-05-15T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "lara.stalder7"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "369459"
+    },
+    "alts": {
+     "type": "literal",
+     "value": ""
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "forward"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q19972555"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Shannon Sigrist"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Shannon Sigrist"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Shannon"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Sigrist"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1999-04-20T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "shannon_sigrist9"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "370688"
+    },
+    "alts": {
+     "type": "literal",
+     "value": ""
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "defenseman"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q29716137"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Rahel Enzler"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Rahel Enzler"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Rahel"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2000-07-30T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "rahel.enzler"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "387866"
+    },
+    "alts": {
+     "type": "literal",
+     "value": ""
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "forward"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q48486689"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Stefanie Wetli"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Stefanie Wetli"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Stefanie"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Wetli"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2000-02-04T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "steffi.wetli"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "389627"
+    },
+    "alts": {
+     "type": "literal",
+     "value": ""
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "defenseman"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q51883463"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Camille Balanche"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Camille Balanche"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Camille"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Balanche"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1990-03-01T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "cam.bal"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "372244"
+    },
+    "alts": {
+     "type": "literal",
+     "value": ""
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "forward"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q64009261"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Lara Christen"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Lara Christen"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Lara"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Christen"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2002-10-02T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "lara.christen_"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "501093"
+    },
+    "alts": {
+     "type": "literal",
+     "value": ""
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "defenseman"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q64009266"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Sinja Leemann"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Sinja Leemann"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Leemann"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2002-04-19T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "sinja_leemann"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "513469"
+    },
+    "alts": {
+     "type": "literal",
+     "value": ""
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "forward"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q64009267"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Nicole Vallario"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Nicole Vallario"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Nicole"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Vallario"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2001-08-30T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "nicole.vallario"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "401978"
+    },
+    "alts": {
+     "type": "literal",
+     "value": ""
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "defenseman"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q64009265"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Kaleigh Quennec"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Kaleigh Quennec"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Kaleigh"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Quennec"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "1998-02-15T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "kaleigh_quennec"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "371077"
+    },
+    "alts": {
+     "type": "literal",
+     "value": ""
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "forward"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q64009271"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Noemi Ryhner"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Noemi Ryhner"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Ryhner"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2000-04-24T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "noemiryhner"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "367345"
+    },
+    "alts": {
+     "type": "literal",
+     "value": ""
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "forward"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q64009269"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Saskia Maurer"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Saskia Maurer"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Saskia"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Maurer"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2001-07-29T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "saskia.m29"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "407318"
+    },
+    "alts": {
+     "type": "literal",
+     "value": ""
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "goaltender"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q110285649"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Laura Zimmermann"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Laura Zimmermann"
+    },
+    "given": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Laura"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Zimmermann"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2003-04-05T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "zimmyla"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "475067"
+    },
+    "alts": {
+     "type": "literal",
+     "value": ""
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "forward"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q125352055"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Vanessa Schaefer"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Vanessa Schaefer"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2005-03-21T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "vanessaschaefer__"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "745174"
+    },
+    "alts": {
+     "type": "literal",
+     "value": ""
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "forward"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q125352058"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Naemi Herzig"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Naemi Herzig"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Herzig"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2007-03-21T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "naemiherzig"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "684004"
+    },
+    "alts": {
+     "type": "literal",
+     "value": ""
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "forward"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q125352057"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Ivana Wey"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Ivana Wey"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2006-02-04T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "wey.ivana"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "863028"
+    },
+    "alts": {
+     "type": "literal",
+     "value": ""
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "forward"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q133846486"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Laure Mériguet"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Laure Mériguet"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2008-08-15T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "laure.mrgt"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "991197"
+    },
+    "alts": {
+     "type": "literal",
+     "value": ""
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "defenseman"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q133846484"
+    },
+    "label": {
+     "xml:lang": "de",
+     "type": "literal",
+     "value": "Monja Wagner"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Monja Wagner"
+    },
+    "family": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Wagner"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2003-04-10T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "monja_wagner"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "589068"
+    },
+    "alts": {
+     "type": "literal",
+     "value": ""
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "goaltender"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q133846485"
+    },
+    "labelEn": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "Leoni Balzer"
+    },
+    "birth": {
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+     "type": "literal",
+     "value": "2006-01-18T00:00:00Z"
+    },
+    "ig": {
+     "type": "literal",
+     "value": "balzer.leoni"
+    },
+    "ep": {
+     "type": "literal",
+     "value": "704539"
+    },
+    "alts": {
+     "type": "literal",
+     "value": ""
+    },
+    "posLabel": {
+     "xml:lang": "en",
+     "type": "literal",
+     "value": "forward"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,72 @@
+name: architecture check
+
+# Free reminder, no AI, never fails: warns when a PR changes the structure
+# (new/removed/renamed code files, dependencies, projects, deploy or workflow
+# files) but does not touch ARCHITECTURE.md.
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  arch-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Structural change without ARCHITECTURE.md?
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          set +e
+          changes=$(git diff --name-status "origin/${BASE_REF}...HEAD")
+          if [ $? -ne 0 ]; then
+            echo "::notice title=Architecture::Could not diff against origin/${BASE_REF}; check skipped."
+            exit 0
+          fi
+          structural=""
+          while IFS=$'\t' read -r status path1 path2; do
+            [ -z "$status" ] && continue
+            for p in "$path1" $path2; do
+              case "$p" in
+                .github/workflows/arch-check.yml) continue ;;
+              esac
+              hit=""
+              case "${status:0:1}" in
+                A|D|R) case "$p" in src/*|migrations/versions/*) hit=1 ;; esac ;;
+              esac
+              case "$p" in
+                pyproject.toml|projects.yaml|docker-compose.yml|.github/workflows/*) hit=1 ;;
+                deploy/*|systemd/*|*.service|*.timer|Caddyfile|*/Caddyfile) hit=1 ;;
+              esac
+              [ -n "$hit" ] && structural="${structural}${status:0:1} ${p}"$'\n'
+            done
+          done <<< "$changes"
+
+          if [ -z "$structural" ]; then
+            echo "No structural changes."
+            exit 0
+          fi
+          if printf '%s\n' "$changes" | cut -f2- | tr '\t' '\n' | grep -qx 'ARCHITECTURE.md'; then
+            echo "Structural changes, and ARCHITECTURE.md is updated."
+            exit 0
+          fi
+
+          list=$(printf '%s' "$structural" | sort -u)
+          echo "::warning title=Architecture::Structural changes without an ARCHITECTURE.md update: $(printf '%s' "$list" | tr '\n' ';' | sed 's/;/; /g')"
+          {
+            echo "### Architecture check"
+            echo
+            echo "This PR changes the structure but not ARCHITECTURE.md. If a component was added,"
+            echo "removed, renamed or rewired, update ARCHITECTURE.md (or say \"update the arch graph\")."
+            echo "If not, ignore this note."
+            echo
+            echo '```'
+            printf '%s\n' "$list"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit 0

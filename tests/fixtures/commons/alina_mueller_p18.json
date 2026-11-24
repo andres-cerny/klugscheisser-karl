@@ -1,0 +1,75 @@
+{
+ "_note": "Recorded 2026-10-03 for Alina Müller (Q15768448), trimmed. Lara Stalder (Q15743541) has no P18.",
+ "wbgetclaims": {
+  "claims": {
+   "P18": [
+    {
+     "mainsnak": {
+      "snaktype": "value",
+      "property": "P18",
+      "datavalue": {
+       "value": "Alina Müller Boston Fleet 2025.jpg",
+       "type": "string"
+      },
+      "datatype": "commonsMedia"
+     },
+     "type": "statement",
+     "rank": "normal"
+    }
+   ]
+  }
+ },
+ "imageinfo": {
+  "query": {
+   "pages": [
+    {
+     "pageid": 157569974,
+     "ns": 6,
+     "title": "File:Alina Müller Boston Fleet 2025.jpg",
+     "imagerepository": "local",
+     "imageinfo": [
+      {
+       "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Alina_M%C3%BCller_Boston_Fleet_2025.jpg/330px-Alina_M%C3%BCller_Boston_Fleet_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+       "thumbwidth": 320,
+       "thumbheight": 402,
+       "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Alina_M%C3%BCller_Boston_Fleet_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+       "descriptionurl": "https://commons.wikimedia.org/wiki/File:Alina_M%C3%BCller_Boston_Fleet_2025.jpg",
+       "extmetadata": {
+        "Artist": {
+         "value": "Jenn G",
+         "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+         "value": "CC BY-SA 2.0",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "LicenseUrl": {
+         "value": "https://creativecommons.org/licenses/by-sa/2.0",
+         "source": "commons-desc-page"
+        },
+        "UsageTerms": {
+         "value": "Creative Commons Attribution-Share Alike 2.0",
+         "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+         "value": "true",
+         "source": "commons-desc-page",
+         "hidden": ""
+        },
+        "ImageDescription": {
+         "value": "Alina Müller with the Boston Fleet in 2025",
+         "source": "commons-desc-page"
+        },
+        "Credit": {
+         "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/jennthulhu_photog/54249223333/\">https://www.flickr.com/photos/jennthulhu_photog/54249223333/</a>",
+         "source": "commons-desc-page"
+        }
+       }
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

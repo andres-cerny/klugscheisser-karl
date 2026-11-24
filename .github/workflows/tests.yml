@@ -1,0 +1,43 @@
+# Offline test suite on every PR and push to main (~1-3 min). No secrets: tests never use real keys or the
+# network (tests/conftest.py). The `embed` extra (torch, several GB) is skipped; tests never load it.
+name: tests
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tests-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    services:
+      postgres:
+        image: pgvector/pgvector:pg17
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: postgres
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    env:
+      # superuser: databases are created empty and the first migration creates vector, unaccent, pg_trgm
+      TEST_DATABASE_URL: postgresql+psycopg://postgres:postgres@localhost:5432/klugscheisser_test
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10.3.2
+        with:
+          enable-cache: true
+      - run: uv sync --locked --extra llm --extra apify
+      - run: uv run pytest -n 4 -p no:cacheprovider -rfE --durations=15

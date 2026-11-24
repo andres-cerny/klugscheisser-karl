@@ -1,0 +1,70 @@
+# USA Hockey: official roster for the 2026 IIHF Women's World Championship (25 players: 3 G, 8 D, 14 F), news release
+# "2026 U.S. Women's National Team Roster Announced" of 31.10.2026 (names + clubs + staff); numbers, positions and
+# clubs from the tournament roster page https://teamusa.usahockey.com/2026wwcroster (read 03.11.2026; same numbers as
+# at the October camp). Replaces the 31-player October training camp list (16.10.2026); the six camp players not
+# selected are kept below as also_called_up (no reason given by USA Hockey).
+event: wch-2026
+team: usa-women
+list_type: confirmed
+season: "2026-27"
+source: "USA Hockey, offizieller WM-Kader (31.10.2026)"
+source_url: "https://teamusa.usahockey.com/news_article/show/1369418"
+source_date: "2026-10-31"
+# club_text: club as written in the source (shown in answers, not linked to a club team)
+players:
+  - {name: "Lee Stecklein", pos: D, club_text: "Minnesota Frost (PWHL)", number: 2}
+  - {name: "Cayla Barnes", pos: D, club_text: "PWHL Detroit (PWHL)", number: 3}
+  - {name: "Caroline Harvey", pos: D, club_text: "Vancouver Goldeneyes (PWHL)", number: 4}
+  - {name: "Megan Keller", pos: D, club_text: "Boston Fleet (PWHL)", number: 5}
+  - {name: "Rory Guilday", pos: D, club_text: "PWHL San Jose (PWHL)", number: 6}
+  - {name: "Lacey Eden", pos: F, club_text: "PWHL Las Vegas (PWHL)", number: 7}
+  - {name: "Haley Winn", pos: D, club_text: "Boston Fleet (PWHL)", number: 8}
+  - {name: "Kirsten Simms", pos: F, club_text: "Toronto Sceptres (PWHL)", number: 9}
+  - {name: "Laila Edwards", pos: D, club_text: "PWHL San Jose (PWHL)", number: 10}
+  - {name: "Emma Peschel", pos: D, club_text: "New York Sirens (PWHL)", number: 11}
+  - {name: "Kelly Pannek", pos: F, club_text: "Minnesota Frost (PWHL)", number: 12}
+  - {name: "Grace Zumwinkle", pos: F, club_text: "Minnesota Frost (PWHL)", number: 13}
+  - {name: "Hayley Scamurra", pos: F, club_text: "PWHL Las Vegas (PWHL)", number: 16}
+  - {name: "Jesse Compher", pos: F, club_text: "PWHL Detroit (PWHL)", number: 18}
+  - {name: "Hilary Knight", pos: F, club_text: "PWHL Detroit (PWHL)", number: 21}
+  - {name: "Tessa Janecke", pos: F, club_text: "PWHL Las Vegas (PWHL)", number: 22}
+  - {name: "Hannah Bilka", pos: F, club_text: "PWHL Detroit (PWHL)", number: 23}
+  - {name: "Joy Dunne", pos: F, club_text: "Ohio State University (WCHA)", number: 24}
+  - {name: "Alex Carpenter", pos: F, club_text: "Seattle Torrent (PWHL)", number: 25}
+  - {name: "Taylor Fox", pos: F, club_text: "Minnesota Frost (PWHL)", number: 27}
+  - {name: "Aerin Frankel", pos: G, club_text: "Boston Fleet (PWHL)", number: 31}
+  - {name: "Casey O'Brien", pos: F, club_text: "New York Sirens (PWHL)", number: 32}
+  - {name: "Gwyneth Philips", pos: G, club_text: "Ottawa Charge (PWHL)", number: 33}
+  - {name: "Callie Shanahan", pos: G, club_text: "New York Sirens (PWHL)", number: 35}
+  - {name: "Abbey Murphy", pos: F, club_text: "Seattle Torrent (PWHL)", number: 37}
+staff:
+  - {name: "Katie Million", role: "General Manager"}
+  - {name: "John Wroblewski", role: "Head Coach"}
+  - {name: "Josh Sciba", role: "Assistant Coach"}
+  - {name: "Shari Dickerman", role: "Assistant Coach"}
+  - {name: "Molly Engstrom", role: "Assistant Coach"}
+  - {name: "Alli Altmann", role: "Goaltending Coach"}
+  - {name: "Ellen Hughes", role: "Player Development Coach"}
+  - {name: "Brent Hill", role: "Head Scout"}
+  - {name: "Doug Ferry", role: "Hockey Operations Manager"}
+  - {name: "Melissa Piacentini", role: "Video Coach"}
+  - {name: "Jess Malec", role: "Strength and Conditioning Coach"}
+  - {name: "Ally Howe", role: "Team Physician"}
+  - {name: "Alex Wulbecker-Smith", role: "Mental Performance Coach"}
+  - {name: "Katie Homan", role: "Athletic Trainer"}
+  - {name: "Amanda Kelley", role: "Athletic Trainer"}
+  - {name: "Kaela Colvard", role: "Sports Dietitian"}
+  - {name: "Jennifer Chee", role: "Massage Therapist"}
+  - {name: "Sis Paulsen", role: "Equipment Manager"}
+  - {name: "Jeff Mobley", role: "Equipment Manager"}
+  - {name: "Melissa Katz", role: "Communications Manager"}
+  - {name: "Charles Crowell V", role: "Content Coordinator"}
+# on the October camp list (16.10.2026), not selected for the WCh
+also_called_up:
+  - {name: "Britta Curl-Salemme", pos: F}
+  - {name: "Sloane Matthews", pos: F}
+  - {name: "Kendall Coyne Schofield", pos: F}
+  - {name: "Laney Potter", pos: D}
+  - {name: "Ava McNaughton", pos: G}
+  - {name: "Sydney Morrow", pos: D}
+absent: []

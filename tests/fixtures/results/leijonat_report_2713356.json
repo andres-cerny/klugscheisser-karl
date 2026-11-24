@@ -1,0 +1,541 @@
+{
+ "GamesUpdate": [
+  {
+   "Id": 2713356,
+   "SubSerieID": 4740,
+   "SubSerieName": "EHT: 4 Nations Tournament 30.9-3.10.2026 Lahti, FIN",
+   "LevelName": "National Team Women",
+   "LevelID": 133,
+   "StartDate": "30.09.2026",
+   "StartTime": "12:30:00",
+   "GameTime": 3600,
+   "Arena": "Webasto Areena",
+   "RinkLatitude": "60.9818683",
+   "RinkLongitude": "25.6399052",
+   "LiveURL": "",
+   "LiveFeedSource": 0,
+   "OnlyStreamStorage": 0,
+   "StreamSources": [
+    {
+     "Id": 2,
+     "SourceName": "HBO MAX",
+     "StreamUrl": "https://www.hbomax.com/fi/fi",
+     "LogoUrl": "https://d30yuo8vvcrfpu.cloudfront.net/stream-source-logos/sxWW8bYTBac.png",
+     "IsDefault": false
+    },
+    {
+     "Id": 3,
+     "SourceName": "TV5",
+     "StreamUrl": null,
+     "LogoUrl": null,
+     "IsDefault": false
+    }
+   ],
+   "Spectators": 147,
+   "HomeTeam": {
+    "Name": "SWE",
+    "Goals": 5,
+    "Image": "10207136.png",
+    "Id": 237515497,
+    "AssId": 10207136
+   },
+   "AwayTeam": {
+    "Name": "SUI",
+    "Goals": 0,
+    "Image": "10207110.png",
+    "Id": 527142084,
+    "AssId": 10207110
+   },
+   "GameStatus": 2,
+   "FinishedType": 1,
+   "GameRules": "60;0;3;20;0;0;0;5;0;1;5;0;1;0;0;1;1;1;3;1;1;1;0;2;0;5;0;1;0;0",
+   "Lang": [
+    {
+     "Langname": "FI",
+     "Flag": "fi",
+     "FlagPath": "fi.png"
+    },
+    {
+     "Langname": "EN",
+     "Flag": "en",
+     "FlagPath": "en.png"
+    }
+   ],
+   "RosterType": 1
+  }
+ ],
+ "GameLogsUpdate": [
+  {
+   "Type": "GK_start",
+   "TeamId": 237515497,
+   "Period": 1,
+   "PlayerLinkID": "5554757699999277521065491",
+   "GoalkeeperJersey": 33,
+   "GoalkeeperName": "JÖNSSON Lisa",
+   "PreviousPlayerLinkID": "122519970000000084054806",
+   "PreviousGoalkeeperJersey": 0,
+   "PreviousGoalkeeperName": " ",
+   "GameTime": 0
+  },
+  {
+   "Type": "GK_start",
+   "TeamId": 527142084,
+   "Period": 1,
+   "PlayerLinkID": "9042365610002332964260110",
+   "GoalkeeperJersey": 20,
+   "GoalkeeperName": "BRÄNDLI Andrea",
+   "PreviousPlayerLinkID": "848894370000000025295016",
+   "PreviousGoalkeeperJersey": 0,
+   "PreviousGoalkeeperName": " ",
+   "GameTime": 0
+  },
+  {
+   "Type": "Penalty",
+   "TeamId": 527142084,
+   "Period": 1,
+   "PlayerLinkID": "848881010000000044173654",
+   "PreviousPlayerLinkID": null,
+   "PreviousGoalkeeperJersey": null,
+   "GameTime": 1090,
+   "SufferLinkID": "9727127110002389954236415",
+   "Jersey": 0,
+   "Name": "null null",
+   "PenaltyMinutes": "02:00 min",
+   "PenaltyMinutesNumber": 2,
+   "SuffererJersey": 18,
+   "SuffererNames": "WETLI Stefanie",
+   "PenaltyReasonsFI": "Liian monta pelaajaa jäällä",
+   "PenaltyReasonsEN": "Too Many Players",
+   "PenaltyFaultCodes": 25,
+   "PenaltyLField": "",
+   "PenaltyReasonsAbbreviation": "JR",
+   "Key": "Penalty_27"
+  },
+  {
+   "Type": "Penalty",
+   "TeamId": 527142084,
+   "Period": 2,
+   "PlayerLinkID": "3628436199999657542105757",
+   "PreviousPlayerLinkID": null,
+   "PreviousGoalkeeperJersey": null,
+   "GameTime": 1309,
+   "SufferLinkID": "3400213599999657579720514",
+   "Jersey": 86,
+   "Name": "LEIBUNDGUT Ilana",
+   "PenaltyMinutes": "02:00 min",
+   "PenaltyMinutesNumber": 2,
+   "SuffererJersey": 86,
+   "SuffererNames": "LEIBUNDGUT Ilana",
+   "PenaltyReasonsFI": "Kampitus",
+   "PenaltyReasonsEN": "Tripping",
+   "PenaltyFaultCodes": 21,
+   "PenaltyLField": "",
+   "PenaltyReasonsAbbreviation": "KAM",
+   "Key": "Penalty_37"
+  },
+  {
+   "Type": "Goal",
+   "TeamId": 237515497,
+   "Period": 2,
+   "PreviousPlayerLinkID": null,
+   "PreviousGoalkeeperJersey": null,
+   "GameTime": 1313,
+   "Key": "Goal_40",
+   "ScorerLinkID": "3162951699999691866153250",
+   "Ass1LinkID": "2244298210002427796761483",
+   "Ass2LinkID": "5254846899999320827865934",
+   "ScorerJersey": 16,
+   "ScorerName": "GRILLFORS Tilde",
+   "FirstAssistJersey": 12,
+   "FirstAssistName": "NYLEN-PERSSON Maja",
+   "SecondAssistJersey": 34,
+   "SecondAssistName": "HALLIN Mira",
+   "GoalType": "YV",
+   "GoalSpecialTypeFI": "",
+   "GoalSpecialTypeEN": "",
+   "HomeTeamGoals": 1,
+   "AwayTeamGoals": 0,
+   "Plus": "12 16 23 24 34",
+   "Minus": "7 15 16 26"
+  },
+  {
+   "Type": "Penalty",
+   "TeamId": 237515497,
+   "Period": 2,
+   "PlayerLinkID": "6802058499999482882952495",
+   "PreviousPlayerLinkID": null,
+   "PreviousGoalkeeperJersey": null,
+   "GameTime": 1558,
+   "SufferLinkID": "5272915999999482854047754",
+   "Jersey": 18,
+   "Name": "HELLMAN Ella",
+   "PenaltyMinutes": "02:00 min",
+   "PenaltyMinutesNumber": 2,
+   "SuffererJersey": 18,
+   "SuffererNames": "HELLMAN Ella",
+   "PenaltyReasonsFI": "Kampitus",
+   "PenaltyReasonsEN": "Tripping",
+   "PenaltyFaultCodes": 21,
+   "PenaltyLField": "",
+   "PenaltyReasonsAbbreviation": "KAM",
+   "Key": "Penalty_57"
+  },
+  {
+   "Type": "Penalty",
+   "TeamId": 237515497,
+   "Period": 2,
+   "PlayerLinkID": "3829602810002410285203630",
+   "PreviousPlayerLinkID": null,
+   "PreviousGoalkeeperJersey": null,
+   "GameTime": 1696,
+   "SufferLinkID": "9997568210002410242150340",
+   "Jersey": 9,
+   "Name": "ADOLFSSON Jessica",
+   "PenaltyMinutes": "02:00 min",
+   "PenaltyMinutesNumber": 2,
+   "SuffererJersey": 9,
+   "SuffererNames": "ADOLFSSON Jessica",
+   "PenaltyReasonsFI": "Sääntöjen vastainen taklaus",
+   "PenaltyReasonsEN": "Illegal Hit",
+   "PenaltyFaultCodes": 36,
+   "PenaltyLField": "",
+   "PenaltyReasonsAbbreviation": "TAK",
+   "Key": "Penalty_65"
+  },
+  {
+   "Type": "Goal",
+   "TeamId": 237515497,
+   "Period": 2,
+   "PreviousPlayerLinkID": null,
+   "PreviousGoalkeeperJersey": null,
+   "GameTime": 1873,
+   "Key": "Goal_73",
+   "ScorerLinkID": "8373233699999691818985125",
+   "Ass1LinkID": "2849331510003092117867194",
+   "Ass2LinkID": "",
+   "ScorerJersey": 16,
+   "ScorerName": "GRILLFORS Tilde",
+   "FirstAssistJersey": 22,
+   "FirstAssistName": "THUVIK Hanna",
+   "SecondAssistJersey": 0,
+   "SecondAssistName": " ",
+   "GoalType": "",
+   "GoalSpecialTypeFI": "",
+   "GoalSpecialTypeEN": "",
+   "HomeTeamGoals": 2,
+   "AwayTeamGoals": 0,
+   "Plus": "16 21 22 42 71",
+   "Minus": "7 21 26 62 76"
+  },
+  {
+   "Type": "Goal",
+   "TeamId": 237515497,
+   "Period": 2,
+   "PreviousPlayerLinkID": null,
+   "PreviousGoalkeeperJersey": null,
+   "GameTime": 1917,
+   "Key": "Goal_80",
+   "ScorerLinkID": "7846936110003091828795070",
+   "Ass1LinkID": "6947486310002427793318586",
+   "Ass2LinkID": "",
+   "ScorerJersey": 23,
+   "ScorerName": "JOHANSSON Thea",
+   "FirstAssistJersey": 12,
+   "FirstAssistName": "NYLEN-PERSSON Maja",
+   "SecondAssistJersey": 0,
+   "SecondAssistName": " ",
+   "GoalType": "",
+   "GoalSpecialTypeFI": "",
+   "GoalSpecialTypeEN": "",
+   "HomeTeamGoals": 3,
+   "AwayTeamGoals": 0,
+   "Plus": "12 21 23 24 34",
+   "Minus": "5 6 15 18 86"
+  },
+  {
+   "Type": "Goal",
+   "TeamId": 237515497,
+   "Period": 3,
+   "PreviousPlayerLinkID": null,
+   "PreviousGoalkeeperJersey": null,
+   "GameTime": 2624,
+   "Key": "Goal_112",
+   "ScorerLinkID": "3782854399999691871698353",
+   "Ass1LinkID": "5191340110003091423651055",
+   "Ass2LinkID": "",
+   "ScorerJersey": 16,
+   "ScorerName": "GRILLFORS Tilde",
+   "FirstAssistJersey": 25,
+   "FirstAssistName": "LJUNGBLOM Lina",
+   "SecondAssistJersey": 0,
+   "SecondAssistName": " ",
+   "GoalType": "",
+   "GoalSpecialTypeFI": "",
+   "GoalSpecialTypeEN": "",
+   "HomeTeamGoals": 4,
+   "AwayTeamGoals": 0,
+   "Plus": "4 9 16 22 25",
+   "Minus": "22 68 73 77 94"
+  },
+  {
+   "Type": "Goal",
+   "TeamId": 237515497,
+   "Period": 3,
+   "PreviousPlayerLinkID": null,
+   "PreviousGoalkeeperJersey": null,
+   "GameTime": 2673,
+   "Key": "Goal_116",
+   "ScorerLinkID": "9549183599999320837550187",
+   "Ass1LinkID": "6318030199999320960804057",
+   "Ass2LinkID": "6680342710003091874854700",
+   "ScorerJersey": 34,
+   "ScorerName": "HALLIN Mira",
+   "FirstAssistJersey": 24,
+   "FirstAssistName": "HEDQVIST Ebba",
+   "SecondAssistJersey": 23,
+   "SecondAssistName": "JOHANSSON Thea",
+   "GoalType": "",
+   "GoalSpecialTypeFI": "",
+   "GoalSpecialTypeEN": "",
+   "HomeTeamGoals": 5,
+   "AwayTeamGoals": 0,
+   "Plus": "12 21 23 24 34",
+   "Minus": "5 6 18 62 86"
+  },
+  {
+   "Type": "Timeout",
+   "TeamId": 527142084,
+   "Period": 3,
+   "PreviousPlayerLinkID": null,
+   "PreviousGoalkeeperJersey": null,
+   "GameTime": 2673
+  },
+  {
+   "Type": "Penalty",
+   "TeamId": 527142084,
+   "Period": 3,
+   "PlayerLinkID": "179172360000000088011783",
+   "PreviousPlayerLinkID": null,
+   "PreviousGoalkeeperJersey": null,
+   "GameTime": 2991,
+   "SufferLinkID": "5459637099999387055127911",
+   "Jersey": 0,
+   "Name": "null null",
+   "PenaltyMinutes": "02:00 min",
+   "PenaltyMinutesNumber": 2,
+   "SuffererJersey": 47,
+   "SuffererNames": "MANETSCH Jael",
+   "PenaltyReasonsFI": "Liian monta pelaajaa jäällä",
+   "PenaltyReasonsEN": "Too Many Players",
+   "PenaltyFaultCodes": 25,
+   "PenaltyLField": "",
+   "PenaltyReasonsAbbreviation": "JR",
+   "Key": "Penalty_128"
+  },
+  {
+   "Type": "Penalty",
+   "TeamId": 237515497,
+   "Period": 3,
+   "PlayerLinkID": "1816763710003091280549191",
+   "PreviousPlayerLinkID": null,
+   "PreviousGoalkeeperJersey": null,
+   "GameTime": 3185,
+   "SufferLinkID": "6544643510003091245588196",
+   "Jersey": 11,
+   "Name": "BOUVENG Josefin",
+   "PenaltyMinutes": "02:00 min",
+   "PenaltyMinutesNumber": 2,
+   "SuffererJersey": 11,
+   "SuffererNames": "BOUVENG Josefin",
+   "PenaltyReasonsFI": "Pään tai niskan alueelle kohdistuva taklaus",
+   "PenaltyReasonsEN": "Checking to the Head or Neck",
+   "PenaltyFaultCodes": 44,
+   "PenaltyLField": "",
+   "PenaltyReasonsAbbreviation": "PTK",
+   "Key": "Penalty_141"
+  }
+ ],
+ "WinningShots": [],
+ "Referees": [
+  {
+   "RefereeRole": "Päätuomari",
+   "RefereeName": "AHO Ilona"
+  },
+  {
+   "RefereeRole": "Päätuomari",
+   "RefereeName": "LUSI Reetta-Kaisa"
+  },
+  {
+   "RefereeRole": "Linjatuomari",
+   "RefereeName": "ANTTILA Helinä"
+  },
+  {
+   "RefereeRole": "Linjatuomari",
+   "RefereeName": "RANKI Aino"
+  }
+ ],
+ "PeriodSummary": {
+  "PlayedPeriods": 3,
+  "PeriodGoals": [
+   {
+    "Goals": "0-0"
+   },
+   {
+    "Goals": "3-0"
+   },
+   {
+    "Goals": "2-0"
+   },
+   {
+    "Goals": "5-0"
+   }
+  ],
+  "PeriodSaves": [
+   {
+    "Saves": "2-12"
+   },
+   {
+    "Saves": "9-11"
+   },
+   {
+    "Saves": "4-12"
+   },
+   {
+    "Saves": "15-35"
+   }
+  ],
+  "PeriodPenMins": [
+   {
+    "PenMins": "0-2"
+   },
+   {
+    "PenMins": "4-2"
+   },
+   {
+    "PenMins": "2-2"
+   },
+   {
+    "PenMins": "6-6"
+   }
+  ],
+  "PeriodPPMins": [
+   {
+    "PPMins": "01:50-00:00"
+   },
+   {
+    "PPMins": "00:14-04:00"
+   },
+   {
+    "PPMins": "02:00-02:00"
+   },
+   {
+    "PPMins": "04:04-06:00"
+   }
+  ],
+  "PeriodPPGoals": [
+   {
+    "PPGoals": "0-0"
+   },
+   {
+    "PPGoals": "1-0"
+   },
+   {
+    "PPGoals": "0-0"
+   },
+   {
+    "PPGoals": "1-0"
+   }
+  ],
+  "PeriodSHGoals": [
+   {
+    "SHGoals": "0-0"
+   },
+   {
+    "SHGoals": "0-0"
+   },
+   {
+    "SHGoals": "0-0"
+   },
+   {
+    "SHGoals": "0-0"
+   }
+  ]
+ },
+ "GoalkeeperSummary": [
+  {
+   "TeamName": "SWE",
+   "TeamGoalkeepers": [
+    {
+     "GkName": "JÖNSSON Lisa",
+     "GkJersey": 33,
+     "PlayerLinkID": "5241728699999277518639481",
+     "GkSaves": [
+      {
+       "Period": 1,
+       "Saves": 2
+      },
+      {
+       "Period": 2,
+       "Saves": 9
+      },
+      {
+       "Period": 3,
+       "Saves": 4
+      },
+      {
+       "Period": 0,
+       "Saves": 15
+      }
+     ],
+     "GkChanges": [],
+     "GkOut": []
+    }
+   ]
+  },
+  {
+   "TeamName": "SUI",
+   "TeamGoalkeepers": [
+    {
+     "GkName": "BRÄNDLI Andrea",
+     "GkJersey": 20,
+     "PlayerLinkID": "1222880010002332982883245",
+     "GkSaves": [
+      {
+       "Period": 1,
+       "Saves": 12
+      },
+      {
+       "Period": 2,
+       "Saves": 11
+      },
+      {
+       "Period": 3,
+       "Saves": 12
+      },
+      {
+       "Period": 0,
+       "Saves": 35
+      }
+     ],
+     "GkChanges": [],
+     "GkOut": []
+    }
+   ]
+  }
+ ],
+ "UsersInfo": [
+  {
+   "id": 1,
+   "gameID": 2713356,
+   "userName": "Scorekeeper Example",
+   "email": "scorer@example.invalid",
+   "phone": "000"
+  }
+ ],
+ "GameSettings": {
+  "playerDetails": true,
+  "playerStatistics": true,
+  "goalieStatistics": true,
+  "teamStatistics": true
+ }
+}
